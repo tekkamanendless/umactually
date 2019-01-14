@@ -1,0 +1,796 @@
+{
+	"seasons": [
+		{
+			"number": "1",
+			"title": "Season 1"
+		}
+	],
+	"people": [
+		{
+			"id": "adam-conover",
+			"name": "Adam Conover",
+			"url": "https://www.dropout.tv/search/talent/2/adam-conover"
+		},
+		{
+			"id": "adam-lustick",
+			"name": "Adam Lustick",
+			"url": "https://www.dropout.tv/search/talent/138/adam-lustick"
+		},
+		{
+			"id": "alice-wetterlund",
+			"name": "Alice Wetterlund",
+			"url": "https://www.dropout.tv/search/talent/491/alice-wetterlund"
+		},
+		{
+			"id": "ally-beardsley",
+			"name": "Ally Beardsley",
+			"url": "https://www.dropout.tv/search/talent/217/ally-beardsley"
+		},
+		{
+			"id": "amy-vorpahl",
+			"name": "Amy Vorpahl",
+			"url": "https://www.dropout.tv/search/talent/664/amy-vorpahl"
+		},
+		{
+			"id": "becca-scott",
+			"name": "Becca Scott",
+			"url": "https://www.dropout.tv/search/talent/493/becca-scott"
+		},
+		{
+			"id": "brian-murphy",
+			"name": "Brian \"Murph\" Murphy",
+			"url": "https://www.dropout.tv/search/talent/12/brian-murphy"
+		},
+		{
+			"id": "brennan-lee-mulligan",
+			"name": "Brennan Lee Mulligan",
+			"url": "https://www.dropout.tv/search/talent/222/brennan-lee-mulligan"
+		},
+		{
+			"id": "caldwell-tanner",
+			"name": "Caldwell Tanner",
+			"url": "https://www.dropout.tv/search/talent/74/caldwell-tanner"
+		},
+		{
+			"id": "dan-black",
+			"name": "Dan Black",
+			"url": "https://www.dropout.tv/search/talent/414/dan-black"
+		},
+		{
+			"id": "daniel-obrien",
+			"name": "Daniel O'Brien",
+			"url": "https://www.dropout.tv/search/talent/386/daniel-o-brien"
+		},
+		{
+			"id": "dc-pierson",
+			"name": "DC Pierson",
+			"url": "https://www.dropout.tv/search/talent/658/dc-pierson"
+		},
+		{
+			"id": "demi-adejuyigbe",
+			"name": "Demi Adejuyigbe",
+			"url": "https://www.dropout.tv/search/talent/632/demi-adejuyigbe"
+		},
+		{
+			"id": "edgar-momplaisir",
+			"name": "Edgar Momplaisir",
+			"url": "https://www.dropout.tv/search/talent/685/edgar-momplaisir"
+		},
+		{
+			"id": "emily-axford",
+			"name": "Emily Axford",
+			"url": "https://www.dropout.tv/search/talent/11/emily-axford"
+		},
+		{
+			"id": "emily-heller",
+			"name": "Emily Heller",
+			"url": "https://www.dropout.tv/search/talent/684/emily-heller"
+		},
+		{
+			"id": "haley-mancini",
+			"name": "Haley Mancini",
+			"url": "https://www.dropout.tv/search/talent/385/haley-mancini"
+		},
+		{
+			"id": "hector-navarro",
+			"name": "hector-navarro",
+			"url": "https://www.dropout.tv/search/talent/696/hector-navarro"
+		},
+		{
+			"id": "ify-nwadiwe",
+			"name": "Ify Nwadiwe",
+			"url": "https://www.dropout.tv/search/talent/492/ify-nwadiwe"
+		},
+		{
+			"id": "jackie-kashian",
+			"name": "Jackie Kashian",
+			"url": "https://www.dropout.tv/search/talent/678/jackie-kashian"
+		},
+		{
+			"id": "jared-logan",
+			"name": "Jared Logan",
+			"url": "https://www.dropout.tv/search/talent/358/jared-logan"
+		},
+		{
+			"id": "jordan-doll",
+			"name": "Jordan Doll",
+			"url": "https://www.dropout.tv/search/talent/716/jordan-doll"
+		},
+		{
+			"id": "kirk-damato",
+			"name": "Kirk Damato",
+			"url": "https://www.dropout.tv/search/talent/729/kirk-damato"
+		},
+		{
+			"id": "matt-kirshen",
+			"name": "Matt Kirshen",
+			"url": "https://www.dropout.tv/search/talent/715/matt-kirshen"
+		},
+		{
+			"id": "matt-mercer",
+			"name": "Matt Mercer",
+			"url": "https://www.dropout.tv/search/talent/665/matt-mercer"
+		},
+		{
+			"id": "mike-trapp",
+			"name": "Mike Trapp",
+			"url": "https://www.dropout.tv/search/talent/157/mike-trapp"
+		},
+		{
+			"id": "natalie-palamides",
+			"name": "Natalie Palamides",
+			"url": "https://www.dropout.tv/search/talent/694/natalie-palamides"
+		},
+		{
+			"id": "nate-dern",
+			"name": "Nate Dern",
+			"url": "https://www.dropout.tv/search/talent/383/nate-dern"
+		},
+		{
+			"id": "nathan-yaffe",
+			"name": "Nathan Yaffe",
+			"url": "https://www.dropout.tv/search/talent/256/nathan-yaffe"
+		},
+		{
+			"id": "nick-marini",
+			"name": "Nick Marini",
+			"url": "https://www.dropout.tv/search/talent/683/nick-marini"
+		},
+		{
+			"id": "ryan-martin",
+			"name": "Ryan Martin",
+			"url": "https://www.dropout.tv/search/talent/590/ryan-martin"
+		},
+		{
+			"id": "shane-crown",
+			"name": "Shane Crown",
+			"url": "https://www.dropout.tv/search/talent/191/shane-crown"
+		},
+		{
+			"id": "siobhan-thompson",
+			"name": "Siobhan Thompson",
+			"url": "https://www.dropout.tv/search/talent/181/siobhan-thompson"
+		},
+		{
+			"id": "thomas-middleditch",
+			"name": "Thomas Middleditch",
+			"url": "https://www.dropout.tv/search/talent/23/thomas-middleditch"
+		},
+		{
+			"id": "zac-oyama",
+			"name": "Zac Oyama",
+			"url": "https://www.dropout.tv/search/talent/182/zac-oyama"
+		},
+		{
+			"id": "zach-kornfeld",
+			"name": "Zach Kornfeld",
+			"url": "https://www.dropout.tv/search/talent/697/zach-kornfeld"
+		},
+		{
+			"id": "zach-sherwin",
+			"name": "Zach Sherwin",
+			"url": "https://www.dropout.tv/search/talent/679/zach-sherwin"
+		},
+		{
+			"id": "zeke-nicholson",
+			"name": "Zeke Nicholson",
+			"url": "https://www.dropout.tv/search/talent/710/zeke-nicholson"
+		}
+	],
+	"episodes": [
+		{
+			"dropouttv_id": 831,
+			"dropouttv_productid": "ep-831",
+			"title": "C-3PO's Origins, HP Lovecraft, the Food Album (with Weird Al Yankovic)",
+			"description": "Caldwell Tanner, Siobhan Thompson, and Nate Dern inspect guns and review the Diagon Alley bar scene.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/831/c-3po-s-origins-hp-lovecraft-the-food-album-with-weird-al-yankovic",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/c9c0b178e5ce7299974542c84655f21d.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/29735d2369df82aef3e08f5300927e32.jpg",
+			"duration": 1344,
+			"number": "1",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "caldwell-tanner",
+					"score": 7
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "siobhan-thompson",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "nate-dern",
+					"score": 1
+				}
+			]
+		},
+		{
+			"dropouttv_id": 838,
+			"dropouttv_productid": "ep-838",
+			"title": "Cyborg Cops, Shai'Hulud, Sci-Fi Substance Abuse",
+			"description": "Can Jared Logan, Daniel O’Brien, and Haley Mancini identify droids by sight and monsters by sound?",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/838/cyborg-cops-shai-hulud-sci-fi-substance-abuse",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/34d679d9832abf62ba3db96ca4a8f1db.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/b5da498483d194535c30ac1b704e9599.jpg",
+			"duration": 1374,
+			"number": "2",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "jared-logan",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "daniel-obrien",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "haley-mancini",
+					"score": 4
+				}
+			]
+		},
+		{
+			"dropouttv_id": 987,
+			"dropouttv_productid": "ep-987",
+			"title": "Incantations, Immortans, Vulcans in Heat",
+			"description": "Ally Beardsley, Adam Conover, and Alice Wetterlund arrange Sailor Scouts and dethrone stewards.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/987/incantations-immortans-vulcans-in-heat",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/776d60259061bd90d4de69e5c070477e.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/472f295cd60063b0f52af39cf045753c.jpg",
+			"duration": 1366,
+			"number": "3",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "ally-beardsley",
+					"score": 1
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "adam-conover",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "alice-wetterlund",
+					"score": 3
+				}
+			]
+		},
+		{
+			"dropouttv_id": 988,
+			"dropouttv_productid": "ep-988",
+			"title": "Ganondorf, Gremlins, Geography of Westeros",
+			"description": "Sorting swords proves an arduous task for contestants Ally Beardsley, Ify Nwadiwe, and Becca Scott.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/988/ganondorf-gremlins-geography-of-westeros",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/e3362fd56a3e5ed07b6741cb63e9374a.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/4a7b66b5f61ece46feb1f350cae51b03.jpg",
+			"duration": 1238,
+			"number": "4",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "ally-beardsley",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "ify-nwadiwe",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "becca-scott",
+					"score": 4
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1000,
+			"dropouttv_productid": "ep-1000",
+			"title": "Animalities, Maple Street Monsters, Mutagen Ooze",
+			"description": "Brennan Lee Mulligan, Siobhan Thompson, and Adam Conover name dragons and parse nonlinear timelines.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1000/animalities-maple-street-monsters-mutagen-ooze",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/39ffea52076cae55b32d95092f977976.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/7bf0d90d2cea2e8165f09171110c15a4.jpg",
+			"duration": 1342,
+			"number": "5",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "brennan-lee-mulligan",
+					"score": 7
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "siobhan-thompson",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "adam-conover",
+					"score": 2
+				}
+			]
+		},
+		{
+			"dropouttv_id": 998,
+			"dropouttv_productid": "ep-998",
+			"title": "Pevensie Reign, Foreign Mutants, Kanto Clones",
+			"description": "Zac Oyama, Becca Scott, and Thomas Middleditch scrutinize anime jazz and interplanetary linguistics.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/998/pevensie-reign-foreign-mutants-kanto-clones",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/e6a3d6806935fa2654a62489c91ff5e1.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/def413fb8abcdde15c1a5c7f785f86d7.jpg",
+			"duration": 1224,
+			"number": "6",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "zac-oyama",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "becca-scott",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "thomas-middleditch",
+					"score": 4
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1109,
+			"dropouttv_productid": "ep-1109",
+			"title": "Mouth of Sauron, Saiyan Tails, Bothan Spies",
+			"description": "Power-ups and sibling rivalries beleaguer Ify Nwadiwe, DC Pierson, and Emily Axford.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1109/mouth-of-sauron-saiyan-tails-bothan-spies",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/ec08c51fed234a71d3c139c4a798674b.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/f259ab0a9d3ba564834164141f13cd7a.jpg",
+			"duration": 1343,
+			"number": "7",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "ify-nwadiwe",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "dc-pierson",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "emily-axford",
+					"score": 1
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1113,
+			"dropouttv_productid": "ep-1113",
+			"title": "Jump Man, Folklore, Hounds of Tindalos",
+			"description": "Middle-earthian bards regale Brian Murphy, Amy Vorpahl, and Matt Mercer, plus a lesson in THAC0.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1113/jump-man-folklore-hounds-of-tindalos",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/5f3bf641fd17be081062a80908239536.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/eae24c579483f764102b8583cea80c2f.jpg",
+			"duration": 1406,
+			"number": "8",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "brian-murphy",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "amy-vorpahl",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "matt-mercer",
+					"score": 5
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1126,
+			"dropouttv_productid": "ep-1126",
+			"title": "Bilquis, Black Panther, Battlestar Galactica",
+			"description": "Adam Lustick, Dan Black, and Jackie Kashian appraise MTG cards and scream for superhuman ice cream.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1126/bilquis-black-panther-battlestar-galactica",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/b81e5fc9288a2625467bd04c344affbd.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 1275,
+			"number": "9",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "adam-lustick",
+					"score": 0
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "dan-black",
+					"score": 7
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "jackie-kashian",
+					"score": 2
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1131,
+			"dropouttv_productid": "ep-1131",
+			"title": "Nothlits, Dust Bunnies, His Dark Materials",
+			"description": "Ally Beardsley, Zach Sherwin, and Siobhan Thompson assess Pokémon's missteps and Merlin's real age.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1131/nothlits-dust-bunnies-his-dark-materials",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/b041b38edd6078adf261cbb871c04583.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 1204,
+			"number": "10",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "ally-beardsley",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "zach-sherwin",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "siobhan-thompson",
+					"score": 5
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1136,
+			"dropouttv_productid": "ep-1136",
+			"title": "Skaven, Watchmen, The Neverending Story",
+			"description": "Spellcasters hex Nick Marini, Emily Heller, and Edgar Momplaisir into forgetting the game's rules.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1136/skaven-watchmen-the-neverending-story",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/9a0c20fab3a50a4c900b87dba3e3df3a.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 1220,
+			"number": "11",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "nick-marini",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "emily-heller",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "edgar-momplaisir",
+					"score": 3
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1146,
+			"dropouttv_productid": "ep-1146",
+			"title": "Mako, Mudbloods, Mephisto (with Jonathan Coulton)",
+			"description": "Juggernaut and Filch have much in common according to Natalie Palamides, Demi Adejuyigbe, and Murph.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1146/mako-mudbloods-mephisto-with-jonathan-coulton",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/556b5ee42b52143750a13aa6f6a01a35.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 1199,
+			"number": "12",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "brian-murphy",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "natalie-palamides",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "demi-adejuyigbe",
+					"score": 4
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1154,
+			"dropouttv_productid": "ep-1154",
+			"title": "Father Figures, Frog Thor, Fusion Gems",
+			"description": "Hector Navarro, Ryan Martin, and Zach Kornfeld delve into Darth Vader and deleted scenes.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1154/father-figures-frog-thor-fusion-gems",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/468465bd6f0d69cb4f1618a780ee57d4.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 1424,
+			"number": "13",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "hector-navarro",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "ryan-martin",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "zach-kornfeld",
+					"score": 1
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1167,
+			"dropouttv_productid": "ep-1167",
+			"title": "Robots, Rhydon, Staff of Ra",
+			"description": "Shane Crown, Zeke Nicholson, and Ally Beardsley sample space appetizers and make sense of mwahahas.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1167/robots-rhydon-staff-of-ra",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/f2858996f28969450ccc1797a4abefa2.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 1166,
+			"number": "14",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "shane-crown",
+					"score": 8
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "zeke-nicholson",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "ally-beardsley",
+					"score": 1
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1173,
+			"dropouttv_productid": "ep-1173",
+			"title": "Charybdis, Kill Lists, and Cookie Crisp",
+			"description": "Matt Kirshen, Becca Scott, and Amy Vorpahl earn heart points and liken dragons to Spice Girls.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1173/charybdis-kill-lists-and-cookie-crisp",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/287c14803814e384a6a94fc61f92e39d.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 1152,
+			"number": "15",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "matt-kirshen",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "becca-scott",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "amy-vorpahl",
+					"score": 3
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1174,
+			"dropouttv_productid": "ep-1174",
+			"title": "Diablo, Diddy Kong, Dora Milaje",
+			"description": "Shane Crown, Jordan Doll, and Ify Nwadiwe beef up like Goku and consider going alt-Sith.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1174/diablo-diddy-kong-dora-milaje",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/cca527b159a9b86f8a68776cc28c267d.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 1305,
+			"number": "16",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "shane-crown",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "jordan-doll",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "ify-nwadiwe",
+					"score": 6
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1186,
+			"dropouttv_productid": "ep-1186",
+			"title": "Wario, Winnie the Pooh, A Wrinkle in Time",
+			"description": "Brennan Lee Mulligan, Ryan Martin, and Jackie Kashian ponder pink kryptonite and missing mages.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1186/wario-winnie-the-pooh-a-wrinkle-in-time",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/e4378cd44e584f393122fae9e75052d8.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 1968,
+			"number": "17",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "brennan-lee-mulligan",
+					"score": 7
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "ryan-martin",
+					"score": 1
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "jackie-kashian",
+					"score": 3
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1200,
+			"dropouttv_productid": "ep-1200",
+			"title": "Monty Python, Shōnen Manga, Mr. Burns",
+			"description": "Nathan Yaffe, Haley Mancini, and Kirk Damato question Xena's powers and make bribes for Pokémon.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1200/monty-python-sh-nen-manga-mr-burns",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/3439da16c2e273ec62f56bb1b892aad0.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 2125,
+			"number": "18",
+			"season_number": "1",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "nathan-yaffe",
+					"score": 7
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "haley-mancini",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "orange",
+					"id": "kirk-damato",
+					"score": 5
+				}
+			]
+		}
+	]
+}
