@@ -93,7 +93,7 @@ function onPageLoaded() {
 							span.className = "person-third";
 							break;
 					}
-					span.appendChild(document.createTextNode(player.name + " #" + player.place));
+					span.appendChild(document.createTextNode(player.name + " (" + player.score + ")"));
 					newColumn.appendChild(span);
 					newColumn.appendChild(document.createElement("br"));
 				}
