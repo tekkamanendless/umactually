@@ -1,0 +1,262 @@
+<html>
+	<head>
+		<title>"Um, Actually..." stats</title>
+		<style>
+.person-host {
+}
+.person-first {
+	font-weight: bold;
+	color: #d9d919;
+}
+.person-second {
+	color: #c0c0c0;
+}
+.person-third {
+	color: #8c7853;
+}
+thead tr {
+	background: #cccccc;
+}
+th {
+	padding: 0.3em;
+}
+tbody tr:nth-child(even) {
+	background: #f6f6f6;
+}
+tbody tr:nth-child(odd) {
+	background: #ffffff;
+}
+tbody td {
+	padding: 0.2em;
+}
+		</style>
+		<script>
+function onPageLoaded() {
+	fetch('data.json').then(response => {
+		return response.json();
+	}).then(data => {
+		console.log("data:", data);
+		let stats = computeStats(data);
+
+		// Fill out the episodes table.
+		{
+			let tbody = document.getElementById("episodes_tbody");
+			while(tbody.firstChild) {
+				tbody.removeChild(tbody.firstChild);
+			}
+
+			for( let i = 0; i < stats.episodes.length; i++ ) {
+				let episode = stats.episodes[i];
+
+				let newRow = document.createElement("tr");
+				let newColumn = null;
+
+				newColumn = document.createElement("td");
+				{
+					let link = document.createElement("a");
+					link.href = episode.url;
+					link.target = "_blank";
+					link.appendChild(document.createTextNode("🔗"));
+					newColumn.appendChild(link);
+				}
+				newRow.appendChild(newColumn);
+
+				newColumn = document.createElement("td");
+				newColumn.appendChild(document.createTextNode(episode.season_number));
+				newRow.appendChild(newColumn);
+
+				newColumn = document.createElement("td");
+				newColumn.appendChild(document.createTextNode(episode.number));
+				newRow.appendChild(newColumn);
+
+				newColumn = document.createElement("td");
+				newColumn.appendChild(document.createTextNode(episode.title));
+				newRow.appendChild(newColumn);
+
+				newColumn = document.createElement("td");
+				newColumn.className = "person-host";
+				newColumn.appendChild(document.createTextNode(episode.host_name));
+				newRow.appendChild(newColumn);
+
+				newColumn = document.createElement("td");
+				for( let p = 0; p < episode.players.length; p++ ) {
+					let player = episode.players[p];
+					let span = document.createElement("span");
+					switch(player.place) {
+						case 1:
+							span.className = "person-first";
+							break;
+						case 2:
+							span.className = "person-second";
+							break;
+						case 3:
+							span.className = "person-third";
+							break;
+					}
+					span.appendChild(document.createTextNode(player.name + " #" + player.place));
+					newColumn.appendChild(span);
+					newColumn.appendChild(document.createElement("br"));
+				}
+				newRow.appendChild(newColumn);
+
+				tbody.appendChild(newRow);
+			}
+		}
+
+		// Fill out the people table.
+		{
+			let tbody = document.getElementById("people_tbody");
+			while(tbody.firstChild) {
+				tbody.removeChild(tbody.firstChild);
+			}
+
+			for( let i = 0; i < stats.people.length; i++ ) {
+				let person = stats.people[i];
+
+				let newRow = document.createElement("tr");
+				let newColumn = null;
+
+				newColumn = document.createElement("td");
+				{
+					let link = document.createElement("a");
+					link.href = person.url;
+					link.target = "_blank";
+					link.appendChild(document.createTextNode("🔗"));
+					newColumn.appendChild(link);
+				}
+				newRow.appendChild(newColumn);
+
+				newColumn = document.createElement("td");
+				newColumn.appendChild(document.createTextNode(person.name));
+				newRow.appendChild(newColumn);
+
+				newColumn = document.createElement("td");
+				newColumn.appendChild(document.createTextNode(person.appearances.length));
+				newRow.appendChild(newColumn);
+
+				newColumn = document.createElement("td");
+				newColumn.appendChild(document.createTextNode(person.times_hosted.length));
+				newRow.appendChild(newColumn);
+
+				newColumn = document.createElement("td");
+				newColumn.appendChild(document.createTextNode(person.times_first.length));
+				newRow.appendChild(newColumn);
+
+				newColumn = document.createElement("td");
+				newColumn.appendChild(document.createTextNode(person.times_second.length));
+				newRow.appendChild(newColumn);
+
+				newColumn = document.createElement("td");
+				newColumn.appendChild(document.createTextNode(person.times_third.length));
+				newRow.appendChild(newColumn);
+
+				tbody.appendChild(newRow);
+			}
+		}
+	});
+}
+
+function computeStats(data) {
+	let stats = {
+		"people": [],
+		"episodes": [],
+	};
+	let peopleMap = {};
+	for( let i = 0; i < data.people.length; i++ ) {
+		let person = JSON.parse(JSON.stringify(data.people[i]));
+		person.times_hosted = [];
+		person.times_played = [];
+		person.times_first = [];
+		person.times_second = [];
+		person.times_third = [];
+		person.appearances = [];
+		peopleMap[person.id] = person;
+	}
+	for( let i = 0; i < data.episodes.length; i++ ) {
+		let episode = data.episodes[i];
+		let newEpisode = JSON.parse(JSON.stringify(episode));
+
+		let hostId = episode.host;
+		peopleMap[hostId].times_hosted.push(episode);
+		peopleMap[hostId].appearances.push(episode);
+		newEpisode.host_name = peopleMap[hostId].name;
+
+		let scores = [];
+		for( let p = 0; p < episode.players.length; p++ ) {
+			let player = episode.players[p];
+			if( ! scores.includes(player.score) ) {
+				scores.push(player.score);
+			}
+		}
+		scores.sort((a,b) => b-a);
+
+		let scoreMap = {};
+		for( let s = 0; s < scores.length; s++ ) {
+			scoreMap["score="+scores[s]] = s + 1;
+		}
+
+		for( let p = 0; p < episode.players.length; p++ ) {
+			let player = episode.players[p];
+			peopleMap[player.id].appearances.push(episode);
+
+			let place = scoreMap["score="+player.score];
+			switch(place) {
+				case 1:
+					peopleMap[player.id].times_first.push(episode);
+					break;
+				case 2:
+					peopleMap[player.id].times_second.push(episode);
+					break;
+				case 3:
+					peopleMap[player.id].times_third.push(episode);
+					break;
+			}
+
+			newEpisode.players[p].name = peopleMap[player.id].name;
+			newEpisode.players[p].place = place;
+		}
+
+		stats.episodes.push(newEpisode);
+	}
+	for( key in peopleMap ) {
+		stats.people.push(peopleMap[key]);
+	}
+	return stats;
+}
+		</script>
+	</head>
+	<body onload="onPageLoaded();">
+		<h1>"Um, Actually..." stats</h1>
+		<h2>Episodes</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Link</th>
+					<th>Season</th>
+					<th>Number</th>
+					<th>Title</th>
+					<th>Host</th>
+					<th>Players</th>
+				</tr>
+			</thead>
+			<tbody id="episodes_tbody">
+			</tbody>
+		</table>
+		<h2>People</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Link</th>
+					<th>Name</th>
+					<th>Appearances</th>
+					<th>Times Hosted</th>
+					<th>First Place</th>
+					<th>Second Place</th>
+					<th>Third Place</th>
+				</tr>
+			</thead>
+			<tbody id="people_tbody">
+			</tbody>
+		</table>
+	</body>
+</html>
