@@ -5,4 +5,4 @@ matrix:
         - "8"
       before_script:
         - npm install -g ajv-cli
-      script: avj validate -s data.jsonschema -d data.json
+      script: ajv validate -s data.jsonschema -d data.json
