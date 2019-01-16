@@ -1,0 +1,14 @@
+{
+	"type": "object",
+	"properties": {
+		"seasons" {
+			"type": "array"
+		},
+		"people": {
+			"type": "array"
+		},
+		"episodes": {
+			"type": "array"
+		}
+	}
+}

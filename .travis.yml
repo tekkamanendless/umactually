@@ -4,6 +4,5 @@ matrix:
       node_js:
         - "8"
       before_script:
-        - npm install -g jsonlint
-      script: jsonlint -q data.json
-
+        - npm install -g ajv-cli
+      script: avj validate -s data.jsonschema -d data.json
