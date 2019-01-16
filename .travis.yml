@@ -1,6 +1,8 @@
 matrix:
   include:
     - language: node_js
+      node_js:
+        - "8"
       before_script:
         - npm install -g jsonlint
       script: jsonlint -q data.json
