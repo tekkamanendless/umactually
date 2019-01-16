@@ -2,13 +2,97 @@
 	"type": "object",
 	"properties": {
 		"seasons": {
-			"type": "array"
+			"type": "array",
+			"items": {
+				"properties": {
+					"number": {
+						"type": "string"
+					},
+					"title": {
+						"type": "string"
+					}
+				}
+			}
 		},
 		"people": {
-			"type": "array"
+			"type": "array",
+			"items": {
+				"properties": {
+					"id": {
+						"type": "string"
+					},
+					"name": {
+						"type": "string"
+					},
+					"url": {
+						"type": "string"
+					}
+				}
+			}
 		},
 		"episodes": {
-			"type": "array"
+			"type": "array",
+			"items": {
+				"properties": {
+					"dropouttv_id": {
+						"type": "number"
+					},
+					"dropouttv_productid": {
+						"type": "string"
+					},
+					"title": {
+						"type": "string"
+					},
+					"description": {
+						"type": "string"
+					},
+					"url": {
+						"type": "string"
+					},
+					"thumbnail_landscape": {
+						"type": "string"
+					},
+					"thumbnail_portrait": {
+						"type": "string"
+					},
+					"duration": {
+						"description": "This is the length, in seconds, of the episode.",
+						"type": "number"
+					},
+					"number": {
+						"type": "string"
+					},
+					"season_number": {
+						"description": "This is a reference to the season number.",
+						"type": "string"
+					},
+					"host": {
+						"description": "This is a reference to a person.",
+						"type": "string"
+					},
+					"players": {
+						"type": "array",
+						"items": {
+							"position": {
+								"description": "This is the player's position.  This can be one of: 1, 2, 3",
+								"type": "string"
+							},
+							"color": {
+								"description": "This is the color of the player's podium.",
+								"type": "string"
+							},
+							"id": {
+								"description": "This is a reference to a person.",
+								"type": "string"
+							},
+							"score": {
+								"description": "This is the final score of the player.",
+								"type": "number"
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 }
