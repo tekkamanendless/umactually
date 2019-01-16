@@ -131,23 +131,33 @@ function onPageLoaded() {
 				newRow.appendChild(newColumn);
 
 				newColumn = document.createElement("td");
-				newColumn.appendChild(document.createTextNode(person.appearances.length));
+				if( person.appearances.length > 0 ) {
+					newColumn.appendChild(document.createTextNode(person.appearances.length));
+				}
 				newRow.appendChild(newColumn);
 
 				newColumn = document.createElement("td");
-				newColumn.appendChild(document.createTextNode(person.times_hosted.length));
+				if( person.times_hosted.length ) {
+					newColumn.appendChild(document.createTextNode(person.times_hosted.length));
+				}
 				newRow.appendChild(newColumn);
 
 				newColumn = document.createElement("td");
-				newColumn.appendChild(document.createTextNode(person.times_first.length));
+				if( person.times_first.length ) {
+					newColumn.appendChild(document.createTextNode(person.times_first.length));
+				}
 				newRow.appendChild(newColumn);
 
 				newColumn = document.createElement("td");
-				newColumn.appendChild(document.createTextNode(person.times_second.length));
+				if( person.times_second.length ) {
+					newColumn.appendChild(document.createTextNode(person.times_second.length));
+				}
 				newRow.appendChild(newColumn);
 
 				newColumn = document.createElement("td");
-				newColumn.appendChild(document.createTextNode(person.times_third.length));
+				if( person.times_third.length ) {
+					newColumn.appendChild(document.createTextNode(person.times_third.length));
+				}
 				newRow.appendChild(newColumn);
 
 				tbody.appendChild(newRow);
