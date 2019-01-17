@@ -1,17 +1,23 @@
 <html>
 	<head>
 		<title>"Um, Actually..." stats</title>
+		<meta name="description" content='This shows stats about the show "Um, Actually...".'>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=0.5,maximum-scale=3,user-scalable=yes">
 		<style>
-.person-host {
+.person {
+	white-space: nowrap;
 }
-.person-first {
+.person.host {
+}
+.person.first {
 	font-weight: bold;
 	color: #d9d919;
 }
-.person-second {
+.person.second {
 	color: #c0c0c0;
 }
-.person-third {
+.person.third {
 	color: #8c7853;
 }
 thead tr {
@@ -29,148 +35,471 @@ tbody tr:nth-child(odd) {
 tbody td {
 	padding: 0.2em;
 }
+.link {
+	cursor: pointer;
+	display: inline-block;
+}
+.link.filter-on {
+	border: 1px solid;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 0.8em;
+}
 		</style>
 		<script>
+var stats = {};
+var filters = [];
+
 function onPageLoaded() {
 	fetch('data.json').then(response => {
 		return response.json();
 	}).then(data => {
 		console.log("data:", data);
-		let stats = computeStats(data);
+		stats = computeStats(data);
+		console.log("stats:", stats);
 
-		// Fill out the episodes table.
-		{
-			let tbody = document.getElementById("episodes_tbody");
-			while(tbody.firstChild) {
-				tbody.removeChild(tbody.firstChild);
-			}
-
-			for( let i = 0; i < stats.episodes.length; i++ ) {
-				let episode = stats.episodes[i];
-
-				let newRow = document.createElement("tr");
-				let newColumn = null;
-
-				newColumn = document.createElement("td");
-				{
-					let link = document.createElement("a");
-					link.href = episode.url;
-					link.target = "_blank";
-					link.appendChild(document.createTextNode("🔗"));
-					newColumn.appendChild(link);
-				}
-				newRow.appendChild(newColumn);
-
-				newColumn = document.createElement("td");
-				newColumn.appendChild(document.createTextNode(episode.season_number));
-				newRow.appendChild(newColumn);
-
-				newColumn = document.createElement("td");
-				newColumn.appendChild(document.createTextNode(episode.number));
-				newRow.appendChild(newColumn);
-
-				newColumn = document.createElement("td");
-				newColumn.appendChild(document.createTextNode(episode.title));
-				newRow.appendChild(newColumn);
-
-				newColumn = document.createElement("td");
-				newColumn.className = "person-host";
-				newColumn.appendChild(document.createTextNode(episode.host_name));
-				newRow.appendChild(newColumn);
-
-				newColumn = document.createElement("td");
-				for( let p = 0; p < episode.players.length; p++ ) {
-					let player = episode.players[p];
-					let span = document.createElement("span");
-					switch(player.place) {
-						case 1:
-							span.className = "person-first";
-							break;
-						case 2:
-							span.className = "person-second";
-							break;
-						case 3:
-							span.className = "person-third";
-							break;
-					}
-					span.appendChild(document.createTextNode(player.name + " (" + player.score + ")"));
-					newColumn.appendChild(span);
-					newColumn.appendChild(document.createElement("br"));
-				}
-				newRow.appendChild(newColumn);
-
-				tbody.appendChild(newRow);
-			}
-		}
-
-		// Fill out the people table.
-		{
-			let tbody = document.getElementById("people_tbody");
-			while(tbody.firstChild) {
-				tbody.removeChild(tbody.firstChild);
-			}
-
-			for( let i = 0; i < stats.people.length; i++ ) {
-				let person = stats.people[i];
-
-				let newRow = document.createElement("tr");
-				let newColumn = null;
-
-				newColumn = document.createElement("td");
-				{
-					let link = document.createElement("a");
-					link.href = person.url;
-					link.target = "_blank";
-					link.appendChild(document.createTextNode("🔗"));
-					newColumn.appendChild(link);
-				}
-				newRow.appendChild(newColumn);
-
-				newColumn = document.createElement("td");
-				newColumn.appendChild(document.createTextNode(person.name));
-				newRow.appendChild(newColumn);
-
-				newColumn = document.createElement("td");
-				if( person.appearances.length > 0 ) {
-					newColumn.appendChild(document.createTextNode(person.appearances.length));
-				}
-				newRow.appendChild(newColumn);
-
-				newColumn = document.createElement("td");
-				if( person.times_hosted.length ) {
-					newColumn.appendChild(document.createTextNode(person.times_hosted.length));
-				}
-				newRow.appendChild(newColumn);
-
-				newColumn = document.createElement("td");
-				if( person.times_first.length ) {
-					newColumn.appendChild(document.createTextNode(person.times_first.length));
-				}
-				newRow.appendChild(newColumn);
-
-				newColumn = document.createElement("td");
-				if( person.times_second.length ) {
-					newColumn.appendChild(document.createTextNode(person.times_second.length));
-				}
-				newRow.appendChild(newColumn);
-
-				newColumn = document.createElement("td");
-				if( person.times_third.length ) {
-					newColumn.appendChild(document.createTextNode(person.times_third.length));
-				}
-				newRow.appendChild(newColumn);
-
-				tbody.appendChild(newRow);
-			}
-		}
+		renderPage(stats, filters);
 	});
+}
+
+function renderPage(stats, filters) {
+	// Fill out the clear filters button.
+	{
+		let button = document.getElementById("clearfilters");
+		if( filters.length == 0 ) {
+			button.disabled = true;
+			button.innerHTML = "Clear filters";
+		} else {
+			button.disabled = false;
+			if( filters.length == 1 ) {
+				button.innerHTML = "Clear 1 filter";
+			} else {
+				button.innerHTML = "Clear " + filters.length + " filters";
+			}
+		}
+	}
+
+	// Fill out the seasons table.
+	{
+		let tbody = document.getElementById("seasons_tbody");
+		while(tbody.firstChild) {
+			tbody.removeChild(tbody.firstChild);
+		}
+
+		for( let i = 0; i < stats.seasons.length; i++ ) {
+			let season = stats.seasons[i];
+			if( ! seasonPassesFilter(season, filters) ) {
+				continue;
+			}
+
+			let newRow = document.createElement("tr");
+			let newColumn = null;
+
+			newColumn = document.createElement("td");
+			newColumn.appendChild(document.createTextNode(season.title));
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			if( season.episodes.length ) {
+				newColumn.appendChild(document.createTextNode(season.episodes.length));
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			if( season.hosts.length ) {
+				newColumn.appendChild(document.createTextNode(season.hosts.length));
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			if( season.players.length ) {
+				newColumn.appendChild(document.createTextNode(season.players.length));
+			}
+			newRow.appendChild(newColumn);
+
+			tbody.appendChild(newRow);
+		}
+	}
+
+	// Fill out the episodes table.
+	{
+		let tbody = document.getElementById("episodes_tbody");
+		while(tbody.firstChild) {
+			tbody.removeChild(tbody.firstChild);
+		}
+
+		for( let i = 0; i < stats.episodes.length; i++ ) {
+			let episode = stats.episodes[i];
+			if( ! episodePassesFilter(episode, filters) ) {
+				continue;
+			}
+
+			let newRow = document.createElement("tr");
+			let newColumn = null;
+
+			newColumn = document.createElement("td");
+			{
+				let link = document.createElement("a");
+				link.href = episode.url;
+				link.target = "_blank";
+				link.appendChild(document.createTextNode("🔗"));
+				newColumn.appendChild(link);
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			newColumn.appendChild(document.createTextNode(episode.season_number));
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			newColumn.appendChild(document.createTextNode(episode.number));
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			newColumn.appendChild(createFilterLink(episode.title, {type: "episode", id: episode.dropouttv_productid, role: "*"}));
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			newColumn.className = "person host";
+			newColumn.appendChild(createFilterLink(episode.host_name, {type: "person", id: episode.host, role: "host"}));
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			for( let p = 0; p < episode.players.length; p++ ) {
+				let player = episode.players[p];
+				let span = document.createElement("div");
+				switch(player.place) {
+					case 1:
+						span.className = "person first";
+						break;
+					case 2:
+						span.className = "person second";
+						break;
+					case 3:
+						span.className = "person third";
+						break;
+				}
+				span.appendChild(createFilterLink(player.name, {type: "person", id: player.id, role: "player"}));
+				span.appendChild(document.createTextNode(" (" + player.score + ")"));
+				newColumn.appendChild(span);
+			}
+			newRow.appendChild(newColumn);
+
+			tbody.appendChild(newRow);
+		}
+	}
+
+	// Fill out the people table.
+	{
+		let tbody = document.getElementById("people_tbody");
+		while(tbody.firstChild) {
+			tbody.removeChild(tbody.firstChild);
+		}
+
+		for( let i = 0; i < stats.people.length; i++ ) {
+			let person = stats.people[i];
+			if( ! personPassesFilter(person, filters) ) {
+				continue;
+			}
+
+			let newRow = document.createElement("tr");
+			let newColumn = null;
+
+			newColumn = document.createElement("td");
+			{
+				let link = document.createElement("a");
+				link.href = person.url;
+				link.target = "_blank";
+				link.appendChild(document.createTextNode("🔗"));
+				newColumn.appendChild(link);
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			newColumn.className = "person";
+			newColumn.appendChild(createFilterLink(person.name, {type: "person", id: person.id, role: "*"}));
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			if( person.appearances.length > 0 ) {
+				newColumn.appendChild(createFilterLink(person.appearances.length, {type: "person", id: person.id, role: "*"}));
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			if( person.times_hosted.length ) {
+				newColumn.appendChild(createFilterLink(person.times_hosted.length, {type: "person", id: person.id, role: "host"}));
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			if( person.times_first.length ) {
+				newColumn.appendChild(createFilterLink(person.times_first.length, {type: "person", id: person.id, role: "first"}));
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			if( person.times_second.length ) {
+				newColumn.appendChild(createFilterLink(person.times_second.length, {type: "person", id: person.id, role: "second"}));
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			if( person.times_third.length ) {
+				newColumn.appendChild(createFilterLink(person.times_third.length, {type: "person", id: person.id, role: "third"}));
+			}
+			newRow.appendChild(newColumn);
+
+			tbody.appendChild(newRow);
+		}
+	}
+}
+
+function clearFilters() {
+	console.log("clearFilters: Clearing filters.");
+	filters = [];
+	renderPage(stats, filters);
+}
+
+function addFilter(newFilter) {
+	console.log("addFilter: filters:", filters);
+	console.log("addFilter: newFilter:", newFilter);
+
+	let changed = false;
+	for( let i = 0; i < filters.length; i++ ) {
+		let filter = filters[i];
+		if( filtersAreSimilar(filter,newFilter) ) {
+			filters[i] = newFilter;
+			changed = true;
+			console.log("addFilter: Changed i:", i);
+			break;
+		}
+	}
+	if( ! changed ) {
+		filters.push(newFilter);
+		console.log("addFilter: Added.");
+	}
+	renderPage(stats, filters);
+}
+
+function filtersAreSimilar(a, b) {
+	return ( a.type == b.type && a.id == b.id );
+}
+
+function filtersAreEqual(a, b) {
+	return ( a.type == b.type && a.id == b.id && a.role == b.role );
+}
+
+function removeFilter(newFilter) {
+	console.log("removeFilter: filters:", filters);
+	console.log("removeFilter: newFilter:", newFilter);
+	for( let i = 0; i < filters.length; i++ ) {
+		let filter = filters[i];
+
+		if( filtersAreEqual(filter, newFilter) ) {
+			filters.splice(i,1);
+			console.log("removeFilter: Removed from i:", i);
+			renderPage(stats, filters);
+			return;
+		}
+	}
+}
+
+function hasFilter(newFilter) {
+	for( let i = 0; i < filters.length; i++ ) {
+		let filter = filters[i];
+
+		if( filtersAreEqual(filter, newFilter) ) {
+			return true;
+		}
+	}
+	return false;
+}
+
+function createFilterLink(title, filter) {
+	let newFilter = ! hasFilter(filter);
+
+	let link = document.createElement("span");
+	link.className = "link";
+	if( newFilter ) {
+		link.className += " filter-off";
+	} else {
+		link.className += " filter-on";
+	}
+	link.onclick = () => {
+		if( newFilter ) {
+			addFilter(filter);
+		} else {
+			removeFilter(filter);
+		}
+	}
+	link.appendChild(document.createTextNode(title));
+	return link;
+}
+
+function seasonPassesFilter(season, filters) {
+	let match = true;
+
+	for( let i = 0; i < filters.length; i++ ) {
+		let filter = filters[i];
+		switch(filter.type) {
+			case "episode":
+				if( ! season.episodes.includes(filter.id) ) {
+					match = false;
+				}
+				break;
+			case "person":
+				switch(filter.role) {
+					case "host":
+						if( ! season.hosts.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "player":
+						if( ! season.players.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "*":
+						if( ! season.hosts.includes(filter.id) && ! season.players.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "first":
+						if( ! season.firstIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "second":
+						if( ! season.secondIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "third":
+						if( ! season.thirdIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					default:
+						console.warn("seasonPassesFilter: Unhandled person role:", filter.role);
+						match = false;
+				}
+				break;
+			default:
+				console.warn("seasonPassesFilter: Unhandled type:", filter.type);
+				match = false;
+		}
+	}
+
+	return match;}
+
+function episodePassesFilter(episode, filters) {
+	let match = true;
+
+	for( let i = 0; i < filters.length; i++ ) {
+		let filter = filters[i];
+		switch(filter.type) {
+			case "episode":
+				if( episode.dropouttv_productid != filter.id ) {
+					match = false;
+				}
+				break;
+			case "person":
+				switch(filter.role) {
+					case "host":
+						if( episode.host != filter.id ) {
+							match = false;
+						}
+						break;
+					case "player":
+						if( ! episode.playerIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "*":
+						if( episode.host != filter.id && ! episode.playerIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "first":
+						if( ! episode.firstIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "second":
+						if( ! episode.secondIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "third":
+						if( ! episode.thirdIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					default:
+						console.warn("episodePassesFilter: Unhandled person role:", filter.role);
+						match = false;
+				}
+				break;
+			default:
+				console.warn("episodePassesFilter: Unhandled type:", filter.type);
+				match = false;
+		}
+	}
+
+	return match;
+}
+
+function personPassesFilter(person, filters) {
+	let match = false;
+
+	if( filters.length == 0 ) {
+		return true;
+	}
+
+	for( let i = 0; i < filters.length; i++ ) {
+		let filter = filters[i];
+		switch(filter.type) {
+			case "episode":
+				if( person.appearances.includes(filter.id) ) {
+					match = true;
+				}
+				break;
+			case "person":
+				if( person.id == filter.id ) {
+					match = true;
+				}
+				break;
+			default:
+				console.warn("personPassesFilter: Unhandled type:", filter.type);
+				match = false;
+		}
+	}
+
+	return match;
 }
 
 function computeStats(data) {
 	let stats = {
-		"people": [],
+		"seasons": [],
 		"episodes": [],
+		"people": [],
 	};
+
+	let seasonMap = {};
+	for( let i = 0; i < data.seasons.length; i++ ) {
+		let season = JSON.parse(JSON.stringify(data.seasons[i]));
+		season.episodes = [];
+		season.hostMap = {};
+		season.playerMap = {};
+		season.firstMap = {};
+		season.secondMap = {};
+		season.thirdMap = {};
+		seasonMap[season.number] = season;
+	}
+
 	let peopleMap = {};
 	for( let i = 0; i < data.people.length; i++ ) {
 		let person = JSON.parse(JSON.stringify(data.people[i]));
@@ -182,14 +511,18 @@ function computeStats(data) {
 		person.appearances = [];
 		peopleMap[person.id] = person;
 	}
+
 	for( let i = 0; i < data.episodes.length; i++ ) {
-		let episode = data.episodes[i];
-		let newEpisode = JSON.parse(JSON.stringify(episode));
+		let episode = JSON.parse(JSON.stringify(data.episodes[i]));
+
+		seasonMap[episode.season_number].episodes.push(episode.dropouttv_productid);
 
 		let hostId = episode.host;
-		peopleMap[hostId].times_hosted.push(episode);
-		peopleMap[hostId].appearances.push(episode);
-		newEpisode.host_name = peopleMap[hostId].name;
+		episode.host_name = peopleMap[hostId].name;
+
+		peopleMap[hostId].times_hosted.push(episode.dropouttv_productid);
+		peopleMap[hostId].appearances.push(episode.dropouttv_productid);
+		seasonMap[episode.season_number].hostMap[hostId] = true;
 
 		let scores = [];
 		for( let p = 0; p < episode.players.length; p++ ) {
@@ -205,38 +538,102 @@ function computeStats(data) {
 			scoreMap["score="+scores[s]] = s + 1;
 		}
 
+		episode.playerIds = [];
+		episode.firstIds = [];
+		episode.secondIds = [];
+		episode.thirdIds = [];
 		for( let p = 0; p < episode.players.length; p++ ) {
 			let player = episode.players[p];
-			peopleMap[player.id].appearances.push(episode);
+			episode.playerIds.push(player.id);
+			peopleMap[player.id].appearances.push(episode.dropouttv_productid);
+			seasonMap[episode.season_number].playerMap[player.id] = true;
 
 			let place = scoreMap["score="+player.score];
 			switch(place) {
 				case 1:
-					peopleMap[player.id].times_first.push(episode);
+					episode.firstIds.push(player.id);
+					peopleMap[player.id].times_first.push(episode.dropouttv_productid);
+					seasonMap[episode.season_number].firstMap[player.id] = true;
 					break;
 				case 2:
-					peopleMap[player.id].times_second.push(episode);
+					episode.secondIds.push(player.id);
+					peopleMap[player.id].times_second.push(episode.dropouttv_productid);
+					seasonMap[episode.season_number].secondMap[player.id] = true;
 					break;
 				case 3:
-					peopleMap[player.id].times_third.push(episode);
+					episode.thirdIds.push(player.id);
+					peopleMap[player.id].times_third.push(episode.dropouttv_productid);
+					seasonMap[episode.season_number].thirdMap[player.id] = true;
 					break;
 			}
 
-			newEpisode.players[p].name = peopleMap[player.id].name;
-			newEpisode.players[p].place = place;
+			episode.players[p].name = peopleMap[player.id].name;
+			episode.players[p].place = place;
 		}
 
-		stats.episodes.push(newEpisode);
+		stats.episodes.push(episode);
 	}
+
 	for( key in peopleMap ) {
 		stats.people.push(peopleMap[key]);
 	}
+
+	for( key in seasonMap ) {
+		let season = seasonMap[key];
+
+		season.hosts = [];
+		for( let key in season.hostMap ) {
+			season.hosts.push(key);
+		}
+		delete season.hostMap;
+
+		season.players = [];
+		for( let key in season.playerMap ) {
+			season.players.push(key);
+		}
+		delete season.playerMap;
+
+		season.firstIds = [];
+		for( let key in season.firstMap ) {
+			season.firstIds.push(key);
+		}
+		delete season.firstMap;
+
+		season.secondIds = [];
+		for( let key in season.secondMap ) {
+			season.secondIds.push(key);
+		}
+		delete season.secondMap;
+
+		season.thirdIds = [];
+		for( let key in season.thirdMap ) {
+			season.thirdIds.push(key);
+		}
+		delete season.thirdMap;
+
+		stats.seasons.push(seasonMap[key]);
+	}
+
 	return stats;
 }
 		</script>
 	</head>
 	<body onload="onPageLoaded();">
 		<h1>"Um, Actually..." stats</h1>
+		<button id="clearfilters" onclick="clearFilters();">Clear filters</button>
+		<h2>Seasons</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Season</th>
+					<th>Episodes</th>
+					<th>Hosts</th>
+					<th>Players</th>
+				</tr>
+			</thead>
+			<tbody id="seasons_tbody">
+			</tbody>
+		</table>
 		<h2>Episodes</h2>
 		<table>
 			<thead>
