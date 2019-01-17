@@ -1,17 +1,23 @@
 <html>
 	<head>
 		<title>"Um, Actually..." stats</title>
+		<meta name="description" content='This shows stats about the show "Um, Actually...".'>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=0.5,maximum-scale=3,user-scalable=yes">
 		<style>
-.person-host {
+.person {
+	white-space: nowrap;
 }
-.person-first {
+.person.host {
+}
+.person.first {
 	font-weight: bold;
 	color: #d9d919;
 }
-.person-second {
+.person.second {
 	color: #c0c0c0;
 }
-.person-third {
+.person.third {
 	color: #8c7853;
 }
 thead tr {
@@ -156,7 +162,7 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			newColumn.className = "person-host";
+			newColumn.className = "person host";
 			newColumn.appendChild(createFilterLink(episode.host_name, {type: "person", id: episode.host, role: "host"}));
 			newRow.appendChild(newColumn);
 
@@ -166,13 +172,13 @@ function renderPage(stats, filters) {
 				let span = document.createElement("div");
 				switch(player.place) {
 					case 1:
-						span.className = "person-first";
+						span.className = "person first";
 						break;
 					case 2:
-						span.className = "person-second";
+						span.className = "person second";
 						break;
 					case 3:
-						span.className = "person-third";
+						span.className = "person third";
 						break;
 				}
 				span.appendChild(createFilterLink(player.name, {type: "person", id: player.id, role: "player"}));
@@ -212,6 +218,7 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "person";
 			newColumn.appendChild(createFilterLink(person.name, {type: "person", id: person.id, role: "*"}));
 			newRow.appendChild(newColumn);
 
