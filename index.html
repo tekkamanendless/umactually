@@ -1,25 +1,10 @@
 <html>
 	<head>
 		<title>"Um, Actually..." stats</title>
-		<meta name="description" content='This shows stats about the show "Um, Actually...".'>
+		<meta name="description" content='This page provides stats about the College Humor web series "Um, Actually...".'>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=0.5,maximum-scale=3,user-scalable=yes">
 		<style>
-.person {
-	white-space: nowrap;
-}
-.person.host {
-}
-.person.first {
-	font-weight: bold;
-	color: #d9d919;
-}
-.person.second {
-	color: #c0c0c0;
-}
-.person.third {
-	color: #8c7853;
-}
 thead tr {
 	background: #cccccc;
 }
@@ -35,6 +20,23 @@ tbody tr:nth-child(odd) {
 tbody td {
 	padding: 0.2em;
 }
+
+.person {
+	white-space: nowrap;
+}
+.person.host {
+}
+.person.first {
+	font-weight: bold;
+	color: #d9d919;
+}
+.person.second {
+	color: #c0c0c0;
+}
+.person.third {
+	color: #8c7853;
+}
+
 .link {
 	cursor: pointer;
 	display: inline-block;
@@ -46,6 +48,17 @@ tbody td {
 	padding-top: 2px;
 	padding-bottom: 2px;
 	border-radius: 0.8em;
+}
+
+.episode-thumbnail {
+	height: 3em;
+}
+
+.footer {
+	margin-top: 4em;
+}
+.footer p {
+	font-size: 0.8em;
 }
 		</style>
 		<script>
@@ -144,7 +157,11 @@ function renderPage(stats, filters) {
 				let link = document.createElement("a");
 				link.href = episode.url;
 				link.target = "_blank";
-				link.appendChild(document.createTextNode("🔗"));
+				let image = document.createElement("img");
+				image.className = "episode-thumbnail";
+				image.src = episode.thumbnail_landscape;
+				//link.appendChild(document.createTextNode("🔗"));
+				link.appendChild(image);
 				newColumn.appendChild(link);
 			}
 			newRow.appendChild(newColumn);
@@ -159,6 +176,10 @@ function renderPage(stats, filters) {
 
 			newColumn = document.createElement("td");
 			newColumn.appendChild(createFilterLink(episode.title, {type: "episode", id: episode.dropouttv_productid, role: "*"}));
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			newColumn.appendChild(document.createTextNode(computeDurationString(episode.duration)));
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
@@ -255,6 +276,21 @@ function renderPage(stats, filters) {
 			tbody.appendChild(newRow);
 		}
 	}
+}
+
+function computeDurationString(timeInSeconds) {
+	timeInSeconds = parseInt(timeInSeconds);
+	let hours = parseInt( timeInSeconds / 3600 );
+	let remainder = timeInSeconds - hours * 3600;
+	let minutes = parseInt( remainder / 60 );
+	let seconds = remainder - minutes * 60;
+
+	let durationString = "";
+	if( hours > 0 ) {
+		durationString += hours + "h";
+	}
+	durationString += minutes + "m" + seconds + "s";
+	return durationString;
 }
 
 function clearFilters() {
@@ -620,6 +656,10 @@ function computeStats(data) {
 	</head>
 	<body onload="onPageLoaded();">
 		<h1>"Um, Actually..." stats</h1>
+		<p>
+			"Um, Actually..." is a web series produced by <a href="https://www.collegehumor.com">College Humor</a> and available on <a href="https://dropout.tv">DROPOUT</a>.
+			This page shows the stats about the show: winners, losers, scores, appearances, you name it.
+		</p>
 		<button id="clearfilters" onclick="clearFilters();">Clear filters</button>
 		<h2>Seasons</h2>
 		<table>
@@ -642,6 +682,7 @@ function computeStats(data) {
 					<th>Season</th>
 					<th>Number</th>
 					<th>Title</th>
+					<th>Length</th>
 					<th>Host</th>
 					<th>Players</th>
 				</tr>
@@ -665,5 +706,11 @@ function computeStats(data) {
 			<tbody id="people_tbody">
 			</tbody>
 		</table>
+		<div class="footer">
+			<p>
+				This page is generated from the data provided by the <a href="https://github.com/tekkamanendless/umactually">tekkamanendless/umactually</a> repo on <a href="https://github.com/">GitHub</a>.
+				To make corrections or improvements, submit a pull request.
+			</p>
+		</div>
 	</body>
 </html>
