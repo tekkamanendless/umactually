@@ -87,6 +87,11 @@
 			"url": "https://www.dropout.tv/search/talent/684/emily-heller"
 		},
 		{
+			"id": "erika-ishii",
+			"name": "Erika Ishii",
+			"url": "https://www.dropout.tv/search/talent/738/erika-ishii"
+		},
+		{
 			"id": "haley-mancini",
 			"name": "Haley Mancini",
 			"url": "https://www.dropout.tv/search/talent/385/haley-mancini"
@@ -110,6 +115,11 @@
 			"id": "jared-logan",
 			"name": "Jared Logan",
 			"url": "https://www.dropout.tv/search/talent/358/jared-logan"
+		},
+		{
+			"id": "jenny-lorenzo",
+			"name": "Jenny Lorenzo",
+			"url": "https://www.dropout.tv/search/talent/737/jenny-lorenzo"
 		},
 		{
 			"id": "jordan-doll",
@@ -789,6 +799,40 @@
 					"color": "yellow",
 					"id": "kirk-damato",
 					"score": 5
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1209,
+			"dropouttv_productid": "ep-1209",
+			"title": "Sonic, Shredder, the Sword in the Stone",
+			"description": "Shane Crown, Jenny Lorenzo, and Erika Ishii shudder over underwater levels and moving to Florida.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1209/sonic-shredder-the-sword-in-the-stone",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/2bc09130e6707986e5e91709f8e6af17.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 2153,
+			"number": "19",
+			"season_number": "1",
+			"release_date": "2019-01-18",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "shane-crown",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "jenny-lorenzo",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "erika-ishii",
+					"score": 4
 				}
 			]
 		}
