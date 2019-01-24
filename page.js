@@ -103,11 +103,7 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			newColumn.appendChild(document.createTextNode(episode.season_number));
-			newRow.appendChild(newColumn);
-
-			newColumn = document.createElement("td");
-			newColumn.appendChild(document.createTextNode(episode.number));
+			newColumn.appendChild(document.createTextNode(episode.season_and_number));
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
@@ -486,6 +482,20 @@ function computeStats(data) {
 
 	for( let i = 0; i < data.episodes.length; i++ ) {
 		let episode = JSON.parse(JSON.stringify(data.episodes[i]));
+		{
+			episode.season_and_number = "S";
+			let n = Number.parseInt(episode.season_number);
+			if( n < 10 ) {
+				episode.season_and_number += "0";
+			}
+			episode.season_and_number += n;
+			episode.season_and_number += "E";
+			n = Number.parseInt(episode.number);
+			if( n < 10 ) {
+				episode.season_and_number += "0";
+			}
+			episode.season_and_number += n;
+		}
 
 		seasonMap[episode.season_number].episodes.push(episode.dropouttv_productid);
 
