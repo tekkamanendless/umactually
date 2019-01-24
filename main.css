@@ -1,0 +1,55 @@
+thead tr {
+	background: #cccccc;
+}
+th {
+	padding: 0.3em;
+}
+tbody tr:nth-child(even) {
+	background: #f6f6f6;
+}
+tbody tr:nth-child(odd) {
+	background: #ffffff;
+}
+tbody td {
+	padding: 0.2em;
+}
+
+.person {
+	white-space: nowrap;
+}
+.person.host {
+}
+.person.first {
+	font-weight: bold;
+	color: #d9d919;
+}
+.person.second {
+	color: #c0c0c0;
+}
+.person.third {
+	color: #8c7853;
+}
+
+.link {
+	cursor: pointer;
+	display: inline-block;
+}
+.link.filter-on {
+	border: 1px solid;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 0.8em;
+}
+
+.episode-thumbnail {
+	height: 3em;
+}
+
+.footer {
+	margin-top: 4em;
+}
+.footer p {
+	font-size: 0.8em;
+}
