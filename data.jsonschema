@@ -4,6 +4,7 @@
 		"seasons": {
 			"type": "array",
 			"items": {
+				"type": "object",
 				"properties": {
 					"number": {
 						"type": "string"
@@ -11,12 +12,17 @@
 					"title": {
 						"type": "string"
 					}
-				}
+				},
+				"required": [
+					"number",
+					"title"
+				]
 			}
 		},
 		"people": {
 			"type": "array",
 			"items": {
+				"type": "object",
 				"properties": {
 					"id": {
 						"type": "string"
@@ -27,12 +33,35 @@
 					"url": {
 						"type": "string"
 					}
-				}
+				},
+				"required": [
+					"id",
+					"name"
+				]
+			}
+		},
+		"topics": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"type": "string"
+					},
+					"name": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"id",
+					"name"
+				]
 			}
 		},
 		"episodes": {
 			"type": "array",
 			"items": {
+				"type": "object",
 				"properties": {
 					"dropouttv_id": {
 						"type": "number"
@@ -73,25 +102,78 @@
 					"players": {
 						"type": "array",
 						"items": {
-							"position": {
-								"description": "This is the player's position.  This can be one of: 1, 2, 3",
-								"type": "string"
+							"type": "object",
+							"properties": {
+								"position": {
+									"description": "This is the player's position.  This can be one of: 1, 2, 3",
+									"type": "string"
+								},
+								"color": {
+									"description": "This is the color of the player's podium.",
+									"type": "string"
+								},
+								"id": {
+									"description": "This is a reference to a person.",
+									"type": "string"
+								},
+								"score": {
+									"description": "This is the final score of the player.",
+									"type": "number"
+								}
 							},
-							"color": {
-								"description": "This is the color of the player's podium.",
-								"type": "string"
+							"required": [
+								"position",
+								"color",
+								"id",
+								"score"
+							]
+						}
+					},
+					"questions": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"number": {
+									"description": "This is the number of the question (starts from 1 and goes up from there).",
+									"type": "number"
+								},
+								"title": {
+									"description": "This is the title of the question, if it has one (only shiny and real-life skills).",
+									"type": "string"
+								},
+								"topic": {
+									"description": "This is a reference to the topic.",
+									"type": "string"
+								},
+								"shiny": {
+									"description": "Whether or not this is a shiny question.",
+									"type": "boolean"
+								},
+								"winners": {
+									"type": "array",
+									"items": {
+										"description": "This is a reference to a person",
+										"type": "string"
+									}
+								}
 							},
-							"id": {
-								"description": "This is a reference to a person.",
-								"type": "string"
-							},
-							"score": {
-								"description": "This is the final score of the player.",
-								"type": "number"
-							}
+							"required": [
+								"number",
+								"winners"
+							]
 						}
 					}
-				}
+				},
+				"required": [
+					"dropouttv_id",
+					"dropouttv_productid",
+					"title",
+					"number",
+					"season_number",
+					"host",
+					"players"
+				]
 			}
 		}
 	}

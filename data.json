@@ -207,6 +207,48 @@
 			"url": "https://www.dropout.tv/search/talent/710/zeke-nicholson"
 		}
 	],
+	"topics": [
+		{
+			"id": "board-games",
+			"name": "Board Games"
+		},
+		{
+			"id": "captain-planet",
+			"name": "Captain Planet"
+		},
+		{
+			"id": "evangelion",
+			"name": "Evangelion"
+		},
+		{
+			"id": "game-of-thrones",
+			"name": "Game of Thrones"
+		},
+		{
+			"id": "power-rangers",
+			"name": "Power Rangers"
+		},
+		{
+			"id": "star-trek",
+			"name": "Star Trek"
+		},
+		{
+			"id": "the-sword-and-the-stone",
+			"name": "The Sword and the Stone"
+		},
+		{
+			"id": "torchwood",
+			"name": "Torchwood"
+		},
+		{
+			"id": "video-games",
+			"name": "Video Games"
+		},
+		{
+			"id": "zelda",
+			"name": "Zelda"
+		}
+	],
 	"episodes": [
 		{
 			"dropouttv_id": 831,
@@ -833,6 +875,97 @@
 					"color": "yellow",
 					"id": "erika-ishii",
 					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "torchwood",
+					"winners": [
+						"jenny-lorenzo"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "captain-planet",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "zelda",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "star-trek",
+					"winners": [
+						"jenny-lorenzo"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Match The Voice",
+					"shiny": true,
+					"winners": [
+						"shane-crown",
+						"jenny-lorenzo",
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "power-rangers",
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "the-sword-and-the-stone",
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "game-of-thrones",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "video-games",
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "board-games",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "evangelion",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "A Title Of Words",
+					"winners": [
+						"shane-crown",
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
