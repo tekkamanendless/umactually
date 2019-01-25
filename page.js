@@ -115,6 +115,14 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			if( Array.isArray(episode.questions) ) {
+				newColumn.appendChild(document.createTextNode(episode.questions.length));
+			} else {
+				newColumn.appendChild(document.createTextNode("TBD"));
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
 			newColumn.className = "person host";
 			newColumn.appendChild(createFilterLink(episode.host_name, {type: "person", id: episode.host, role: "host"}));
 			newRow.appendChild(newColumn);
@@ -202,6 +210,66 @@ function renderPage(stats, filters) {
 			newColumn = document.createElement("td");
 			if( person.times_third.length ) {
 				newColumn.appendChild(createFilterLink(person.times_third.length, {type: "person", id: person.id, role: "third"}));
+			}
+			newRow.appendChild(newColumn);
+
+			tbody.appendChild(newRow);
+		}
+	}
+
+	// Fill out the topics table.
+	{
+		let tbody = document.getElementById("topics_tbody");
+		while(tbody.firstChild) {
+			tbody.removeChild(tbody.firstChild);
+		}
+
+		for( let i = 0; i < stats.questionTopics.length; i++ ) {
+			let topic = stats.questionTopics[i];
+			if( ! topicPassesFilter(topic, filters) ) {
+				continue;
+			}
+
+			let newRow = document.createElement("tr");
+			let newColumn = null;
+
+			newColumn = document.createElement("td");
+			newColumn.appendChild(createFilterLink(topic.name, {type: "topic", id: topic.id, role: "*"}));
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			if( topic.episodes.length ) {
+				newColumn.appendChild(createFilterLink(topic.episodes.length, {type: "topic", id: topic.id, role: "*"}));
+			}
+			newRow.appendChild(newColumn);
+
+			tbody.appendChild(newRow);
+		}
+	}
+
+	// Fill out the titles table.
+	{
+		let tbody = document.getElementById("titles_tbody");
+		while(tbody.firstChild) {
+			tbody.removeChild(tbody.firstChild);
+		}
+
+		for( let i = 0; i < stats.questionTitles.length; i++ ) {
+			let title = stats.questionTitles[i];
+			if( ! titlePassesFilter(title, filters) ) {
+				continue;
+			}
+
+			let newRow = document.createElement("tr");
+			let newColumn = null;
+
+			newColumn = document.createElement("td");
+			newColumn.appendChild(createFilterLink(title.name, {type: "title", id: title.name, role: "*"}));
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			if( title.episodes.length ) {
+				newColumn.appendChild(createFilterLink(title.episodes.length, {type: "title", id: title.name, role: "*"}));
 			}
 			newRow.appendChild(newColumn);
 
@@ -318,6 +386,16 @@ function seasonPassesFilter(season, filters) {
 					match = false;
 				}
 				break;
+			case "topic":
+				if( ! season.questionTopics.includes(filter.id) ) {
+					match = false;
+				}
+				break;
+			case "title":
+				if( ! season.questionTitles.includes(filter.id) ) {
+					match = false;
+				}
+				break;
 			case "person":
 				switch(filter.role) {
 					case "host":
@@ -361,7 +439,8 @@ function seasonPassesFilter(season, filters) {
 		}
 	}
 
-	return match;}
+	return match;
+}
 
 function episodePassesFilter(episode, filters) {
 	let match = true;
@@ -371,6 +450,16 @@ function episodePassesFilter(episode, filters) {
 		switch(filter.type) {
 			case "episode":
 				if( episode.dropouttv_productid != filter.id ) {
+					match = false;
+				}
+				break;
+			case "topic":
+				if( ! episode.questionTopics.includes(filter.id) ) {
+					match = false;
+				}
+				break;
+			case "title":
+				if( ! episode.questionTitles.includes(filter.id) ) {
 					match = false;
 				}
 				break;
@@ -420,6 +509,80 @@ function episodePassesFilter(episode, filters) {
 	return match;
 }
 
+function topicPassesFilter(topic, filters) {
+	let match = false;
+
+	if( filters.length == 0 ) {
+		return true;
+	}
+
+	for( let i = 0; i < filters.length; i++ ) {
+		let filter = filters[i];
+		switch(filter.type) {
+			case "episode":
+				if( topic.episodes.includes(filter.id) ) {
+					match = true;
+				}
+				break;
+			case "topic":
+				if( topic.id == filter.id ) {
+					match = true;
+				}
+				break;
+			case "title":
+				// TODO
+				break;
+			case "person":
+				if( topic.players.includes(filter.id) ) {
+					match = true;
+				}
+				break;
+			default:
+				console.warn("topicPassesFilter: Unhandled type:", filter.type);
+				match = false;
+		}
+	}
+
+	return match;
+}
+
+function titlePassesFilter(title, filters) {
+	let match = false;
+
+	if( filters.length == 0 ) {
+		return true;
+	}
+
+	for( let i = 0; i < filters.length; i++ ) {
+		let filter = filters[i];
+		switch(filter.type) {
+			case "episode":
+				if( title.episodes.includes(filter.id) ) {
+					match = true;
+				}
+				break;
+			case "topic":
+				// TODO
+				break;
+			case "title":
+				if( title.name == filter.id ) {
+					match = true;
+				}
+				break;
+			case "person":
+				if( title.players.includes(filter.id) ) {
+					match = true;
+				}
+				break;
+			default:
+				console.warn("titlePassesFilter: Unhandled type:", filter.type);
+				match = false;
+		}
+	}
+
+	return match;
+}
+
 function personPassesFilter(person, filters) {
 	let match = false;
 
@@ -432,6 +595,16 @@ function personPassesFilter(person, filters) {
 		switch(filter.type) {
 			case "episode":
 				if( person.appearances.includes(filter.id) ) {
+					match = true;
+				}
+				break;
+			case "topic":
+				if( person.topics.includes(filter.id) ) {
+					match = true;
+				}
+				break;
+			case "title":
+				if( person.titles.includes(filter.id) ) {
 					match = true;
 				}
 				break;
@@ -454,6 +627,8 @@ function computeStats(data) {
 		"seasons": [],
 		"episodes": [],
 		"people": [],
+		"questionTopics": [],
+		"questionTitles": [],
 	};
 
 	let seasonMap = {};
@@ -465,6 +640,8 @@ function computeStats(data) {
 		season.firstMap = {};
 		season.secondMap = {};
 		season.thirdMap = {};
+		season.questionTopics = [];
+		season.questionTitles = [];
 		seasonMap[season.number] = season;
 	}
 
@@ -477,7 +654,25 @@ function computeStats(data) {
 		person.times_second = [];
 		person.times_third = [];
 		person.appearances = [];
+		person.topics = [];
+		person.titles = [];
 		peopleMap[person.id] = person;
+	}
+
+	let questionTopicMap = {};
+	for( let i = 0; i < data.topics.length; i++ ) {
+		let topic = JSON.parse(JSON.stringify(data.topics[i]));
+		topic.episodes = [];
+		topic.players = [];
+		questionTopicMap[topic.id] = topic;
+	}
+
+	let questionTitleMap = {};
+	for( let i = 0; i < data.titles.length; i++ ) {
+		let title = JSON.parse(JSON.stringify(data.titles[i]));
+		title.episodes = [];
+		title.players = [];
+		questionTitleMap[title.name] = title;
 	}
 
 	for( let i = 0; i < data.episodes.length; i++ ) {
@@ -553,6 +748,67 @@ function computeStats(data) {
 			episode.players[p].place = place;
 		}
 
+		episode.questionTopicMap = {};
+		episode.questionTitleMap = {};
+		if( Array.isArray(episode.questions) ) {
+			for( let q = 0; q < episode.questions.length; q++ ) {
+				let question = episode.questions[q];
+				if( question.topic ) {
+					episode.questionTopicMap[question.topic] = true;
+					if( ! questionTopicMap[question.topic] ) {
+						console.warn("undefined topic:", question.topic);
+					}
+					if( ! questionTopicMap[question.topic].episodes.includes(episode.dropouttv_productid) ) {
+						questionTopicMap[question.topic].episodes.push(episode.dropouttv_productid);
+					}
+					if( ! seasonMap[episode.season_number].questionTopics.includes(question.topic) ) {
+						seasonMap[episode.season_number].questionTopics.push(question.topic);
+					}
+					for( let playerId of episode.playerIds ) {
+						if( ! peopleMap[playerId].topics.includes(question.topic) ) {
+							peopleMap[playerId].topics.push(question.topic);
+						}
+						if( ! questionTopicMap[question.topic].players.includes(playerId) ) {
+							questionTopicMap[question.topic].players.push(playerId);
+						}
+					}
+				}
+				if( question.title ) {
+					episode.questionTitleMap[question.title] = true;
+					if( ! questionTitleMap[question.title] ) {
+						console.warn("undefined title:", question.title);
+					}
+
+					if( ! questionTitleMap[question.title].episodes.includes(episode.dropouttv_productid) ) {
+						questionTitleMap[question.title].episodes.push(episode.dropouttv_productid);
+					}
+					if( ! seasonMap[episode.season_number].questionTitles.includes(question.title) ) {
+						seasonMap[episode.season_number].questionTitles.push(question.title);
+					}
+					for( let playerId of episode.playerIds ) {
+						if( ! peopleMap[playerId].titles.includes(question.title) ) {
+							peopleMap[playerId].titles.push(question.title);
+						}
+						if( ! questionTitleMap[question.title].players.includes(playerId) ) {
+							questionTitleMap[question.title].players.push(playerId);
+						}
+					}
+				}
+			}
+		}
+
+		episode.questionTopics = [];
+		for( let key in episode.questionTopicMap ) {
+			episode.questionTopics.push(key);
+		}
+		delete episode.questionTopicMap;
+
+		episode.questionTitles = [];
+		for( let key in episode.questionTitleMap ) {
+			episode.questionTitles.push(key);
+		}
+		delete episode.questionTitleMap;
+
 		stats.episodes.push(episode);
 	}
 
@@ -594,6 +850,14 @@ function computeStats(data) {
 		delete season.thirdMap;
 
 		stats.seasons.push(seasonMap[key]);
+	}
+
+	for( key in questionTopicMap ) {
+		stats.questionTopics.push(questionTopicMap[key]);
+	}
+
+	for( key in questionTitleMap ) {
+		stats.questionTitles.push(questionTitleMap[key]);
 	}
 
 	return stats;
