@@ -209,6 +209,14 @@
 	],
 	"topics": [
 		{
+			"id": "20k-leagues-under-sea",
+			"name": "20,000 Leagues Under the Sea"
+		},
+		{
+			"id": "american-gods",
+			"name": "American Gods"
+		},
+		{
 			"id": "board-games",
 			"name": "Board Games"
 		},
@@ -217,12 +225,44 @@
 			"name": "Captain Planet"
 		},
 		{
+			"id": "dnd",
+			"name": "Dungeons & Dragons"
+		},
+		{
 			"id": "evangelion",
 			"name": "Evangelion"
 		},
 		{
+			"id": "futurama",
+			"name": "Futurama"
+		},
+		{
 			"id": "game-of-thrones",
 			"name": "Game of Thrones"
+		},
+		{
+			"id": "godzilla",
+			"name": "Godzilla"
+		},
+		{
+			"id": "harry-potter",
+			"name": "Harry Potter"
+		},
+		{
+			"id": "lord-of-the-rings",
+			"name": "Lord of the Rings"
+		},
+		{
+			"id": "manga",
+			"name": "Manga"
+		},
+		{
+			"id": "monty-python-holy-grail",
+			"name": "Monty Python and the Holy Grail"
+		},
+		{
+			"id": "pokemon",
+			"name": "Pokemon"
 		},
 		{
 			"id": "power-rangers",
@@ -231,6 +271,34 @@
 		{
 			"id": "star-trek",
 			"name": "Star Trek"
+		},
+		{
+			"id": "star-wars",
+			"name": "Star Wars"
+		},
+		{
+			"id": "super-mario",
+			"name": "Super Mario Bros."
+		},
+		{
+			"id": "superhero-movies",
+			"name": "Superhero Movies"
+		},
+		{
+			"id": "superheroes",
+			"name": "Superheroes"
+		},
+		{
+			"id": "superman",
+			"name": "Superman"
+		},
+		{
+			"id": "tailspin",
+			"name": "Tailspin"
+		},
+		{
+			"id": "the-simpsons",
+			"name": "The Simpsons"
 		},
 		{
 			"id": "the-sword-and-the-stone",
@@ -243,6 +311,10 @@
 		{
 			"id": "video-games",
 			"name": "Video Games"
+		},
+		{
+			"id": "xena",
+			"name": "Xena, Warrior Princess"
 		},
 		{
 			"id": "zelda",
@@ -809,6 +881,99 @@
 					"id": "jackie-kashian",
 					"score": 3
 				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "20k-leagues-under-sea",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "star-wars",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "super-mario",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "harry-potter",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 5,
+					"title": "A Book By Its Cover",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "superman",
+					"winners": [
+						"jackie-kashian"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "futurama",
+					"winners": [
+						"ryan-martin"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "superheroes",
+					"winners": [
+						"jackie-kashian"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Where Am I?",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "dnd",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "american-gods",
+					"winners": [
+						"jackie-kashian"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "lord-of-the-rings",
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
+				}
 			]
 		},
 		{
@@ -841,6 +1006,102 @@
 					"color": "yellow",
 					"id": "kirk-damato",
 					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "godzilla",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "the-simpsons",
+					"winners": [
+						"nathan-yaffe"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "game-of-thrones",
+					"winners": [
+						"nathan-yaffe"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "tailspin",
+					"winners": [
+						"kirk-damato"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": [
+						"nathan-yaffe",
+						"kirk-damato"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "crossovers",
+					"winners": [
+						"kirk-damato"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "xena",
+					"winners": [
+						"nathan-yaffe"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "monty-python-holy-grail",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"topic": "pokemon",
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"nathan-yaffe"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "manga",
+					"winners": [
+						"kirk-damato"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "superhero-movies",
+					"winners": [
+						"nathan-yaffe"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Match The Voice",
+					"shiny": true,
+					"winners": [
+						"nathan-yaffe",
+						"haley-mancini",
+						"kirk-damato"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"haley-mancini"
+					]
 				}
 			]
 		},
