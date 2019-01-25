@@ -225,6 +225,10 @@
 			"name": "Captain Planet"
 		},
 		{
+			"id": "crossovers",
+			"name": "Crossovers"
+		},
+		{
 			"id": "dnd",
 			"name": "Dungeons & Dragons"
 		},
@@ -1217,7 +1221,8 @@
 				},
 				{
 					"number": 12,
-					"topic": "A Title Of Words",
+					"title": "A Title Of Words",
+					"shiny": true,
 					"winners": [
 						"shane-crown",
 						"erika-ishii"
