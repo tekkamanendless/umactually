@@ -240,6 +240,12 @@
 			"name": "Match The Voice"
 		},
 		{
+			"name": "Name That Wizard"
+		},
+		{
+			"name": "Order Up"
+		},
+		{
 			"name": "Real Life Skills"
 		},
 		{
@@ -281,6 +287,10 @@
 		{
 			"id": "captain-planet",
 			"name": "Captain Planet"
+		},
+		{
+			"id": "cowboy-bebop",
+			"name": "Cowboy Bebop"
 		},
 		{
 			"id": "crossovers",
@@ -399,6 +409,10 @@
 			"name": "Tailspin"
 		},
 		{
+			"id": "the-magician",
+			"name": "The Magician"
+		},
+		{
 			"id": "the-simpsons",
 			"name": "The Simpsons"
 		},
@@ -417,6 +431,10 @@
 		{
 			"id": "video-games",
 			"name": "Video Games"
+		},
+		{
+			"id": "walking-dead",
+			"name": "The Walking Dead"
 		},
 		{
 			"id": "x-men",
@@ -924,6 +942,98 @@
 					"color": "yellow",
 					"id": "amy-vorpahl",
 					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "harry-potter",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "game-of-thrones",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "walking-dead",
+					"winners": [
+						"matt-kirshen"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Order Up",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 6,
+					"topic": "cowboy-bebop",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "the-magician",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "star-wars",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Name That Wizard",
+					"shiny": true,
+					"winners": [
+						"matt-kirshen"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "dnd",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"matt-kirshen"
+					]
 				}
 			]
 		},
