@@ -109,6 +109,10 @@
 						"description": "This is a reference to the season number.",
 						"type": "string"
 					},
+					"release_date": {
+						"description": "This is the date when the episode was released.",
+						"type": "string"
+					},
 					"host": {
 						"description": "This is a reference to a person.",
 						"type": "string"

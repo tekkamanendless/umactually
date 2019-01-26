@@ -30,6 +30,22 @@ tbody td {
 	color: #8c7853;
 }
 
+.podium {
+	display: inline-block;
+	width: 0.9em;
+	height: 0.9em;
+	margin-right: 0.5em;
+}
+.podium.blue {
+	background-color: #066ea17a;
+}
+.podium.red {
+	background-color: #d14f2a7a;
+}
+.podium.yellow {
+	background-color: #e099007a;
+}
+
 .link {
 	cursor: pointer;
 	display: inline-block;
