@@ -937,19 +937,19 @@
 			"players": [
 				{
 					"position": "1",
-					"color": "blue",
+					"color": "yellow",
 					"id": "brennan-lee-mulligan",
 					"score": 7
 				},
 				{
 					"position": "2",
-					"color": "red",
+					"color": "blue",
 					"id": "ryan-martin",
 					"score": 1
 				},
 				{
 					"position": "3",
-					"color": "yellow",
+					"color": "red",
 					"id": "jackie-kashian",
 					"score": 3
 				}
@@ -1063,19 +1063,19 @@
 			"players": [
 				{
 					"position": "1",
-					"color": "blue",
+					"color": "yellow",
 					"id": "nathan-yaffe",
 					"score": 7
 				},
 				{
 					"position": "2",
-					"color": "red",
+					"color": "blue",
 					"id": "haley-mancini",
 					"score": 2
 				},
 				{
 					"position": "3",
-					"color": "yellow",
+					"color": "red",
 					"id": "kirk-damato",
 					"score": 5
 				}
@@ -1193,19 +1193,19 @@
 			"players": [
 				{
 					"position": "1",
-					"color": "blue",
+					"color": "yellow",
 					"id": "shane-crown",
 					"score": 5
 				},
 				{
 					"position": "2",
-					"color": "red",
+					"color": "blue",
 					"id": "jenny-lorenzo",
 					"score": 3
 				},
 				{
 					"position": "3",
-					"color": "yellow",
+					"color": "red",
 					"id": "erika-ishii",
 					"score": 4
 				}
