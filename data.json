@@ -246,10 +246,16 @@
 			"name": "Sp'el Ling Bi"
 		},
 		{
+			"name": "Super Saying"
+		},
+		{
 			"name": "Under Review"
 		},
 		{
 			"name": "What's Wrong?"
+		},
+		{
+			"name": "What's Wrong With This Picture?"
 		},
 		{
 			"name": "Where Am I?"
@@ -285,8 +291,20 @@
 			"name": "The Dark Crystal"
 		},
 		{
+			"id": "diablo",
+			"name": "Diablo"
+		},
+		{
 			"id": "dnd",
 			"name": "Dungeons & Dragons"
+		},
+		{
+			"id": "donkey-kong",
+			"name": "Donkey Kong"
+		},
+		{
+			"id": "dragon-ball",
+			"name": "Dragon Ball"
 		},
 		{
 			"id": "evangelion",
@@ -313,6 +331,10 @@
 			"name": "He-Man"
 		},
 		{
+			"id": "last-of-us",
+			"name": "Last of Us"
+		},
+		{
 			"id": "lord-of-the-rings",
 			"name": "Lord of the Rings"
 		},
@@ -321,8 +343,20 @@
 			"name": "Manga"
 		},
 		{
+			"id": "mass-effect",
+			"name": "Mass Effect"
+		},
+		{
+			"id": "mcu",
+			"name": "Marvel Cinematic Universe"
+		},
+		{
 			"id": "monty-python-holy-grail",
 			"name": "Monty Python and the Holy Grail"
+		},
+		{
+			"id": "overwatch",
+			"name": "Overwatch"
 		},
 		{
 			"id": "pokemon",
@@ -371,6 +405,10 @@
 		{
 			"id": "the-sword-and-the-stone",
 			"name": "The Sword and the Stone"
+		},
+		{
+			"id": "tomb-raider",
+			"name": "Tomb Raider"
 		},
 		{
 			"id": "torchwood",
@@ -919,6 +957,101 @@
 					"color": "yellow",
 					"id": "ify-nwadiwe",
 					"score": 6
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "diablo",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "overwatch",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "dragon-ball",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "mcu",
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 6,
+					"topic": "donkey-kong",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "star-wars",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "tomb-raider",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "star-wars",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "last-of-us",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "mass-effect",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Super Saying",
+					"shiny": true,
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"ify-nwadiwe"
+					]
 				}
 			]
 		},
