@@ -103,7 +103,7 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			newColumn.appendChild(document.createTextNode(episode.season_and_number));
+			newColumn.appendChild(createFilterLink(episode.season_and_number, {type: "episode", id: episode.dropouttv_productid, role: "*"}));
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
@@ -142,6 +142,9 @@ function renderPage(stats, filters) {
 						span.className = "person third";
 						break;
 				}
+				let podium = document.createElement("span");
+				podium.className = "podium " + player.color;
+				span.appendChild(podium);
 				span.appendChild(createFilterLink(player.name, {type: "person", id: player.id, role: "player"}));
 				span.appendChild(document.createTextNode(" (" + player.score + ")"));
 				newColumn.appendChild(span);
@@ -815,6 +818,7 @@ function computeStats(data) {
 	for( key in peopleMap ) {
 		stats.people.push(peopleMap[key]);
 	}
+	stats.people.sort((a,b) => a.name.localeCompare(b.name));
 
 	for( key in seasonMap ) {
 		let season = seasonMap[key];
@@ -855,10 +859,12 @@ function computeStats(data) {
 	for( key in questionTopicMap ) {
 		stats.questionTopics.push(questionTopicMap[key]);
 	}
+	stats.questionTopics.sort((a,b) => a.name.localeCompare(b.name));
 
 	for( key in questionTitleMap ) {
 		stats.questionTitles.push(questionTitleMap[key]);
 	}
+	stats.questionTitles.sort((a,b) => a.name.localeCompare(b.name));
 
 	return stats;
 }
