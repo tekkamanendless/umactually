@@ -122,6 +122,11 @@
 			"url": "https://www.dropout.tv/search/talent/737/jenny-lorenzo"
 		},
 		{
+			"id": "jon-gutierrez",
+			"name": "Jon \"Gutes\" Gutierrez",
+			"url": "https://www.dropout.tv/search/talent/745/jon-guiterrez"
+		},
+		{
 			"id": "jordan-doll",
 			"name": "Jordan Doll",
 			"url": "https://www.dropout.tv/search/talent/716/jordan-doll"
@@ -130,6 +135,11 @@
 			"id": "kirk-damato",
 			"name": "Kirk Damato",
 			"url": "https://www.dropout.tv/search/talent/729/kirk-damato"
+		},
+		{
+			"id": "maggie-mae-fish",
+			"name": "Maggie Mae Fish",
+			"url": "https://www.dropout.tv/search/talent/746/maggie-mae-fish"
 		},
 		{
 			"id": "matt-kirshen",
@@ -215,6 +225,9 @@
 			"name": "A Title Of Words"
 		},
 		{
+			"name": "Cryptogeography"
+		},
+		{
 			"name": "Fictionary"
 		},
 		{
@@ -233,6 +246,12 @@
 			"name": "Sp'el Ling Bi"
 		},
 		{
+			"name": "Under Review"
+		},
+		{
+			"name": "What's Wrong?"
+		},
+		{
 			"name": "Where Am I?"
 		}
 	],
@@ -246,6 +265,10 @@
 			"name": "American Gods"
 		},
 		{
+			"id": "bioshock",
+			"name": "Bioshock"
+		},
+		{
 			"id": "board-games",
 			"name": "Board Games"
 		},
@@ -256,6 +279,10 @@
 		{
 			"id": "crossovers",
 			"name": "Crossovers"
+		},
+		{
+			"id": "dark-crystal",
+			"name": "The Dark Crystal"
 		},
 		{
 			"id": "dnd",
@@ -280,6 +307,10 @@
 		{
 			"id": "harry-potter",
 			"name": "Harry Potter"
+		},
+		{
+			"id": "he-man",
+			"name": "He-Man"
 		},
 		{
 			"id": "lord-of-the-rings",
@@ -308,6 +339,10 @@
 		{
 			"id": "star-wars",
 			"name": "Star Wars"
+		},
+		{
+			"id": "street-fighter",
+			"name": "Street Fighter"
 		},
 		{
 			"id": "super-mario",
@@ -344,6 +379,10 @@
 		{
 			"id": "video-games",
 			"name": "Video Games"
+		},
+		{
+			"id": "x-men",
+			"name": "X-Men"
 		},
 		{
 			"id": "xena",
@@ -1261,6 +1300,134 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1230,
+			"dropouttv_productid": "ep-1230",
+			"title": "Cyclops, Skeletor, the Dark Crystal",
+			"description": "Jordan Doll, Jon Gutierrez, and Maggie Mae Fish admire Gelflings' wings and Ser Mandon Moore's bops.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1209/sonic-shredder-the-sword-in-the-stone",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/f1d80befa57491ef978f76fbb486faab.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 2109,
+			"number": "20",
+			"season_number": "1",
+			"release_date": "2019-01-25",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jordan-doll",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "jon-gutierrez",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "maggie-mae-fish",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "he-man",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "street-fighter",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "x-men",
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "harry-potter",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Cryptogeography",
+					"shiny": true,
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "dark-crystal",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "star-trek",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 9,
+					"title": "What's Wrong?",
+					"shiny": true,
+					"winners": [
+						"maggie-mae-fish"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "game-of-thrones",
+					"winners": [
+						"maggie-mae-fish"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "bioshock",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Under Review",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"maggie-mae-fish"
+					]
 				}
 			]
 		}
