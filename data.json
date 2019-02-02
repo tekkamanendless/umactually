@@ -225,6 +225,9 @@
 			"name": "A Title Of Words"
 		},
 		{
+			"name": "Crunch Time"
+		},
+		{
 			"name": "Cryptogeography"
 		},
 		{
@@ -235,6 +238,9 @@
 		},
 		{
 			"name": "Hear Me Roar"
+		},
+		{
+			"name": "Mapmaker, Mapmaker, Make Me A Map"
 		},
 		{
 			"name": "Match The Voice"
@@ -275,6 +281,14 @@
 		{
 			"id": "american-gods",
 			"name": "American Gods"
+		},
+		{
+			"id": "anime",
+			"name": "Anime"
+		},
+		{
+			"id": "back-to-the-future",
+			"name": "Back to the Future"
 		},
 		{
 			"id": "bioshock",
@@ -321,6 +335,10 @@
 			"name": "Evangelion"
 		},
 		{
+			"id": "final-fantasy",
+			"name": "Final Fantasy"
+		},
+		{
 			"id": "futurama",
 			"name": "Futurama"
 		},
@@ -329,8 +347,16 @@
 			"name": "Game of Thrones"
 		},
 		{
+			"id": "gargoyles",
+			"name": "Gargoyles"
+		},
+		{
 			"id": "godzilla",
 			"name": "Godzilla"
+		},
+		{
+			"id": "handmaids-tale",
+			"name": "The Handmaid's Tale"
 		},
 		{
 			"id": "harry-potter",
@@ -339,6 +365,18 @@
 		{
 			"id": "he-man",
 			"name": "He-Man"
+		},
+		{
+			"id": "hocus-pocus",
+			"name": "Hocus Pocus"
+		},
+		{
+			"id": "indiana-jones",
+			"name": "Indiana Jones"
+		},
+		{
+			"id": "jurassic-park",
+			"name": "Jurassic Park"
 		},
 		{
 			"id": "last-of-us",
@@ -351,6 +389,10 @@
 		{
 			"id": "manga",
 			"name": "Manga"
+		},
+		{
+			"id": "marvel",
+			"name": "Marvel"
 		},
 		{
 			"id": "mass-effect",
@@ -373,6 +415,10 @@
 			"name": "Pokemon"
 		},
 		{
+			"id": "portal",
+			"name": "Portal"
+		},
+		{
 			"id": "power-rangers",
 			"name": "Power Rangers"
 		},
@@ -383,6 +429,10 @@
 		{
 			"id": "star-wars",
 			"name": "Star Wars"
+		},
+		{
+			"id": "steven-universe",
+			"name": "Steven Universe"
 		},
 		{
 			"id": "street-fighter",
@@ -407,6 +457,10 @@
 		{
 			"id": "tailspin",
 			"name": "Tailspin"
+		},
+		{
+			"id": "the-incredibles",
+			"name": "The Incredibles"
 		},
 		{
 			"id": "the-magician",
@@ -435,6 +489,10 @@
 		{
 			"id": "walking-dead",
 			"name": "The Walking Dead"
+		},
+		{
+			"id": "wizard-of-oz",
+			"name": "Wizard of Oz"
 		},
 		{
 			"id": "x-men",
@@ -844,6 +902,92 @@
 					"id": "demi-adejuyigbe",
 					"score": 4
 				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "harry-potter",
+					"winners": [
+						"demi-adejuyigbe"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "final-fantasy",
+					"winners": [
+						"brian-murphy"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "gargoyles",
+					"winners": [
+						"demi-adejuyigbe"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "portal",
+					"winners": [
+						"demi-adejuyigbe"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "lord-of-the-rings",
+					"title": "Mapmaker, Mapmaker, Make Me A Map",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 6,
+					"topic": "marvel",
+					"winners": [
+						"brian-murphy"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "diablo",
+					"winners": [
+						"natalie-palamides"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "dnd",
+					"winners": [
+						"brian-murphy"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Crunch Time",
+					"shiny": true,
+					"winners": [
+						"demi-adejuyigbe"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "hocus-pocus",
+					"winners": [
+						"natalie-palamides"
+					]
+				},
+				{
+					"number": 11,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Real Life Skills",
+					"winners": [
+						"brian-murphy"
+					]
+				}
 			]
 		},
 		{
@@ -877,6 +1021,95 @@
 					"id": "zach-kornfeld",
 					"score": 1
 				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "game-of-thrones",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "star-wars",
+					"winners": [
+						"ryan-martin"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "marvel",
+					"winners": [
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "wizard-of-oz",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "Order Up",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 6,
+					"topic": "steven-universe",
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "jurassic-park",
+					"winners": [
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "the-incredibles",
+					"winners": [
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "star-wars",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"ryan-martin"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "harry-potter",
+					"winners": [
+						"ryan-martin"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"ryan-martin"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Cryptogeography",
+					"shiny": true,
+					"winners": [
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"zach-kornfeld"
+					]
+				}
 			]
 		},
 		{
@@ -909,6 +1142,102 @@
 					"color": "yellow",
 					"id": "ally-beardsley",
 					"score": 1
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "pokemon",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "mcu",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "star-wars",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "indiana-jones",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "harry-potter",
+					"title": "Order Up",
+					"shiny": true,
+					"winners": [
+						"zeke-nicholson"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "anime",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "handmaids-tale",
+					"winners": [
+						"zeke-nicholson"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"zeke-nicholson"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "star-wars",
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "back-to-the-future",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "game-of-thrones",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		},
