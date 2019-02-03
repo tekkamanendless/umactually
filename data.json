@@ -250,6 +250,9 @@
 			"name": "Hear Me Roar"
 		},
 		{
+			"name": "Incantatio Ridiculum"
+		},
+		{
 			"name": "Mapmaker, Mapmaker, Make Me A Map"
 		},
 		{
@@ -257,6 +260,9 @@
 		},
 		{
 			"name": "Name That Robot"
+		},
+		{
+			"name": "Name That Witch"
 		},
 		{
 			"name": "Name That Wizard"
@@ -268,13 +274,22 @@
 			"name": "Order Up"
 		},
 		{
+			"name": "Power Up"
+		},
+		{
 			"name": "Real Life Skills"
+		},
+		{
+			"name": "Rules Lawyer"
 		},
 		{
 			"name": "Sp'el Ling Bi"
 		},
 		{
 			"name": "Super Saying"
+		},
+		{
+			"name": "Tic Tac Tec"
 		},
 		{
 			"name": "Under Review"
@@ -307,12 +322,32 @@
 			"name": "Anime"
 		},
 		{
+			"id": "animorphs",
+			"name": "Animorphs"
+		},
+		{
+			"id": "arthurian-myth",
+			"name": "Arthurian Myth"
+		},
+		{
 			"id": "back-to-the-future",
 			"name": "Back to the Future"
 		},
 		{
+			"id": "battlestar",
+			"name": "Battlestar Galactica"
+		},
+		{
+			"id": "batman",
+			"name": "Batman"
+		},
+		{
 			"id": "bioshock",
 			"name": "Bioshock"
+		},
+		{
+			"id": "blade-runner",
+			"name": "Blade Runner"
 		},
 		{
 			"id": "board-games",
@@ -321,6 +356,10 @@
 		{
 			"id": "captain-planet",
 			"name": "Captain Planet"
+		},
+		{
+			"id": "comics",
+			"name": "Comics"
 		},
 		{
 			"id": "cowboy-bebop",
@@ -335,12 +374,20 @@
 			"name": "The Dark Crystal"
 		},
 		{
+			"id": "dc",
+			"name": "DC (comics)"
+		},
+		{
 			"id": "diablo",
 			"name": "Diablo"
 		},
 		{
 			"id": "dnd",
 			"name": "Dungeons & Dragons"
+		},
+		{
+			"id": "doctor-who",
+			"name": "Doctor Who"
 		},
 		{
 			"id": "donkey-kong",
@@ -367,6 +414,10 @@
 			"name": "Game of Thrones"
 		},
 		{
+			"id": "gaming",
+			"name": "Gaming"
+		},
+		{
 			"id": "gargoyles",
 			"name": "Gargoyles"
 		},
@@ -387,8 +438,16 @@
 			"name": "He-Man"
 		},
 		{
+			"id": "his-dark-materials",
+			"name": "His Dark Materials"
+		},
+		{
 			"id": "hocus-pocus",
 			"name": "Hocus Pocus"
+		},
+		{
+			"id": "hp-lovecraft",
+			"name": "H.P. Lovecraft"
 		},
 		{
 			"id": "indiana-jones",
@@ -423,8 +482,24 @@
 			"name": "Marvel Cinematic Universe"
 		},
 		{
+			"id": "mib",
+			"name": "Men in Black"
+		},
+		{
+			"id": "miyazaki",
+			"name": "Miyazaki Hayao"
+		},
+		{
 			"id": "monty-python-holy-grail",
 			"name": "Monty Python and the Holy Grail"
+		},
+		{
+			"id": "magic-the-gathering",
+			"name": "Magic the Gathering"
+		},
+		{
+			"id": "neverending-story",
+			"name": "The Neverending Story"
 		},
 		{
 			"id": "overwatch",
@@ -441,6 +516,18 @@
 		{
 			"id": "power-rangers",
 			"name": "Power Rangers"
+		},
+		{
+			"id": "rick-and-morty",
+			"name": "Rick and Morty"
+		},
+		{
+			"id": "saga",
+			"name": "Saga (comics series)"
+		},
+		{
+			"id": "sandman",
+			"name": "The Sandman"
 		},
 		{
 			"id": "star-trek",
@@ -511,8 +598,20 @@
 			"name": "The Walking Dead"
 		},
 		{
+			"id": "warhammer",
+			"name": "Warhammer"
+		},
+		{
+			"id": "watchmen",
+			"name": "Watchmen"
+		},
+		{
 			"id": "wizard-of-oz",
 			"name": "Wizard of Oz"
+		},
+		{
+			"id": "world-of-darkness",
+			"name": "World of Darkness"
 		},
 		{
 			"id": "wrestling",
@@ -761,6 +860,95 @@
 					"id": "emily-axford",
 					"score": 1
 				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "super-mario",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "game-of-thrones",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "blade-runner",
+					"winners": [
+						"dc-pierson"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "dragon-ball",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": [
+					]
+				},
+				{
+					"number": 6,
+					"topic": "mcu",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"dc-pierson"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "star-wars",
+					"winners": [
+						"dc-pierson"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Tic Tac Tec",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "dc",
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "harry-potter",
+					"winners": [
+						"dc-pierson"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Power Up",
+					"shiny": true,
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"emily-axford"
+					]
+				}
 			]
 		},
 		{
@@ -793,6 +981,97 @@
 					"color": "yellow",
 					"id": "matt-mercer",
 					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "dnd",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "game-of-thrones",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "star-wars",
+					"winners": [
+						"brian-murphy"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "x-men",
+					"winners": [
+						"brian-murphy"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Cryptogeography",
+					"shiny": true,
+					"winners": [
+						"brian-murphy",
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "gaming",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "super-mario",
+					"winners": [
+						"brian-murphy"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "dnd",
+					"title": "Rules Lawyer",
+					"shiny": true,
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "hp-lovecraft",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "dnd",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "lord-of-the-rings",
+					"title": "Order Up",
+					"shiny": true,
+					"winners": [
+					]
+				},
+				{
+					"number": 12,
+					"title": "Real Life Skills",
+					"winners": [
+						"amy-vorpahl"
+					]
 				}
 			]
 		},
@@ -827,6 +1106,95 @@
 					"id": "jackie-kashian",
 					"score": 2
 				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "battlestar",
+					"winners": [
+						"jackie-kashian"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "american-gods",
+					"winners": [
+						"dan-black"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "wrestling",
+					"winners": [
+						"dan-black"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "batman",
+					"winners": [
+						"dan-black"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "magic-the-gathering",
+					"title": "Order Up",
+					"shiny": true,
+					"winners": [
+						"dan-black"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "back-to-the-future",
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "comics",
+					"winners": [
+						"dan-black"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "saga",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "sandman",
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "mcu",
+					"winners": [
+						"jackie-kashian"
+					]
+				},
+				{
+					"number": 12,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"dan-black"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"dan-black"
+					]
+				}
 			]
 		},
 		{
@@ -860,6 +1228,100 @@
 					"id": "siobhan-thompson",
 					"score": 5
 				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "harry-potter",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "animorphs",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"zach-sherwin"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "mib",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Name That Witch",
+					"shiny": true,
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "pokemon",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "arthurian-myth",
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "doctor-who",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Order Up",
+					"shiny": true,
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "his-dark-materials",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "miyazaki",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Cryptogeography",
+					"shiny": true,
+					"winners": [
+						"zach-sherwin"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"siobhan-thompson"
+					]
+				}
 			]
 		},
 		{
@@ -892,6 +1354,101 @@
 					"color": "yellow",
 					"id": "edgar-momplaisir",
 					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "warhammer",
+					"winners": [
+						"nick-marini"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "rick-and-morty",
+					"winners": [
+						"emily-heller"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "neverending-story",
+					"winners": [
+						"nick-marini"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "dnd",
+					"winners": [
+						"emily-heller"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "harry-potter",
+					"title": "Order Up",
+					"shiny": true,
+					"winners": [
+						"emily-heller"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "watchmen",
+					"winners": [
+						"edgar-momplaisir"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "batman",
+					"winners": [
+						"edgar-momplaisir"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "board-games",
+					"winners": [
+						"nick-marini"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "game-of-thrones",
+					"winners": [
+						"edgar-momplaisir"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "world-of-darkness",
+					"winners": [
+						"nick-marini"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Incantatio Ridiculum",
+					"shiny": true,
+					"winners": [
+						"nick-marini"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"emily-heller"
+					]
 				}
 			]
 		},
