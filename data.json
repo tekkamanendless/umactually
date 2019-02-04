@@ -235,10 +235,16 @@
 			"name": "A Title Of Words"
 		},
 		{
+			"name": "ABC, 123"
+		},
+		{
 			"name": "Crunch Time"
 		},
 		{
 			"name": "Cryptogeography"
+		},
+		{
+			"name": "Drug Dealer"
 		},
 		{
 			"name": "Fictionary"
@@ -257,6 +263,12 @@
 		},
 		{
 			"name": "Match The Voice"
+		},
+		{
+			"name": "Mish-Mash Mix-Em-Up"
+		},
+		{
+			"name": "Name That Dragon"
 		},
 		{
 			"name": "Name That Robot"
@@ -289,7 +301,13 @@
 			"name": "Super Saying"
 		},
 		{
+			"name": "Technical Difficulties"
+		},
+		{
 			"name": "Tic Tac Tec"
+		},
+		{
+			"name": "Time Travel Maps"
 		},
 		{
 			"name": "Under Review"
@@ -302,6 +320,9 @@
 		},
 		{
 			"name": "Where Am I?"
+		},
+		{
+			"name": "\"Yeah, But In The Book...\""
 		}
 	],
 	"topics": [
@@ -354,6 +375,10 @@
 			"name": "Board Games"
 		},
 		{
+			"id": "buffy",
+			"name": "Buffy The Vampire Slayer"
+		},
+		{
 			"id": "captain-planet",
 			"name": "Captain Planet"
 		},
@@ -382,6 +407,10 @@
 			"name": "Diablo"
 		},
 		{
+			"id": "discworld",
+			"name": "Discworld"
+		},
+		{
 			"id": "dnd",
 			"name": "Dungeons & Dragons"
 		},
@@ -398,12 +427,24 @@
 			"name": "Dragon Ball"
 		},
 		{
+			"id": "dune",
+			"name": "Dune"
+		},
+		{
+			"id": "enders-game",
+			"name": "Ender's Game"
+		},
+		{
 			"id": "evangelion",
 			"name": "Evangelion"
 		},
 		{
 			"id": "final-fantasy",
 			"name": "Final Fantasy"
+		},
+		{
+			"id": "firefly",
+			"name": "Firefly"
 		},
 		{
 			"id": "futurama",
@@ -424,6 +465,14 @@
 		{
 			"id": "godzilla",
 			"name": "Godzilla"
+		},
+		{
+			"id": "gremlins",
+			"name": "Gremlins"
+		},
+		{
+			"id": "halo",
+			"name": "Halo"
 		},
 		{
 			"id": "handmaids-tale",
@@ -454,8 +503,16 @@
 			"name": "Indiana Jones"
 		},
 		{
+			"id": "it",
+			"name": "It (Stephen King novel)"
+		},
+		{
 			"id": "jurassic-park",
 			"name": "Jurassic Park"
+		},
+		{
+			"id": "labyrinth",
+			"name": "Labyrinth"
 		},
 		{
 			"id": "last-of-us",
@@ -464,6 +521,10 @@
 		{
 			"id": "lord-of-the-rings",
 			"name": "Lord of the Rings"
+		},
+		{
+			"id": "mad-max",
+			"name": "Mad Max"
 		},
 		{
 			"id": "manga",
@@ -498,6 +559,10 @@
 			"name": "Magic the Gathering"
 		},
 		{
+			"id": "narnia",
+			"name": "Narnia"
+		},
+		{
 			"id": "neverending-story",
 			"name": "The Neverending Story"
 		},
@@ -518,12 +583,24 @@
 			"name": "Power Rangers"
 		},
 		{
+			"id": "princess-bride",
+			"name": "The Princess Bride"
+		},
+		{
 			"id": "rick-and-morty",
 			"name": "Rick and Morty"
 		},
 		{
+			"id": "robocop",
+			"name": "Robocop"
+		},
+		{
 			"id": "saga",
 			"name": "Saga (comics series)"
+		},
+		{
+			"id": "sailor-moon",
+			"name": "Sailor Moon"
 		},
 		{
 			"id": "sandman",
@@ -536,6 +613,10 @@
 		{
 			"id": "star-wars",
 			"name": "Star Wars"
+		},
+		{
+			"id": "starcraft",
+			"name": "Starcraft"
 		},
 		{
 			"id": "steven-universe",
@@ -562,6 +643,10 @@
 			"name": "Superman"
 		},
 		{
+			"id": "tabletop-games",
+			"name": "Tabletop Games"
+		},
+		{
 			"id": "tailspin",
 			"name": "Tailspin"
 		},
@@ -570,8 +655,16 @@
 			"name": "The Incredibles"
 		},
 		{
+			"id": "the-last-unicorn",
+			"name": "The Last Unicorn"
+		},
+		{
 			"id": "the-magician",
 			"name": "The Magician"
+		},
+		{
+			"id": "the-name-of-the-wind",
+			"name": "The Name of the Wind"
 		},
 		{
 			"id": "the-simpsons",
@@ -582,12 +675,20 @@
 			"name": "The Sword and the Stone"
 		},
 		{
+			"id": "tmnt",
+			"name": "Teenage Mutant Ninja Turtles"
+		},
+		{
 			"id": "tomb-raider",
 			"name": "Tomb Raider"
 		},
 		{
 			"id": "torchwood",
 			"name": "Torchwood"
+		},
+		{
+			"id": "twilight-zone",
+			"name": "The Twilight Zone"
 		},
 		{
 			"id": "video-games",
@@ -604,6 +705,10 @@
 		{
 			"id": "watchmen",
 			"name": "Watchmen"
+		},
+		{
+			"id": "weird-al",
+			"name": "Weird Al Yankovic"
 		},
 		{
 			"id": "wizard-of-oz",
@@ -662,6 +767,98 @@
 					"id": "nate-dern",
 					"score": 1
 				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "star-wars",
+					"winners": [
+						"caldwell-tanner"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "harry-potter",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "game-of-thrones",
+					"winners": [
+						"caldwell-tanner"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "starcraft",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": [
+						"caldwell-tanner"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "enders-game",
+					"winners": [
+						"nate-dern"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "weird-al",
+					"winners": [
+						"caldwell-tanner"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "his-dark-materials",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Technical Difficulties",
+					"shiny": true,
+					"winners": [
+						"caldwell-tanner"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "lord-of-the-rings",
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "dragon-ball",
+					"winners": [
+						"caldwell-tanner"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"caldwell-tanner"
+					]
+				}
 			]
 		},
 		{
@@ -694,6 +891,99 @@
 					"color": "yellow",
 					"id": "haley-mancini",
 					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "robocop",
+					"winners": [
+						"daniel-obrien"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "dnd",
+					"winners": [
+						"jared-logan"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "dune",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "star-trek",
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "star-wars",
+					"title": "ABC, 123",
+					"shiny": true,
+					"winners": [
+						"daniel-obrien"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "it",
+					"winners": [
+						"daniel-obrien"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "the-simpsons",
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "the-name-of-the-wind",
+					"winners": [
+						"jared-logan"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "dc",
+					"winners": [
+						"jared-logan"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "labyrinth",
+					"winners": [
+						"jared-logan"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Drug Dealer",
+					"shiny": true,
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"haley-mancini"
+					]
 				}
 			]
 		},
@@ -728,6 +1018,91 @@
 					"id": "alice-wetterlund",
 					"score": 3
 				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "mad-max",
+					"winners": [
+						"adam-conover"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "harry-potter",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "the-last-unicorn",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "starcraft",
+					"winners": [
+						"adam-conover"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "sailor-moon",
+					"title": "Order Up",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 6,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"alice-wetterlund"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "halo",
+					"winners": [
+						"adam-conover"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "star-trek",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "buffy",
+					"winners": [
+						"alice-wetterlund"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "miyazaki",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Incantatio Ridiculum",
+					"shiny": true,
+					"winners": [
+						"alice-wetterlund"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
+				}
 			]
 		},
 		{
@@ -760,6 +1135,101 @@
 					"color": "yellow",
 					"id": "becca-scott",
 					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "zelda",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "star-wars",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "comics",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "narnia",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "harry-potter",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "neverending-story",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "batman",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "game-of-thrones",
+					"title": "Mapmaker, Mapmaker, Make Me A Map",
+					"shiny": true,
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "firefly",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "gremlins",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Order Up",
+					"shiny": true,
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"ify-nwadiwe"
+					]
 				}
 			]
 		},
@@ -794,6 +1264,103 @@
 					"id": "adam-conover",
 					"score": 2
 				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "warhammer",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "tmnt",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "twilight-zone",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "blade-runner",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 5,
+					"title": "\"Yeah, But In The Book...\"",
+					"shiny": true,
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "x-men",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "discworld",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "dnd",
+					"winners": [
+						"adam-conover"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Time Travel Maps",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan",
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "star-wars",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "video-games",
+					"winners": [
+						"adam-conover"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Name That Dragon",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"siobhan-thompson"
+					]
+				}
 			]
 		},
 		{
@@ -819,13 +1386,109 @@
 					"position": "2",
 					"color": "red",
 					"id": "becca-scott",
-					"score": 5
+					"score": 5,
+					"notes": "Given an extra point for also being correct on question 1"
 				},
 				{
 					"position": "3",
 					"color": "yellow",
 					"id": "thomas-middleditch",
 					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "x-men",
+					"winners": [
+						"thomas-middleditch"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "cowboy-bebop",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "princess-bride",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "pokemon",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Super Saying",
+					"shiny": true,
+					"winners": [
+						"thomas-middleditch"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "doctor-who",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "tabletop-games",
+					"winners": [
+						"thomas-middleditch"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "narnia",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Order Up",
+					"shiny": true,
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "star-wars",
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "harry-potter",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "game-of-thrones",
+					"title": "Mish-Mash Mix-Em-Up",
+					"shiny": true,
+					"winners": [
+						"thomas-middleditch"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"zac-oyama"
+					]
 				}
 			]
 		},
