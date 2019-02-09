@@ -127,6 +127,11 @@
 			"url": "https://www.dropout.tv/search/talent/737/jenny-lorenzo"
 		},
 		{
+			"id": "jon-gabrus",
+			"name": "Jon Gabrus",
+			"url": "https://www.dropout.tv/search/talent/39/jon-gabrus"
+		},
+		{
 			"id": "jon-gutierrez",
 			"name": "Jon \"Gutes\" Gutierrez",
 			"url": "https://www.dropout.tv/search/talent/745/jon-guiterrez"
@@ -527,6 +532,10 @@
 			"name": "Mad Max"
 		},
 		{
+			"id": "magic-the-gathering",
+			"name": "Magic the Gathering"
+		},
+		{
 			"id": "manga",
 			"name": "Manga"
 		},
@@ -555,8 +564,8 @@
 			"name": "Monty Python and the Holy Grail"
 		},
 		{
-			"id": "magic-the-gathering",
-			"name": "Magic the Gathering"
+			"id": "mst3k",
+			"name": "Mystery Science Theater 3000"
 		},
 		{
 			"id": "narnia",
@@ -605,6 +614,10 @@
 		{
 			"id": "sandman",
 			"name": "The Sandman"
+		},
+		{
+			"id": "scifi-books",
+			"name": "Science-fiction books"
 		},
 		{
 			"id": "star-trek",
@@ -705,6 +718,10 @@
 		{
 			"id": "watchmen",
 			"name": "Watchmen"
+		},
+		{
+			"id": "witcher",
+			"name": "The Witcher"
 		},
 		{
 			"id": "weird-al",
@@ -3372,6 +3389,134 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1250,
+			"dropouttv_productid": "ep-1250",
+			"title": "Hodor, Portable Holes, Philip K. Dick (with Kristian Nairn)",
+			"description": "Matt Mercer, Becca Scott, and Jon Gabrus identify with Tingle and fixate on New Zealand.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1250/hodor-portable-holes-philip-k-dick-with-kristian-nairn",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/14b778678411de3f157ca8b0f10d196f.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 2104,
+			"number": "22",
+			"season_number": "1",
+			"release_date": "2019-02-08",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "matt-mercer",
+					"score": 7
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "becca-scott",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jon-gabrus",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "blade-runner",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "zelda",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "game-of-thrones",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "pokemon",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Where Am I?",
+					"shiny": true,
+					"winners": [
+						"matt-mercer",
+						"becca-scott"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "mst3k",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "dnd",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "scifi-books",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "witcher",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "arthurian-myth",
+					"winners": [
+						"becca-scott",
+						"jon-gabrus"
+					]
+				},
+				{
+					"number": 12,
+					"title": "A Title Of Words",
+					"shiny": true,
+					"winners": [
+						"jon-gabrus"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"becca-scott"
+					]
 				}
 			]
 		}
