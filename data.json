@@ -197,6 +197,11 @@
 			"url": "https://www.dropout.tv/search/talent/590/ryan-martin"
 		},
 		{
+			"id": "sam-bashor",
+			"name": "Sam Bashor",
+			"url": "https://www.dropout.tv/search/talent/766/sam-bashor"
+		},
+		{
 			"id": "shane-crown",
 			"name": "Shane Crown",
 			"url": "https://www.dropout.tv/search/talent/191/shane-crown"
@@ -271,6 +276,9 @@
 		},
 		{
 			"name": "Mish-Mash Mix-Em-Up"
+		},
+		{
+			"name": "Name That Alien"
 		},
 		{
 			"name": "Name That Dragon"
@@ -444,6 +452,10 @@
 			"name": "Evangelion"
 		},
 		{
+			"id": "fifth-element",
+			"name": "The Fifth Element"
+		},
+		{
 			"id": "final-fantasy",
 			"name": "Final Fantasy"
 		},
@@ -564,6 +576,10 @@
 			"name": "Monty Python and the Holy Grail"
 		},
 		{
+			"id": "movies",
+			"name": "Movies"
+		},
+		{
 			"id": "mst3k",
 			"name": "Mystery Science Theater 3000"
 		},
@@ -574,6 +590,10 @@
 		{
 			"id": "neverending-story",
 			"name": "The Neverending Story"
+		},
+		{
+			"id": "nightmare-before-christmas",
+			"name": "The Nightmare Before Christmas"
 		},
 		{
 			"id": "overwatch",
@@ -674,6 +694,10 @@
 		{
 			"id": "the-magician",
 			"name": "The Magician"
+		},
+		{
+			"id": "the-matrix",
+			"name": "The Matrix"
 		},
 		{
 			"id": "the-name-of-the-wind",
@@ -3516,6 +3540,130 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"becca-scott"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1277,
+			"dropouttv_productid": "ep-1277",
+			"title": "Mortal Kombat, Element Stones, The Matrix: Reloaded",
+			"description": "Zac Oyama, Kirk Damato, Sam Bashor fear for their gamer cred and admire Crash Bandicoot's style.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1277/mortal-kombat-element-stones-the-matrix-reloaded",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/1a901212622d8d13d103966579c95150.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 2205,
+			"number": "23",
+			"season_number": "1",
+			"release_date": "2019-02-15",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "zac-oyama",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "kirk-damato",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "sam-bashor",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "x-men",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "nightmare-before-christmas",
+					"winners": [
+						"sam-bashor"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "video-games",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "fifth-element",
+					"winners": [
+						"sam-bashor"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Under Review",
+					"shiny": true,
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "video-games",
+					"winners": [
+						"kirk-damato"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "futurama",
+					"winners": [
+						"kirk-damato"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "movies",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "the-matrix",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "video-games",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Name That Alien",
+					"shiny": true,
+					"winners": [
+						"kirk-damato"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"kirk-damato"
 					]
 				}
 			]
