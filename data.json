@@ -92,6 +92,11 @@
 			"url": "https://www.dropout.tv/search/talent/684/emily-heller"
 		},
 		{
+			"id": "emma-fyffe",
+			"name": "Emma Fyffe",
+			"url": "https://www.dropout.tv/search/talent/780/emma-fyffe"
+		},
+		{
 			"id": "erika-ishii",
 			"name": "Erika Ishii",
 			"url": "https://www.dropout.tv/search/talent/738/erika-ishii"
@@ -210,6 +215,11 @@
 			"id": "siobhan-thompson",
 			"name": "Siobhan Thompson",
 			"url": "https://www.dropout.tv/search/talent/181/siobhan-thompson"
+		},
+		{
+			"id": "stef-woodburn",
+			"name": "Stef Woodburn",
+			"url": "https://www.dropout.tv/search/talent/781/stef-woodburn"
 		},
 		{
 			"id": "thomas-middleditch",
@@ -350,6 +360,10 @@
 		{
 			"id": "american-gods",
 			"name": "American Gods"
+		},
+		{
+			"id": "akira",
+			"name": "Akira"
 		},
 		{
 			"id": "anime",
@@ -516,6 +530,10 @@
 			"name": "H.P. Lovecraft"
 		},
 		{
+			"id": "hunger-games",
+			"name": "The Hunger Games"
+		},
+		{
 			"id": "indiana-jones",
 			"name": "Indiana Jones"
 		},
@@ -534,6 +552,10 @@
 		{
 			"id": "last-of-us",
 			"name": "Last of Us"
+		},
+		{
+			"id": "lewis-carroll",
+			"name": "Lewis Carroll"
 		},
 		{
 			"id": "lord-of-the-rings",
@@ -3664,6 +3686,135 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"kirk-damato"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 1292,
+			"dropouttv_productid": "ep-1292",
+			"title": "Jabberwocky, Gelatinous Cubes, Magic: the Gathering",
+			"description": "Amy Vorpahl, Emma Fyffe, and Stef Woodburn defend Petunia Dursley and Pluto's planethood.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1292/jabberwocky-gelatinous-cubes-magic-the-gathering",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/03a504c3e4018d060d26e4e91bf58a20.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 2091,
+			"number": "24",
+			"season_number": "1",
+			"release_date": "2019-02-23",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "amy-vorpahl",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "emma-fyffe",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "stef-woodburn",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "sailor-moon",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "lewis-carroll",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "dnd",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 5,
+					"title": "A Book By Its Cover",
+					"shiny": true,
+					"winners": [
+						"emma-fyffe",
+						"stef-woodburn"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "star-wars",
+					"winners": [
+						"stef-woodburn"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "harry-potter",
+					"winners": [
+						"stef-woodburn"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "akira",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 9,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "hunger-games",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "comics",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Where Am I?",
+					"shiny": true,
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"emma-fyffe"
 					]
 				}
 			]
