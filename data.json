@@ -350,6 +350,10 @@
 	],
 	"topics": [
 		{
+			"id": "2001",
+			"name": "2001: A Space Odyssey"
+		},
+		{
 			"id": "20k-leagues-under-sea",
 			"name": "20,000 Leagues Under the Sea"
 		},
@@ -522,6 +526,10 @@
 			"name": "His Dark Materials"
 		},
 		{
+			"id": "hitchhikers-guide",
+			"name": "Hitchhiker's Guide To The Galaxy"
+		},
+		{
 			"id": "hocus-pocus",
 			"name": "Hocus Pocus"
 		},
@@ -642,6 +650,10 @@
 			"name": "Rick and Morty"
 		},
 		{
+			"id": "roald-dahl",
+			"name": "Roald Dahl"
+		},
+		{
 			"id": "robocop",
 			"name": "Robocop"
 		},
@@ -658,8 +670,16 @@
 			"name": "The Sandman"
 		},
 		{
+			"id": "scifi-aliens",
+			"name": "Science-fiction aliens"
+		},
+		{
 			"id": "scifi-books",
 			"name": "Science-fiction books"
+		},
+		{
+			"id": "smurfs",
+			"name": "Smurfs"
 		},
 		{
 			"id": "star-trek",
@@ -732,6 +752,10 @@
 		{
 			"id": "the-sword-and-the-stone",
 			"name": "The Sword and the Stone"
+		},
+		{
+			"id": "the-time-machine",
+			"name": "The Time Machine"
 		},
 		{
 			"id": "tmnt",
@@ -3815,6 +3839,262 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"emma-fyffe"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2042,
+			"dropouttv_productid": "ep-2042",
+			"title": "Tournament of Champions Pt. 1",
+			"description": "Ally Beardsley, Jon Gutierrez, and Shane Crown slam sexist Smurfs and ponder Planets of the Apes.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2042/tournament-of-champions-pt-1",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/18327603015bad8f21cb263bea9faddc.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 2270,
+			"number": "25",
+			"season_number": "1",
+			"release_date": "2019-03-16",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "shane-crown",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "jon-gutierrez",
+					"score": 7
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "ally-beardsley",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "smurfs",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "scifi-aliens",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "video-games",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "2001",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "comics",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "roald-dahl",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "harry-potter",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "comics",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "game-of-thrones",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Order Up",
+					"shiny": true,
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"ally-beardsley"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2053,
+			"dropouttv_productid": "ep-2053",
+			"title": "Tournament of Champions Pt. 2",
+			"description": "Siobhan Thompson, Ify Nwadiwe, and Emma Fyffe celebrate Hogswatch and pacify the Knights Who Say Ni.",
+			"url": "https://www.dropout.tv/videos/um-actually/2053/tournament-of-champions-pt-2",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/66d047b5fc2fcc6ad2d373fd0649676a.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 2077,
+			"number": "26",
+			"season_number": "1",
+			"release_date": "2019-03-23",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "siobhan-thompson",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "ify-nwadiwe",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "emma-fyffe",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "godzilla",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "the-time-machine",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "comics",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "arthurian-myth",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Not The Droid You're Looking For",
+					"shiny": true,
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "hitchhikers-guide",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "monty-python-holy-grail",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "super-mario",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "discworld",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "doctor-who",
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"siobhan-thompson"
 					]
 				}
 			]
