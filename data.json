@@ -297,6 +297,9 @@
 			"name": "Name That Robot"
 		},
 		{
+			"name": "Name That Vampire"
+		},
+		{
 			"name": "Name That Witch"
 		},
 		{
@@ -362,6 +365,10 @@
 			"name": "ALF"
 		},
 		{
+			"id": "alien",
+			"name": "Alien (Franchise)"
+		},
+		{
 			"id": "american-gods",
 			"name": "American Gods"
 		},
@@ -376,6 +383,10 @@
 		{
 			"id": "animorphs",
 			"name": "Animorphs"
+		},
+		{
+			"id": "arabian-nights",
+			"name": "1,001 Arabian Nights"
 		},
 		{
 			"id": "arthurian-myth",
@@ -430,6 +441,10 @@
 			"name": "The Dark Crystal"
 		},
 		{
+			"id": "dark-tower",
+			"name": "The Dark Tower"
+		},
+		{
 			"id": "dc",
 			"name": "DC (comics)"
 		},
@@ -482,6 +497,10 @@
 			"name": "Firefly"
 		},
 		{
+			"id": "fraggle-rock",
+			"name": "Fraggle Rock"
+		},
+		{
 			"id": "futurama",
 			"name": "Futurama"
 		},
@@ -504,6 +523,10 @@
 		{
 			"id": "gremlins",
 			"name": "Gremlins"
+		},
+		{
+			"id": "groundhog-day",
+			"name": "Groundhog Day"
 		},
 		{
 			"id": "halo",
@@ -678,8 +701,16 @@
 			"name": "Science-fiction books"
 		},
 		{
+			"id": "scream",
+			"name": "Scream"
+		},
+		{
 			"id": "smurfs",
 			"name": "Smurfs"
+		},
+		{
+			"id": "snow-crash",
+			"name": "Snow Crash"
 		},
 		{
 			"id": "star-trek",
@@ -756,6 +787,10 @@
 		{
 			"id": "the-time-machine",
 			"name": "The Time Machine"
+		},
+		{
+			"id": "time-bandits",
+			"name": "Time Bandits"
 		},
 		{
 			"id": "tmnt",
@@ -4088,6 +4123,258 @@
 					"shiny": true,
 					"winners": [
 						"emma-fyffe"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"siobhan-thompson"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2080,
+			"dropouttv_productid": "ep-2080",
+			"title": "Tournament of Champions Pt. 3",
+			"description": "Amy Vorpahl, Jared Logan, and Demi Adejuyigbe stan Ned Ryerson and name fictional vampires.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2080/tournament-of-champions-pt-3",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/144bd75819a01de82949187e80f56e5e.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 1893,
+			"number": "27",
+			"season_number": "1",
+			"release_date": "2019-03-30",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "amy-vorpahl",
+					"score": 1
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "jared-logan",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "demi-adejuyigbe",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "alien",
+					"winners": [
+						"jared-logan"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "the-simpsons",
+					"winners": [
+						"demi-adejuyigbe"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "groundhog-day",
+					"winners": [
+						"demi-adejuyigbe"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Name That Vampire",
+					"shiny": true,
+					"winners": [
+						"jared-logan",
+						"demi-adejuyigbe"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "fraggle-rock",
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "scream",
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "dark-tower",
+					"winners": [
+						"jared-logan"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "comics",
+					"winners": [
+						"jared-logan"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "scifi-books",
+					"winners": [
+						"jared-logan"
+					]
+				},
+				{
+					"number": 12,
+					"title": "A Title Of Words",
+					"shiny": true,
+					"winners": [
+						"jared-logan"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2094,
+			"dropouttv_productid": "ep-2094",
+			"title": "Tournament of Champions Pt. 4",
+			"description": "Champions Jared Logan, Siobhan Thompson, and Jon Gutierrez compete for the title of Most Correct.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2094/tournament-of-champions-pt-4",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/e33f918a55c9099dcea316599f74863a.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 2040,
+			"number": "28",
+			"season_number": "1",
+			"release_date": "2019-04-06",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jared-logan",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "siobhan-thompson",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jon-gutierrez",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "time-bandits",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "snow-crash",
+					"winners": [
+						"jared-logan"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "arabian-nights",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"winners": [
+						"jared-logan"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Under Review",
+					"shiny": true,
+					"winners": [
+						"jared-logan"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "steven-universe",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "star-trek",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "mcu",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": [
+						"jared-logan",
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"jared-logan"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "comics",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 12,
+					"title": "A Title Of Words",
+					"shiny": true,
+					"winners": [
+						"jared-logan"
 					]
 				},
 				{
