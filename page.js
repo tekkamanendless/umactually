@@ -147,11 +147,110 @@ function renderPage(stats, filters) {
 				span.appendChild(podium);
 				span.appendChild(createFilterLink(player.name, {type: "person", id: player.id, role: "player"}));
 				span.appendChild(document.createTextNode(" (" + player.score + ")"));
+				if( player.notes ) {
+					span.appendChild(document.createTextNode(" "));
+
+					let abbr = document.createElement("abbr");
+					abbr.setAttribute("title", player.notes);
+					abbr.appendChild(document.createTextNode("*"));
+					span.appendChild(abbr);
+				}
 				newColumn.appendChild(span);
 			}
 			newRow.appendChild(newColumn);
 
 			tbody.appendChild(newRow);
+		}
+	}
+
+	// Fill out the questions table.
+	{
+		let tbody = document.getElementById("questions_tbody");
+		while(tbody.firstChild) {
+			tbody.removeChild(tbody.firstChild);
+		}
+
+		for( let i = 0; i < stats.episodes.length; i++ ) {
+			let episode = stats.episodes[i];
+			if( ! episodePassesFilter(episode, filters) ) {
+				continue;
+			}
+
+			for( let q = 0; q < episode.questions.length; q++ ) {
+				let question = episode.questions[q];
+
+				let topic = null;
+				if( question.topic ) {
+					topic = stats.questionTopics.find(item => item.id === question.topic);
+				}
+				if( ! topicPassesFilter(topic, filters.filter(item => item.type === "topic")) ) {
+					continue;
+				}
+
+				let title = null;
+				if( question.title ) {
+					title = stats.questionTitles.find(item => item.name === question.title);
+				}
+				if( ! titlePassesFilter(title, filters.filter(item => item.type === "title")) ) {
+					continue;
+				}
+
+				let playerFilters = filters.filter(item => item.type === "person");
+				if( playerFilters.length > 0 ) {
+					let somePlayerMatches = false;
+					for( let p = 0; p < question.winners.length; p++ ) {
+						let playerId = question.winners[p];
+						let person = stats.people.find(item => item.id === playerId);
+
+						if( personPassesFilter(person, playerFilters) ) {
+							somePlayerMatches = true;
+							break;
+						}
+					}
+					if( ! somePlayerMatches ) {
+						continue;
+					}
+				}
+
+				let newRow = document.createElement("tr");
+				let newColumn = null;
+
+				newColumn = document.createElement("td");
+				newColumn.appendChild(createFilterLink(episode.season_and_number, {type: "episode", id: episode.dropouttv_productid, role: "*"}));
+				newRow.appendChild(newColumn);
+
+				newColumn = document.createElement("td");
+				newColumn.appendChild(document.createTextNode(question.number));
+				newRow.appendChild(newColumn);
+
+				newColumn = document.createElement("td");
+				if( topic ) {
+					newColumn.appendChild(createFilterLink(topic.name, {type: "topic", id: topic.id, role: "*"}));
+				}
+				newRow.appendChild(newColumn);
+
+				newColumn = document.createElement("td");
+				if( title ) {
+					newColumn.appendChild(createFilterLink(title.name, {type: "title", id: title.name, role: "*"}));
+				}
+				newRow.appendChild(newColumn);
+
+				newColumn = document.createElement("td");
+				for( let p = 0; p < question.winners.length; p++ ) {
+					let playerId = question.winners[p];
+					let player = episode.players.find(item => item.id === playerId);
+
+					let span = document.createElement("div");
+					let podium = document.createElement("span");
+					podium.className = "podium " + player.color;
+					span.appendChild(podium);
+					span.appendChild(createFilterLink(player.name, {type: "person", id: player.id, role: "player"}));
+					newColumn.appendChild(span);
+				}
+				newRow.appendChild(newColumn);
+
+				tbody.appendChild(newRow);
+			}
 		}
 	}
 
@@ -519,6 +618,10 @@ function topicPassesFilter(topic, filters) {
 		return true;
 	}
 
+	if( ! topic ) {
+		return false;
+	}
+
 	for( let i = 0; i < filters.length; i++ ) {
 		let filter = filters[i];
 		switch(filter.type) {
@@ -556,6 +659,10 @@ function titlePassesFilter(title, filters) {
 		return true;
 	}
 
+	if( ! title ) {
+		return false;
+	}
+
 	for( let i = 0; i < filters.length; i++ ) {
 		let filter = filters[i];
 		switch(filter.type) {
@@ -591,6 +698,10 @@ function personPassesFilter(person, filters) {
 
 	if( filters.length == 0 ) {
 		return true;
+	}
+
+	if( ! person ) {
+		return false;
 	}
 
 	for( let i = 0; i < filters.length; i++ ) {
