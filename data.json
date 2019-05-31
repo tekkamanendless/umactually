@@ -52,6 +52,11 @@
 			"url": "https://www.dropout.tv/search/talent/74/caldwell-tanner"
 		},
 		{
+			"id": "chris-calilung",
+			"name": "Chris Calilung",
+			"url": "https://www.dropout.tv/search/talent/1190/chris-calilung"
+		},
+		{
 			"id": "dan-black",
 			"name": "Dan Black",
 			"url": "https://www.dropout.tv/search/talent/414/dan-black"
@@ -130,6 +135,11 @@
 			"id": "jenny-lorenzo",
 			"name": "Jenny Lorenzo",
 			"url": "https://www.dropout.tv/search/talent/737/jenny-lorenzo"
+		},
+		{
+			"id": "jessica-clemons",
+			"name": "Jessica Clemons",
+			"url": "https://www.dropout.tv/search/talent/589/jessica-clemons"
 		},
 		{
 			"id": "jon-gabrus",
@@ -425,6 +435,10 @@
 			"name": "Captain Planet"
 		},
 		{
+			"id": "cartoons",
+			"name": "Cartoons"
+		},
+		{
 			"id": "comics",
 			"name": "Comics"
 		},
@@ -545,6 +559,10 @@
 			"name": "He-Man"
 		},
 		{
+			"id": "highlander",
+			"name": "Highlander"
+		},
+		{
 			"id": "his-dark-materials",
 			"name": "His Dark Materials"
 		},
@@ -587,6 +605,10 @@
 		{
 			"id": "lewis-carroll",
 			"name": "Lewis Carroll"
+		},
+		{
+			"id": "logans-run",
+			"name": "Logan's Run"
 		},
 		{
 			"id": "lord-of-the-rings",
@@ -4382,6 +4404,132 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"siobhan-thompson"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2207,
+			"dropouttv_productid": "ep-2207",
+			"title": "Bob's Burgers, Logan’s Run (Fans vs. Faves Pt. 1)",
+			"description": "Brennan Lee Mulligan, Jessica Clemons, and Chris Calilung side-eye comic crossover double dates.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2207/bob-s-burgers-logan-s-run-fans-vs-faves-pt-1",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/7fb826e870f494d0b0b09fa714fbd6d6.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 2202,
+			"number": "29",
+			"season_number": "1",
+			"release_date": "2019-05-25",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "brennan-lee-mulligan",
+					"score": 7
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "jessica-clemons",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "chris-calilung",
+					"score": 1
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "comics",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "zelda",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "highlander",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "dnd",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 5,
+					"title": "A Title Of Words",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "logans-run",
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "cartoons",
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "cartoons",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "cartoons",
+					"winners": [
+						"chris-calilung"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "movies",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Under Review",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"jessica-clemons"
 					]
 				}
 			]
