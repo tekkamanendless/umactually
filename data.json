@@ -27,6 +27,11 @@
 			"url": "https://www.dropout.tv/search/talent/217/ally-beardsley"
 		},
 		{
+			"id": "alyssa-rousonelos",
+			"name": "Alyssa Rousonelos",
+			"url": "https://www.dropout.tv/search/talent/1198/alyssa-rousonelos"
+		},
+		{
 			"id": "amy-vorpahl",
 			"name": "Amy Vorpahl",
 			"url": "https://www.dropout.tv/search/talent/664/amy-vorpahl"
@@ -140,6 +145,11 @@
 			"id": "jessica-clemons",
 			"name": "Jessica Clemons",
 			"url": "https://www.dropout.tv/search/talent/589/jessica-clemons"
+		},
+		{
+			"id": "jessica-ross",
+			"name": "Jessica Ross",
+			"url": "https://www.dropout.tv/search/talent/240/jessica-ross"
 		},
 		{
 			"id": "jon-gabrus",
@@ -340,6 +350,9 @@
 			"name": "Technical Difficulties"
 		},
 		{
+			"name": "Tag Out"
+		},
+		{
 			"name": "Tic Tac Tec"
 		},
 		{
@@ -369,6 +382,10 @@
 		{
 			"id": "20k-leagues-under-sea",
 			"name": "20,000 Leagues Under the Sea"
+		},
+		{
+			"id": "aladdin",
+			"name": "Aladdin"
 		},
 		{
 			"id": "alf",
@@ -513,6 +530,10 @@
 		{
 			"id": "fraggle-rock",
 			"name": "Fraggle Rock"
+		},
+		{
+			"id": "fullmetal-alchemist",
+			"name": "Fullmetal Alchemist"
 		},
 		{
 			"id": "futurama",
@@ -751,6 +772,10 @@
 			"name": "Steven Universe"
 		},
 		{
+			"id": "stranger-things",
+			"name": "Stranger Things"
+		},
+		{
 			"id": "street-fighter",
 			"name": "Street Fighter"
 		},
@@ -861,6 +886,10 @@
 		{
 			"id": "world-of-darkness",
 			"name": "World of Darkness"
+		},
+		{
+			"id": "wreck-it-ralph",
+			"name": "Wreck-It Ralph"
 		},
 		{
 			"id": "wrestling",
@@ -4530,6 +4559,128 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"jessica-clemons"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2222,
+			"dropouttv_productid": "ep-2222",
+			"title": "Stranger Things, Steven Spielberg (Fans vs. Faves Pt. 2)",
+			"description": "Caldwell Tanner, Jessica Ross, and Alyssa Rousonelos draw zaratans and debate fast zombies.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2222/stranger-things-steven-spielberg-fans-vs-faves-pt-2",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/cc040f330cecb6dbcf956d5344994f8f.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 2037,
+			"number": "30",
+			"season_number": "1",
+			"release_date": "2019-06-01",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "caldwell-tanner",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "jessica-ross",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "alyssa-rousonelos",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "star-wars",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "aladdin",
+					"winners": [
+						"alyssa-rousonelos"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "fullmetal-alchemist",
+					"winners": [
+						"caldwell-tanner"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "wreck-it-ralph",
+					"winners": [
+						"caldwell-tanner"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 6,
+					"topic": "movies",
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "wrestling",
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "movies",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "Tag Out",
+					"shiny": true,
+					"winners": [
+						"jessica-ross",
+						"alyssa-rousonelos"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "stranger-things",
+					"winners": [
+						"alyssa-rousonelos"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "video-games",
+					"winners": [
+						"alyssa-rousonelos"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "game-of-thrones",
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"caldwell-tanner"
 					]
 				}
 			]
