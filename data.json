@@ -137,6 +137,11 @@
 			"url": "https://www.dropout.tv/search/talent/358/jared-logan"
 		},
 		{
+			"id": "jason-gong",
+			"name": "Jason Gong",
+			"url": "https://www.dropout.tv/search/talent/1210/jason-gong"
+		},
+		{
 			"id": "jenny-lorenzo",
 			"name": "Jenny Lorenzo",
 			"url": "https://www.dropout.tv/search/talent/737/jenny-lorenzo"
@@ -278,6 +283,9 @@
 			"name": "ABC, 123"
 		},
 		{
+			"name": "Always Pay Your Debts"
+		},
+		{
 			"name": "Crunch Time"
 		},
 		{
@@ -384,6 +392,10 @@
 			"name": "20,000 Leagues Under the Sea"
 		},
 		{
+			"id": "avatar-the-last-airbender",
+			"name": "Avatar: The Last Airbender"
+		},
+		{
 			"id": "aladdin",
 			"name": "Aladdin"
 		},
@@ -458,6 +470,10 @@
 		{
 			"id": "comics",
 			"name": "Comics"
+		},
+		{
+			"id": "community",
+			"name": "Community (TV Series)"
 		},
 		{
 			"id": "cowboy-bebop",
@@ -556,6 +572,10 @@
 			"name": "Godzilla"
 		},
 		{
+			"id": "gravity-falls",
+			"name": "Gravity Falls"
+		},
+		{
 			"id": "gremlins",
 			"name": "Gremlins"
 		},
@@ -578,6 +598,10 @@
 		{
 			"id": "he-man",
 			"name": "He-Man"
+		},
+		{
+			"id": "heartstone",
+			"name": "Heartstone"
 		},
 		{
 			"id": "highlander",
@@ -614,6 +638,10 @@
 		{
 			"id": "jurassic-park",
 			"name": "Jurassic Park"
+		},
+		{
+			"id": "kingdom-hearts",
+			"name": "Kingdom Hearts"
 		},
 		{
 			"id": "labyrinth",
@@ -680,6 +708,10 @@
 			"name": "Mystery Science Theater 3000"
 		},
 		{
+			"id": "my-hero-academia",
+			"name": "My Hero Academia"
+		},
+		{
 			"id": "narnia",
 			"name": "Narnia"
 		},
@@ -742,6 +774,10 @@
 		{
 			"id": "scifi-books",
 			"name": "Science-fiction books"
+		},
+		{
+			"id": "shadowrun",
+			"name": "Shadowrun (Tabletop Game)"
 		},
 		{
 			"id": "scream",
@@ -4681,6 +4717,135 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"caldwell-tanner"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2241,
+			"dropouttv_productid": "ep-2241",
+			"title": "Kingdom Hearts, My Hero Academia (Fans vs. Faves Pt. 3)",
+			"description": "Ally Beardsley, Amy Vorpahl, and Jason Gong count MeowMeowBeenz & wonder what the hell a quatloo is.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2241/kingdom-hearts-my-hero-academia-fans-vs-faves-pt-3",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/7ab797a6fca721d8f0fa753f00f4f779.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 2012,
+			"number": "31",
+			"season_number": "1",
+			"release_date": "2019-06-08",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "ally-beardsley",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "amy-vorpahl",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jason-gong",
+					"score": 6
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "gravity-falls",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "shadowrun",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "superhero-movies",
+					"winners": [
+						"jason-gong"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "my-hero-academia",
+					"winners": [
+						"jason-gong"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Always Pay Your Debts",
+					"shiny": true,
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "community",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "jurassic-park",
+					"winners": [
+						"jason-gong"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "avatar-the-last-airbender",
+					"winners": [
+						"jason-gong"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "anime",
+					"title": "Match The Voice",
+					"shiny": true,
+					"winners": [
+						"jason-gong"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "kingdom-hearts",
+					"winners": [
+						"jason-gong"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "heartstone",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Under Review",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"amy-vorpahl"
 					]
 				}
 			]
