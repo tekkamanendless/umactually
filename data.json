@@ -147,6 +147,11 @@
 			"url": "https://www.dropout.tv/search/talent/737/jenny-lorenzo"
 		},
 		{
+			"id": "jeremy-puckett",
+			"name": "Jeremy Puckett",
+			"url": "https://www.dropout.tv/search/talent/1226/jeremy-puckett"
+		},
+		{
 			"id": "jessica-clemons",
 			"name": "Jessica Clemons",
 			"url": "https://www.dropout.tv/search/talent/589/jessica-clemons"
@@ -302,6 +307,9 @@
 		},
 		{
 			"name": "Hear Me Roar"
+		},
+		{
+			"name": "I Require Sustenance"
 		},
 		{
 			"name": "Incantatio Ridiculum"
@@ -636,6 +644,10 @@
 			"name": "It (Stephen King novel)"
 		},
 		{
+			"id": "jojo",
+			"name": "Jojo's Bizarre Adventure"
+		},
+		{
 			"id": "jurassic-park",
 			"name": "Jurassic Park"
 		},
@@ -724,6 +736,10 @@
 			"name": "The Nightmare Before Christmas"
 		},
 		{
+			"id": "norse-mythology",
+			"name": "Norse Mythology"
+		},
+		{
 			"id": "overwatch",
 			"name": "Overwatch"
 		},
@@ -742,6 +758,10 @@
 		{
 			"id": "princess-bride",
 			"name": "The Princess Bride"
+		},
+		{
+			"id": "ranma",
+			"name": "Ranma 1/2"
 		},
 		{
 			"id": "rick-and-morty",
@@ -4846,6 +4866,135 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"amy-vorpahl"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2255,
+			"dropouttv_productid": "ep-2255",
+			"title": "Ranma, JoJo's Bizarre Adventure (Fans vs. Faves Pt. 4)",
+			"description": "Ify Nwadiwe, Siobhan Thompson, & Jeremy Puckett feed fictional characters & cast Tolkien Beatles.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2255/ranma-jojo-s-bizarre-adventure-fans-vs-faves-pt-4",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/ebdfef4ea4f9fb8099752e9e26cd7840.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"duration": 1962,
+			"number": "32",
+			"season_number": "1",
+			"release_date": "2019-06-15",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "ify-nwadiwe",
+					"score": 1
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "siobhan-thompson",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jeremy-puckett",
+					"score": 9
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "manga",
+					"winners": [
+						"jeremy-puckett"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "kingdom-hearts",
+					"winners": [
+						"jeremy-puckett"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "dnd",
+					"winners": [
+						"jeremy-puckett"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "norse-mythology",
+					"winners": [
+						"jeremy-puckett"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "video-games",
+					"title": "Where Am I?",
+					"shiny": true,
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"jeremy-puckett"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "ranma",
+					"winners": [
+						"jeremy-puckett"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "world-of-darkness",
+					"winners": [
+						"jeremy-puckett"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "jojo",
+					"winners": [
+						"jeremy-puckett"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "video-games",
+					"winners": [
+						"jeremy-puckett"
+					]
+				},
+				{
+					"number": 12,
+					"title": "I Require Sustenance",
+					"shiny": true,
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"siobhan-thompson"
 					]
 				}
 			]
