@@ -3,6 +3,10 @@
 		{
 			"number": "1",
 			"title": "Season 1"
+		},
+		{
+			"number": "2",
+			"title": "Season 2"
 		}
 	],
 	"people": [
@@ -187,6 +191,11 @@
 			"url": "https://www.dropout.tv/search/talent/746/maggie-mae-fish"
 		},
 		{
+			"id": "marisha-ray",
+			"name": "Marisha Ray",
+			"url": "https://www.dropout.tv/search/talent/1161/marisha-ray"
+		},
+		{
 			"id": "matt-kirshen",
 			"name": "Matt Kirshen",
 			"url": "https://www.dropout.tv/search/talent/715/matt-kirshen"
@@ -328,6 +337,9 @@
 		},
 		{
 			"name": "Name That Dragon"
+		},
+		{
+			"name": "Name That Flora"
 		},
 		{
 			"name": "Name That Robot"
@@ -540,6 +552,10 @@
 			"name": "Evangelion"
 		},
 		{
+			"id": "fanfiction",
+			"name": "Fanfiction"
+		},
+		{
 			"id": "fifth-element",
 			"name": "The Fifth Element"
 		},
@@ -578,6 +594,10 @@
 		{
 			"id": "godzilla",
 			"name": "Godzilla"
+		},
+		{
+			"id": "gotham",
+			"name": "Gotham (TV Series)"
 		},
 		{
 			"id": "gravity-falls",
@@ -858,6 +878,14 @@
 		{
 			"id": "tailspin",
 			"name": "Tailspin"
+		},
+		{
+			"id": "the-black-cauldron",
+			"name": "The Black Cauldron"
+		},
+		{
+			"id": "the-good-place",
+			"name": "The Good Place"
 		},
 		{
 			"id": "the-incredibles",
@@ -4995,6 +5023,135 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"siobhan-thompson"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2355,
+			"dropouttv_productid": "ep-2355",
+			"title": "Gotham, The Good Place, The Black Cauldron",
+			"description": "Kirk Damato, Marisha Ray, and Brennan Lee Mulligan write Avatar fan fiction and stan Entwives.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2355/gotham-the-good-place-the-black-cauldron",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/58c4a73a4a146996461b13f5dc0b13cf.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1838,
+			"number": "1",
+			"season_number": "2",
+			"release_date": "2019-07-20",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "brennan-lee-mulligan",
+					"score": 9
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "kirk-damato",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "marisha-ray",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "avatar-the-last-airbender",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "dnd",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "fanfiction",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "gotham",
+					"winners": [
+						"marisha-ray"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Name That Flora",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan",
+						"kirk-damato"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "game-of-thrones",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "the-simpsons",
+					"winners": [
+						"kirk-damato"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "the-good-place",
+					"winners": [
+						"brennan-lee-mulligan",
+						"marisha-ray"
+					]
+				},
+				{
+					"number": 9,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "indiana-jones",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "the-black-cauldron",
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"brennan-lee-mulligan"
 					]
 				}
 			]
