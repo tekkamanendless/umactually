@@ -136,6 +136,11 @@
 			"url": "https://www.dropout.tv/search/talent/678/jackie-kashian"
 		},
 		{
+			"id": "janie-stolar",
+			"name": "Janie Stolar",
+			"url": "https://www.dropout.tv/search/talent/709/janie-stolar"
+		},
+		{
 			"id": "jared-logan",
 			"name": "Jared Logan",
 			"url": "https://www.dropout.tv/search/talent/358/jared-logan"
@@ -164,6 +169,11 @@
 			"id": "jessica-ross",
 			"name": "Jessica Ross",
 			"url": "https://www.dropout.tv/search/talent/240/jessica-ross"
+		},
+		{
+			"id": "joan-ford",
+			"name": "Joan Ford",
+			"url": "https://www.dropout.tv/search/talent/1136/joan-ford"
 		},
 		{
 			"id": "jon-gabrus",
@@ -236,9 +246,19 @@
 			"url": "https://www.dropout.tv/search/talent/126/nick-mundy"
 		},
 		{
+			"id": "rekha-shankar",
+			"name": "Rekha Shankar",
+			"url": "https://www.dropout.tv/search/talent/224/rekha-shankar"
+		},
+		{
 			"id": "ryan-martin",
 			"name": "Ryan Martin",
 			"url": "https://www.dropout.tv/search/talent/590/ryan-martin"
+		},
+		{
+			"id": "ryanni",
+			"name": "Ryanni",
+			"url": "https://www.dropout.tv/search/talent/1294/ryanni"
 		},
 		{
 			"id": "sam-bashor",
@@ -297,6 +317,9 @@
 			"name": "ABC, 123"
 		},
 		{
+			"name": "Acronym Bee"
+		},
+		{
 			"name": "Always Pay Your Debts"
 		},
 		{
@@ -304,6 +327,9 @@
 		},
 		{
 			"name": "Cryptogeography"
+		},
+		{
+			"name": "Dr. Cop, Esq."
 		},
 		{
 			"name": "Drug Dealer"
@@ -321,6 +347,9 @@
 			"name": "I Require Sustenance"
 		},
 		{
+			"name": "I'd Give An Arm And A Leg"
+		},
+		{
 			"name": "Incantatio Ridiculum"
 		},
 		{
@@ -334,6 +363,9 @@
 		},
 		{
 			"name": "Name That Alien"
+		},
+		{
+			"name": "Name That Catchphrase"
 		},
 		{
 			"name": "Name That Dragon"
@@ -355,6 +387,9 @@
 		},
 		{
 			"name": "Not The Droid You're Looking For"
+		},
+		{
+			"name": "Once More Without Feeling"
 		},
 		{
 			"name": "Order Up"
@@ -516,6 +551,10 @@
 			"name": "DC (comics)"
 		},
 		{
+			"id": "demolition-man",
+			"name": "Demolition Man"
+		},
+		{
 			"id": "diablo",
 			"name": "Diablo"
 		},
@@ -572,6 +611,18 @@
 			"name": "Fraggle Rock"
 		},
 		{
+			"id": "frasier",
+			"name": "Frasier"
+		},
+		{
+			"id": "fresh-prince",
+			"name": "The Fresh Prince of Bel Air"
+		},
+		{
+			"id": "friends",
+			"name": "Friends (TV show)"
+		},
+		{
 			"id": "fullmetal-alchemist",
 			"name": "Fullmetal Alchemist"
 		},
@@ -620,6 +671,10 @@
 			"name": "The Handmaid's Tale"
 		},
 		{
+			"id": "happy-days",
+			"name": "Happy Days"
+		},
+		{
 			"id": "harry-potter",
 			"name": "Harry Potter"
 		},
@@ -628,8 +683,8 @@
 			"name": "He-Man"
 		},
 		{
-			"id": "heartstone",
-			"name": "Heartstone"
+			"id": "hearthstone",
+			"name": "Hearthstone"
 		},
 		{
 			"id": "highlander",
@@ -646,6 +701,10 @@
 		{
 			"id": "hocus-pocus",
 			"name": "Hocus Pocus"
+		},
+		{
+			"id": "homestar-runner",
+			"name": "Homestar Runner"
 		},
 		{
 			"id": "hp-lovecraft",
@@ -720,6 +779,10 @@
 			"name": "Marvel Cinematic Universe"
 		},
 		{
+			"id": "mega-man",
+			"name": "Mega-Man"
+		},
+		{
 			"id": "mib",
 			"name": "Men in Black"
 		},
@@ -758,6 +821,10 @@
 		{
 			"id": "norse-mythology",
 			"name": "Norse Mythology"
+		},
+		{
+			"id": "one-piece",
+			"name": "One Piece"
 		},
 		{
 			"id": "overwatch",
@@ -816,16 +883,32 @@
 			"name": "Science-fiction books"
 		},
 		{
-			"id": "shadowrun",
-			"name": "Shadowrun (Tabletop Game)"
-		},
-		{
 			"id": "scream",
 			"name": "Scream"
 		},
 		{
+			"id": "seinfeld",
+			"name": "Seinfeld"
+		},
+		{
+			"id": "sex-and-the-city",
+			"name": "Sex and the City"
+		},
+		{
+			"id": "shadowrun",
+			"name": "Shadowrun (Tabletop Game)"
+		},
+		{
+			"id": "she-ra",
+			"name": "She-Ra"
+		},
+		{
 			"id": "smurfs",
 			"name": "Smurfs"
+		},
+		{
+			"id": "snl",
+			"name": "Saturday Night Live"
 		},
 		{
 			"id": "snow-crash",
@@ -908,6 +991,10 @@
 			"name": "The Name of the Wind"
 		},
 		{
+			"id": "the-office",
+			"name": "The Office"
+		},
+		{
 			"id": "the-simpsons",
 			"name": "The Simpsons"
 		},
@@ -938,6 +1025,10 @@
 		{
 			"id": "twilight-zone",
 			"name": "The Twilight Zone"
+		},
+		{
+			"id": "tv",
+			"name": "TV"
 		},
 		{
 			"id": "video-games",
@@ -4878,7 +4969,7 @@
 				},
 				{
 					"number": 11,
-					"topic": "heartstone",
+					"topic": "hearthstone",
 					"winners": [
 						"ally-beardsley"
 					]
@@ -5152,6 +5243,259 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"brennan-lee-mulligan"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2363,
+			"dropouttv_productid": "ep-2363",
+			"title": "A Very Special TV-Themed Episode",
+			"description": "Rekha Shankar, Joan Ford & Janie Stolar liken Mr. Big to Trump in an obsessive homage to classic TV.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2363/a-very-special-tv-themed-episode",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/8e8bca22a9bdf9477e15cb692fb88a6b.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1804,
+			"number": "2",
+			"season_number": "2",
+			"release_date": "2019-07-27",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "rekha-shankar",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "joan-ford",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "janie-stolar",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "fresh-prince",
+					"winners": [
+						"janie-stolar"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "friends",
+					"winners": [
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "happy-days",
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "tv",
+					"winners": [
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "tv",
+					"title": "Dr. Cop, Esq.",
+					"shiny": true,
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "seinfeld",
+					"winners": [
+						"janie-stolar"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "the-office",
+					"winners": [
+						"janie-stolar"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "sex-and-the-city",
+					"winners": [
+						"janie-stolar"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "tv",
+					"title": "Name That Catchphrase",
+					"shiny": true,
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "snl",
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "frasier",
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "tv",
+					"title": "Once More Without Feeling",
+					"shiny": true,
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "tv",
+					"title": "Real Life Skills",
+					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2377,
+			"dropouttv_productid": "ep-2377",
+			"title": "Homestar Runner, Hearthstone, Demolition Man",
+			"description": "Ally Beardsley, Ify Nwadiwe, and Ryanni name gnomes and match prosthetics to their fictional owners.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2377/homestar-runner-hearthstone-demolition-man",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/3f96811a6868b874acc30b083a80303c.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1648,
+			"number": "3",
+			"season_number": "2",
+			"release_date": "2019-08-03",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "ally-beardsley",
+					"score": 1
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "ryanni",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "ify-nwadiwe",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "star-wars",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "she-ra",
+					"winners": [
+						"ryanni"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "marvel",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "mega-man",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "I'd Give An Arm And A Leg",
+					"shiny": true,
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "video-games",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "homestar-runner",
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "demolition-man",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"topic": "video-games",
+					"title": "Acronym Bee",
+					"shiny": true,
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "one-piece",
+					"winners": [
+						"ryanni"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "hearthstone",
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"ryanni"
 					]
 				}
 			]
