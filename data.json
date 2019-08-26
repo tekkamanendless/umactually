@@ -96,6 +96,11 @@
 			"url": "https://www.dropout.tv/search/talent/685/edgar-momplaisir"
 		},
 		{
+			"id": "eme-ikwuakor",
+			"name": "Eme Ikwuakor",
+			"url": "https://www.dropout.tv/search/talent/1300/eme-ikwuakor"
+		},
+		{
 			"id": "emily-axford",
 			"name": "Emily Axford",
 			"url": "https://www.dropout.tv/search/talent/11/emily-axford"
@@ -196,6 +201,11 @@
 			"url": "https://www.dropout.tv/search/talent/729/kirk-damato"
 		},
 		{
+			"id": "luke-field",
+			"name": "Luke Field",
+			"url": "https://www.dropout.tv/search/talent/594/luke-field"
+		},
+		{
 			"id": "maggie-mae-fish",
 			"name": "Maggie Mae Fish",
 			"url": "https://www.dropout.tv/search/talent/746/maggie-mae-fish"
@@ -281,6 +291,11 @@
 			"url": "https://www.dropout.tv/search/talent/781/stef-woodburn"
 		},
 		{
+			"id": "tao-yang",
+			"name": "Tao Yang",
+			"url": "https://www.dropout.tv/search/talent/1122/tao-yang"
+		},
+		{
 			"id": "thomas-middleditch",
 			"name": "Thomas Middleditch",
 			"url": "https://www.dropout.tv/search/talent/23/thomas-middleditch"
@@ -359,7 +374,13 @@
 			"name": "Match The Voice"
 		},
 		{
+			"name": "Medic"
+		},
+		{
 			"name": "Mish-Mash Mix-Em-Up"
+		},
+		{
+			"name": "Mounting Suspicion"
 		},
 		{
 			"name": "Name That Alien"
@@ -384,6 +405,9 @@
 		},
 		{
 			"name": "Name That Wizard"
+		},
+		{
+			"name": "Needs More Pixels"
 		},
 		{
 			"name": "Not The Droid You're Looking For"
@@ -595,6 +619,10 @@
 			"name": "Fanfiction"
 		},
 		{
+			"id": "fantasy",
+			"name": "Fantasy (Genre)"
+		},
+		{
 			"id": "fifth-element",
 			"name": "The Fifth Element"
 		},
@@ -727,6 +755,10 @@
 			"name": "Jojo's Bizarre Adventure"
 		},
 		{
+			"id": "john-carter",
+			"name": "John Carter"
+		},
+		{
 			"id": "jurassic-park",
 			"name": "Jurassic Park"
 		},
@@ -787,6 +819,10 @@
 			"name": "Men in Black"
 		},
 		{
+			"id": "mistborn",
+			"name": "Mistborn"
+		},
+		{
 			"id": "miyazaki",
 			"name": "Miyazaki Hayao"
 		},
@@ -843,6 +879,10 @@
 			"name": "Power Rangers"
 		},
 		{
+			"id": "predator",
+			"name": "Predator (Franchise)"
+		},
+		{
 			"id": "princess-bride",
 			"name": "The Princess Bride"
 		},
@@ -881,6 +921,10 @@
 		{
 			"id": "scifi-books",
 			"name": "Science-fiction books"
+		},
+		{
+			"id": "scott-pilgrim",
+			"name": "Scott Pilgrim"
 		},
 		{
 			"id": "scream",
@@ -965,6 +1009,14 @@
 		{
 			"id": "the-black-cauldron",
 			"name": "The Black Cauldron"
+		},
+		{
+			"id": "the-dresden-files",
+			"name": "The Dresden Files"
+		},
+		{
+			"id": "the-expanse",
+			"name": "The Expanse"
 		},
 		{
 			"id": "the-good-place",
@@ -5496,6 +5548,380 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"ryanni"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2390,
+			"dropouttv_productid": "ep-2390",
+			"title": "The Dresden Files, Settlers of Catan, Fallout 4",
+			"description": "Erika Ishii, Eme Ikwuakor, and Becca Scott hoard video game items and dream of Beholders.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2390/the-dresden-files-settlers-of-catan-fallout-4",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/866398157bbcb427a45444d21292028c.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1751,
+			"number": "4",
+			"season_number": "2",
+			"release_date": "2019-08-10",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "erika-ishii",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "eme-ikwuakor",
+					"score": 0
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "becca-scott",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "batman",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "harry-potter",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "the-dresden-files",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "board-games",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"topic": "video-games",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 6,
+					"topic": "princess-bride",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "marvel",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "star-wars",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "video-games",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "dnd",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Tag Out",
+					"shiny": true,
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"becca-scott"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2400,
+			"dropouttv_productid": "ep-2400",
+			"title": "Predator, Mistborn, The Expanse",
+			"description": "Shane Crown, Luke Field, and Danielle Radford spot the fake wrestler and feel sorry for dragons.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2400/predator-mistborn-the-expanse",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/21bb299019f8d6af60e7d96ae8f9b0bb.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1695,
+			"number": "5",
+			"season_number": "2",
+			"release_date": "2019-08-17",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "shane-crown",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "luke-field",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "danielle-radford",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "fantasy",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "wrestling",
+					"winners": [
+						"luke-field"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "the-expanse",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"luke-field"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Mounting Suspicion",
+					"shiny": true,
+					"winners": [
+						"luke-field"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "predator",
+					"winners": [
+						"luke-field",
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "mistborn",
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "star-wars",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"luke-field"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "star-trek",
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "harry-potter",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "wrestling",
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2413,
+			"dropouttv_productid": "ep-2413",
+			"title": "Scott Pilgrim, Highlander, Dr. Doom",
+			"description": "Sam Bashor, Ryan Martin, and Tao Yang apply to superhero college and arrange robots by size.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2413/scott-pilgrim-highlander-dr-doom",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/0bb8a8b8af32c786fb699fdec168cc59.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1670,
+			"number": "6",
+			"season_number": "2",
+			"release_date": "2019-08-24",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "sam-bashor",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "ryan-martin",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "tao-yang",
+					"score": 1
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "pokemon",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "highlander",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "video-games",
+					"winners": [
+						"sam-bashor"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "batman",
+					"winners": [
+						"sam-bashor"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Order Up",
+					"shiny": true,
+					"winners": [
+						"sam-bashor"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "scott-pilgrim",
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "star-wars",
+					"winners": [
+						"ryan-martin"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "overwatch",
+					"winners": [
+						"ryan-martin"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"ryan-martin"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "marvel",
+					"winners": [
+						"sam-bashor"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "john-carter",
+					"winners": [
+						"sam-bashor"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "video-games",
+					"title": "Medic",
+					"shiny": true,
+					"winners": [
+						"tao-yang"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"ryan-martin"
 					]
 				}
 			]
