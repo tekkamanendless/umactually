@@ -121,6 +121,11 @@
 			"url": "https://www.dropout.tv/search/talent/738/erika-ishii"
 		},
 		{
+			"id": "grant-obrien",
+			"name": "Grant O'Brien",
+			"url": "https://www.dropout.tv/search/talent/186/grant-o-brien"
+		},
+		{
 			"id": "haley-mancini",
 			"name": "Haley Mancini",
 			"url": "https://www.dropout.tv/search/talent/385/haley-mancini"
@@ -229,6 +234,11 @@
 			"id": "mike-trapp",
 			"name": "Mike Trapp",
 			"url": "https://www.dropout.tv/search/talent/157/mike-trapp"
+		},
+		{
+			"id": "rachel-bloom",
+			"name": "Rachel Bloom",
+			"url": "https://www.dropout.tv/search/talent/1334/rachel-bloom"
 		},
 		{
 			"id": "natalie-palamides",
@@ -449,6 +459,9 @@
 			"name": "Under Review"
 		},
 		{
+			"name": "We'll Just Have To Adapt"
+		},
+		{
 			"name": "What's Wrong?"
 		},
 		{
@@ -535,6 +548,10 @@
 			"name": "Board Games"
 		},
 		{
+			"id": "book-of-mormon",
+			"name": "Book of Mormon"
+		},
+		{
 			"id": "buffy",
 			"name": "Buffy The Vampire Slayer"
 		},
@@ -545,6 +562,10 @@
 		{
 			"id": "cartoons",
 			"name": "Cartoons"
+		},
+		{
+			"id": "chorus-line",
+			"name": "A Chorus Line"
 		},
 		{
 			"id": "comics",
@@ -683,6 +704,10 @@
 			"name": "Gravity Falls"
 		},
 		{
+			"id": "grease",
+			"name": "Grease"
+		},
+		{
 			"id": "gremlins",
 			"name": "Gremlins"
 		},
@@ -693,6 +718,10 @@
 		{
 			"id": "halo",
 			"name": "Halo"
+		},
+		{
+			"id": "hamilton",
+			"name": "Hamilton"
 		},
 		{
 			"id": "handmaids-tale",
@@ -839,6 +868,10 @@
 			"name": "Mystery Science Theater 3000"
 		},
 		{
+			"id": "musicals",
+			"name": "Musicals"
+		},
+		{
 			"id": "my-hero-academia",
 			"name": "My Hero Academia"
 		},
@@ -889,6 +922,10 @@
 		{
 			"id": "ranma",
 			"name": "Ranma 1/2"
+		},
+		{
+			"id": "rent",
+			"name": "Rent"
 		},
 		{
 			"id": "rick-and-morty",
@@ -1097,6 +1134,10 @@
 		{
 			"id": "watchmen",
 			"name": "Watchmen"
+		},
+		{
+			"id": "wicked",
+			"name": "Wicked"
 		},
 		{
 			"id": "witcher",
@@ -5922,6 +5963,140 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"ryan-martin"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2428,
+			"dropouttv_productid": "ep-2428",
+			"title": "The Musical Theater Episode!",
+			"description": "Rachel Bloom, Grant O'Brien, & Siobhan Thompson test their playbill memories in a musical-themed ep.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2428/the-musical-theater-episode",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/ece5867a38992086e6b1aa487dc796dd.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1758,
+			"number": "7",
+			"season_number": "2",
+			"release_date": "2019-08-31",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "grant-obrien",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "siobhan-thompson",
+					"score": 8
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "rachel-bloom",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "hamilton",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "grease",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "musicals",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "wicked",
+					"winners": [
+						"grant-obrien"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "musicals",
+					"title": "A Book By Its Cover",
+					"shiny": true,
+					"winners": [
+						"rachel-bloom"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "musicals",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "book-of-mormon",
+					"winners": [
+						"rachel-bloom"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "chorus-line",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "musicals",
+					"title": "Once More Without Feeling",
+					"shiny": true,
+					"winners": [
+						"grant-obrien"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "musicals",
+					"winners": [
+						"grant-obrien",
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "rent",
+					"winners": [
+						"rachel-bloom"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "musicals",
+					"title": "We'll Just Have To Adapt",
+					"shiny": true,
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"siobhan-thompson"
 					]
 				}
 			]
