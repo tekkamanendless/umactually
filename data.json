@@ -206,6 +206,11 @@
 			"url": "https://www.dropout.tv/search/talent/729/kirk-damato"
 		},
 		{
+			"id": "liam-senior",
+			"name": "Liam Senior",
+			"url": "https://www.dropout.tv/search/talent/1335/liam-senior"
+		},
+		{
 			"id": "luke-field",
 			"name": "Luke Field",
 			"url": "https://www.dropout.tv/search/talent/594/luke-field"
@@ -444,6 +449,9 @@
 			"name": "Super Saying"
 		},
 		{
+			"name": "Sweep The Leg"
+		},
+		{
 			"name": "Technical Difficulties"
 		},
 		{
@@ -618,6 +626,10 @@
 		{
 			"id": "donkey-kong",
 			"name": "Donkey Kong"
+		},
+		{
+			"id": "dragon-age",
+			"name": "Dragon Age (video game)"
 		},
 		{
 			"id": "dragon-ball",
@@ -964,6 +976,10 @@
 			"name": "Scott Pilgrim"
 		},
 		{
+			"id": "spin",
+			"name": "Spin (Robert Charles Wilson novel)"
+		},
+		{
 			"id": "scream",
 			"name": "Scream"
 		},
@@ -1006,6 +1022,10 @@
 		{
 			"id": "starcraft",
 			"name": "Starcraft"
+		},
+		{
+			"id": "stephen-king",
+			"name": "Stephen King"
 		},
 		{
 			"id": "steven-universe",
@@ -1110,6 +1130,10 @@
 		{
 			"id": "torchwood",
 			"name": "Torchwood"
+		},
+		{
+			"id": "transformers",
+			"name": "Transformers"
 		},
 		{
 			"id": "twilight-zone",
@@ -6097,6 +6121,134 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"siobhan-thompson"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2436,
+			"dropouttv_productid": "ep-2436",
+			"title": "Stephen King, Warhammer 40,000, Dragon Age",
+			"description": "Jordan Doll, Nick Marini, & Liam Senior mistrust Lakitu's impartiality & debate if Donatello's cool.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2436/stephen-king-warhammer-40-000-dragon-age",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/e0e0be1bdc7522324009593a851dcfc0.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1718,
+			"number": "8",
+			"season_number": "2",
+			"release_date": "2019-09-07",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jordan-doll",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "nick-marini",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "liam-senior",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "stranger-things",
+					"winners": [
+						"nick-marini"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "super-mario",
+					"winners": [
+						"liam-senior"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "stephen-king",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "warhammer",
+					"winners": [
+						"nick-marini"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Crunch Time",
+					"shiny": true,
+					"winners": [
+						"jordan-doll",
+						"nick-marini"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "transformers",
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "dragon-age",
+					"winners": [
+						"nick-marini"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "spin",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"topic": "dnd",
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "star-wars",
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "battlestar",
+					"winners": [
+						"nick-marini"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "video-games",
+					"title": "Sweep The Leg",
+					"shiny": true,
+					"winners": [
+						"jordan-doll",
+						"nick-marini"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"liam-senior"
 					]
 				}
 			]
