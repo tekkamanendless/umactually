@@ -201,6 +201,11 @@
 			"url": "https://www.dropout.tv/search/talent/716/jordan-doll"
 		},
 		{
+			"id": "ken-napzok",
+			"name": "Ken Napzok",
+			"url": "https://www.dropout.tv/search/talent/1340/ken-napzok"
+		},
+		{
 			"id": "kirk-damato",
 			"name": "Kirk Damato",
 			"url": "https://www.dropout.tv/search/talent/729/kirk-damato"
@@ -234,6 +239,11 @@
 			"id": "matt-mercer",
 			"name": "Matt Mercer",
 			"url": "https://www.dropout.tv/search/talent/665/matt-mercer"
+		},
+		{
+			"id": "michelle-nguyen-bradley",
+			"name": "Michelle Nguyen Bradley",
+			"url": "https://www.dropout.tv/search/talent/1341/michelle-nguyen-bradley"
 		},
 		{
 			"id": "mike-trapp",
@@ -656,6 +666,10 @@
 			"name": "Fantasy (Genre)"
 		},
 		{
+			"id": "fate-stay",
+			"name": "Fate/stay night"
+		},
+		{
 			"id": "fifth-element",
 			"name": "The Fifth Element"
 		},
@@ -726,6 +740,10 @@
 		{
 			"id": "groundhog-day",
 			"name": "Groundhog Day"
+		},
+		{
+			"id": "gurren-lagann",
+			"name": "Tengen Toppa Gurren Lagann"
 		},
 		{
 			"id": "halo",
@@ -910,6 +928,10 @@
 		{
 			"id": "overwatch",
 			"name": "Overwatch"
+		},
+		{
+			"id": "pacific-rim",
+			"name": "Pacific Rim"
 		},
 		{
 			"id": "pokemon",
@@ -6250,6 +6272,135 @@
 					"winners": [
 						"liam-senior"
 					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2449,
+			"dropouttv_productid": "ep-2449",
+			"title": "Sailor Moon, Pacific Rim, Fate/Stay Night",
+			"description": "Ken Napzok, Emma Fyffe, and Michelle Nguyen Bradley size up spaceships and say no to butt brains.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2449/sailor-moon-pacific-rim-fate-stay-night",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/7f5a46f9215b2a375744475d8fd1eaec.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 2063,
+			"number": "9",
+			"season_number": "2",
+			"release_date": "2019-09-14",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "ken-napzok",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "emma-fyffe",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "michelle-nguyen-bradley",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "harry-potter",
+					"winners": [
+						"michelle-nguyen-bradley"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "wrestling",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "pacific-rim",
+					"winners": [
+						"michelle-nguyen-bradley"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "fate-stay",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Order Up",
+					"shiny": true,
+					"winners": [
+						"ken-napzok"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "game-of-thrones",
+					"winners": [
+						"michelle-nguyen-bradley"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "star-wars",
+					"winners": [
+						"ken-napzok"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "sailor-moon",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": [
+						"emma-fyffe",
+						"michelle-nguyen-bradley"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "gurren-lagann",
+					"winners": [
+						"ken-napzok"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "mcu",
+					"winners": []
+				},
+				{
+					"number": 12,
+					"topic": "cartoons",
+					"title": "Once More Without Feeling",
+					"shiny": true,
+					"winners": [
+						"ken-napzok",
+						"michelle-nguyen-bradley"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
