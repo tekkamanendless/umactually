@@ -1,3 +1,8 @@
+.chart-container {
+	position: relative;
+	height: 30vh;
+}
+
 thead tr {
 	background: #cccccc;
 }

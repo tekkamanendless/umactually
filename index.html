@@ -5,6 +5,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=0.5,maximum-scale=3,user-scalable=yes">
 		<link href="main.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 		<script src="page.js"></script>
 	</head>
 	<body onload="onPageLoaded();">
@@ -13,6 +14,15 @@
 			"Um, Actually..." is a web series produced by <a href="https://www.collegehumor.com">College Humor</a> and available on <a href="https://dropout.tv">DROPOUT</a>.
 			This page shows the stats about the show: winners, losers, scores, appearances, you name it.
 		</p>
+		<h2>Stats</h2>
+		<div>
+			<div class="chart-container">
+				<canvas id="chart-runtimes"></canvas>
+			</div>
+			<div class="chart-container">
+				<canvas id="chart-points"></canvas>
+			</div>
+		</div>
 		<button id="clearfilters" onclick="clearFilters();">Clear filters</button>
 		<h2>Seasons</h2>
 		<table>

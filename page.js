@@ -10,6 +10,8 @@ function onPageLoaded() {
 		console.log("stats:", stats);
 
 		renderPage(stats, filters);
+
+		renderCharts(stats);
 	});
 }
 
@@ -978,4 +980,93 @@ function computeStats(data) {
 	stats.questionTitles.sort((a,b) => a.name.localeCompare(b.name));
 
 	return stats;
+}
+
+function renderCharts(stats) {
+	renderChartRuntimes(document.getElementById('chart-runtimes').getContext('2d'));
+	renderChartTotalPoints(document.getElementById('chart-points').getContext('2d'));
+}
+
+function renderChartRuntimes(ctx) {
+	let xValues = [];
+	let yValues = [];
+	let yValuesRaw = [];
+
+	stats.episodes.forEach(episode => {
+		xValues.push(episode.season_and_number);
+		yValues.push(episode.duration/60);
+		yValuesRaw.push(episode.duration);
+	});
+
+	let chart = new Chart(ctx, {
+	    // The type of chart we want to create
+	    type: 'line',
+	    // The data for our dataset
+	    data: {
+	        labels: xValues,
+	        datasets: [{
+	            label: 'Episode Runtimes',
+	            data: yValues,
+	        }]
+	    },
+	    // Configuration options go here
+	    options: {
+				animation: {
+					duration: 0,
+				},
+				maintainAspectRatio: false,
+				tooltips: {
+					callbacks: {
+						// Render the runtime as ""##m##s".
+						label: function(tooltipItem, data) {
+							let v = yValuesRaw[tooltipItem.index];
+
+							let minutes = parseInt(v/60);
+							let seconds = v%60;
+
+							let minutesString = "" + minutes;
+							if( minutesString.length < 2 ) {
+								minutesString = "0" + minutesString;
+							}
+							let secondsString = "" + seconds;
+							if( secondsString.length < 2 ) {
+								secondsString = "0" + secondsString;
+							}
+
+							return minutesString + "m" + secondsString + "s";
+						},
+					}
+				},
+			},
+	});
+}
+
+function renderChartTotalPoints(ctx) {
+	let xValues = [];
+	let yValues = [];
+
+	stats.episodes.forEach(episode => {
+		xValues.push(episode.season_and_number);
+		yValues.push(episode.players.reduce((accumulator, player) => accumulator + player.score, 0));
+	});
+
+	let chart = new Chart(ctx, {
+	    // The type of chart we want to create
+	    type: 'line',
+	    // The data for our dataset
+	    data: {
+	        labels: xValues,
+	        datasets: [{
+	            label: 'Episode Point Totals',
+	            data: yValues,
+	        }]
+	    },
+	    // Configuration options go here
+	    options: {
+				animation: {
+					duration: 0,
+				},
+				maintainAspectRatio: false,
+			},
+	});
 }
