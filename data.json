@@ -126,6 +126,11 @@
 			"url": "https://www.dropout.tv/search/talent/186/grant-o-brien"
 		},
 		{
+			"id": "frank-hejl",
+			"name": "Frank Hejl",
+			"url": "https://www.dropout.tv/search/talent/1082/frank-hejl"
+		},
+		{
 			"id": "haley-mancini",
 			"name": "Haley Mancini",
 			"url": "https://www.dropout.tv/search/talent/385/haley-mancini"
@@ -480,6 +485,9 @@
 			"name": "We'll Just Have To Adapt"
 		},
 		{
+			"name": "What's My Line?"
+		},
+		{
 			"name": "What's Wrong?"
 		},
 		{
@@ -666,6 +674,10 @@
 			"name": "Fantasy (Genre)"
 		},
 		{
+			"id": "farscape",
+			"name": "Farscape"
+		},
+		{
 			"id": "fate-stay",
 			"name": "Fate/stay night"
 		},
@@ -716,6 +728,14 @@
 		{
 			"id": "gargoyles",
 			"name": "Gargoyles"
+		},
+		{
+			"id": "gateway",
+			"name": "Gateway (Frederik Pohl novel)"
+		},
+		{
+			"id": "ghostbusters",
+			"name": "Ghostbusters"
 		},
 		{
 			"id": "godzilla",
@@ -982,6 +1002,10 @@
 			"name": "Sailor Moon"
 		},
 		{
+			"id": "samurai-champloo",
+			"name": "Samurai Champloo"
+		},
+		{
 			"id": "sandman",
 			"name": "The Sandman"
 		},
@@ -996,10 +1020,6 @@
 		{
 			"id": "scott-pilgrim",
 			"name": "Scott Pilgrim"
-		},
-		{
-			"id": "spin",
-			"name": "Spin (Robert Charles Wilson novel)"
 		},
 		{
 			"id": "scream",
@@ -1032,6 +1052,10 @@
 		{
 			"id": "snow-crash",
 			"name": "Snow Crash"
+		},
+		{
+			"id": "spin",
+			"name": "Spin (Robert Charles Wilson novel)"
 		},
 		{
 			"id": "star-trek",
@@ -6401,6 +6425,138 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2460,
+			"dropouttv_productid": "ep-2460",
+			"title": "Ghostbusters, Gateway, Gravity Falls",
+			"description": "Zac Oyama, Caldwell Tanner, & Frank Garcia-Hejl pinpoint pirates & find the fake Simpsons character.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2460/ghostbusters-gateway-gravity-falls",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/229f30dc9abfa1e3f5c6b3ec41391ebe.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1940,
+			"number": "10",
+			"season_number": "2",
+			"release_date": "2019-09-21",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "zac-oyama",
+					"score": 7
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "caldwell-tanner",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "frank-hejl",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "gravity-falls",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "samurai-champloo",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "mcu",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "farscape",
+					"winners": [
+						"frank-hejl"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Where Am I?",
+					"shiny": true,
+					"winners": [
+						"zac-oyama",
+						"caldwell-tanner"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "harry-potter",
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "ghostbusters",
+					"winners": [
+						"frank-hejl"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "gateway",
+					"winners": [
+						"caldwell-tanner"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "the-simpsons",
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "the-expanse",
+					"winners": [
+						"caldwell-tanner"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "cartoons",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "movies",
+					"title": "What's My Line?",
+					"shiny": true,
+					"winners": [
+						"zac-oyama",
+						"caldwell-tanner"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"frank-hejl"
+					]
 				}
 			]
 		}
