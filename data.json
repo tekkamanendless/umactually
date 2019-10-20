@@ -21,6 +21,16 @@
 			"url": "https://www.dropout.tv/search/talent/138/adam-lustick"
 		},
 		{
+			"id": "alex-schmidt",
+			"name": "Alex Schmidt",
+			"url": "https://www.dropout.tv/search/talent/1352/alex-schmidt"
+		},
+		{
+			"id": "alex-song",
+			"name": "Alex Song",
+			"url": "https://www.dropout.tv/search/talent/1350/alex-song"
+		},
+		{
 			"id": "alice-wetterlund",
 			"name": "Alice Wetterlund",
 			"url": "https://www.dropout.tv/search/talent/491/alice-wetterlund"
@@ -59,6 +69,11 @@
 			"id": "caldwell-tanner",
 			"name": "Caldwell Tanner",
 			"url": "https://www.dropout.tv/search/talent/74/caldwell-tanner"
+		},
+		{
+			"id": "carolyn-page",
+			"name": "Carolyn Page",
+			"url": "https://www.dropout.tv/search/talent/761/carolyn-page"
 		},
 		{
 			"id": "chris-calilung",
@@ -149,6 +164,11 @@
 			"id": "jackie-kashian",
 			"name": "Jackie Kashian",
 			"url": "https://www.dropout.tv/search/talent/678/jackie-kashian"
+		},
+		{
+			"id": "jamel-wood",
+			"name": "Jamel Wood",
+			"url": "https://www.dropout.tv/search/talent/1351/jamel-wood"
 		},
 		{
 			"id": "janie-stolar",
@@ -249,6 +269,11 @@
 			"id": "michelle-nguyen-bradley",
 			"name": "Michelle Nguyen Bradley",
 			"url": "https://www.dropout.tv/search/talent/1341/michelle-nguyen-bradley"
+		},
+		{
+			"id": "mike-drucker",
+			"name": "Mike Drucker",
+			"url": "https://www.dropout.tv/search/talent/1331/mike-drucker"
 		},
 		{
 			"id": "mike-trapp",
@@ -858,6 +883,10 @@
 			"name": "Lewis Carroll"
 		},
 		{
+			"id": "little-mermaid",
+			"name": "The Little Mermaid"
+		},
+		{
 			"id": "logans-run",
 			"name": "Logan's Run"
 		},
@@ -904,6 +933,10 @@
 		{
 			"id": "miyazaki",
 			"name": "Miyazaki Hayao"
+		},
+		{
+			"id": "monsters",
+			"name": "Monsters"
 		},
 		{
 			"id": "monty-python-holy-grail",
@@ -992,6 +1025,10 @@
 		{
 			"id": "robocop",
 			"name": "Robocop"
+		},
+		{
+			"id": "roger-rabbit",
+			"name": "Who Framed Roger Rabbit?"
 		},
 		{
 			"id": "saga",
@@ -1180,6 +1217,10 @@
 		{
 			"id": "transformers",
 			"name": "Transformers"
+		},
+		{
+			"id": "twilight",
+			"name": "Twilight"
 		},
 		{
 			"id": "twilight-zone",
@@ -6557,6 +6598,277 @@
 					"winners": [
 						"frank-hejl"
 					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2499,
+			"dropouttv_productid": "ep-2499",
+			"title": "Um, Actually LIVE! @ New York Comic Con",
+			"description": "Mike Drucker, Alex Song, & Carolyn Page compete with fan Jamel Wood in a LIVE episode from NYCC 2019",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2499/um-actually-live-new-york-comic-con",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/28fa844e5fba41c6dc19cc79b3521a13.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 3193,
+			"number": "11",
+			"season_number": "2",
+			"release_date": "2019-10-12",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "",
+					"id": "jamel-wood",
+					"score": 9,
+					"notes": "Trapp somehow counts 9 even though the actual score appears to be 8"
+				},
+				{
+					"position": "2",
+					"color": "",
+					"id": "alex-song",
+					"score": 1
+				},
+				{
+					"position": "3",
+					"color": "",
+					"id": "mike-drucker",
+					"score": 1
+				},
+				{
+					"position": "4",
+					"color": "",
+					"id": "carolyn-page",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "video-games",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "video-games",
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "pokemon",
+					"winners": [
+						"jamel-wood"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"jamel-wood"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "tv",
+					"winners": [
+						"jamel-wood"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "super-mario",
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "marvel",
+					"winners": [
+						"jamel-wood"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "fullmetal-alchemist",
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "monsters",
+					"winners": [
+						"alex-song"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "cartoons",
+					"title": "Once More Without Feeling",
+					"shiny": true,
+					"winners": [
+						"jamel-wood"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "marvel",
+					"winners": [
+						"jamel-wood"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "dragon-ball",
+					"winners": [
+						"jamel-wood"
+					]
+				},
+				{
+					"number": 14,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"jamel-wood"
+					]
+				},
+				{
+					"number": 15,
+					"title": "Real Life Skills",
+					"winners": [
+						"mike-drucker"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2507,
+			"dropouttv_productid": "ep-2507",
+			"title": "Star Trek, Godzilla Island, Babylon 5",
+			"description": "Alex Schmidt, Zac Oyama, and Haley Mancini beat up vampires & find the darker side of Roger Rabbit.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2507/star-trek-godzilla-island-babylon-5",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/620b7eff5b48134dfd59beb6a0382bfa.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 2030,
+			"number": "12",
+			"season_number": "2",
+			"release_date": "2019-10-19",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "alex-schmidt",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "zac-oyama",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "haley-mancini",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "little-mermaid",
+					"winners": [
+						"alex-schmidt"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "dnd",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "the-simpsons",
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "roger-rabbit",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"topic": "star-trek",
+					"title": "Tag Out",
+					"shiny": true,
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "godzilla",
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "twilight",
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "video-games",
+					"winners": [
+						"alex-schmidt"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Order Up",
+					"shiny": true,
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "tv",
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "harry-potter",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 12,
+					"title": "A Title Of Words",
+					"shiny": true,
+					"winners": [
+						"alex-schmidt"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
