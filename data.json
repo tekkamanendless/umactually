@@ -56,6 +56,11 @@
 			"url": "https://www.dropout.tv/search/talent/493/becca-scott"
 		},
 		{
+			"id": "betsy-sodaro",
+			"name": "Betsy Sodaro",
+			"url": "https://www.dropout.tv/search/talent/1202/betsy-sodaro"
+		},
+		{
 			"id": "brian-murphy",
 			"name": "Brian \"Murph\" Murphy",
 			"url": "https://www.dropout.tv/search/talent/12/brian-murphy"
@@ -311,6 +316,16 @@
 			"url": "https://www.dropout.tv/search/talent/126/nick-mundy"
 		},
 		{
+			"id": "noah-diamond",
+			"name": "Noah Diamond",
+			"url": "https://www.dropout.tv/search/talent/769/noah-diamond"
+		},
+		{
+			"id": "oscar-montoya",
+			"name": "Oscar Montoya",
+			"url": "https://www.dropout.tv/search/talent/84/oscar-montoya"
+		},
+		{
 			"id": "rekha-shankar",
 			"name": "Rekha Shankar",
 			"url": "https://www.dropout.tv/search/talent/224/rekha-shankar"
@@ -445,6 +460,9 @@
 		},
 		{
 			"name": "Name That Dragon"
+		},
+		{
+			"name": "Name That Elf"
 		},
 		{
 			"name": "Name That Flora"
@@ -837,6 +855,14 @@
 		{
 			"id": "homestar-runner",
 			"name": "Homestar Runner"
+		},
+		{
+			"id": "horror-books",
+			"name": "Horror Books"
+		},
+		{
+			"id": "horror-movies",
+			"name": "Horror Movies"
 		},
 		{
 			"id": "hp-lovecraft",
@@ -6864,6 +6890,259 @@
 					"winners": [
 						"alex-schmidt"
 					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2522,
+			"dropouttv_productid": "ep-2522",
+			"title": "Um, Aaah!ctually: Halloween Edition",
+			"description": "Betsy Sodaro, Jessica Ross, & Oscar Montoya test their horror knowledge in a special spooky episode.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2522/um-aaah-ctually-halloween-edition",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/3cfc9f175ec368ef612fabe7d022494f.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 2153,
+			"number": "13",
+			"season_number": "2",
+			"release_date": "2019-10-26",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "betsy-sodaro",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "jessica-ross",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "oscar-montoya",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "horror-movies",
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "horror-movies",
+					"winners": [
+						"betsy-sodaro"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "horror-movies",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "horror-movies",
+					"winners": [
+						"oscar-montoya"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "horror-movies",
+					"title": "Order Up",
+					"shiny": true,
+					"winners": [
+						"betsy-sodaro",
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "horror-movies",
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "horror-movies",
+					"winners": [
+						"betsy-sodaro"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "horror-movies",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"topic": "horror-movies",
+					"title": "Under Review",
+					"shiny": true,
+					"winners": [
+						"betsy-sodaro",
+						"jessica-ross",
+						"oscar-montoya"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "horror-movies",
+					"winners": [
+						"betsy-sodaro"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "horror-books",
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"oscar-montoya"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"betsy-sodaro"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2533,
+			"dropouttv_productid": "ep-2533",
+			"title": "E.T., Green Lantern, Robin Hobb",
+			"description": "Kirk Damato, Liam Senior, & Noah Diamond-Stolzman boycott the Triwizard Cup & play \"Name That Elf.\"",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2533/e-t-green-lantern-robin-hobb",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/b022d98eb7230463072c3b6179cacf88.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 2100,
+			"number": "14",
+			"season_number": "2",
+			"release_date": "2019-11-02",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "kirk-damato",
+					"score": 1
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "liam-senior",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "noah-diamond",
+					"score": 6
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "mcu",
+					"winners": [
+						"noah-diamond"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "video-games",
+					"winners": [
+						"noah-diamond"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "dnd",
+					"winners": [
+						"liam-senior"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "dc",
+					"winners": [
+						"noah-diamond"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "cartoons",
+					"title": "Once More Without Feeling",
+					"shiny": true,
+					"winners": [
+						"kirk-damato",
+						"liam-senior"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "fantasy",
+					"winners": [
+						"noah-diamond"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "horror-movies",
+					"winners": [
+						"liam-senior"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "harry-potter",
+					"winners": [
+						"liam-senior"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Name That Elf",
+					"shiny": true,
+					"winners": [
+						"noah-diamond"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "doctor-who",
+					"winners": [
+						"noah-diamond"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "mass-effect",
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "What's My Line?",
+					"shiny": true,
+					"winners": []
 				},
 				{
 					"number": 13,
