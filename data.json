@@ -91,6 +91,11 @@
 			"url": "https://www.dropout.tv/search/talent/414/dan-black"
 		},
 		{
+			"id": "dani-fernandez",
+			"name": "Dani Fernandez",
+			"url": "https://www.dropout.tv/search/talent/1374/dani-fernandez"
+		},
+		{
 			"id": "daniel-obrien",
 			"name": "Daniel O'Brien",
 			"url": "https://www.dropout.tv/search/talent/386/daniel-o-brien"
@@ -99,6 +104,11 @@
 			"id": "danielle-radford",
 			"name": "Danielle Radford",
 			"url": "https://www.dropout.tv/search/talent/750/danielle-radford"
+		},
+		{
+			"id": "david-gallegos",
+			"name": "David Gallegos",
+			"url": "https://www.dropout.tv/search/talent/1373/david-gallegos"
 		},
 		{
 			"id": "dc-pierson",
@@ -114,6 +124,11 @@
 			"id": "edgar-momplaisir",
 			"name": "Edgar Momplaisir",
 			"url": "https://www.dropout.tv/search/talent/685/edgar-momplaisir"
+		},
+		{
+			"id": "eli-yudin",
+			"name": "Eli Yudin",
+			"url": "https://www.dropout.tv/search/talent/763/eli-yudin"
 		},
 		{
 			"id": "eme-ikwuakor",
@@ -426,6 +441,9 @@
 			"name": "Find The Fake"
 		},
 		{
+			"name": "G-O-N In 60 Seconds"
+		},
+		{
 			"name": "Hear Me Roar"
 		},
 		{
@@ -553,6 +571,10 @@
 			"name": "20,000 Leagues Under the Sea"
 		},
 		{
+			"id": "aristocats",
+			"name": "Aristocats"
+		},
+		{
 			"id": "avatar-the-last-airbender",
 			"name": "Avatar: The Last Airbender"
 		},
@@ -617,8 +639,20 @@
 			"name": "Board Games"
 		},
 		{
+			"id": "bojack-horseman",
+			"name": "Bojack Horseman"
+		},
+		{
 			"id": "book-of-mormon",
 			"name": "Book of Mormon"
+		},
+		{
+			"id": "borderlands",
+			"name": "Borderlands (Video Game)"
+		},
+		{
+			"id": "broken-earth",
+			"name": "Broken Earth"
 		},
 		{
 			"id": "buffy",
@@ -645,6 +679,10 @@
 			"name": "Community (TV Series)"
 		},
 		{
+			"id": "conan-the-barbarian",
+			"name": "Conan the Barbarian"
+		},
+		{
 			"id": "cowboy-bebop",
 			"name": "Cowboy Bebop"
 		},
@@ -665,6 +703,10 @@
 			"name": "DC (comics)"
 		},
 		{
+			"id": "death-note",
+			"name": "Death Note"
+		},
+		{
 			"id": "demolition-man",
 			"name": "Demolition Man"
 		},
@@ -677,6 +719,10 @@
 			"name": "Discworld"
 		},
 		{
+			"id": "disney",
+			"name": "Disney"
+		},
+		{
 			"id": "dnd",
 			"name": "Dungeons & Dragons"
 		},
@@ -687,6 +733,10 @@
 		{
 			"id": "donkey-kong",
 			"name": "Donkey Kong"
+		},
+		{
+			"id": "dr-horrible",
+			"name": "Dr. Horrible's Sing-along Blog"
 		},
 		{
 			"id": "dragon-age",
@@ -921,6 +971,10 @@
 			"name": "Lord of the Rings"
 		},
 		{
+			"id": "lost",
+			"name": "Lost"
+		},
+		{
 			"id": "mad-max",
 			"name": "Mad Max"
 		},
@@ -1117,6 +1171,10 @@
 			"name": "Snow Crash"
 		},
 		{
+			"id": "spider-man",
+			"name": "Spider-Man"
+		},
+		{
 			"id": "spin",
 			"name": "Spin (Robert Charles Wilson novel)"
 		},
@@ -1257,6 +1315,10 @@
 			"name": "TV"
 		},
 		{
+			"id": "venture-brothers",
+			"name": "Venture Brothers"
+		},
+		{
 			"id": "video-games",
 			"name": "Video Games"
 		},
@@ -1287,6 +1349,10 @@
 		{
 			"id": "wizard-of-oz",
 			"name": "Wizard of Oz"
+		},
+		{
+			"id": "wonder-woman",
+			"name": "Wonder Woman"
 		},
 		{
 			"id": "world-of-darkness",
@@ -7148,6 +7214,378 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2546,
+			"dropouttv_productid": "ep-2546",
+			"title": "Venture Brothers, Full Metal Alchemist, Conan the Barbarian",
+			"description": "Tao Yang, David Gallegos & Dani Fernandez cozy up to H.P. Lovecraft & test their acronym knowledge.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2546/venture-brothers-full-metal-alchemist-conan-the-barbarian",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/6d7f1e716fbc0bebc2048c88549a81cd.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1881,
+			"number": "15",
+			"season_number": "2",
+			"release_date": "2019-11-09",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "tao-yang",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "david-gallegos",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "dani-fernandez",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "venture-brothers",
+					"winners": [
+						"tao-yang"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "wonder-woman",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "final-fantasy",
+					"winners": [
+						"tao-yang"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "marvel",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": [
+						"david-gallegos"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "conan-the-barbarian",
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "video-games",
+					"winners": [
+						"dani-fernandez"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "fullmetal-alchemist",
+					"winners": [
+						"dani-fernandez"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Acronym Bee",
+					"shiny": true,
+					"winners": [
+						"tao-yang"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "dr-horrible",
+					"winners": [
+						"dani-fernandez"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "twilight-zone",
+					"winners": [
+						"dani-fernandez"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "superman",
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"david-gallegos"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"david-gallegos"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2558,
+			"dropouttv_productid": "ep-2558",
+			"title": "Buffy the Vampire Slayer, M. Night Shyamalan, Final Fantasy X",
+			"description": "Luke Field, Eli Yudin, and Joan Ford feed the fictional and get sloppy with their Death Notes.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2558/buffy-the-vampire-slayer-m-night-shyamalan-final-fantasy-x",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/0cef98c40ca32a01c31c17e5ac9dff67.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1988,
+			"number": "16",
+			"season_number": "2",
+			"release_date": "2019-11-16",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "luke-field",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "eli-yudin",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "joan-ford",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "buffy",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"luke-field"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "hitchhikers-guide",
+					"winners": [
+						"luke-field"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "death-note",
+					"winners": [
+						"eli-yudin"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Tag Out",
+					"shiny": true,
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "bojack-horseman",
+					"winners": [
+						"eli-yudin"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "lost",
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "anime",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"eli-yudin"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "broken-earth",
+					"winners": [
+						"luke-field"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "final-fantasy",
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "I Require Sustenance",
+					"shiny": true,
+					"winners": [
+						"eli-yudin"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2576,
+			"dropouttv_productid": "ep-2576",
+			"title": "Borderlands, Ticket to Ride, Into the Spider-Verse",
+			"description": "Jenny Lorenzo, Nick Marini, and Erika Ishii muse over mythical maps and count Aristocats' lives.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2576/borderlands-ticket-to-ride-into-the-spider-verse",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/b570f6b4130a7f6d9c3b4577f0b7a398.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1931,
+			"number": "17",
+			"season_number": "2",
+			"release_date": "2019-11-23",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jenny-lorenzo",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "nick-marini",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "erika-ishii",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "star-trek",
+					"winners": [
+						"jenny-lorenzo"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "dnd",
+					"winners": [
+						"nick-marini"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "borderlands",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "G-O-N In 60 Seconds",
+					"shiny": true,
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "board-games",
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "aristocats",
+					"winners": [
+						"jenny-lorenzo"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "video-games",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "disney",
+					"title": "Once More Without Feeling",
+					"shiny": true,
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "world-of-darkness",
+					"winners": [
+						"nick-marini"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "spider-man",
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Where Am I?",
+					"shiny": true,
+					"winners": [
+						"nick-marini"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"nick-marini"
+					]
 				}
 			]
 		}
