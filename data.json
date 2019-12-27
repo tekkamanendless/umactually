@@ -46,6 +46,11 @@
 			"url": "https://www.dropout.tv/search/talent/1198/alyssa-rousonelos"
 		},
 		{
+			"id": "amy-dallen",
+			"name": "Amy Dallen",
+			"url": "https://www.dropout.tv/search/talent/1397/amy-dallen"
+		},
+		{
 			"id": "amy-vorpahl",
 			"name": "Amy Vorpahl",
 			"url": "https://www.dropout.tv/search/talent/664/amy-vorpahl"
@@ -261,6 +266,11 @@
 			"url": "https://www.dropout.tv/search/talent/1335/liam-senior"
 		},
 		{
+			"id": "lily-du",
+			"name": "Lily Du",
+			"url": "https://www.dropout.tv/search/talent/1121/lily-du"
+		},
+		{
 			"id": "luke-field",
 			"name": "Luke Field",
 			"url": "https://www.dropout.tv/search/talent/594/luke-field"
@@ -453,7 +463,13 @@
 			"name": "I'd Give An Arm And A Leg"
 		},
 		{
+			"name": "In The Beginning"
+		},
+		{
 			"name": "Incantatio Ridiculum"
+		},
+		{
+			"name": "Look What Ya Did, Ya Little Jerk!"
 		},
 		{
 			"name": "Mapmaker, Mapmaker, Make Me A Map"
@@ -487,6 +503,9 @@
 		},
 		{
 			"name": "Name That Robot"
+		},
+		{
+			"name": "Name That Santa"
 		},
 		{
 			"name": "Name That Vampire"
@@ -597,6 +616,10 @@
 		{
 			"id": "akira",
 			"name": "Akira"
+		},
+		{
+			"id": "an-american-tail",
+			"name": "An American Tail"
 		},
 		{
 			"id": "anime",
@@ -835,6 +858,10 @@
 			"name": "Godzilla"
 		},
 		{
+			"id": "good-omens",
+			"name": "Good Omens"
+		},
+		{
 			"id": "gotham",
 			"name": "Gotham (TV Series)"
 		},
@@ -947,6 +974,10 @@
 			"name": "Kingdom Hearts"
 		},
 		{
+			"id": "kurt-vonnegut",
+			"name": "Kurt Vonnegut"
+		},
+		{
 			"id": "labyrinth",
 			"name": "Labyrinth"
 		},
@@ -1037,6 +1068,10 @@
 		{
 			"id": "my-hero-academia",
 			"name": "My Hero Academia"
+		},
+		{
+			"id": "mythology",
+			"name": "Mythlology"
 		},
 		{
 			"id": "narnia",
@@ -1263,6 +1298,10 @@
 			"name": "The Matrix"
 		},
 		{
+			"id": "the-muppets",
+			"name": "The Muppets"
+		},
+		{
 			"id": "the-name-of-the-wind",
 			"name": "The Name of the Wind"
 		},
@@ -1357,6 +1396,10 @@
 		{
 			"id": "world-of-darkness",
 			"name": "World of Darkness"
+		},
+		{
+			"id": "world-of-warcraft",
+			"name": "World of Warcraft"
 		},
 		{
 			"id": "wreck-it-ralph",
@@ -7586,6 +7629,385 @@
 					"winners": [
 						"nick-marini"
 					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2583,
+			"dropouttv_productid": "ep-2583",
+			"title": "Rick & Morty, The Muppets, Superman",
+			"description": "Maggie Mae Fish, Jessica Ross, & Jon Gutierrez chug Felix Felicis & dish about Kermit's old flame.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2583/rick-and-morty-the-muppets-superman",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/fbdb26dffe87f35d1a5e0c90e1220013.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1936,
+			"number": "18",
+			"season_number": "2",
+			"release_date": "2019-11-30",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "maggie-mae-fish",
+					"score": 1
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "jessica-ross",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jon-gutierrez",
+					"score": 8
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "rick-and-morty",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "the-muppets",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "mythology",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "harry-potter",
+					"winners": [
+						"maggie-mae-fish"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "futurama",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "superman",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 9,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "star-wars",
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "marvel",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Crunch Time",
+					"shiny": true,
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"jessica-ross"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2588,
+			"dropouttv_productid": "ep-2588",
+			"title": "Ho Ho Ho, Actually: The Holiday Special",
+			"description": "Shane Crown, Jon Gutierrez, and Amy Vorpahl celebrate fictional holidays & play \"name that Santa.\"",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2588/ho-ho-ho-actually-the-holiday-special",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/8079667eaaf2a459d57662a55dbba234.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1859,
+			"number": "19",
+			"season_number": "2",
+			"release_date": "2019-12-07",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "shane-crown",
+					"score": 1
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "jon-gutierrez",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "amy-vorpahl",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "futurama",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "twilight-zone",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "gremlins",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "world-of-warcraft",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Cryptogeography",
+					"shiny": true,
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "an-american-tail",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "dc",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "discworld",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Name That Santa",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "the-muppets",
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "batman",
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Look What Ya Did, Ya Little Jerk!",
+					"shiny": true,
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
+				},
+				{
+					"number": 14,
+					"topic": "star-wars",
+					"winners": [
+						"jon-gutierrez"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2603,
+			"dropouttv_productid": "ep-2603",
+			"title": "Ender’s Game, Good Omens, Secret Wars",
+			"description": "Lily Du, Amy Dallen, and Emma Fyffe read tabloids for wizards & match origin stories to superheroes.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2603/ender-s-game-good-omens-secret-wars",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/948e8d9407dc90d04e0f8318e097f440.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1943,
+			"number": "20",
+			"season_number": "2",
+			"release_date": "2019-12-14",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "lily-du",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "amy-dallen",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "emma-fyffe",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "marvel",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "dnd",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "sailor-moon",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "enders-game",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 5,
+					"title": "In The Beginning",
+					"shiny": true,
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "harry-potter",
+					"winners": [
+						"lily-du"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "kurt-vonnegut",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "watchmen",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 9,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "good-omens",
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"lily-du"
+					]
+				},
+				{
+					"number": 12,
+					"title": "A Book By Its Cover",
+					"shiny": true,
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
