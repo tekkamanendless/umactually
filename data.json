@@ -376,6 +376,11 @@
 			"url": "https://www.dropout.tv/search/talent/191/shane-crown"
 		},
 		{
+			"id": "shay-parsons",
+			"name": "Shay Parsons",
+			"url": "https://www.dropout.tv/search/talent/1141/shay-parsons"
+		},
+		{
 			"id": "siobhan-thompson",
 			"name": "Siobhan Thompson",
 			"url": "https://www.dropout.tv/search/talent/181/siobhan-thompson"
@@ -394,6 +399,11 @@
 			"id": "thomas-middleditch",
 			"name": "Thomas Middleditch",
 			"url": "https://www.dropout.tv/search/talent/23/thomas-middleditch"
+		},
+		{
+			"id": "tj-gonzalez",
+			"name": "T.J. Gonzalez",
+			"url": "https://www.dropout.tv/search/talent/1091/tj-gonzalez"
 		},
 		{
 			"id": "zac-oyama",
@@ -780,6 +790,10 @@
 		{
 			"id": "evangelion",
 			"name": "Evangelion"
+		},
+		{
+			"id": "fallout",
+			"name": "Fallout"
 		},
 		{
 			"id": "fanfiction",
@@ -1204,6 +1218,10 @@
 		{
 			"id": "snow-crash",
 			"name": "Snow Crash"
+		},
+		{
+			"id": "south-park",
+			"name": "South Park"
 		},
 		{
 			"id": "spider-man",
@@ -8008,6 +8026,127 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_id": 2612,
+			"dropouttv_productid": "ep-2612",
+			"title": "Pokémon, South Park, Discworld (With John Darnielle)",
+			"description": "Shay Parsons, T.J. Gonzalez, & Jessica Clemons join Squirtle's squad & identify cartoon pet sounds.",
+			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2612/pokemon-south-park-discworld-with-john-darnielle",
+			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/b99d587ef9124c7021140b5903d208e8.jpg",
+			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"duration": 1667,
+			"number": "21",
+			"season_number": "2",
+			"release_date": "2019-12-21",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "shay-parsons",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "tj-gonzalez",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jessica-clemons",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "super-mario",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "star-trek",
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "comics",
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "discworld",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"topic": "fallout",
+					"title": "Tic Tac Tec",
+					"shiny": true,
+					"winners": [
+						"shay-parsons"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "south-park",
+					"winners": [
+						"tj-gonzalez"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "video-games",
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "wrestling",
+					"winners": [
+						"shay-parsons"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "pokemon",
+					"winners": [
+						"shay-parsons"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "magic-the-gathering",
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"tj-gonzalez"
+					]
 				}
 			]
 		}
