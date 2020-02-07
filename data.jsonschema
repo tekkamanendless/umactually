@@ -178,7 +178,6 @@
 					}
 				},
 				"required": [
-					"dropouttv_id",
 					"dropouttv_productid",
 					"title",
 					"number",
