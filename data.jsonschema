@@ -77,9 +77,6 @@
 			"items": {
 				"type": "object",
 				"properties": {
-					"dropouttv_id": {
-						"type": "number"
-					},
 					"dropouttv_productid": {
 						"type": "string"
 					},
@@ -93,9 +90,6 @@
 						"type": "string"
 					},
 					"thumbnail_landscape": {
-						"type": "string"
-					},
-					"thumbnail_portrait": {
 						"type": "string"
 					},
 					"duration": {
@@ -184,7 +178,6 @@
 					}
 				},
 				"required": [
-					"dropouttv_id",
 					"dropouttv_productid",
 					"title",
 					"number",

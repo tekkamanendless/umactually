@@ -7,6 +7,10 @@
 		{
 			"number": "2",
 			"title": "Season 2"
+		},
+		{
+			"number": "3",
+			"title": "Season 3"
 		}
 	],
 	"people": [
@@ -271,9 +275,19 @@
 			"url": "https://www.dropout.tv/search/talent/1121/lily-du"
 		},
 		{
+			"id": "lou-wilson",
+			"name": "Lou Wilson",
+			"url": ""
+		},
+		{
 			"id": "luke-field",
 			"name": "Luke Field",
 			"url": "https://www.dropout.tv/search/talent/594/luke-field"
+		},
+		{
+			"id": "maddox",
+			"name": "Maddox",
+			"url": "http://maddox.xmission.com/"
 		},
 		{
 			"id": "maggie-mae-fish",
@@ -510,6 +524,9 @@
 		},
 		{
 			"name": "Name That Flora"
+		},
+		{
+			"name": "Name That Goblin"
 		},
 		{
 			"name": "Name That Robot"
@@ -1340,6 +1357,10 @@
 			"name": "The Time Machine"
 		},
 		{
+			"id": "thundercats",
+			"name": "Thundercats"
+		},
+		{
 			"id": "time-bandits",
 			"name": "Time Bandits"
 		},
@@ -1442,13 +1463,11 @@
 	],
 	"episodes": [
 		{
-			"dropouttv_id": 831,
-			"dropouttv_productid": "ep-831",
+			"dropouttv_productid": "s01e01",
 			"title": "C-3PO's Origins, HP Lovecraft, the Food Album (with Weird Al Yankovic)",
 			"description": "Caldwell Tanner, Siobhan Thompson, and Nate Dern inspect guns and review the Diagon Alley bar scene.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/831/c-3po-s-origins-hp-lovecraft-the-food-album-with-weird-al-yankovic",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/c9c0b178e5ce7299974542c84655f21d.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/29735d2369df82aef3e08f5300927e32.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/not-every-westerosi-swordsman-is-a-knight",
+			"thumbnail_landscape": "images/s01e01.jpg",
 			"duration": 1344,
 			"number": "1",
 			"season_number": "1",
@@ -1567,13 +1586,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 838,
-			"dropouttv_productid": "ep-838",
+			"dropouttv_productid": "s01e02",
 			"title": "Cyborg Cops, Shai'Hulud, Sci-Fi Substance Abuse",
 			"description": "Can Jared Logan, Daniel O’Brien, and Haley Mancini identify droids by sight and monsters by sound?",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/838/cyborg-cops-shai-hulud-sci-fi-substance-abuse",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/34d679d9832abf62ba3db96ca4a8f1db.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/b5da498483d194535c30ac1b704e9599.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/cyborg-cops-shai-hulud-sci-fi-substance-abuse",
+			"thumbnail_landscape": "images/s01e02.jpg",
 			"duration": 1374,
 			"number": "2",
 			"season_number": "1",
@@ -1693,13 +1710,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 987,
-			"dropouttv_productid": "ep-987",
+			"dropouttv_productid": "s01e03",
 			"title": "Incantations, Immortans, Vulcans in Heat",
 			"description": "Ally Beardsley, Adam Conover, and Alice Wetterlund arrange Sailor Scouts and dethrone stewards.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/987/incantations-immortans-vulcans-in-heat",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/776d60259061bd90d4de69e5c070477e.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/472f295cd60063b0f52af39cf045753c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/incantations-immortans-vulcans-in-heat",
+			"thumbnail_landscape": "images/s01e03.jpg",
 			"duration": 1366,
 			"number": "3",
 			"season_number": "1",
@@ -1811,13 +1826,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 988,
-			"dropouttv_productid": "ep-988",
+			"dropouttv_productid": "s01e04",
 			"title": "Ganondorf, Gremlins, Geography of Westeros",
 			"description": "Sorting swords proves an arduous task for contestants Ally Beardsley, Ify Nwadiwe, and Becca Scott.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/988/ganondorf-gremlins-geography-of-westeros",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/e3362fd56a3e5ed07b6741cb63e9374a.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/4a7b66b5f61ece46feb1f350cae51b03.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/ganondorf-gremlins-geography-of-westeros",
+			"thumbnail_landscape": "images/s01e04.jpg",
 			"duration": 1238,
 			"number": "4",
 			"season_number": "1",
@@ -1939,13 +1952,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1000,
-			"dropouttv_productid": "ep-1000",
+			"dropouttv_productid": "s01e05",
 			"title": "Animalities, Maple Street Monsters, Mutagen Ooze",
 			"description": "Brennan Lee Mulligan, Siobhan Thompson, and Adam Conover name dragons and parse nonlinear timelines.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1000/animalities-maple-street-monsters-mutagen-ooze",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/39ffea52076cae55b32d95092f977976.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/7bf0d90d2cea2e8165f09171110c15a4.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/animalities-maple-street-monsters-mutagen-ooze",
+			"thumbnail_landscape": "images/s01e05.jpg",
 			"duration": 1342,
 			"number": "5",
 			"season_number": "1",
@@ -2069,13 +2080,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 998,
-			"dropouttv_productid": "ep-998",
+			"dropouttv_productid": "s01e06",
 			"title": "Pevensie Reign, Foreign Mutants, Kanto Clones",
 			"description": "Zac Oyama, Becca Scott, and Thomas Middleditch scrutinize anime jazz and interplanetary linguistics.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/998/pevensie-reign-foreign-mutants-kanto-clones",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/e6a3d6806935fa2654a62489c91ff5e1.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/def413fb8abcdde15c1a5c7f785f86d7.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/pevensie-reign-foreign-mutants-kanto-clones",
+			"thumbnail_landscape": "images/s01e06.jpg",
 			"duration": 1224,
 			"number": "6",
 			"season_number": "1",
@@ -2198,13 +2207,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1109,
-			"dropouttv_productid": "ep-1109",
+			"dropouttv_productid": "s01e07",
 			"title": "Mouth of Sauron, Saiyan Tails, Bothan Spies",
 			"description": "Power-ups and sibling rivalries beleaguer Ify Nwadiwe, DC Pierson, and Emily Axford.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1109/mouth-of-sauron-saiyan-tails-bothan-spies",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/ec08c51fed234a71d3c139c4a798674b.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/f259ab0a9d3ba564834164141f13cd7a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/mouth-of-sauron-saiyan-tails-bothan-spies",
+			"thumbnail_landscape": "images/s01e07.jpg",
 			"duration": 1343,
 			"number": "7",
 			"season_number": "1",
@@ -2320,13 +2327,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1113,
-			"dropouttv_productid": "ep-1113",
+			"dropouttv_productid": "s01e08",
 			"title": "Jump Man, Folklore, Hounds of Tindalos",
 			"description": "Middle-earthian bards regale Brian Murphy, Amy Vorpahl, and Matt Mercer, plus a lesson in THAC0.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1113/jump-man-folklore-hounds-of-tindalos",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/5f3bf641fd17be081062a80908239536.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/eae24c579483f764102b8583cea80c2f.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/jump-man-folklore-hounds-of-tindalos",
+			"thumbnail_landscape": "images/s01e08.jpg",
 			"duration": 1406,
 			"number": "8",
 			"season_number": "1",
@@ -2444,13 +2449,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1126,
-			"dropouttv_productid": "ep-1126",
+			"dropouttv_productid": "s01e09",
 			"title": "Bilquis, Black Panther, Battlestar Galactica",
 			"description": "Adam Lustick, Dan Black, and Jackie Kashian appraise MTG cards and scream for superhuman ice cream.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1126/bilquis-black-panther-battlestar-galactica",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/b81e5fc9288a2625467bd04c344affbd.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/bilquis-black-panther-battlestar-galactica",
+			"thumbnail_landscape": "images/s01e09.jpg",
 			"duration": 1275,
 			"number": "9",
 			"season_number": "1",
@@ -2566,13 +2569,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1131,
-			"dropouttv_productid": "ep-1131",
+			"dropouttv_productid": "s01e10",
 			"title": "Nothlits, Dust Bunnies, His Dark Materials",
 			"description": "Ally Beardsley, Zach Sherwin, and Siobhan Thompson assess Pokémon's missteps and Merlin's real age.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1131/nothlits-dust-bunnies-his-dark-materials",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/b041b38edd6078adf261cbb871c04583.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/nothlits-dust-bunnies-his-dark-materials",
+			"thumbnail_landscape": "images/s01e10.jpg",
 			"duration": 1204,
 			"number": "10",
 			"season_number": "1",
@@ -2693,13 +2694,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1136,
-			"dropouttv_productid": "ep-1136",
+			"dropouttv_productid": "s01e11",
 			"title": "Skaven, Watchmen, The Neverending Story",
 			"description": "Spellcasters hex Nick Marini, Emily Heller, and Edgar Momplaisir into forgetting the game's rules.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1136/skaven-watchmen-the-neverending-story",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/9a0c20fab3a50a4c900b87dba3e3df3a.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/skaven-watchmen-the-neverending-story",
+			"thumbnail_landscape": "images/s01e11.jpg",
 			"duration": 1220,
 			"number": "11",
 			"season_number": "1",
@@ -2821,13 +2820,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1146,
-			"dropouttv_productid": "ep-1146",
+			"dropouttv_productid": "s01e12",
 			"title": "Mako, Mudbloods, Mephisto (with Jonathan Coulton)",
 			"description": "Juggernaut and Filch have much in common according to Natalie Palamides, Demi Adejuyigbe, and Murph.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1146/mako-mudbloods-mephisto-with-jonathan-coulton",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/556b5ee42b52143750a13aa6f6a01a35.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/mako-mudbloods-mephisto-with-jonathan-coulton",
+			"thumbnail_landscape": "images/s01e12.jpg",
 			"duration": 1199,
 			"number": "12",
 			"season_number": "1",
@@ -2940,13 +2937,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1154,
-			"dropouttv_productid": "ep-1154",
+			"dropouttv_productid": "s01e13",
 			"title": "Father Figures, Frog Thor, Fusion Gems",
 			"description": "Hector Navarro, Ryan Martin, and Zach Kornfeld delve into Darth Vader and deleted scenes.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1154/father-figures-frog-thor-fusion-gems",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/468465bd6f0d69cb4f1618a780ee57d4.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/father-figures-frog-thor-fusion-gems",
+			"thumbnail_landscape": "images/s01e13.jpg",
 			"duration": 1424,
 			"number": "13",
 			"season_number": "1",
@@ -3062,13 +3057,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1167,
-			"dropouttv_productid": "ep-1167",
+			"dropouttv_productid": "s01e14",
 			"title": "Robots, Rhydon, Staff of Ra",
 			"description": "Shane Crown, Zeke Nicholson, and Ally Beardsley sample space appetizers and make sense of mwahahas.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1167/robots-rhydon-staff-of-ra",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/f2858996f28969450ccc1797a4abefa2.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/robots-rhydon-staff-of-ra",
+			"thumbnail_landscape": "images/s01e14.jpg",
 			"duration": 1166,
 			"number": "14",
 			"season_number": "1",
@@ -3191,13 +3184,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1173,
-			"dropouttv_productid": "ep-1173",
+			"dropouttv_productid": "s01e15",
 			"title": "Charybdis, Kill Lists, and Cookie Crisp",
 			"description": "Matt Kirshen, Becca Scott, and Amy Vorpahl earn heart points and liken dragons to Spice Girls.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1173/charybdis-kill-lists-and-cookie-crisp",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/287c14803814e384a6a94fc61f92e39d.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/charybdis-kill-lists-and-cookie-crisp",
+			"thumbnail_landscape": "images/s01e15.jpg",
 			"duration": 1152,
 			"number": "15",
 			"season_number": "1",
@@ -3316,13 +3307,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1174,
-			"dropouttv_productid": "ep-1174",
+			"dropouttv_productid": "s01e16",
 			"title": "Diablo, Diddy Kong, Dora Milaje",
 			"description": "Shane Crown, Jordan Doll, and Ify Nwadiwe beef up like Goku and consider going alt-Sith.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1174/diablo-diddy-kong-dora-milaje",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/cca527b159a9b86f8a68776cc28c267d.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/diablo-diddy-kong-dora-milaje",
+			"thumbnail_landscape": "images/s01e16.jpg",
 			"duration": 1305,
 			"number": "16",
 			"season_number": "1",
@@ -3444,13 +3433,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1186,
-			"dropouttv_productid": "ep-1186",
+			"dropouttv_productid": "s01e17",
 			"title": "Wario, Winnie the Pooh, A Wrinkle in Time",
 			"description": "Brennan Lee Mulligan, Ryan Martin, and Jackie Kashian ponder pink kryptonite and missing mages.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1186/wario-winnie-the-pooh-a-wrinkle-in-time",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/e4378cd44e584f393122fae9e75052d8.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/wario-winnie-the-pooh-a-wrinkle-in-time",
+			"thumbnail_landscape": "images/s01e17.jpg",
 			"duration": 1968,
 			"number": "17",
 			"season_number": "1",
@@ -3570,13 +3557,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1200,
-			"dropouttv_productid": "ep-1200",
+			"dropouttv_productid": "s01e18",
 			"title": "Monty Python, Shōnen Manga, Mr. Burns",
 			"description": "Nathan Yaffe, Haley Mancini, and Kirk Damato question Xena's powers and make bribes for Pokémon.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1200/monty-python-sh-nen-manga-mr-burns",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/3439da16c2e273ec62f56bb1b892aad0.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/monty-python-shonen-manga-mr-burns",
+			"thumbnail_landscape": "images/s01e18.jpg",
 			"duration": 2125,
 			"number": "18",
 			"season_number": "1",
@@ -3699,13 +3684,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1209,
-			"dropouttv_productid": "ep-1209",
+			"dropouttv_productid": "s01e19",
 			"title": "Sonic, Shredder, the Sword in the Stone",
 			"description": "Shane Crown, Jenny Lorenzo, and Erika Ishii shudder over underwater levels and moving to Florida.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1209/sonic-shredder-the-sword-in-the-stone",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/2bc09130e6707986e5e91709f8e6af17.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/sonic-shredder-the-sword-in-the-stone",
+			"thumbnail_landscape": "images/s01e19.jpg",
 			"duration": 2153,
 			"number": "19",
 			"season_number": "1",
@@ -3825,13 +3808,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1230,
-			"dropouttv_productid": "ep-1230",
+			"dropouttv_productid": "s01e20",
 			"title": "Cyclops, Skeletor, the Dark Crystal",
 			"description": "Jordan Doll, Jon Gutierrez, and Maggie Mae Fish admire Gelflings' wings and Ser Mandon Moore's bops.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1209/sonic-shredder-the-sword-in-the-stone",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/f1d80befa57491ef978f76fbb486faab.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/cyclops-skeletor-the-dark-crystal",
+			"thumbnail_landscape": "images/s01e20.jpg",
 			"duration": 2109,
 			"number": "20",
 			"season_number": "1",
@@ -3953,13 +3934,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1238,
-			"dropouttv_productid": "ep-1238",
+			"dropouttv_productid": "s01e21",
 			"title": "Ms. Pac-Man, Mick Foley, Marvel Apes",
 			"description": "Hector Navarro, Danielle Radford, and Nick Mundy play name-that-robot and learn ALF's real name.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1238/ms-pac-man-mick-foley-marvel-apes",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/fcfe210224463e25d7120bf84577ab11.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/ms-pac-man-mick-foley-marvel-apes",
+			"thumbnail_landscape": "images/s01e21.jpg",
 			"duration": 2256,
 			"number": "21",
 			"season_number": "1",
@@ -4081,13 +4060,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1250,
-			"dropouttv_productid": "ep-1250",
+			"dropouttv_productid": "s01e22",
 			"title": "Hodor, Portable Holes, Philip K. Dick (with Kristian Nairn)",
 			"description": "Matt Mercer, Becca Scott, and Jon Gabrus identify with Tingle and fixate on New Zealand.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1250/hodor-portable-holes-philip-k-dick-with-kristian-nairn",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/14b778678411de3f157ca8b0f10d196f.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/hodor-portable-holes-philip-k-dick-with-kristian-nairn",
+			"thumbnail_landscape": "images/s01e22.jpg",
 			"duration": 2104,
 			"number": "22",
 			"season_number": "1",
@@ -4209,13 +4186,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1277,
-			"dropouttv_productid": "ep-1277",
+			"dropouttv_productid": "s01e23",
 			"title": "Mortal Kombat, Element Stones, The Matrix: Reloaded",
 			"description": "Zac Oyama, Kirk Damato, Sam Bashor fear for their gamer cred and admire Crash Bandicoot's style.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1277/mortal-kombat-element-stones-the-matrix-reloaded",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/1a901212622d8d13d103966579c95150.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/mortal-kombat-element-stones-the-matrix-reloaded",
+			"thumbnail_landscape": "images/s01e23.jpg",
 			"duration": 2205,
 			"number": "23",
 			"season_number": "1",
@@ -4333,13 +4308,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 1292,
-			"dropouttv_productid": "ep-1292",
+			"dropouttv_productid": "s01e24",
 			"title": "Jabberwocky, Gelatinous Cubes, Magic: the Gathering",
 			"description": "Amy Vorpahl, Emma Fyffe, and Stef Woodburn defend Petunia Dursley and Pluto's planethood.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/1292/jabberwocky-gelatinous-cubes-magic-the-gathering",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/03a504c3e4018d060d26e4e91bf58a20.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/jabberwocky-gelatinous-cubes-magic-the-gathering",
+			"thumbnail_landscape": "images/s01e24.jpg",
 			"duration": 2091,
 			"number": "24",
 			"season_number": "1",
@@ -4462,13 +4435,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2042,
-			"dropouttv_productid": "ep-2042",
+			"dropouttv_productid": "s01e25",
 			"title": "Tournament of Champions Pt. 1",
 			"description": "Ally Beardsley, Jon Gutierrez, and Shane Crown slam sexist Smurfs and ponder Planets of the Apes.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2042/tournament-of-champions-pt-1",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/18327603015bad8f21cb263bea9faddc.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/tournament-of-champions-pt-1",
+			"thumbnail_landscape": "images/s01e25.jpg",
 			"duration": 2270,
 			"number": "25",
 			"season_number": "1",
@@ -4590,13 +4561,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2053,
-			"dropouttv_productid": "ep-2053",
+			"dropouttv_productid": "s01e26",
 			"title": "Tournament of Champions Pt. 2",
 			"description": "Siobhan Thompson, Ify Nwadiwe, and Emma Fyffe celebrate Hogswatch and pacify the Knights Who Say Ni.",
-			"url": "https://www.dropout.tv/videos/um-actually/2053/tournament-of-champions-pt-2",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/66d047b5fc2fcc6ad2d373fd0649676a.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/tournament-of-champions-pt-2",
+			"thumbnail_landscape": "images/s01e26.jpg",
 			"duration": 2077,
 			"number": "26",
 			"season_number": "1",
@@ -4718,13 +4687,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2080,
-			"dropouttv_productid": "ep-2080",
+			"dropouttv_productid": "s01e27",
 			"title": "Tournament of Champions Pt. 3",
 			"description": "Amy Vorpahl, Jared Logan, and Demi Adejuyigbe stan Ned Ryerson and name fictional vampires.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2080/tournament-of-champions-pt-3",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/144bd75819a01de82949187e80f56e5e.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/tournament-of-champions-pt-3",
+			"thumbnail_landscape": "images/s01e27.jpg",
 			"duration": 1893,
 			"number": "27",
 			"season_number": "1",
@@ -4841,13 +4808,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2094,
-			"dropouttv_productid": "ep-2094",
+			"dropouttv_productid": "s01e28",
 			"title": "Tournament of Champions Pt. 4",
 			"description": "Champions Jared Logan, Siobhan Thompson, and Jon Gutierrez compete for the title of Most Correct.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2094/tournament-of-champions-pt-4",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/e33f918a55c9099dcea316599f74863a.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "httpshttps://www.dropout.tv/um-actually/season:1/videos/tournament-of-champions-pt-4",
+			"thumbnail_landscape": "images/s01e28.jpg",
 			"duration": 2040,
 			"number": "28",
 			"season_number": "1",
@@ -4970,13 +4935,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2207,
-			"dropouttv_productid": "ep-2207",
+			"dropouttv_productid": "s01e29",
 			"title": "Bob's Burgers, Logan’s Run (Fans vs. Faves Pt. 1)",
 			"description": "Brennan Lee Mulligan, Jessica Clemons, and Chris Calilung side-eye comic crossover double dates.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2207/bob-s-burgers-logan-s-run-fans-vs-faves-pt-1",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/7fb826e870f494d0b0b09fa714fbd6d6.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/bob-s-burgers-logan-s-run-fans-vs-faves-pt-1",
+			"thumbnail_landscape": "images/s01e29.jpg",
 			"duration": 2202,
 			"number": "29",
 			"season_number": "1",
@@ -5096,13 +5059,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2222,
-			"dropouttv_productid": "ep-2222",
+			"dropouttv_productid": "s01e30",
 			"title": "Stranger Things, Steven Spielberg (Fans vs. Faves Pt. 2)",
 			"description": "Caldwell Tanner, Jessica Ross, and Alyssa Rousonelos draw zaratans and debate fast zombies.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2222/stranger-things-steven-spielberg-fans-vs-faves-pt-2",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/cc040f330cecb6dbcf956d5344994f8f.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/stranger-things-steven-spielberg-fans-vs-faves-pt-2",
+			"thumbnail_landscape": "images/s01e30.jpg",
 			"duration": 2037,
 			"number": "30",
 			"season_number": "1",
@@ -5218,13 +5179,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2241,
-			"dropouttv_productid": "ep-2241",
+			"dropouttv_productid": "s01e31",
 			"title": "Kingdom Hearts, My Hero Academia (Fans vs. Faves Pt. 3)",
 			"description": "Ally Beardsley, Amy Vorpahl, and Jason Gong count MeowMeowBeenz & wonder what the hell a quatloo is.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2241/kingdom-hearts-my-hero-academia-fans-vs-faves-pt-3",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/7ab797a6fca721d8f0fa753f00f4f779.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/kingdom-hearts-my-hero-academia-fans-vs-faves-pt-3",
+			"thumbnail_landscape": "images/s01e31.jpg",
 			"duration": 2012,
 			"number": "31",
 			"season_number": "1",
@@ -5347,13 +5306,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2255,
-			"dropouttv_productid": "ep-2255",
+			"dropouttv_productid": "s01e32",
 			"title": "Ranma, JoJo's Bizarre Adventure (Fans vs. Faves Pt. 4)",
 			"description": "Ify Nwadiwe, Siobhan Thompson, & Jeremy Puckett feed fictional characters & cast Tolkien Beatles.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2255/ranma-jojo-s-bizarre-adventure-fans-vs-faves-pt-4",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/ebdfef4ea4f9fb8099752e9e26cd7840.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/338e4f7ff07f4e6498dd3dc326b3861a.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:1/videos/ranma-jojo-s-bizarre-adventure-fans-vs-faves-pt-4",
+			"thumbnail_landscape": "images/s01e32.jpg",
 			"duration": 1962,
 			"number": "32",
 			"season_number": "1",
@@ -5476,13 +5433,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2355,
-			"dropouttv_productid": "ep-2355",
+			"dropouttv_productid": "s02e01",
 			"title": "Gotham, The Good Place, The Black Cauldron",
 			"description": "Kirk Damato, Marisha Ray, and Brennan Lee Mulligan write Avatar fan fiction and stan Entwives.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2355/gotham-the-good-place-the-black-cauldron",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/58c4a73a4a146996461b13f5dc0b13cf.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/gotham-the-good-place-the-black-cauldron",
+			"thumbnail_landscape": "images/s02e01.jpg",
 			"duration": 1838,
 			"number": "1",
 			"season_number": "2",
@@ -5605,13 +5560,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2363,
-			"dropouttv_productid": "ep-2363",
+			"dropouttv_productid": "s02e02",
 			"title": "A Very Special TV-Themed Episode",
 			"description": "Rekha Shankar, Joan Ford & Janie Stolar liken Mr. Big to Trump in an obsessive homage to classic TV.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2363/a-very-special-tv-themed-episode",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/8e8bca22a9bdf9477e15cb692fb88a6b.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/a-very-special-tv-themed-episode",
+			"thumbnail_landscape": "images/s02e02.jpg",
 			"duration": 1804,
 			"number": "2",
 			"season_number": "2",
@@ -5737,13 +5690,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2377,
-			"dropouttv_productid": "ep-2377",
+			"dropouttv_productid": "s02e03",
 			"title": "Homestar Runner, Hearthstone, Demolition Man",
 			"description": "Ally Beardsley, Ify Nwadiwe, and Ryanni name gnomes and match prosthetics to their fictional owners.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2377/homestar-runner-hearthstone-demolition-man",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/3f96811a6868b874acc30b083a80303c.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/homestar-runner-hearthstone-demolition-man",
+			"thumbnail_landscape": "images/s02e03.jpg",
 			"duration": 1648,
 			"number": "3",
 			"season_number": "2",
@@ -5858,13 +5809,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2390,
-			"dropouttv_productid": "ep-2390",
+			"dropouttv_productid": "s02e04",
 			"title": "The Dresden Files, Settlers of Catan, Fallout 4",
 			"description": "Erika Ishii, Eme Ikwuakor, and Becca Scott hoard video game items and dream of Beholders.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2390/the-dresden-files-settlers-of-catan-fallout-4",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/866398157bbcb427a45444d21292028c.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/the-dresden-files-settlers-of-catan-fallout-4",
+			"thumbnail_landscape": "images/s02e04.jpg",
 			"duration": 1751,
 			"number": "4",
 			"season_number": "2",
@@ -5983,13 +5932,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2400,
-			"dropouttv_productid": "ep-2400",
+			"dropouttv_productid": "s02e05",
 			"title": "Predator, Mistborn, The Expanse",
 			"description": "Shane Crown, Luke Field, and Danielle Radford spot the fake wrestler and feel sorry for dragons.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2400/predator-mistborn-the-expanse",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/21bb299019f8d6af60e7d96ae8f9b0bb.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/predator-mistborn-the-expanse",
+			"thumbnail_landscape": "images/s02e05.jpg",
 			"duration": 1695,
 			"number": "5",
 			"season_number": "2",
@@ -6107,13 +6054,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2413,
-			"dropouttv_productid": "ep-2413",
+			"dropouttv_productid": "s02e06",
 			"title": "Scott Pilgrim, Highlander, Dr. Doom",
 			"description": "Sam Bashor, Ryan Martin, and Tao Yang apply to superhero college and arrange robots by size.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2413/scott-pilgrim-highlander-dr-doom",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/0bb8a8b8af32c786fb699fdec168cc59.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/scott-pilgrim-highlander-dr-doom",
+			"thumbnail_landscape": "images/s02e06.jpg",
 			"duration": 1670,
 			"number": "6",
 			"season_number": "2",
@@ -6232,13 +6177,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2428,
-			"dropouttv_productid": "ep-2428",
+			"dropouttv_productid": "s02e07",
 			"title": "The Musical Theater Episode!",
 			"description": "Rachel Bloom, Grant O'Brien, & Siobhan Thompson test their playbill memories in a musical-themed ep.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2428/the-musical-theater-episode",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/ece5867a38992086e6b1aa487dc796dd.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/the-musical-theater-episode",
+			"thumbnail_landscape": "images/s02e07.jpg",
 			"duration": 1758,
 			"number": "7",
 			"season_number": "2",
@@ -6366,13 +6309,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2436,
-			"dropouttv_productid": "ep-2436",
+			"dropouttv_productid": "s02e08",
 			"title": "Stephen King, Warhammer 40,000, Dragon Age",
 			"description": "Jordan Doll, Nick Marini, & Liam Senior mistrust Lakitu's impartiality & debate if Donatello's cool.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2436/stephen-king-warhammer-40-000-dragon-age",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/e0e0be1bdc7522324009593a851dcfc0.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/stephen-king-warhammer-40-000-dragon-age",
+			"thumbnail_landscape": "images/s02e08.jpg",
 			"duration": 1718,
 			"number": "8",
 			"season_number": "2",
@@ -6494,13 +6435,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2449,
-			"dropouttv_productid": "ep-2449",
+			"dropouttv_productid": "s02e09",
 			"title": "Sailor Moon, Pacific Rim, Fate/Stay Night",
 			"description": "Ken Napzok, Emma Fyffe, and Michelle Nguyen Bradley size up spaceships and say no to butt brains.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2449/sailor-moon-pacific-rim-fate-stay-night",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/7f5a46f9215b2a375744475d8fd1eaec.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/sailor-moon-pacific-rim-fate-stay-night",
+			"thumbnail_landscape": "images/s02e09.jpg",
 			"duration": 2063,
 			"number": "9",
 			"season_number": "2",
@@ -6623,13 +6562,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2460,
-			"dropouttv_productid": "ep-2460",
+			"dropouttv_productid": "s02e10",
 			"title": "Ghostbusters, Gateway, Gravity Falls",
 			"description": "Zac Oyama, Caldwell Tanner, & Frank Garcia-Hejl pinpoint pirates & find the fake Simpsons character.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2460/ghostbusters-gateway-gravity-falls",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/229f30dc9abfa1e3f5c6b3ec41391ebe.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/ghostbusters-gateway-gravity-falls",
+			"thumbnail_landscape": "images/s02e10.jpg",
 			"duration": 1940,
 			"number": "10",
 			"season_number": "2",
@@ -6755,13 +6692,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2499,
-			"dropouttv_productid": "ep-2499",
+			"dropouttv_productid": "s02e11",
 			"title": "Um, Actually LIVE! @ New York Comic Con",
 			"description": "Mike Drucker, Alex Song, & Carolyn Page compete with fan Jamel Wood in a LIVE episode from NYCC 2019",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2499/um-actually-live-new-york-comic-con",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/28fa844e5fba41c6dc19cc79b3521a13.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/um-actually-live-new-york-comic-con",
+			"thumbnail_landscape": "images/s02e11.jpg",
 			"duration": 3193,
 			"number": "11",
 			"season_number": "2",
@@ -6901,13 +6836,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2507,
-			"dropouttv_productid": "ep-2507",
+			"dropouttv_productid": "s02e12",
 			"title": "Star Trek, Godzilla Island, Babylon 5",
 			"description": "Alex Schmidt, Zac Oyama, and Haley Mancini beat up vampires & find the darker side of Roger Rabbit.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2507/star-trek-godzilla-island-babylon-5",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/620b7eff5b48134dfd59beb6a0382bfa.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/star-trek-godzilla-island-babylon-5",
+			"thumbnail_landscape": "images/s02e12.jpg",
 			"duration": 2030,
 			"number": "12",
 			"season_number": "2",
@@ -7026,13 +6959,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2522,
-			"dropouttv_productid": "ep-2522",
+			"dropouttv_productid": "s02e13",
 			"title": "Um, Aaah!ctually: Halloween Edition",
 			"description": "Betsy Sodaro, Jessica Ross, & Oscar Montoya test their horror knowledge in a special spooky episode.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2522/um-aaah-ctually-halloween-edition",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/3cfc9f175ec368ef612fabe7d022494f.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/um-aaah-ctually-halloween-edition",
+			"thumbnail_landscape": "images/s02e13.jpg",
 			"duration": 2153,
 			"number": "13",
 			"season_number": "2",
@@ -7153,13 +7084,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2533,
-			"dropouttv_productid": "ep-2533",
+			"dropouttv_productid": "s02e14",
 			"title": "E.T., Green Lantern, Robin Hobb",
 			"description": "Kirk Damato, Liam Senior, & Noah Diamond-Stolzman boycott the Triwizard Cup & play \"Name That Elf.\"",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2533/e-t-green-lantern-robin-hobb",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/b022d98eb7230463072c3b6179cacf88.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/e-t-green-lantern-robin-hobb",
+			"thumbnail_landscape": "images/s02e14.jpg",
 			"duration": 2100,
 			"number": "14",
 			"season_number": "2",
@@ -7279,13 +7208,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2546,
-			"dropouttv_productid": "ep-2546",
+			"dropouttv_productid": "s02e15",
 			"title": "Venture Brothers, Full Metal Alchemist, Conan the Barbarian",
 			"description": "Tao Yang, David Gallegos & Dani Fernandez cozy up to H.P. Lovecraft & test their acronym knowledge.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2546/venture-brothers-full-metal-alchemist-conan-the-barbarian",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/6d7f1e716fbc0bebc2048c88549a81cd.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/venture-brothers-full-metal-alchemist-conan-the-barbarian",
+			"thumbnail_landscape": "images/s02e15.jpg",
 			"duration": 1881,
 			"number": "15",
 			"season_number": "2",
@@ -7404,13 +7331,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2558,
-			"dropouttv_productid": "ep-2558",
+			"dropouttv_productid": "s02e16",
 			"title": "Buffy the Vampire Slayer, M. Night Shyamalan, Final Fantasy X",
 			"description": "Luke Field, Eli Yudin, and Joan Ford feed the fictional and get sloppy with their Death Notes.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2558/buffy-the-vampire-slayer-m-night-shyamalan-final-fantasy-x",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/0cef98c40ca32a01c31c17e5ac9dff67.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/buffy-the-vampire-slayer-m-night-shyamalan-final-fantasy-x",
+			"thumbnail_landscape": "images/s02e16.jpg",
 			"duration": 1988,
 			"number": "16",
 			"season_number": "2",
@@ -7526,13 +7451,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2576,
-			"dropouttv_productid": "ep-2576",
+			"dropouttv_productid": "s02e17",
 			"title": "Borderlands, Ticket to Ride, Into the Spider-Verse",
 			"description": "Jenny Lorenzo, Nick Marini, and Erika Ishii muse over mythical maps and count Aristocats' lives.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2576/borderlands-ticket-to-ride-into-the-spider-verse",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/b570f6b4130a7f6d9c3b4577f0b7a398.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/borderlands-ticket-to-ride-into-the-spider-verse",
+			"thumbnail_landscape": "images/s02e17.jpg",
 			"duration": 1931,
 			"number": "17",
 			"season_number": "2",
@@ -7651,13 +7574,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2583,
-			"dropouttv_productid": "ep-2583",
+			"dropouttv_productid": "s02e18",
 			"title": "Rick & Morty, The Muppets, Superman",
 			"description": "Maggie Mae Fish, Jessica Ross, & Jon Gutierrez chug Felix Felicis & dish about Kermit's old flame.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2583/rick-and-morty-the-muppets-superman",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/fbdb26dffe87f35d1a5e0c90e1220013.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/rick-morty-the-muppets-superman",
+			"thumbnail_landscape": "images/s02e18.jpg",
 			"duration": 1936,
 			"number": "18",
 			"season_number": "2",
@@ -7777,13 +7698,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2588,
-			"dropouttv_productid": "ep-2588",
+			"dropouttv_productid": "s02e19",
 			"title": "Ho Ho Ho, Actually: The Holiday Special",
 			"description": "Shane Crown, Jon Gutierrez, and Amy Vorpahl celebrate fictional holidays & play \"name that Santa.\"",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2588/ho-ho-ho-actually-the-holiday-special",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/8079667eaaf2a459d57662a55dbba234.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/ho-ho-ho-actually-the-holiday-special",
+			"thumbnail_landscape": "images/s02e19.jpg",
 			"duration": 1859,
 			"number": "19",
 			"season_number": "2",
@@ -7906,13 +7825,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2603,
-			"dropouttv_productid": "ep-2603",
+			"dropouttv_productid": "s02e20",
 			"title": "Ender’s Game, Good Omens, Secret Wars",
 			"description": "Lily Du, Amy Dallen, and Emma Fyffe read tabloids for wizards & match origin stories to superheroes.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2603/ender-s-game-good-omens-secret-wars",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/948e8d9407dc90d04e0f8318e097f440.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/ender-s-game-good-omens-secret-wars",
+			"thumbnail_landscape": "images/s02e20.jpg",
 			"duration": 1943,
 			"number": "20",
 			"season_number": "2",
@@ -8030,13 +7947,11 @@
 			]
 		},
 		{
-			"dropouttv_id": 2612,
-			"dropouttv_productid": "ep-2612",
+			"dropouttv_productid": "s02e21",
 			"title": "Pokémon, South Park, Discworld (With John Darnielle)",
 			"description": "Shay Parsons, T.J. Gonzalez, & Jessica Clemons join Squirtle's squad & identify cartoon pet sounds.",
-			"url": "https://www.dropout.tv/videos/um-actually/um-actually/2612/pokemon-south-park-discworld-with-john-darnielle",
-			"thumbnail_landscape": "https://dropout.imgix.net/images/thumbs/b99d587ef9124c7021140b5903d208e8.jpg",
-			"thumbnail_portrait": "https://dropout.imgix.net/images/thumbs/2cb5f9bf045b48f5c0c5d4e13fdec55c.jpg",
+			"url": "https://www.dropout.tv/um-actually/season:2/videos/pokemon-south-park-discworld-with-john-darnielle",
+			"thumbnail_landscape": "images/s02e21.jpg",
 			"duration": 1667,
 			"number": "21",
 			"season_number": "2",
@@ -8146,6 +8061,128 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"tj-gonzalez"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s03e01",
+			"title": "Thundercats, Animorphs, Metal Wolf Chaos",
+			"description": "SEASON 3 PREMIERE! Maddox, Amy Vorpahl, and Lou Wilson join Mike Trapp for another round of nerdy corrections.",
+			"url": "https://www.dropout.tv/um-actually/season:3/videos/thundercats-animorphs-metal-wolf-chaos",
+			"thumbnail_landscape": "images/s03e01.jpg",
+			"duration": 1866,
+			"number": "1",
+			"season_number": "3",
+			"release_date": "2020-01-25",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "maddox",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "amy-vorpahl",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "lou-wilson",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "game-of-thrones",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "dnd",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "thundercats",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "ghostbusters",
+					"winners": [
+						"maddox"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Name That Goblin",
+					"shiny": true,
+					"winners": [
+						"maddox",
+						"amy-vorpahl",
+						"lou-wilson"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "star-wars",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "video-games",
+					"winners": [
+						"lou-wilson"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "harry-potter",
+					"winners": [
+						"lou-wilson"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "animorphs",
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "mcu",
+					"winners": [
+						"lou-wilson"
+					]
+				},
+				{
+					"number": 12,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"amy-vorpahl"
 					]
 				}
 			]
