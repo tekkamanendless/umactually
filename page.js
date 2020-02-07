@@ -1000,14 +1000,17 @@ function renderChartRuntimes(ctx) {
 
 	let chart = new Chart(ctx, {
 	    // The type of chart we want to create
-	    type: 'line',
+	    type: 'bar',
 	    // The data for our dataset
 	    data: {
 	        labels: xValues,
 	        datasets: [{
 	            label: 'Episode Runtimes',
 	            data: yValues,
-	        }]
+				backgroundColor: 'rgba(0,0,0,0.3)',
+				borderColor: 'rgba(0,0,0,0.4)',
+				borderWidth: 1,
+	        }],
 	    },
 	    // Configuration options go here
 	    options: {
@@ -1052,14 +1055,17 @@ function renderChartTotalPoints(ctx) {
 
 	let chart = new Chart(ctx, {
 	    // The type of chart we want to create
-	    type: 'line',
+	    type: 'bar',
 	    // The data for our dataset
 	    data: {
 	        labels: xValues,
 	        datasets: [{
 	            label: 'Episode Point Totals',
 	            data: yValues,
-	        }]
+				backgroundColor: 'rgba(0,0,0,0.3)',
+				borderColor: 'rgba(0,0,0,0.4)',
+				borderWidth: 1,
+	        }],
 	    },
 	    // Configuration options go here
 	    options: {
