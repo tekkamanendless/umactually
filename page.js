@@ -70,6 +70,12 @@ function renderPage(stats, filters) {
 			}
 			newRow.appendChild(newColumn);
 
+			newColumn = document.createElement("td");
+			if( season.teams.length ) {
+				newColumn.appendChild(document.createTextNode(season.teams.length));
+			}
+			newRow.appendChild(newColumn);
+
 			tbody.appendChild(newRow);
 		}
 	}
@@ -130,36 +136,70 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			for( let p = 0; p < episode.players.length; p++ ) {
-				let player = episode.players[p];
-				let span = document.createElement("div");
-				switch(player.place) {
-					case 1:
-						span.className = "person first";
-						break;
-					case 2:
-						span.className = "person second";
-						break;
-					case 3:
-						span.className = "person third";
-						break;
-				}
-				let podium = document.createElement("span");
-				podium.className = "podium " + player.color;
-				span.appendChild(podium);
-				span.appendChild(createFilterLink(player.name, {type: "person", id: player.id, role: "player"}));
-				span.appendChild(document.createTextNode(" (" + player.score + ")"));
-				if( player.notes ) {
-					span.appendChild(document.createTextNode(" "));
+			if(Array.isArray(episode.players)) {
+				for( let p = 0; p < episode.players.length; p++ ) {
+					let player = episode.players[p];
+					let span = document.createElement("div");
+					switch(player.place) {
+						case 1:
+							span.className = "person first";
+							break;
+						case 2:
+							span.className = "person second";
+							break;
+						case 3:
+							span.className = "person third";
+							break;
+					}
+					let podium = document.createElement("span");
+					podium.className = "podium " + player.color;
+					span.appendChild(podium);
+					span.appendChild(createFilterLink(player.name, {type: "person", id: player.id, role: "player"}));
+					span.appendChild(document.createTextNode(" (" + player.score + ")"));
+					if( player.notes ) {
+						span.appendChild(document.createTextNode(" "));
 
-					let abbr = document.createElement("abbr");
-					abbr.setAttribute("title", player.notes);
-					abbr.appendChild(document.createTextNode("*"));
-					span.appendChild(abbr);
+						let abbr = document.createElement("abbr");
+						abbr.setAttribute("title", player.notes);
+						abbr.appendChild(document.createTextNode("*"));
+						span.appendChild(abbr);
+					}
+					newColumn.appendChild(span);
 				}
-				newColumn.appendChild(span);
+				newRow.appendChild(newColumn);
 			}
-			newRow.appendChild(newColumn);
+			if(Array.isArray(episode.teams)) {
+				for( let t = 0; t < episode.teams.length; t++ ) {
+					let team = episode.teams[t];
+					let span = document.createElement("div");
+					switch(team.place) {
+						case 1:
+							span.className = "person first";
+							break;
+						case 2:
+							span.className = "person second";
+							break;
+						case 3:
+							span.className = "person third";
+							break;
+					}
+					let podium = document.createElement("span");
+					podium.className = "podium " + team.color;
+					span.appendChild(podium);
+					span.appendChild(createFilterLink(team.name, {type: "team", id: team.id, role: "player"}));
+					span.appendChild(document.createTextNode(" (" + team.score + ")"));
+					if( team.notes ) {
+						span.appendChild(document.createTextNode(" "));
+
+						let abbr = document.createElement("abbr");
+						abbr.setAttribute("title", team.notes);
+						abbr.appendChild(document.createTextNode("*"));
+						span.appendChild(abbr);
+					}
+					newColumn.appendChild(span);
+				}
+				newRow.appendChild(newColumn);
+			}
 
 			tbody.appendChild(newRow);
 		}
@@ -239,15 +279,28 @@ function renderPage(stats, filters) {
 
 				newColumn = document.createElement("td");
 				for( let p = 0; p < question.winners.length; p++ ) {
-					let playerId = question.winners[p];
-					let player = episode.players.find(item => item.id === playerId);
+					if(Array.isArray(episode.players)) {
+						let playerId = question.winners[p];
+						let player = episode.players.find(item => item.id === playerId);
 
-					let span = document.createElement("div");
-					let podium = document.createElement("span");
-					podium.className = "podium " + player.color;
-					span.appendChild(podium);
-					span.appendChild(createFilterLink(player.name, {type: "person", id: player.id, role: "player"}));
-					newColumn.appendChild(span);
+						let span = document.createElement("div");
+						let podium = document.createElement("span");
+						podium.className = "podium " + player.color;
+						span.appendChild(podium);
+						span.appendChild(createFilterLink(player.name, {type: "person", id: player.id, role: "player"}));
+						newColumn.appendChild(span);
+					}
+					if(Array.isArray(episode.teams)) {
+						let teamId = question.winners[p];
+						let team = episode.teams.find(item => item.id === teamId);
+
+						let span = document.createElement("div");
+						let podium = document.createElement("span");
+						podium.className = "podium " + team.color;
+						span.appendChild(podium);
+						span.appendChild(createFilterLink(team.name, {type: "team", id: team.id, role: "player"}));
+						newColumn.appendChild(span);
+					}
 				}
 				newRow.appendChild(newColumn);
 
@@ -271,16 +324,6 @@ function renderPage(stats, filters) {
 
 			let newRow = document.createElement("tr");
 			let newColumn = null;
-
-			newColumn = document.createElement("td");
-			{
-				let link = document.createElement("a");
-				link.href = person.url;
-				link.target = "_blank";
-				link.appendChild(document.createTextNode("🔗"));
-				newColumn.appendChild(link);
-			}
-			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
 			newColumn.className = "person";
@@ -314,6 +357,64 @@ function renderPage(stats, filters) {
 			newColumn = document.createElement("td");
 			if( person.times_third.length ) {
 				newColumn.appendChild(createFilterLink(person.times_third.length, {type: "person", id: person.id, role: "third"}));
+			}
+			newRow.appendChild(newColumn);
+
+			tbody.appendChild(newRow);
+		}
+	}
+
+	// Fill out the teams table.
+	{
+		let tbody = document.getElementById("teams_tbody");
+		while(tbody.firstChild) {
+			tbody.removeChild(tbody.firstChild);
+		}
+
+		for( let i = 0; i < stats.teams.length; i++ ) {
+			let team = stats.teams[i];
+			if( ! teamPassesFilter(team, filters) ) {
+				continue;
+			}
+
+			let newRow = document.createElement("tr");
+			let newColumn = null;
+
+			newColumn = document.createElement("td");
+			newColumn.className = "person";
+			newColumn.appendChild(createFilterLink(team.name, {type: "team", id: team.id, role: "player"}));
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			for( let p = 0; p < team.players.length; p++ ) {
+				let span = document.createElement("div");
+				let player = stats.people.find(item => item.id == team.players[p]);
+				span.appendChild(createFilterLink(player.name, {type: "person", id: player.id, role: "player"}));
+				newColumn.appendChild(span);
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			if( team.appearances.length > 0 ) {
+				newColumn.appendChild(createFilterLink(team.appearances.length, {type: "team", id: team.id, role: "*"}));
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			if( team.times_first.length ) {
+				newColumn.appendChild(createFilterLink(team.times_first.length, {type: "team", id: team.id, role: "first"}));
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			if( team.times_second.length ) {
+				newColumn.appendChild(createFilterLink(team.times_second.length, {type: "team", id: team.id, role: "second"}));
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			if( team.times_third.length ) {
+				newColumn.appendChild(createFilterLink(team.times_third.length, {type: "team", id: team.id, role: "third"}));
 			}
 			newRow.appendChild(newColumn);
 
@@ -537,6 +638,38 @@ function seasonPassesFilter(season, filters) {
 						match = false;
 				}
 				break;
+			case "team":
+				switch(filter.role) {
+					case "player":
+						if( ! season.teams.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "*":
+						if( ! season.teams.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "first":
+						if( ! season.firstIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "second":
+						if( ! season.secondIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "third":
+						if( ! season.thirdIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					default:
+						console.warn("seasonPassesFilter: Unhandled person role:", filter.role);
+						match = false;
+				}
+				break;
 			default:
 				console.warn("seasonPassesFilter: Unhandled type:", filter.type);
 				match = false;
@@ -604,6 +737,38 @@ function episodePassesFilter(episode, filters) {
 						match = false;
 				}
 				break;
+			case "team":
+				switch(filter.role) {
+					case "player":
+						if( ! episode.teamIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "*":
+						if( ! episode.teamIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "first":
+						if( ! episode.firstIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "second":
+						if( ! episode.secondIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					case "third":
+						if( ! episode.thirdIds.includes(filter.id) ) {
+							match = false;
+						}
+						break;
+					default:
+						console.warn("episodePassesFilter: Unhandled person role:", filter.role);
+						match = false;
+				}
+				break;
 			default:
 				console.warn("episodePassesFilter: Unhandled type:", filter.type);
 				match = false;
@@ -645,6 +810,11 @@ function topicPassesFilter(topic, filters) {
 					match = true;
 				}
 				break;
+			case "team":
+				if( topic.teams.includes(filter.id) ) {
+					match = true;
+				}
+				break;
 			default:
 				console.warn("topicPassesFilter: Unhandled type:", filter.type);
 				match = false;
@@ -683,6 +853,11 @@ function titlePassesFilter(title, filters) {
 				break;
 			case "person":
 				if( title.players.includes(filter.id) ) {
+					match = true;
+				}
+				break;
+			case "team":
+				if( title.teams.includes(filter.id) ) {
 					match = true;
 				}
 				break;
@@ -729,8 +904,61 @@ function personPassesFilter(person, filters) {
 					match = true;
 				}
 				break;
+			case "team":
+				if( person.teams.includes(filter.id) ) {
+					match = true;
+				}
+				break;
 			default:
 				console.warn("personPassesFilter: Unhandled type:", filter.type);
+				match = false;
+		}
+	}
+
+	return match;
+}
+
+function teamPassesFilter(team, filters) {
+	let match = false;
+
+	if( filters.length == 0 ) {
+		return true;
+	}
+
+	if( ! team ) {
+		return false;
+	}
+
+	for( let i = 0; i < filters.length; i++ ) {
+		let filter = filters[i];
+		switch(filter.type) {
+			case "episode":
+				if( team.appearances.includes(filter.id) ) {
+					match = true;
+				}
+				break;
+			case "topic":
+				if( team.topics.includes(filter.id) ) {
+					match = true;
+				}
+				break;
+			case "title":
+				if( team.titles.includes(filter.id) ) {
+					match = true;
+				}
+				break;
+			case "person":
+				if( team.players.includes(filter.id) ) {
+					match = true;
+				}
+				break;
+			case "team":
+				if( team.id == filter.id ) {
+					match = true;
+				}
+				break;
+			default:
+				console.warn("teamPassesFilter: Unhandled type:", filter.type);
 				match = false;
 		}
 	}
@@ -743,6 +971,7 @@ function computeStats(data) {
 		"seasons": [],
 		"episodes": [],
 		"people": [],
+		"teams": [],
 		"questionTopics": [],
 		"questionTitles": [],
 	};
@@ -753,6 +982,7 @@ function computeStats(data) {
 		season.episodes = [];
 		season.hostMap = {};
 		season.playerMap = {};
+		season.teamMap = {};
 		season.firstMap = {};
 		season.secondMap = {};
 		season.thirdMap = {};
@@ -772,7 +1002,21 @@ function computeStats(data) {
 		person.appearances = [];
 		person.topics = [];
 		person.titles = [];
+		person.teams = [];
 		peopleMap[person.id] = person;
+	}
+
+	let teamMap = {};
+	for( let i = 0; i < data.teams.length; i++ ) {
+		let team = JSON.parse(JSON.stringify(data.teams[i]));
+		team.times_played = [];
+		team.times_first = [];
+		team.times_second = [];
+		team.times_third = [];
+		team.appearances = [];
+		team.topics = [];
+		team.titles = [];
+		teamMap[team.id] = team;
 	}
 
 	let questionTopicMap = {};
@@ -780,6 +1024,7 @@ function computeStats(data) {
 		let topic = JSON.parse(JSON.stringify(data.topics[i]));
 		topic.episodes = [];
 		topic.players = [];
+		topic.teams = [];
 		questionTopicMap[topic.id] = topic;
 	}
 
@@ -788,8 +1033,18 @@ function computeStats(data) {
 		let title = JSON.parse(JSON.stringify(data.titles[i]));
 		title.episodes = [];
 		title.players = [];
+		title.teams = [];
 		questionTitleMap[title.name] = title;
 	}
+
+	// Note which people are in which teams.
+	Object.keys(teamMap).forEach(teamId => {
+		let team = teamMap[teamId];
+		team.players.forEach(playerId => {
+			let player = peopleMap[playerId];
+			player.teams.push(teamId);
+		});
+	});
 
 	for( let i = 0; i < data.episodes.length; i++ ) {
 		let episode = JSON.parse(JSON.stringify(data.episodes[i]));
@@ -818,13 +1073,24 @@ function computeStats(data) {
 		seasonMap[episode.season_number].hostMap[hostId] = true;
 
 		let scores = [];
-		for( let p = 0; p < episode.players.length; p++ ) {
-			let player = episode.players[p];
-			if( ! scores.includes(player.score) ) {
-				scores.push(player.score);
+		if(Array.isArray(episode.players)) {
+			for( let p = 0; p < episode.players.length; p++ ) {
+				let player = episode.players[p];
+				if( ! scores.includes(player.score) ) {
+					scores.push(player.score);
+				}
 			}
+			scores.sort((a,b) => b-a);
 		}
-		scores.sort((a,b) => b-a);
+		if(Array.isArray(episode.teams)) {
+			for( let t = 0; t < episode.teams.length; t++ ) {
+				let team = episode.teams[t];
+				if( ! scores.includes(team.score) ) {
+					scores.push(team.score);
+				}
+			}
+			scores.sort((a,b) => b-a);
+		}
 
 		let scoreMap = {};
 		for( let s = 0; s < scores.length; s++ ) {
@@ -832,36 +1098,69 @@ function computeStats(data) {
 		}
 
 		episode.playerIds = [];
+		episode.teamIds = [];
 		episode.firstIds = [];
 		episode.secondIds = [];
 		episode.thirdIds = [];
-		for( let p = 0; p < episode.players.length; p++ ) {
-			let player = episode.players[p];
-			episode.playerIds.push(player.id);
-			peopleMap[player.id].appearances.push(episode.dropouttv_productid);
-			seasonMap[episode.season_number].playerMap[player.id] = true;
+		if(Array.isArray(episode.players)) {
+			for( let p = 0; p < episode.players.length; p++ ) {
+				let player = episode.players[p];
+				episode.playerIds.push(player.id);
+				peopleMap[player.id].appearances.push(episode.dropouttv_productid);
+				seasonMap[episode.season_number].playerMap[player.id] = true;
 
-			let place = scoreMap["score="+player.score];
-			switch(place) {
-				case 1:
-					episode.firstIds.push(player.id);
-					peopleMap[player.id].times_first.push(episode.dropouttv_productid);
-					seasonMap[episode.season_number].firstMap[player.id] = true;
-					break;
-				case 2:
-					episode.secondIds.push(player.id);
-					peopleMap[player.id].times_second.push(episode.dropouttv_productid);
-					seasonMap[episode.season_number].secondMap[player.id] = true;
-					break;
-				case 3:
-					episode.thirdIds.push(player.id);
-					peopleMap[player.id].times_third.push(episode.dropouttv_productid);
-					seasonMap[episode.season_number].thirdMap[player.id] = true;
-					break;
+				let place = scoreMap["score="+player.score];
+				switch(place) {
+					case 1:
+						episode.firstIds.push(player.id);
+						peopleMap[player.id].times_first.push(episode.dropouttv_productid);
+						seasonMap[episode.season_number].firstMap[player.id] = true;
+						break;
+					case 2:
+						episode.secondIds.push(player.id);
+						peopleMap[player.id].times_second.push(episode.dropouttv_productid);
+						seasonMap[episode.season_number].secondMap[player.id] = true;
+						break;
+					case 3:
+						episode.thirdIds.push(player.id);
+						peopleMap[player.id].times_third.push(episode.dropouttv_productid);
+						seasonMap[episode.season_number].thirdMap[player.id] = true;
+						break;
+				}
+
+				episode.players[p].name = peopleMap[player.id].name;
+				episode.players[p].place = place;
 			}
+		}
+		if(Array.isArray(episode.teams)) {
+			for( let t = 0; t < episode.teams.length; t++ ) {
+				let team = episode.teams[t];
+				episode.teamIds.push(team.id);
+				teamMap[team.id].appearances.push(episode.dropouttv_productid);
+				seasonMap[episode.season_number].teamMap[team.id] = true;
 
-			episode.players[p].name = peopleMap[player.id].name;
-			episode.players[p].place = place;
+				let place = scoreMap["score="+team.score];
+				switch(place) {
+					case 1:
+						episode.firstIds.push(team.id);
+						teamMap[team.id].times_first.push(episode.dropouttv_productid);
+						seasonMap[episode.season_number].firstMap[team.id] = true;
+						break;
+					case 2:
+						episode.secondIds.push(team.id);
+						teamMap[team.id].times_second.push(episode.dropouttv_productid);
+						seasonMap[episode.season_number].secondMap[team.id] = true;
+						break;
+					case 3:
+						episode.thirdIds.push(team.id);
+						peopleMap[team.id].times_third.push(episode.dropouttv_productid);
+						seasonMap[episode.season_number].thirdMap[team.id] = true;
+						break;
+				}
+
+				episode.teams[t].name = teamMap[team.id].name;
+				episode.teams[t].place = place;
+			}
 		}
 
 		episode.questionTopicMap = {};
@@ -888,6 +1187,14 @@ function computeStats(data) {
 							questionTopicMap[question.topic].players.push(playerId);
 						}
 					}
+					for( let teamId of episode.teamIds ) {
+						if( ! teamMap[teamId].topics.includes(question.topic) ) {
+							teamMap[teamId].topics.push(question.topic);
+						}
+						if( ! questionTopicMap[question.topic].teams.includes(teamId) ) {
+							questionTopicMap[question.topic].teams.push(teamId);
+						}
+					}
 				}
 				if( question.title ) {
 					episode.questionTitleMap[question.title] = true;
@@ -907,6 +1214,14 @@ function computeStats(data) {
 						}
 						if( ! questionTitleMap[question.title].players.includes(playerId) ) {
 							questionTitleMap[question.title].players.push(playerId);
+						}
+					}
+					for( let teamId of episode.teamIds ) {
+						if( ! teamMap[teamId].titles.includes(question.title) ) {
+							teamMap[teamId].titles.push(question.title);
+						}
+						if( ! questionTitleMap[question.title].teams.includes(teamId) ) {
+							questionTitleMap[question.title].teams.push(teamId);
 						}
 					}
 				}
@@ -933,6 +1248,12 @@ function computeStats(data) {
 	}
 	stats.people.sort((a,b) => a.name.localeCompare(b.name));
 
+	for( key in teamMap ) {
+		stats.teams.push(teamMap[key]);
+	}
+	console.log("stats.teams:", stats.teams);
+	stats.teams.sort((a,b) => a.name.localeCompare(b.name));
+
 	for( key in seasonMap ) {
 		let season = seasonMap[key];
 
@@ -947,6 +1268,12 @@ function computeStats(data) {
 			season.players.push(key);
 		}
 		delete season.playerMap;
+
+		season.teams = [];
+		for( let key in season.teamMap ) {
+			season.teams.push(key);
+		}
+		delete season.teamMap;
 
 		season.firstIds = [];
 		for( let key in season.firstMap ) {
@@ -1049,8 +1376,17 @@ function renderChartTotalPoints(ctx) {
 	let yValues = [];
 
 	stats.episodes.forEach(episode => {
+		let playerPoints = 0;
+		if(Array.isArray(episode.players)) {
+			playerPoints = episode.players.reduce((accumulator, player) => accumulator + player.score, 0);
+		}
+		let teamPoints = 0;
+		if(Array.isArray(episode.teams)) {
+			teamPoints = episode.teams.reduce((accumulator, team) => accumulator + team.score, 0);
+		}
+
 		xValues.push(episode.season_and_number);
-		yValues.push(episode.players.reduce((accumulator, player) => accumulator + player.score, 0));
+		yValues.push(playerPoints + teamPoints);
 	});
 
 	let chart = new Chart(ctx, {
