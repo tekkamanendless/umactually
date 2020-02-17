@@ -255,6 +255,11 @@
 			"url": "https://www.dropout.tv/search/talent/716/jordan-doll"
 		},
 		{
+			"id": "kaitlin-thompson",
+			"name": "Kaitlin Thompson",
+			"url": ""
+		},
+		{
 			"id": "ken-napzok",
 			"name": "Ken Napzok",
 			"url": "https://www.dropout.tv/search/talent/1340/ken-napzok"
@@ -440,6 +445,24 @@
 			"url": "https://www.dropout.tv/search/talent/710/zeke-nicholson"
 		}
 	],
+	"teams": [
+		{
+			"id": "kaitlin-and-jess",
+			"name": "Kaitlin and Jess",
+			"players": [
+				"kaitlin-thompson",
+				"jessica-ross"
+			]
+		},
+		{
+			"id": "matt-and-marisha",
+			"name": "Matt and Marisha",
+			"players": [
+				"matt-mercer",
+				"marisha-ray"
+			]
+		}
+	],
 	"titles": [
 		{
 			"name": "A Book By Its Cover"
@@ -455,6 +478,9 @@
 		},
 		{
 			"name": "Always Pay Your Debts"
+		},
+		{
+			"name": "But Can I Fuck It?"
 		},
 		{
 			"name": "Crunch Time"
@@ -500,6 +526,9 @@
 		},
 		{
 			"name": "Match The Voice"
+		},
+		{
+			"name": "Matchmaker"
 		},
 		{
 			"name": "Medic"
@@ -595,6 +624,9 @@
 			"name": "What's My Line?"
 		},
 		{
+			"name": "What's My (Pickup) Line?"
+		},
+		{
 			"name": "What's Wrong?"
 		},
 		{
@@ -667,6 +699,10 @@
 		{
 			"id": "back-to-the-future",
 			"name": "Back to the Future"
+		},
+		{
+			"id": "barbarella",
+			"name": "Barbarella"
 		},
 		{
 			"id": "battlestar",
@@ -903,6 +939,10 @@
 		{
 			"id": "grease",
 			"name": "Grease"
+		},
+		{
+			"id": "greek-mythology",
+			"name": "Greek Mythlology"
 		},
 		{
 			"id": "gremlins",
@@ -8183,6 +8223,129 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"amy-vorpahl"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s03e02",
+			"title": "Love, Actually! A Special Valentine’s Episode",
+			"description": "Matt Mercer and Marisha Ray compete against Kaitlin Thompson and Jessica Ross in romantic trivia.",
+			"url": "https://www.dropout.tv/um-actually/season:3/videos/love-actually-a-special-valentine-s-episode",
+			"thumbnail_landscape": "images/s03e02.jpg",
+			"duration": 1966,
+			"number": "2",
+			"season_number": "3",
+			"release_date": "2020-02-08",
+			"host": "mike-trapp",
+			"teams": [
+				{
+					"position": "1",
+					"color": "blue",
+					"id": "kaitlin-and-jess",
+					"score": 7
+				},
+				{
+					"position": "2",
+					"color": "red",
+					"id": "matt-and-marisha",
+					"score": 7
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "princess-bride",
+					"winners": [
+						"matt-and-marisha"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "futurama",
+					"winners": [
+						"matt-and-marisha"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "greek-mythology",
+					"winners": [
+						"matt-and-marisha"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "star-trek",
+					"winners": [
+						"kaitlin-and-jess"
+					]
+				},
+				{
+					"number": 5,
+					"title": "What's My (Pickup) Line?",
+					"shiny": true,
+					"winners": [
+						"matt-and-marisha"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "disney",
+					"winners": [
+						"kaitlin-and-jess"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "dnd",
+					"winners": [
+						"matt-and-marisha"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "harry-potter",
+					"winners": [
+						"kaitlin-and-jess"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Matchmaker",
+					"shiny": true,
+					"winners": [
+						"kaitlin-and-jess"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "barbarella",
+					"winners": [
+						"kaitlin-and-jess"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "twilight",
+					"winners": [
+						"kaitlin-and-jess"
+					]
+				},
+				{
+					"number": 12,
+					"title": "But Can I Fuck It?",
+					"shiny": true,
+					"winners": [
+						"matt-and-marisha"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"kaitlin-and-jess",
+						"matt-and-marisha"
 					]
 				}
 			]

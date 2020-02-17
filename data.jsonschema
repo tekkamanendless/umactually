@@ -40,6 +40,27 @@
 				]
 			}
 		},
+		"teams": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"type": "string"
+					},
+					"players": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					}
+				},
+				"required": [
+					"id",
+					"players"
+				]
+			}
+		},
 		"titles": {
 			"type": "array",
 			"items": {
@@ -141,6 +162,36 @@
 							]
 						}
 					},
+					"teams": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"position": {
+									"description": "This is the team's position.  This can be one of: 1, 2, 3",
+									"type": "string"
+								},
+								"color": {
+									"description": "This is the color of the team's podium.",
+									"type": "string"
+								},
+								"id": {
+									"description": "This is a reference to a team.",
+									"type": "string"
+								},
+								"score": {
+									"description": "This is the final score of the team.",
+									"type": "number"
+								}
+							},
+							"required": [
+								"position",
+								"color",
+								"id",
+								"score"
+							]
+						}
+					},
 					"questions": {
 						"type": "array",
 						"items": {
@@ -177,13 +228,27 @@
 						}
 					}
 				},
-				"required": [
-					"dropouttv_productid",
-					"title",
-					"number",
-					"season_number",
-					"host",
-					"players"
+				"oneOf": [
+					{
+						"required": [
+							"dropouttv_productid",
+							"title",
+							"number",
+							"season_number",
+							"host",
+							"players"
+						]
+					},
+					{
+						"required": [
+							"dropouttv_productid",
+							"title",
+							"number",
+							"season_number",
+							"host",
+							"teams"
+						]
+					}
 				]
 			}
 		}
