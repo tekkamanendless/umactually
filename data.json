@@ -175,6 +175,11 @@
 			"url": "https://www.dropout.tv/search/talent/1082/frank-hejl"
 		},
 		{
+			"id": "grae-drake",
+			"name": "Grae Drake",
+			"url": ""
+		},
+		{
 			"id": "haley-mancini",
 			"name": "Haley Mancini",
 			"url": "https://www.dropout.tv/search/talent/385/haley-mancini"
@@ -370,6 +375,11 @@
 			"url": "https://www.dropout.tv/search/talent/84/oscar-montoya"
 		},
 		{
+			"id": "raphael-chestang",
+			"name": "Raphael Chestang",
+			"url": ""
+		},
+		{
 			"id": "rekha-shankar",
 			"name": "Rekha Shankar",
 			"url": "https://www.dropout.tv/search/talent/224/rekha-shankar"
@@ -465,7 +475,13 @@
 	],
 	"titles": [
 		{
+			"name": "21 Jump Streep"
+		},
+		{
 			"name": "A Book By Its Cover"
+		},
+		{
+			"name": "A Movie By Its Poster"
 		},
 		{
 			"name": "A Title Of Words"
@@ -8346,6 +8362,143 @@
 					"winners": [
 						"kaitlin-and-jess",
 						"matt-and-marisha"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s03e02",
+			"title": "Um, Academy! A Special Cinematic Episode",
+			"description": "Grae Drake, Shane Crown, 'n Raphael Chestang price-check The Maltese Falcon and play \"21 Jump Streep.\"",
+			"url": "https://www.dropout.tv/um-actually/season:3/videos/um-academy-a-special-cinematic-episode",
+			"thumbnail_landscape": "images/s03e02.jpg",
+			"duration": 1917,
+			"number": "3",
+			"season_number": "3",
+			"release_date": "2020-02-24",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "raphael-chestang",
+					"score": 1
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "grae-drake",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "shane-crown",
+					"score": 8
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "movies",
+					"topic_note": "Casablanca",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"topic_note": "The Oscars",
+					"winners": [
+						"grae-drake"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "movies",
+					"topic_note": "Sergio Leone's Dollars Trilogy",
+					"winners": [
+						"grae-drake"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "disney",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "movies",
+					"title": "A Movie By Its Poster",
+					"shiny": true,
+					"winners": [
+						"grae-drake"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "movies",
+					"topic_note": "The Maltese Falcon",
+					"winners": [
+						"raphael-chestang"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "movies",
+					"topic_note": "The Oscars",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "movies",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "movies",
+					"title": "21 Jump Streep",
+					"shiny": true,
+					"winners": [
+						"grae-drake",
+						"shane-crown"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"topic_note": "The Oscars",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "movies",
+					"topic_note": "Orson Welles's Citizen Kane",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "movies",
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"shane-crown"
 					]
 				}
 			]
