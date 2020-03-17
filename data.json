@@ -220,6 +220,11 @@
 			"url": "https://www.dropout.tv/search/talent/1210/jason-gong"
 		},
 		{
+			"id": "jay-washington",
+			"name": "Jay Washington",
+			"url": ""
+		},
+		{
 			"id": "jenny-lorenzo",
 			"name": "Jenny Lorenzo",
 			"url": "https://www.dropout.tv/search/talent/737/jenny-lorenzo"
@@ -1073,6 +1078,10 @@
 			"name": "Last of Us"
 		},
 		{
+			"id": "legion",
+			"name": "Legion (Marvel TV series)"
+		},
+		{
 			"id": "lewis-carroll",
 			"name": "Lewis Carroll"
 		},
@@ -1091,6 +1100,10 @@
 		{
 			"id": "lost",
 			"name": "Lost"
+		},
+		{
+			"id": "lumberjanes",
+			"name": "Lumberjanes (comic)"
 		},
 		{
 			"id": "mad-max",
@@ -1163,6 +1176,10 @@
 		{
 			"id": "narnia",
 			"name": "Narnia"
+		},
+		{
+			"id": "neopets",
+			"name": "Neopets"
 		},
 		{
 			"id": "neverending-story",
@@ -1361,6 +1378,10 @@
 			"name": "The Black Cauldron"
 		},
 		{
+			"id": "the-da-vinci-code",
+			"name": "The Da Vinci Code"
+		},
+		{
 			"id": "the-dresden-files",
 			"name": "The Dresden Files"
 		},
@@ -1447,6 +1468,10 @@
 		{
 			"id": "tv",
 			"name": "TV"
+		},
+		{
+			"id": "v-for-vendetta",
+			"name": "V for Vendetta"
 		},
 		{
 			"id": "venture-brothers",
@@ -8371,7 +8396,7 @@
 			"title": "Um, Academy! A Special Cinematic Episode",
 			"description": "Grae Drake, Shane Crown, 'n Raphael Chestang price-check The Maltese Falcon and play \"21 Jump Streep.\"",
 			"url": "https://www.dropout.tv/um-actually/season:3/videos/um-academy-a-special-cinematic-episode",
-			"thumbnail_landscape": "images/s03e02.jpg",
+			"thumbnail_landscape": "images/s03e03.jpg",
 			"duration": 1917,
 			"number": "3",
 			"season_number": "3",
@@ -8499,6 +8524,131 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"shane-crown"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s03e04",
+			"title": "Legion, Lumberjanes, Nicolas Flamel",
+			"description": "Luke Field, Amy Dallen, and Jay Washington re-attach attack catchphrases and ponder Neopets pets.",
+			"url": "https://www.dropout.tv/um-actually/season:3/videos/legion-lumberjanes-nicolas-flamel",
+			"thumbnail_landscape": "images/s03e04.jpg",
+			"duration": 1994,
+			"number": "4",
+			"season_number": "3",
+			"release_date": "2020-03-07",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "luke-field",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "amy-dallen",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jay-washington",
+					"score": 1
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "tmnt",
+					"winners": [
+						"luke-field"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "back-to-the-future",
+					"winners": [
+						"luke-field"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "v-for-vendetta",
+					"winners": [
+						"luke-field"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"luke-field"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Super Saying",
+					"shiny": true,
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "the-da-vinci-code",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "wrestling",
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "neopets",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "legion",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "lumberjanes",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "star-trek",
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": [
+						"luke-field"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"amy-dallen"
 					]
 				}
 			]
