@@ -440,6 +440,11 @@
 			"url": "https://www.dropout.tv/search/talent/1091/tj-gonzalez"
 		},
 		{
+			"id": "winston-marshall",
+			"name": "Winston A. Marshall",
+			"url": ""
+		},
+		{
 			"id": "zac-oyama",
 			"name": "Zac Oyama",
 			"url": "https://www.dropout.tv/search/talent/182/zac-oyama"
@@ -502,6 +507,9 @@
 		},
 		{
 			"name": "But Can I Fuck It?"
+		},
+		{
+			"name": "Categorical"
 		},
 		{
 			"name": "Crunch Time"
@@ -577,6 +585,9 @@
 		},
 		{
 			"name": "Name That Goblin"
+		},
+		{
+			"name": "Name That Monkey"
 		},
 		{
 			"name": "Name That Robot"
@@ -840,6 +851,10 @@
 		{
 			"id": "donkey-kong",
 			"name": "Donkey Kong"
+		},
+		{
+			"id": "doom",
+			"name": "Doom (video game franchise)"
 		},
 		{
 			"id": "dr-horrible",
@@ -1174,6 +1189,10 @@
 			"name": "Mythlology"
 		},
 		{
+			"id": "naruto",
+			"name": "Naruto"
+		},
+		{
 			"id": "narnia",
 			"name": "Narnia"
 		},
@@ -1500,6 +1519,10 @@
 		{
 			"id": "witcher",
 			"name": "The Witcher"
+		},
+		{
+			"id": "wizard-of-earthsea",
+			"name": "A Wizard of Earthsea"
 		},
 		{
 			"id": "weird-al",
@@ -8649,6 +8672,133 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"amy-dallen"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s03e05",
+			"title": "Doom, A Wizard of Earthsea, Avengers: Endgame",
+			"description": "Joan Ford, Jordan Doll, & Winston A. Marshall play Categorical and \"Name That Monkey!\"",
+			"url": "https://www.dropout.tv/um-actually/season:3/videos/doom-a-wizard-of-earthsea-avengers-endgame",
+			"thumbnail_landscape": "images/s03e05.jpg",
+			"duration": 1871,
+			"number": "5",
+			"season_number": "3",
+			"release_date": "2020-03-21",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "winston-marshall",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "joan-ford",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jordan-doll",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "star-wars",
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 2,
+					"topic":  "wizard-of-earthsea",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "doom",
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "movies",
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "disney",
+					"title": "Categorical",
+					"shiny": true,
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "rick-and-morty",
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "fantasy",
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "superman",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "Name That Monkey",
+					"shiny": true,
+					"winners": [
+						"winston-marshall",
+						"joan-ford",
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "naruto",
+					"winners": [
+						"winston-marshall"
+					]
+				},
+				{
+					"number": 12,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"winston-marshall"
 					]
 				}
 			]
