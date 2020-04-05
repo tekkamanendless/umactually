@@ -265,6 +265,11 @@
 			"url": "https://www.dropout.tv/search/talent/716/jordan-doll"
 		},
 		{
+			"id": "julia-prescott",
+			"name": "Julia Prescott",
+			"url": ""
+		},
+		{
 			"id": "kaitlin-thompson",
 			"name": "Kaitlin Thompson",
 			"url": ""
@@ -504,6 +509,9 @@
 		},
 		{
 			"name": "Always Pay Your Debts"
+		},
+		{
+			"name": "Be Our Guest... Star"
 		},
 		{
 			"name": "But Can I Fuck It?"
@@ -8800,6 +8808,138 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"winston-marshall"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s03e06",
+			"title": "D’oh! Actually: A Special Simpsons Episode",
+			"description": "Haley Mancini, Kirk Damato, & Julia Prescott recall Troy McClure's career and Comic Book Guy's name.",
+			"url": "https://www.dropout.tv/um-actually/season:3/videos/d-oh-actually-a-special-simpsons-episode",
+			"thumbnail_landscape": "images/s03e06.jpg",
+			"duration": 2044,
+			"number": "6",
+			"season_number": "3",
+			"release_date": "2020-04-04",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "haley-mancini",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "kirk-damato",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "julia-prescott",
+					"score": 6
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "the-simpsons",
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "the-simpsons",
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "the-simpsons",
+					"winners": [
+						"julia-prescott"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "the-simpsons",
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "the-simpsons",
+					"title": "Be Our Guest... Star",
+					"shiny": true,
+					"winners": [
+						"kirk-damato"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "the-simpsons",
+					"winners": [
+						"julia-prescott"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "the-simpsons",
+					"winners": [
+						"julia-prescott"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "the-simpsons",
+					"winners": [
+						"julia-prescott"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "the-simpsons",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "the-simpsons",
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "the-simpsons",
+					"winners": [
+						"julia-prescott"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "the-simpsons",
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": [
+						"kirk-damato",
+						"julia-prescott"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"haley-mancini"
 					]
 				}
 			]
