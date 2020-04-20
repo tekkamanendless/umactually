@@ -511,6 +511,9 @@
 			"name": "Always Pay Your Debts"
 		},
 		{
+			"name": "Augh! My One Weakness"
+		},
+		{
 			"name": "Be Our Guest... Star"
 		},
 		{
@@ -1257,6 +1260,10 @@
 			"name": "Ranma 1/2"
 		},
 		{
+			"id": "redwall",
+			"name": "Redwall (Series)"
+		},
+		{
 			"id": "rent",
 			"name": "Rent"
 		},
@@ -1429,8 +1436,8 @@
 			"name": "The Last Unicorn"
 		},
 		{
-			"id": "the-magician",
-			"name": "The Magician"
+			"id": "the-magicians",
+			"name": "The Magicians"
 		},
 		{
 			"id": "the-matrix",
@@ -3369,7 +3376,7 @@
 				},
 				{
 					"number": 7,
-					"topic": "the-magician",
+					"topic": "the-magicians",
 					"winners": [
 						"becca-scott"
 					]
@@ -8940,6 +8947,126 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"haley-mancini"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s03e07",
+			"title": "God of War, Spirited Away, Dance Dance Revolution",
+			"description": "Ify Nwadiwe, Emma Fyffe, and Liam Senior fix a wrong Rubik's Cube and remember Redwall rodents.",
+			"url": "https://www.dropout.tv/featured/videos/god-of-war-spirited-away-dance-dance-revolution",
+			"thumbnail_landscape": "images/s03e07.jpg",
+			"duration": 1840,
+			"number": "7",
+			"season_number": "3",
+			"release_date": "2020-04-18",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "ify-nwadiwe",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "emma-fyffe",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "liam-senior",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "lord-of-the-rings",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "video-games",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "fantasy",
+					"winners": [
+						"liam-senior"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "anime",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 5,
+					"title":  "Augh! My One Weakness",
+					"shiny": true,
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "harry-potter",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "video-games",
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "the-magicians",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "redwall",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "doctor-who",
+					"winners": [
+						"liam-senior"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"liam-senior"
 					]
 				}
 			]
