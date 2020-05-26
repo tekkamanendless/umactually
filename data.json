@@ -130,6 +130,10 @@
 			"url": "https://www.dropout.tv/search/talent/632/demi-adejuyigbe"
 		},
 		{
+			"id": "devon-stewart",
+			"name": "Devon Stewart"
+		},
+		{
 			"id": "edgar-momplaisir",
 			"name": "Edgar Momplaisir",
 			"url": "https://www.dropout.tv/search/talent/685/edgar-momplaisir"
@@ -280,6 +284,10 @@
 			"url": "https://www.dropout.tv/search/talent/1340/ken-napzok"
 		},
 		{
+			"id": "kim-horcher",
+			"name": "Kim Horcher"
+		},
+		{
 			"id": "kirk-damato",
 			"name": "Kirk Damato",
 			"url": "https://www.dropout.tv/search/talent/729/kirk-damato"
@@ -318,6 +326,10 @@
 			"id": "marisha-ray",
 			"name": "Marisha Ray",
 			"url": "https://www.dropout.tv/search/talent/1161/marisha-ray"
+		},
+		{
+			"id": "markeia-mccarty",
+			"name": "Markeia McCarty"
 		},
 		{
 			"id": "matt-kirshen",
@@ -393,6 +405,10 @@
 			"id": "rekha-shankar",
 			"name": "Rekha Shankar",
 			"url": "https://www.dropout.tv/search/talent/224/rekha-shankar"
+		},
+		{
+			"id": "ryan-creamer",
+			"name": "Ryan Creamer"
 		},
 		{
 			"id": "ryan-martin",
@@ -557,6 +573,9 @@
 		},
 		{
 			"name": "Incantatio Ridiculum"
+		},
+		{
+			"name": "Legal Limit"
 		},
 		{
 			"name": "Look What Ya Did, Ya Little Jerk!"
@@ -798,6 +817,10 @@
 		{
 			"id": "chorus-line",
 			"name": "A Chorus Line"
+		},
+		{
+			"id": "collectibles",
+			"name": "Collectibles"
 		},
 		{
 			"id": "comics",
@@ -1368,6 +1391,10 @@
 			"name": "Starcraft"
 		},
 		{
+			"id": "starship-troopers",
+			"name": "Starship Troopers"
+		},
+		{
 			"id": "stephen-king",
 			"name": "Stephen King"
 		},
@@ -1410,6 +1437,10 @@
 		{
 			"id": "the-black-cauldron",
 			"name": "The Black Cauldron"
+		},
+		{
+			"id": "the-cosmere",
+			"name": "The Cosmere (fictional universe)"
 		},
 		{
 			"id": "the-da-vinci-code",
@@ -1566,6 +1597,10 @@
 		{
 			"id": "wrestling",
 			"name": "Wrestling"
+		},
+		{
+			"id": "x-files",
+			"name": "The X-Files"
 		},
 		{
 			"id": "x-men",
@@ -9067,6 +9102,250 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"liam-senior"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s03e08",
+			"title": "Zelda, Aquaman, Neopets",
+			"description": "Jon Gutierrez, Markeia McCarty, and Ryan Creamer ponder Funko Pops and play \"Where Am I?\"",
+			"url": "https://www.dropout.tv/um-actually/season:3/videos/zelda-aquaman-neopets",
+			"thumbnail_landscape": "images/s03e08.jpg",
+			"duration": 1394,
+			"number": "8",
+			"season_number": "3",
+			"release_date": "2020-05-02",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jon-gutierrez",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "markeia-mccarty",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "ryan-creamer",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "zelda",
+					"winners": [
+						"ryan-creamer"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "dc",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "star-wars",
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "star-trek",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Once More Without Feeling",
+					"shiny": true,
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "the-cosmere",
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "x-files",
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "neopets",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"topic": "stephen-king",
+					"title": "Categorical",
+					"shiny": true,
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "collectibles",
+					"winners": [
+						"ryan-creamer"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Where Am I?",
+					"shiny": true,
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"jon-gutierrez"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s03e09",
+			"title": "Indiana Jones, Futurama, Starship Troopers",
+			"description": "Devon Stewart, Kim Horcher, & Tao Yang debunk Dance Dance Revolution ratings and play \"Legal Limit.\"",
+			"url": "https://www.dropout.tv/um-actually/season:3/videos/indiana-jones-futurama-starship-troopers",
+			"thumbnail_landscape": "images/s03e09.jpg",
+			"duration": 1852,
+			"number": "9",
+			"season_number": "3",
+			"release_date": "2020-05-16",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "devon-stewart",
+					"score": 1
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "tao-yang",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "kim-horcher",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "indiana-jones",
+					"winners": [
+						"kim-horcher"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "video-games",
+					"winners": [
+						"tao-yang"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "scifi-books",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "futurama",
+					"winners": [
+						"kim-horcher"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "video-games",
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"tao-yang"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "final-fantasy",
+					"winners": [
+						"kim-horcher"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "pokemon",
+					"winners": [
+						"kim-horcher"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "starship-troopers",
+					"winners": [
+						"tao-yang"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Order Up",
+					"shiny": true,
+					"winners": [
+						"devon-stewart"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "cartoons",
+					"winners": [
+						"tao-yang"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "witcher",
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Under Review",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"kim-horcher"
 					]
 				}
 			]
