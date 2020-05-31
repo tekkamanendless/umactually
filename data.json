@@ -426,6 +426,10 @@
 			"url": "https://www.dropout.tv/search/talent/766/sam-bashor"
 		},
 		{
+			"id": "sam-maggs",
+			"name": "Sam Maggs"
+		},
+		{
 			"id": "shane-crown",
 			"name": "Shane Crown",
 			"url": "https://www.dropout.tv/search/talent/191/shane-crown"
@@ -459,6 +463,10 @@
 			"id": "tj-gonzalez",
 			"name": "T.J. Gonzalez",
 			"url": "https://www.dropout.tv/search/talent/1091/tj-gonzalez"
+		},
+		{
+			"id": "trisha-hershberger",
+			"name": "Trisha Hershberger"
 		},
 		{
 			"id": "winston-marshall",
@@ -991,6 +999,10 @@
 			"name": "Ghostbusters"
 		},
 		{
+			"id": "gobots",
+			"name": "GoBots"
+		},
+		{
 			"id": "godzilla",
 			"name": "Godzilla"
 		},
@@ -1093,6 +1105,10 @@
 		{
 			"id": "indiana-jones",
 			"name": "Indiana Jones"
+		},
+		{
+			"id": "invader-zim",
+			"name": "Invader Zim"
 		},
 		{
 			"id": "it",
@@ -1367,6 +1383,10 @@
 			"name": "Snow Crash"
 		},
 		{
+			"id": "sonic",
+			"name": "Sonic The Hedgehog (Franchise)"
+		},
+		{
 			"id": "south-park",
 			"name": "South Park"
 		},
@@ -1389,6 +1409,10 @@
 		{
 			"id": "starcraft",
 			"name": "Starcraft"
+		},
+		{
+			"id": "stargate",
+			"name": "Stargate"
 		},
 		{
 			"id": "starship-troopers",
@@ -9346,6 +9370,133 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"kim-horcher"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s03e10",
+			"title": "Invader Zim, Dark Souls, Stargate",
+			"description": "Trisha Hershberger, Sam Maggs, and Erika Ishii take guesses on GoBots and a real film review.",
+			"url": "https://www.dropout.tv/um-actually/season:3/videos/invader-zim-dark-souls-stargate",
+			"thumbnail_landscape": "images/s03e10.jpg",
+			"duration": 1953,
+			"number": "10",
+			"season_number": "3",
+			"release_date": "2020-05-30",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "trisha-hershberger",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "sam-maggs",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "erika-ishii",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "gobots",
+					"topicDetails": ["transformers"],
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "battlestar",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "dnd",
+					"winners": [
+						"trisha-hershberger"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "invader-zim",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "pokemon",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"sam-maggs"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "video-games",
+					"topicDetails": ["dark-souls"],
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "sonic",
+					"topicDetails": ["Sonic Adventure (Video game)"],
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "stargate",
+					"winners": [
+						"sam-maggs"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "video-games",
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"trisha-hershberger"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "hitchhikers-guide",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "dragon-age",
+					"winners": [
+						"sam-maggs"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Under Review",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"erika-ishii"
 					]
 				}
 			]
