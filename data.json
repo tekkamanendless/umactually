@@ -323,6 +323,10 @@
 			"url": "https://www.dropout.tv/search/talent/746/maggie-mae-fish"
 		},
 		{
+			"id": "malika-lim-eubank",
+			"name": "Malika Lim Eubank"
+		},
+		{
 			"id": "marisha-ray",
 			"name": "Marisha Ray",
 			"url": "https://www.dropout.tv/search/talent/1161/marisha-ray"
@@ -605,6 +609,9 @@
 		},
 		{
 			"name": "Mounting Suspicion"
+		},
+		{
+			"name": "Mystery Box"
 		},
 		{
 			"name": "Name That Alien"
@@ -915,6 +922,10 @@
 			"name": "Dune"
 		},
 		{
+			"id": "earths-children",
+			"name": "Earth's Children (Jean M. Auel novels)"
+		},
+		{
 			"id": "enders-game",
 			"name": "Ender's Game"
 		},
@@ -1065,6 +1076,10 @@
 		{
 			"id": "hearthstone",
 			"name": "Hearthstone"
+		},
+		{
+			"id": "heroes-of-olympus",
+			"name": "The Heroes of Olympus (Rick Riordan novels)"
 		},
 		{
 			"id": "highlander",
@@ -1447,8 +1462,16 @@
 			"name": "Superheroes"
 		},
 		{
+			"id": "supergirl",
+			"name": "Supergirl"
+		},
+		{
 			"id": "superman",
 			"name": "Superman"
+		},
+		{
+			"id": "sword-art-online",
+			"name": "Swort Art Online"
 		},
 		{
 			"id": "tabletop-games",
@@ -9497,6 +9520,132 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"erika-ishii"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s03e11",
+			"title": "Supergirl, Elder Scrolls, Sword Art Online",
+			"description": "Jess Ross, Michelle Nguyen Bradley, and Malika Lim Eubank face off over anime, videogames, and more.",
+			"url": "https://www.dropout.tv/um-actually/season:3/videos/supergirl-elder-scrolls-sword-art-online",
+			"thumbnail_landscape": "images/s03e11.jpg",
+			"duration": 2006,
+			"number": "11",
+			"season_number": "3",
+			"release_date": "2020-06-13",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jessica-ross",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "michelle-nguyen-bradley",
+					"score": 1
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "malika-lim-eubank",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "sword-art-online",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "supergirl",
+					"topicDetails": ["Supergirl (TV series)"],
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "video-games",
+					"topicDetails": ["Elder Scrolls (Video game series)"],
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "heroes-of-olympus",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"topic": "board-games",
+					"title": "Mystery Box",
+					"shiny": true,
+					"winners": [
+						"jessica-ross",
+						"malika-lim-eubank"
+					]
+				},
+				{
+					"number": 6,
+					"topic":  "jojo",
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "horror-movies",
+					"topicDetails": ["The Descent", "The Cave"],
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "earths-children",
+					"winners": [
+						"malika-lim-eubank"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "avatar-the-last-airbender",
+					"topicDetails": ["The Legend of Korra"],
+					"winners": [
+						"malika-lim-eubank"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "game-of-thrones",
+					"winners": [
+						"malika-lim-eubank"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "cartoons",
+					"topicDetails": ["cartoon pets"],
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"michelle-nguyen-bradley"
 					]
 				}
 			]
