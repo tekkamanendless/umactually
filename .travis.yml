@@ -2,7 +2,7 @@ matrix:
   include:
     - language: node_js
       node_js:
-        - "8"
+        - "10"
       before_script:
         - npm install -g ajv-cli
-      script: ajv validate -s data.jsonschema -d data.json
+      script: ajv validate -s schema.json -d data.json
