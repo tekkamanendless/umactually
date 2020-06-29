@@ -279,6 +279,10 @@
 			"url": ""
 		},
 		{
+			"id": "kelly-nugent",
+			"name": "Kelly Nugent"
+		},
+		{
 			"id": "ken-napzok",
 			"name": "Ken Napzok",
 			"url": "https://www.dropout.tv/search/talent/1340/ken-napzok"
@@ -724,6 +728,10 @@
 		{
 			"id": "20k-leagues-under-sea",
 			"name": "20,000 Leagues Under the Sea"
+		},
+		{
+			"id": "adventure-time",
+			"name": "Adventure Time"
 		},
 		{
 			"id": "aristocats",
@@ -1248,6 +1256,10 @@
 		{
 			"id": "my-hero-academia",
 			"name": "My Hero Academia"
+		},
+		{
+			"id": "my-little-pony",
+			"name": "My Little Pony"
 		},
 		{
 			"id": "mythology",
@@ -9646,6 +9658,133 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"michelle-nguyen-bradley"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s03e12",
+			"title": "Monopoly, My Little Pony, The Witcher",
+			"description": "Kelly Nugent, Zac Oyama, and Jessica Clemons look for corrections in My Little Pony and more.",
+			"url": "https://www.dropout.tv/um-actually/season:3/videos/monopoly-my-little-pony-the-witcher",
+			"thumbnail_landscape": "images/s03e12.jpg",
+			"duration": 1760,
+			"number": "12",
+			"season_number": "3",
+			"release_date": "2020-06-27",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "kelly-nugent",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "zac-oyama",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jessica-clemons",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "dc",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "my-little-pony",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "video-games",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "board-games",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "Cryptogeography",
+					"shiny": true,
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "godzilla",
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "witcher",
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "harry-potter",
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "transformers",
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "mcu",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "adventure-time",
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 12,
+					"title": "A Book By Its Cover",
+					"shiny": true,
+					"winners": [
+						"kelly-nugent",
+						"zac-oyama",
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"jessica-clemons"
 					]
 				}
 			]
