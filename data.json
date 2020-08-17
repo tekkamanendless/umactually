@@ -11,6 +11,10 @@
 		{
 			"number": "3",
 			"title": "Season 3"
+		},
+		{
+			"number": "4",
+			"title": "Season 4 (Special Edition)"
 		}
 	],
 	"people": [
@@ -63,6 +67,14 @@
 			"id": "becca-scott",
 			"name": "Becca Scott",
 			"url": "https://www.dropout.tv/search/talent/493/becca-scott"
+		},
+		{
+			"id": "becky-drysdale",
+			"name": "Becky Drysdale"
+		},
+		{
+			"id": "benjamin-siemon",
+			"name": "Benjamin Siemon"
 		},
 		{
 			"id": "betsy-sodaro",
@@ -637,6 +649,9 @@
 		},
 		{
 			"name": "Name That Monkey"
+		},
+		{
+			"name": "Name That Muppet"
 		},
 		{
 			"name": "Name That Robot"
@@ -1556,6 +1571,10 @@
 		{
 			"id": "the-time-machine",
 			"name": "The Time Machine"
+		},
+		{
+			"id": "thunderbirds",
+			"name": "Thunderbirds (British TV series)"
 		},
 		{
 			"id": "thundercats",
@@ -9785,6 +9804,137 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"jessica-clemons"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s04e01",
+			"title": "Muppets & Puppets",
+			"description": "Ben, Becky, and Jordan face off to prove who is the TRUE puppetmaster.",
+			"url": "https://www.dropout.tv/um-actually/season:4/videos/muppets-puppets",
+			"thumbnail_landscape": "images/s04e01.jpg",
+			"duration": 2208,
+			"number": "1",
+			"season_number": "4",
+			"release_date": "2020-08-14",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "benjamin-siemon",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "becky-drysdale",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "jordan-doll",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "the-muppets",
+					"winners": [
+						"benjamin-siemon"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "the-muppets",
+					"winners": [
+						"benjamin-siemon"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "dark-crystal",
+					"winners": [
+						"benjamin-siemon"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "the-muppets",
+					"winners": [
+						"becky-drysdale"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "the-muppets",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"benjamin-siemon"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "the-muppets",
+					"topicDetails": ["Sesame Street", "Fuel (Band)"],
+					"winners": [
+						"benjamin-siemon"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "fraggle-rock",
+					"winners": [
+						"becky-drysdale"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "thunderbirds",
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "alf",
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "the-muppets",
+					"winners": [
+						"benjamin-siemon"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "the-muppets",
+					"title": "Name That Muppet",
+					"shiny": true,
+					"winners": [
+						"becky-drysdale"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"jordan-doll"
 					]
 				}
 			]

@@ -50,6 +50,9 @@ tbody td {
 .podium.yellow {
 	background-color: #e099007a;
 }
+.podium.green {
+	background-color: #2eb69e7a;
+}
 
 .link {
 	cursor: pointer;
