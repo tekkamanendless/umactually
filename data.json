@@ -9938,6 +9938,134 @@
 					]
 				}
 			]
+		},
+		{
+			"dropouttv_productid": "s04e02",
+			"title": "Marvel",
+			"description": "Amy, Markeia, and Sam compete to prove who's the REAL Captain Marvel.",
+			"url": "https://www.dropout.tv/um-actually/season:4/videos/um-actually-marvel",
+			"thumbnail_landscape": "images/s04e02.jpg",
+			"duration": 2029,
+			"number": "2",
+			"season_number": "4",
+			"release_date": "2020-08-29",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "amy-dallen",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "markeia-mccarty",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "sam-maggs",
+					"score": 1
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "mcu",
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "marvel",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "marvel",
+					"topicDetails": ["The Hulk"],
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "marvel",
+					"submittedBy": "Flare Xavier",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"topic": "marvel",
+					"topicDetails": ["Daredevil"],
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "marvel",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "spider-man",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "mcu",
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "marvel",
+					"title": "Order Up",
+					"shiny": true,
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "marvel",
+					"topicDetails": ["Combo Man"],
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "marvel",
+					"topicDetails": ["Squirrel Girl"],
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "marvel",
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"sam-maggs"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
+				}
+			]
 		}
 	]
 }
