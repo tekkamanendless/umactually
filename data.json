@@ -714,6 +714,9 @@
 			"name": "Under Review"
 		},
 		{
+			"name": "Voice Over"
+		},
+		{
 			"name": "We'll Just Have To Adapt"
 		},
 		{
@@ -10064,6 +10067,143 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s04e03",
+			"title": "Disney",
+			"description": "Dani, Oscar, and Joan find a whole new world of pedantic corrections.",
+			"url": "https://www.dropout.tv/um-actually/season:4/videos/disney",
+			"thumbnail_landscape": "images/s04e03.jpg",
+			"duration": 1999,
+			"number": "3",
+			"season_number": "4",
+			"release_date": "2020-09-11",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "dani-fernandez",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "oscar-montoya",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "yello",
+					"id": "joan-ford",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "disney",
+					"topicDetails": ["The Lion King"],
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "disney",
+					"topicDetails": ["The Rescuers Down Under"],
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "disney",
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "disney",
+					"submittedBy": "Shinitenshi",
+					"winners": [
+						"dani-fernandez"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "disney",
+					"topicDetails": ["Snow White and the Seven Dwarfs"],
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"oscar-montoya"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "disney",
+					"topicDetails": ["The Little Mermaid"],
+					"winners": [
+						"dani-fernandez"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "disney",
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "disney",
+					"winners": [
+						"oscar-montoya"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "disney",
+					"title": "Once More Without Feeling",
+					"shiny": true,
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "disney",
+					"winners": [
+						"oscar-montoya"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "disney",
+					"topicDetails": ["Aladdin"],
+					"winners": [
+						"dani-fernandez"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "disney",
+					"title": "Voice Over",
+					"shiny": true,
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"dani-fernandez"
+					]
 				}
 			]
 		}
