@@ -186,6 +186,10 @@
 			"url": "https://www.dropout.tv/search/talent/186/grant-o-brien"
 		},
 		{
+			"id": "fiona-nova",
+			"name": "Fiona Nova"
+		},
+		{
 			"id": "frank-hejl",
 			"name": "Frank Hejl",
 			"url": "https://www.dropout.tv/search/talent/1082/frank-hejl"
@@ -470,6 +474,10 @@
 			"url": "https://www.dropout.tv/search/talent/781/stef-woodburn"
 		},
 		{
+			"id": "sungwon-cho",
+			"name": "SungWon Cho"
+		},
+		{
 			"id": "tao-yang",
 			"name": "Tao Yang",
 			"url": "https://www.dropout.tv/search/talent/1122/tao-yang"
@@ -579,6 +587,9 @@
 			"name": "Drug Dealer"
 		},
 		{
+			"name": "Earth 20XX"
+		},
+		{
 			"name": "Fictionary"
 		},
 		{
@@ -679,6 +690,9 @@
 		},
 		{
 			"name": "Order Up"
+		},
+		{
+			"name": "Pitch Session"
 		},
 		{
 			"name": "Power Up"
@@ -1072,6 +1086,10 @@
 			"name": "Groundhog Day"
 		},
 		{
+			"id": "gundam",
+			"name": "Mobile Suit Gundam"
+		},
+		{
 			"id": "gurren-lagann",
 			"name": "Tengen Toppa Gurren Lagann"
 		},
@@ -1310,6 +1328,10 @@
 		{
 			"id": "one-piece",
 			"name": "One Piece"
+		},
+		{
+			"id": "one-punch-man",
+			"name": "One Punch Man"
 		},
 		{
 			"id": "overwatch",
@@ -10096,7 +10118,7 @@
 				},
 				{
 					"position": "3",
-					"color": "yello",
+					"color": "yellow",
 					"id": "joan-ford",
 					"score": 5
 				}
@@ -10203,6 +10225,139 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"dani-fernandez"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s04e04",
+			"title": "Anime",
+			"description": "Ify, Fiona, and SungWon go on a bizarre adventure but emerge still in one piece.",
+			"url": "https://www.dropout.tv/um-actually/season:4/videos/anime",
+			"thumbnail_landscape": "images/s04e04.jpg",
+			"duration": 2317,
+			"number": "4",
+			"season_number": "4",
+			"release_date": "2020-10-02",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "ify-nwadiwe",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "fiona-nova",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "sungwon-cho",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "anime",
+					"topicDetails": ["Demon Slayer: Kimetsu no Yaiba"],
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "one-punch-man",
+					"winners": [
+						"sungwon-cho"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "anime",
+					"topicDetails": ["Kill la Kill"],
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "one-piece",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"topic": "anime",
+					"title": "Earth 20XX",
+					"shiny": true,
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "one-piece",
+					"winners": [
+						"sungwon-cho"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "anime",
+					"topicDetails": ["Studio Ghibli"],
+					"winners": [
+						"sungwon-cho"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "gundam",
+					"winners": [
+						"fiona-nova"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "anime",
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"fiona-nova"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "jojo",
+					"winners": [
+						"sungwon-cho"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "death-note",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "anime",
+					"title": "Pitch Session",
+					"shiny": true,
+					"winners": [
+						"fiona-nova",
+						"sungwon-cho"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"ify-nwadiwe"
 					]
 				}
 			]
