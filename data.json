@@ -200,6 +200,10 @@
 			"url": ""
 		},
 		{
+			"id": "gus-sorola",
+			"name": "Gustavo Sorola"
+		},
+		{
 			"id": "haley-mancini",
 			"name": "Haley Mancini",
 			"url": "https://www.dropout.tv/search/talent/385/haley-mancini"
@@ -690,6 +694,9 @@
 		},
 		{
 			"name": "Order Up"
+		},
+		{
+			"name": "Out Of Range"
 		},
 		{
 			"name": "Pitch Session"
@@ -8568,7 +8575,7 @@
 			]
 		},
 		{
-			"dropouttv_productid": "s03e02",
+			"dropouttv_productid": "s03e03",
 			"title": "Um, Academy! A Special Cinematic Episode",
 			"description": "Grae Drake, Shane Crown, 'n Raphael Chestang price-check The Maltese Falcon and play \"21 Jump Streep.\"",
 			"url": "https://www.dropout.tv/um-actually/season:3/videos/um-academy-a-special-cinematic-episode",
@@ -8602,13 +8609,13 @@
 				{
 					"number": 1,
 					"topic": "movies",
-					"topic_note": "Casablanca",
+					"topicDetails": ["Casablanca"],
 					"winners": []
 				},
 				{
 					"number": 2,
 					"topic": "movies",
-					"topic_note": "The Oscars",
+					"topicDetails": ["The Oscars"],
 					"winners": [
 						"grae-drake"
 					]
@@ -8616,7 +8623,7 @@
 				{
 					"number": 3,
 					"topic": "movies",
-					"topic_note": "Sergio Leone's Dollars Trilogy",
+					"topicDetails": ["Sergio Leone's Dollars Trilogy"],
 					"winners": [
 						"grae-drake"
 					]
@@ -8640,7 +8647,7 @@
 				{
 					"number": 6,
 					"topic": "movies",
-					"topic_note": "The Maltese Falcon",
+					"topicDetails": ["The Maltese Falcon"],
 					"winners": [
 						"raphael-chestang"
 					]
@@ -8648,7 +8655,7 @@
 				{
 					"number": 7,
 					"topic": "movies",
-					"topic_note": "The Oscars",
+					"topicDetails": ["The Oscars"],
 					"winners": [
 						"shane-crown"
 					]
@@ -8673,7 +8680,7 @@
 				{
 					"number": 10,
 					"topic": "movies",
-					"topic_note": "The Oscars",
+					"topicDetails": ["The Oscars"],
 					"winners": [
 						"shane-crown"
 					]
@@ -8681,7 +8688,7 @@
 				{
 					"number": 11,
 					"topic": "movies",
-					"topic_note": "Orson Welles's Citizen Kane",
+					"topicDetails": ["Orson Welles's Citizen Kane"],
 					"winners": [
 						"shane-crown"
 					]
@@ -10358,6 +10365,134 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"ify-nwadiwe"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s04e05",
+			"title": "Dungeons & Dragons All-Stars",
+			"description": "Gus Sorola, Matt Mercer, and Amy Vorpahl separate the Dungeon Amateurs from the Dungeon Masters.",
+			"url": "https://www.dropout.tv/um-actually/season:4/videos/dungeons-dragons-all-stars",
+			"thumbnail_landscape": "images/s04e05.jpg",
+			"duration": 2226,
+			"number": "5",
+			"season_number": "4",
+			"release_date": "2020-10-15",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "gus-sorola",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "matt-mercer",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "amy-vorpahl",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "dnd",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "dnd",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "dnd",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "dnd",
+					"submittedBy": "Runcible Shaw",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "dnd",
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "dnd",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "dnd",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "dnd",
+					"winners": [
+						"gus-sorola"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "dnd",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "dnd",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "dnd",
+					"winners": [
+						"gus-sorola"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "dnd",
+					"title": "Out Of Range",
+					"shiny": true,
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"gus-sorola"
 					]
 				}
 			]
