@@ -64,6 +64,10 @@
 			"url": "https://www.dropout.tv/search/talent/664/amy-vorpahl"
 		},
 		{
+			"id": "andrew-rosas",
+			"name": "Andrew Rosas"
+		},
+		{
 			"id": "becca-scott",
 			"name": "Becca Scott",
 			"url": "https://www.dropout.tv/search/talent/493/becca-scott"
@@ -71,6 +75,10 @@
 		{
 			"id": "becky-drysdale",
 			"name": "Becky Drysdale"
+		},
+		{
+			"id": "ben-joseph",
+			"name": "Ben Joseph"
 		},
 		{
 			"id": "benjamin-siemon",
@@ -196,8 +204,7 @@
 		},
 		{
 			"id": "grae-drake",
-			"name": "Grae Drake",
-			"url": ""
+			"name": "Grae Drake"
 		},
 		{
 			"id": "gus-sorola",
@@ -245,8 +252,7 @@
 		},
 		{
 			"id": "jay-washington",
-			"name": "Jay Washington",
-			"url": ""
+			"name": "Jay Washington"
 		},
 		{
 			"id": "jenny-lorenzo",
@@ -328,8 +334,7 @@
 		},
 		{
 			"id": "lou-wilson",
-			"name": "Lou Wilson",
-			"url": ""
+			"name": "Lou Wilson"
 		},
 		{
 			"id": "luke-field",
@@ -426,8 +431,7 @@
 		},
 		{
 			"id": "raphael-chestang",
-			"name": "Raphael Chestang",
-			"url": ""
+			"name": "Raphael Chestang"
 		},
 		{
 			"id": "rekha-shankar",
@@ -502,8 +506,7 @@
 		},
 		{
 			"id": "winston-marshall",
-			"name": "Winston A. Marshall",
-			"url": ""
+			"name": "Winston A. Marshall"
 		},
 		{
 			"id": "zac-oyama",
@@ -708,10 +711,16 @@
 			"name": "Real Life Skills"
 		},
 		{
+			"name": "Rose Madder By Any Other Name"
+		},
+		{
 			"name": "Rules Lawyer"
 		},
 		{
 			"name": "Sp'el Ling Bi"
+		},
+		{
+			"name": "Special Speaking"
 		},
 		{
 			"name": "Super Saying"
@@ -10493,6 +10502,142 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"gus-sorola"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s04e06",
+			"title": "Stephen King",
+			"description": "Andrew Rosas, Betsy Sodaro, and Ben Joseph compete over Richard Bachman facts.",
+			"url": "https://www.dropout.tv/um-actually/season:4/videos/stephen-king",
+			"thumbnail_landscape": "images/s04e06.jpg",
+			"duration": 2313,
+			"number": "6",
+			"season_number": "4",
+			"release_date": "2020-10-23",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "andrew-rosas",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "betsy-sodaro",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "ben-joseph",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "stephen-king",
+					"topicDetails": ["It"],
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "stephen-king",
+					"topicDetails": ["The Mangler (Short story)"],
+					"winners": [
+						"andrew-rosas"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "dark-tower",
+					"winners": [
+						"ben-joseph"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "stephen-king",
+					"topicDetails": ["Sleepwalkers (Movie)"],
+					"winners": [
+						"andrew-rosas"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "stephen-king",
+					"title": "Special Speaking",
+					"shiny": true,
+					"winners": [
+						"betsy-sodaro"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "stephen-king",
+					"topicDetails": ["11/22/63"],
+					"winners": [
+						"ben-joseph"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "stephen-king",
+					"topicDetails": ["The Lawnmower Man"],
+					"winners": [
+						"ben-joseph"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "stephen-king",
+					"topicDetails": ["Thinner"],
+					"winners": [
+						"ben-joseph"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "stephen-king",
+					"title": "Rose Madder By Any Other Name",
+					"shiny": true,
+					"winners": [
+						"andrew-rosas",
+						"ben-joseph"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "stephen-king",
+					"winners": [
+						"betsy-sodaro"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "stephen-king",
+					"winners": [
+						"betsy-sodaro"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "stephen-king",
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"andrew-rosas"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"betsy-sodaro"
 					]
 				}
 			]
