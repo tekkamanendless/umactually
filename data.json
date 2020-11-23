@@ -296,13 +296,11 @@
 		},
 		{
 			"id": "julia-prescott",
-			"name": "Julia Prescott",
-			"url": ""
+			"name": "Julia Prescott"
 		},
 		{
 			"id": "kaitlin-thompson",
-			"name": "Kaitlin Thompson",
-			"url": ""
+			"name": "Kaitlin Thompson"
 		},
 		{
 			"id": "kelly-nugent",
@@ -430,6 +428,10 @@
 			"url": "https://www.dropout.tv/search/talent/84/oscar-montoya"
 		},
 		{
+			"id": "owen-parsons",
+			"name": "Owen Parsons"
+		},
+		{
 			"id": "raphael-chestang",
 			"name": "Raphael Chestang"
 		},
@@ -491,6 +493,10 @@
 			"url": "https://www.dropout.tv/search/talent/1122/tao-yang"
 		},
 		{
+			"id": "terence-wiggins",
+			"name": "Terence Wiggins"
+		},
+		{
 			"id": "thomas-middleditch",
 			"name": "Thomas Middleditch",
 			"url": "https://www.dropout.tv/search/talent/23/thomas-middleditch"
@@ -503,6 +509,10 @@
 		{
 			"id": "trisha-hershberger",
 			"name": "Trisha Hershberger"
+		},
+		{
+			"id": "vernon-odemns",
+			"name": "Vernon X. Odemns"
 		},
 		{
 			"id": "winston-marshall",
@@ -601,6 +611,9 @@
 		},
 		{
 			"name": "Find The Fake"
+		},
+		{
+			"name": "Fully Evolved"
 		},
 		{
 			"name": "G-O-N In 60 Seconds"
@@ -706,6 +719,9 @@
 		},
 		{
 			"name": "Pitch Session"
+		},
+		{
+			"name": "Pokemon Etymology"
 		},
 		{
 			"name": "Power Up"
@@ -10775,6 +10791,135 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"rekha-shankar"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s04e08",
+			"title": "Pokémon",
+			"description": "Owen Parsons, Terrence Wiggins, and Vernon X. Odemns fight to see who is the most super effective.",
+			"url": "https://www.dropout.tv/um-actually/season:4/videos/pokemon",
+			"thumbnail_landscape": "images/s04e08.jpg",
+			"duration": 2251,
+			"number": "8",
+			"season_number": "4",
+			"release_date": "2020-11-20",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "owen-parsons",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "terence-wiggins",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "vernon-odemns",
+					"score": 1
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "pokemon",
+					"topicDetails": ["Pokemon Sword and Shield"],
+					"winners": [
+						"owen-parsons"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "pokemon",
+					"topicDetails": ["Pokemon Snap"],
+					"winners": [
+						"terence-wiggins"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "pokemon",
+					"topicDetails": ["Pokemon Red and Blue"],
+					"winners": [
+						"terence-wiggins"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "pokemon",
+					"submittedBy": "Binturong",
+					"winners": [
+						"owen-parsons"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "pokemon",
+					"title": "Pokemon Etymology",
+					"shiny": true,
+					"winners": [
+						"owen-parsons"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "pokemon",
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "pokemon",
+					"winners": [
+						"terence-wiggins"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "pokemon",
+					"topicDetails": ["Pokemon Go"],
+					"winners": [
+						"vernon-odemns"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "pokemon",
+					"title": "Fully Evolved",
+					"shiny": true,
+					"winners": [
+						"terence-wiggins"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "pokemon",
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "pokemon",
+					"winners": []
+				},
+				{
+					"number": 12,
+					"topic": "pokemon",
+					"title": "What's Wrong With This Picture?",
+					"titleAs": "What's Wrong With That Picture?",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"owen-parsons"
 					]
 				}
 			]
