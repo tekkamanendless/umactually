@@ -652,6 +652,9 @@
 			"name": "Medic"
 		},
 		{
+			"name": "Michael, Michael, What's The Michael?"
+		},
+		{
 			"name": "Mish-Mash Mix-Em-Up"
 		},
 		{
@@ -2559,8 +2562,7 @@
 					"number": 5,
 					"title": "Sp'el Ling Bi",
 					"shiny": true,
-					"winners": [
-					]
+					"winners": []
 				},
 				{
 					"number": 6,
@@ -2728,8 +2730,7 @@
 					"topic": "lord-of-the-rings",
 					"title": "Order Up",
 					"shiny": true,
-					"winners": [
-					]
+					"winners": []
 				},
 				{
 					"number": 12,
@@ -8637,13 +8638,17 @@
 				{
 					"number": 1,
 					"topic": "movies",
-					"topicDetails": ["Casablanca"],
+					"topicDetails": [
+						"Casablanca"
+					],
 					"winners": []
 				},
 				{
 					"number": 2,
 					"topic": "movies",
-					"topicDetails": ["The Oscars"],
+					"topicDetails": [
+						"The Oscars"
+					],
 					"winners": [
 						"grae-drake"
 					]
@@ -8651,7 +8656,9 @@
 				{
 					"number": 3,
 					"topic": "movies",
-					"topicDetails": ["Sergio Leone's Dollars Trilogy"],
+					"topicDetails": [
+						"Sergio Leone's Dollars Trilogy"
+					],
 					"winners": [
 						"grae-drake"
 					]
@@ -8675,7 +8682,9 @@
 				{
 					"number": 6,
 					"topic": "movies",
-					"topicDetails": ["The Maltese Falcon"],
+					"topicDetails": [
+						"The Maltese Falcon"
+					],
 					"winners": [
 						"raphael-chestang"
 					]
@@ -8683,7 +8692,9 @@
 				{
 					"number": 7,
 					"topic": "movies",
-					"topicDetails": ["The Oscars"],
+					"topicDetails": [
+						"The Oscars"
+					],
 					"winners": [
 						"shane-crown"
 					]
@@ -8708,7 +8719,9 @@
 				{
 					"number": 10,
 					"topic": "movies",
-					"topicDetails": ["The Oscars"],
+					"topicDetails": [
+						"The Oscars"
+					],
 					"winners": [
 						"shane-crown"
 					]
@@ -8716,7 +8729,9 @@
 				{
 					"number": 11,
 					"topic": "movies",
-					"topicDetails": ["Orson Welles's Citizen Kane"],
+					"topicDetails": [
+						"Orson Welles's Citizen Kane"
+					],
 					"winners": [
 						"shane-crown"
 					]
@@ -8905,7 +8920,7 @@
 				},
 				{
 					"number": 2,
-					"topic":  "wizard-of-earthsea",
+					"topic": "wizard-of-earthsea",
 					"winners": []
 				},
 				{
@@ -9182,7 +9197,7 @@
 				},
 				{
 					"number": 5,
-					"title":  "Augh! My One Weakness",
+					"title": "Augh! My One Weakness",
 					"shiny": true,
 					"winners": [
 						"ify-nwadiwe"
@@ -9523,7 +9538,9 @@
 				{
 					"number": 1,
 					"topic": "gobots",
-					"topicDetails": ["transformers"],
+					"topicDetails": [
+						"transformers"
+					],
 					"winners": [
 						"erika-ishii"
 					]
@@ -9559,13 +9576,17 @@
 				{
 					"number": 6,
 					"topic": "video-games",
-					"topicDetails": ["dark-souls"],
+					"topicDetails": [
+						"dark-souls"
+					],
 					"winners": []
 				},
 				{
 					"number": 7,
 					"topic": "sonic",
-					"topicDetails": ["Sonic Adventure (Video game)"],
+					"topicDetails": [
+						"Sonic Adventure (Video game)"
+					],
 					"winners": [
 						"erika-ishii"
 					]
@@ -9655,7 +9676,9 @@
 				{
 					"number": 2,
 					"topic": "supergirl",
-					"topicDetails": ["Supergirl (TV series)"],
+					"topicDetails": [
+						"Supergirl (TV series)"
+					],
 					"winners": [
 						"jessica-ross"
 					]
@@ -9663,7 +9686,9 @@
 				{
 					"number": 3,
 					"topic": "video-games",
-					"topicDetails": ["Elder Scrolls (Video game series)"],
+					"topicDetails": [
+						"Elder Scrolls (Video game series)"
+					],
 					"winners": []
 				},
 				{
@@ -9683,13 +9708,16 @@
 				},
 				{
 					"number": 6,
-					"topic":  "jojo",
+					"topic": "jojo",
 					"winners": []
 				},
 				{
 					"number": 7,
 					"topic": "horror-movies",
-					"topicDetails": ["The Descent", "The Cave"],
+					"topicDetails": [
+						"The Descent",
+						"The Cave"
+					],
 					"winners": [
 						"jessica-ross"
 					]
@@ -9710,7 +9738,9 @@
 				{
 					"number": 10,
 					"topic": "avatar-the-last-airbender",
-					"topicDetails": ["The Legend of Korra"],
+					"topicDetails": [
+						"The Legend of Korra"
+					],
 					"winners": [
 						"malika-lim-eubank"
 					]
@@ -9725,7 +9755,9 @@
 				{
 					"number": 12,
 					"topic": "cartoons",
-					"topicDetails": ["cartoon pets"],
+					"topicDetails": [
+						"cartoon pets"
+					],
 					"title": "Hear Me Roar",
 					"shiny": true,
 					"winners": [
@@ -9940,7 +9972,10 @@
 				{
 					"number": 6,
 					"topic": "the-muppets",
-					"topicDetails": ["Sesame Street", "Fuel (Band)"],
+					"topicDetails": [
+						"Sesame Street",
+						"Fuel (Band)"
+					],
 					"winners": [
 						"benjamin-siemon"
 					]
@@ -10046,7 +10081,9 @@
 				{
 					"number": 3,
 					"topic": "marvel",
-					"topicDetails": ["The Hulk"],
+					"topicDetails": [
+						"The Hulk"
+					],
 					"winners": []
 				},
 				{
@@ -10058,7 +10095,9 @@
 				{
 					"number": 5,
 					"topic": "marvel",
-					"topicDetails": ["Daredevil"],
+					"topicDetails": [
+						"Daredevil"
+					],
 					"title": "What's Wrong With This Picture?",
 					"shiny": true,
 					"winners": [
@@ -10098,7 +10137,9 @@
 				{
 					"number": 10,
 					"topic": "marvel",
-					"topicDetails": ["Combo Man"],
+					"topicDetails": [
+						"Combo Man"
+					],
 					"winners": [
 						"amy-dallen"
 					]
@@ -10106,7 +10147,9 @@
 				{
 					"number": 11,
 					"topic": "marvel",
-					"topicDetails": ["Squirrel Girl"],
+					"topicDetails": [
+						"Squirrel Girl"
+					],
 					"winners": [
 						"amy-dallen"
 					]
@@ -10162,7 +10205,9 @@
 				{
 					"number": 1,
 					"topic": "disney",
-					"topicDetails": ["The Lion King"],
+					"topicDetails": [
+						"The Lion King"
+					],
 					"winners": [
 						"joan-ford"
 					]
@@ -10170,7 +10215,9 @@
 				{
 					"number": 2,
 					"topic": "disney",
-					"topicDetails": ["The Rescuers Down Under"],
+					"topicDetails": [
+						"The Rescuers Down Under"
+					],
 					"winners": [
 						"joan-ford"
 					]
@@ -10193,7 +10240,9 @@
 				{
 					"number": 5,
 					"topic": "disney",
-					"topicDetails": ["Snow White and the Seven Dwarfs"],
+					"topicDetails": [
+						"Snow White and the Seven Dwarfs"
+					],
 					"title": "What's Wrong With This Picture?",
 					"shiny": true,
 					"winners": [
@@ -10203,7 +10252,9 @@
 				{
 					"number": 6,
 					"topic": "disney",
-					"topicDetails": ["The Little Mermaid"],
+					"topicDetails": [
+						"The Little Mermaid"
+					],
 					"winners": [
 						"dani-fernandez"
 					]
@@ -10241,7 +10292,9 @@
 				{
 					"number": 11,
 					"topic": "disney",
-					"topicDetails": ["Aladdin"],
+					"topicDetails": [
+						"Aladdin"
+					],
 					"winners": [
 						"dani-fernandez"
 					]
@@ -10299,7 +10352,9 @@
 				{
 					"number": 1,
 					"topic": "anime",
-					"topicDetails": ["Demon Slayer: Kimetsu no Yaiba"],
+					"topicDetails": [
+						"Demon Slayer: Kimetsu no Yaiba"
+					],
 					"winners": [
 						"ify-nwadiwe"
 					]
@@ -10314,7 +10369,9 @@
 				{
 					"number": 3,
 					"topic": "anime",
-					"topicDetails": ["Kill la Kill"],
+					"topicDetails": [
+						"Kill la Kill"
+					],
 					"winners": [
 						"ify-nwadiwe"
 					]
@@ -10343,7 +10400,9 @@
 				{
 					"number": 7,
 					"topic": "anime",
-					"topicDetails": ["Studio Ghibli"],
+					"topicDetails": [
+						"Studio Ghibli"
+					],
 					"winners": [
 						"sungwon-cho"
 					]
@@ -10560,13 +10619,17 @@
 				{
 					"number": 1,
 					"topic": "stephen-king",
-					"topicDetails": ["It"],
+					"topicDetails": [
+						"It"
+					],
 					"winners": []
 				},
 				{
 					"number": 2,
 					"topic": "stephen-king",
-					"topicDetails": ["The Mangler (Short story)"],
+					"topicDetails": [
+						"The Mangler (Short story)"
+					],
 					"winners": [
 						"andrew-rosas"
 					]
@@ -10581,7 +10644,9 @@
 				{
 					"number": 4,
 					"topic": "stephen-king",
-					"topicDetails": ["Sleepwalkers (Movie)"],
+					"topicDetails": [
+						"Sleepwalkers (Movie)"
+					],
 					"winners": [
 						"andrew-rosas"
 					]
@@ -10598,7 +10663,9 @@
 				{
 					"number": 6,
 					"topic": "stephen-king",
-					"topicDetails": ["11/22/63"],
+					"topicDetails": [
+						"11/22/63"
+					],
 					"winners": [
 						"ben-joseph"
 					]
@@ -10606,7 +10673,9 @@
 				{
 					"number": 7,
 					"topic": "stephen-king",
-					"topicDetails": ["The Lawnmower Man"],
+					"topicDetails": [
+						"The Lawnmower Man"
+					],
 					"winners": [
 						"ben-joseph"
 					]
@@ -10614,7 +10683,9 @@
 				{
 					"number": 8,
 					"topic": "stephen-king",
-					"topicDetails": ["Thinner"],
+					"topicDetails": [
+						"Thinner"
+					],
 					"winners": [
 						"ben-joseph"
 					]
@@ -10696,7 +10767,9 @@
 				{
 					"number": 1,
 					"topic": "cartoons",
-					"topicDetails": ["DuckTales"],
+					"topicDetails": [
+						"DuckTales"
+					],
 					"winners": [
 						"rekha-shankar"
 					]
@@ -10704,13 +10777,17 @@
 				{
 					"number": 2,
 					"topic": "cartoons",
-					"topicDetails": ["The Adventures of Teddy Ruxpin"],
+					"topicDetails": [
+						"The Adventures of Teddy Ruxpin"
+					],
 					"winners": []
 				},
 				{
 					"number": 3,
 					"topic": "cartoons",
-					"topicDetails": ["The Godzilla/Globetrotters Adventure Hour"],
+					"topicDetails": [
+						"The Godzilla/Globetrotters Adventure Hour"
+					],
 					"winners": [
 						"winston-marshall"
 					]
@@ -10718,7 +10795,9 @@
 				{
 					"number": 4,
 					"topic": "cartoons",
-					"topicDetails": ["The Game Master"],
+					"topicDetails": [
+						"The Game Master"
+					],
 					"submittedBy": "Ian Adams",
 					"winners": []
 				},
@@ -10739,7 +10818,9 @@
 				{
 					"number": 7,
 					"topic": "cartoons",
-					"topicDetails": ["James Bond Jr."],
+					"topicDetails": [
+						"James Bond Jr."
+					],
 					"winners": [
 						"winston-marshall"
 					]
@@ -10747,7 +10828,9 @@
 				{
 					"number": 8,
 					"topic": "cartoons",
-					"topicDetails": ["Inspector Gadget"],
+					"topicDetails": [
+						"Inspector Gadget"
+					],
 					"winners": [
 						"winston-marshall"
 					]
@@ -10764,7 +10847,9 @@
 				{
 					"number": 10,
 					"topic": "cartoons",
-					"topicDetails": ["Rainbow Brite"],
+					"topicDetails": [
+						"Rainbow Brite"
+					],
 					"winners": [
 						"emma-fyffe"
 					]
@@ -10772,7 +10857,9 @@
 				{
 					"number": 11,
 					"topic": "cartoons",
-					"topicDetails": ["Disney's Adventures of the Gummi Bears"],
+					"topicDetails": [
+						"Disney's Adventures of the Gummi Bears"
+					],
 					"winners": [
 						"emma-fyffe"
 					]
@@ -10830,7 +10917,9 @@
 				{
 					"number": 1,
 					"topic": "pokemon",
-					"topicDetails": ["Pokemon Sword and Shield"],
+					"topicDetails": [
+						"Pokemon Sword and Shield"
+					],
 					"winners": [
 						"owen-parsons"
 					]
@@ -10838,7 +10927,9 @@
 				{
 					"number": 2,
 					"topic": "pokemon",
-					"topicDetails": ["Pokemon Snap"],
+					"topicDetails": [
+						"Pokemon Snap"
+					],
 					"winners": [
 						"terence-wiggins"
 					]
@@ -10846,7 +10937,9 @@
 				{
 					"number": 3,
 					"topic": "pokemon",
-					"topicDetails": ["Pokemon Red and Blue"],
+					"topicDetails": [
+						"Pokemon Red and Blue"
+					],
 					"winners": [
 						"terence-wiggins"
 					]
@@ -10883,7 +10976,9 @@
 				{
 					"number": 8,
 					"topic": "pokemon",
-					"topicDetails": ["Pokemon Go"],
+					"topicDetails": [
+						"Pokemon Go"
+					],
 					"winners": [
 						"vernon-odemns"
 					]
@@ -10920,6 +11015,148 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"owen-parsons"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s04e09",
+			"title": "Switcheroo!",
+			"description": "Ify Nwadiwe takes over the host's chair and relegates Trapp to a mere contestant (alongside Zac and Haley).",
+			"url": "https://www.dropout.tv/um-actually/season:4/videos/switcheroo",
+			"thumbnail_landscape": "images/s04e09.jpg",
+			"duration": 2330,
+			"number": "9",
+			"season_number": "4",
+			"release_date": "2020-12-04",
+			"host": "ify-nwadiwe",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "zac-oyama",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "haley-mancini",
+					"score": 7,
+					"notes": "Given a point after question 1 for correcting Ify on Trapp's first name; given 2 points on question 12 because Ify made it worth more for Zac to keep up."
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "mike-trapp",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "power-rangers",
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "cartoons",
+					"topicDetails": [
+						"The Magic School Bus"
+					],
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "dc",
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "lord-of-the-rings",
+					"celebrity": "Brennan Lee Mulligan",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 5,
+					"topicDetails": [
+						"The Sound Of Music"
+					],
+					"title": "Order Up",
+					"shiny": true,
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "20k-leagues-under-sea",
+					"celebrity": "Brennan Lee Mulligan",
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "tv",
+					"topicDetails": [
+						"Jeopardy"
+					],
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "star-wars",
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Michael, Michael, What's The Michael?",
+					"shiny": true,
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "the-simpsons",
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "movies",
+					"topicDetails": [
+						"John Wick"
+					],
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"points": 2,
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"zac-oyama"
 					]
 				}
 			]
