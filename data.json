@@ -679,6 +679,9 @@
 			"name": "Name That Elf"
 		},
 		{
+			"name": "Name That Expansion"
+		},
+		{
 			"name": "Name That Flora"
 		},
 		{
@@ -767,6 +770,9 @@
 		},
 		{
 			"name": "Voice Over"
+		},
+		{
+			"name": "Wait, How Does This Work Again?!"
 		},
 		{
 			"name": "We'll Just Have To Adapt"
@@ -11157,6 +11163,136 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"zac-oyama"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s04e10",
+			"title": "Magic: The Gathering",
+			"description": "Becca Scott, Eli Yudin, and Carolyn Page get carded in the nerdiest way possible.",
+			"url": "https://www.dropout.tv/um-actually/season:4/videos/magic-the-gathering",
+			"thumbnail_landscape": "images/s04e10.jpg",
+			"duration": 2289,
+			"number": "10",
+			"season_number": "4",
+			"release_date": "2020-12-18",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "becca-scott",
+					"score": 1
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "eli-yudin",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "carolyn-page",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"eli-yudin"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"eli-yudin"
+					]
+				},
+				{
+					"number": 4,
+					"submittedBy": "JD Niemand",
+					"topic": "magic-the-gathering",
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "magic-the-gathering",
+					"title": "Name That Expansion",
+					"shiny": true,
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"eli-yudin"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "magic-the-gathering",
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"eli-yudin"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "magic-the-gathering",
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "magic-the-gathering",
+					"title": "Wait, How Does This Work Again?!",
+					"shiny": true,
+					"winners": [
+						"eli-yudin"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"eli-yudin"
 					]
 				}
 			]
