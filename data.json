@@ -255,6 +255,10 @@
 			"name": "Jay Washington"
 		},
 		{
+			"id": "jeff-hiller",
+			"name": "Jeff Hiller"
+		},
+		{
 			"id": "jenny-lorenzo",
 			"name": "Jenny Lorenzo",
 			"url": "https://www.dropout.tv/search/talent/737/jenny-lorenzo"
@@ -329,6 +333,10 @@
 			"id": "lily-du",
 			"name": "Lily Du",
 			"url": "https://www.dropout.tv/search/talent/1121/lily-du"
+		},
+		{
+			"id": "lindsay-jones",
+			"name": "Lindsay Jones"
 		},
 		{
 			"id": "lou-wilson",
@@ -578,6 +586,9 @@
 		},
 		{
 			"name": "Always Pay Your Debts"
+		},
+		{
+			"name": "Anything You Can Do, I Can Do Better"
 		},
 		{
 			"name": "Augh! My One Weakness"
@@ -11293,6 +11304,156 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"eli-yudin"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s04e11",
+			"title": "Musicals Encore!",
+			"description": "Jeff Hiller, Lindsay Jones, and Grant O'Brien set out to prove who has all that jazz.",
+			"url": "https://www.dropout.tv/um-actually/season:4/videos/musicals-encore",
+			"thumbnail_landscape": "images/s04e11.jpg",
+			"duration": 2294,
+			"number": "11",
+			"season_number": "4",
+			"release_date": "2021-01-01",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "jeff-hiller",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "lindsay-jones",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "grant-obrien",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "musicals",
+					"topicDetails": [
+						"The Sound Of Music"
+					],
+					"winners": [
+						"jeff-hiller"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "musicals",
+					"topicDetails": [
+						"Rent"
+					],
+					"winners": [
+						"jeff-hiller"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "musicals",
+					"topicDetails": [
+						"Into The Woods"
+					],
+					"winners": [
+						"lindsay-jones"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "musicals",
+					"topicDetails": [
+						"Rock of Ages"
+					],
+					"submittedBy": "@SomeRandomGinger",
+					"winners": [
+						"grant-obrien"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "musicals",
+					"title": "Once More Without Feeling",
+					"shiny": true,
+					"winners": [
+						"jeff-hiller",
+						"grant-obrien"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "musicals",
+					"topicDetails": [
+						"Cats"
+					],
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "musicals",
+					"topicDetails": [
+						"Les Miserables"
+					],
+					"winners": [
+						"lindsay-jones"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "musicals",
+					"winners": [
+						"jeff-hiller"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "musicals",
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"grant-obrien"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "musicals",
+					"topicDetails": [
+						"Starlight Express"
+					],
+					"winners": [
+						"jeff-hiller"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "musicals",
+					"winners": []
+				},
+				{
+					"number": 12,
+					"topic": "musicals",
+					"title": "Anything You Can Do, I Can Do Better",
+					"shiny": true,
+					"winners": [
+						"grant-obrien"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"grant-obrien"
 					]
 				}
 			]
