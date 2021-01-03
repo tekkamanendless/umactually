@@ -12,4 +12,13 @@ There are three top-level objects:
 
 * `seasons`; this is the list of seasons.
 * `people`; this is the list of people.
+* `titles`; this is the list of shiny questions.
+* `topics`; thsi is the list of topics.
 * `episodes`; this is the list of episodes.
+
+## Testing
+I recommend a simple HTTP server:
+
+```
+python -m SimpleHTTPServer 8000
+```
