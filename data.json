@@ -20,48 +20,39 @@
 	"people": [
 		{
 			"id": "adam-conover",
-			"name": "Adam Conover",
-			"url": "https://www.dropout.tv/search/talent/2/adam-conover"
+			"name": "Adam Conover"
 		},
 		{
 			"id": "adam-lustick",
-			"name": "Adam Lustick",
-			"url": "https://www.dropout.tv/search/talent/138/adam-lustick"
+			"name": "Adam Lustick"
 		},
 		{
 			"id": "alex-schmidt",
-			"name": "Alex Schmidt",
-			"url": "https://www.dropout.tv/search/talent/1352/alex-schmidt"
+			"name": "Alex Schmidt"
 		},
 		{
 			"id": "alex-song",
-			"name": "Alex Song",
-			"url": "https://www.dropout.tv/search/talent/1350/alex-song"
+			"name": "Alex Song"
 		},
 		{
 			"id": "alice-wetterlund",
-			"name": "Alice Wetterlund",
-			"url": "https://www.dropout.tv/search/talent/491/alice-wetterlund"
+			"name": "Alice Wetterlund"
 		},
 		{
 			"id": "ally-beardsley",
-			"name": "Ally Beardsley",
-			"url": "https://www.dropout.tv/search/talent/217/ally-beardsley"
+			"name": "Ally Beardsley"
 		},
 		{
 			"id": "alyssa-rousonelos",
-			"name": "Alyssa Rousonelos",
-			"url": "https://www.dropout.tv/search/talent/1198/alyssa-rousonelos"
+			"name": "Alyssa Rousonelos"
 		},
 		{
 			"id": "amy-dallen",
-			"name": "Amy Dallen",
-			"url": "https://www.dropout.tv/search/talent/1397/amy-dallen"
+			"name": "Amy Dallen"
 		},
 		{
 			"id": "amy-vorpahl",
-			"name": "Amy Vorpahl",
-			"url": "https://www.dropout.tv/search/talent/664/amy-vorpahl"
+			"name": "Amy Vorpahl"
 		},
 		{
 			"id": "andrew-rosas",
@@ -69,8 +60,7 @@
 		},
 		{
 			"id": "becca-scott",
-			"name": "Becca Scott",
-			"url": "https://www.dropout.tv/search/talent/493/becca-scott"
+			"name": "Becca Scott"
 		},
 		{
 			"id": "becky-drysdale",
@@ -86,68 +76,55 @@
 		},
 		{
 			"id": "betsy-sodaro",
-			"name": "Betsy Sodaro",
-			"url": "https://www.dropout.tv/search/talent/1202/betsy-sodaro"
+			"name": "Betsy Sodaro"
 		},
 		{
 			"id": "brian-murphy",
-			"name": "Brian \"Murph\" Murphy",
-			"url": "https://www.dropout.tv/search/talent/12/brian-murphy"
+			"name": "Brian \"Murph\" Murphy"
 		},
 		{
 			"id": "brennan-lee-mulligan",
-			"name": "Brennan Lee Mulligan",
-			"url": "https://www.dropout.tv/search/talent/222/brennan-lee-mulligan"
+			"name": "Brennan Lee Mulligan"
 		},
 		{
 			"id": "caldwell-tanner",
-			"name": "Caldwell Tanner",
-			"url": "https://www.dropout.tv/search/talent/74/caldwell-tanner"
+			"name": "Caldwell Tanner"
 		},
 		{
 			"id": "carolyn-page",
-			"name": "Carolyn Page",
-			"url": "https://www.dropout.tv/search/talent/761/carolyn-page"
+			"name": "Carolyn Page"
 		},
 		{
 			"id": "chris-calilung",
-			"name": "Chris Calilung",
-			"url": "https://www.dropout.tv/search/talent/1190/chris-calilung"
+			"name": "Chris Calilung"
 		},
 		{
 			"id": "dan-black",
-			"name": "Dan Black",
-			"url": "https://www.dropout.tv/search/talent/414/dan-black"
+			"name": "Dan Black"
 		},
 		{
 			"id": "dani-fernandez",
-			"name": "Dani Fernandez",
-			"url": "https://www.dropout.tv/search/talent/1374/dani-fernandez"
+			"name": "Dani Fernandez"
 		},
 		{
 			"id": "daniel-obrien",
-			"name": "Daniel O'Brien",
-			"url": "https://www.dropout.tv/search/talent/386/daniel-o-brien"
+			"name": "Daniel O'Brien"
 		},
 		{
 			"id": "danielle-radford",
-			"name": "Danielle Radford",
-			"url": "https://www.dropout.tv/search/talent/750/danielle-radford"
+			"name": "Danielle Radford"
 		},
 		{
 			"id": "david-gallegos",
-			"name": "David Gallegos",
-			"url": "https://www.dropout.tv/search/talent/1373/david-gallegos"
+			"name": "David Gallegos"
 		},
 		{
 			"id": "dc-pierson",
-			"name": "DC Pierson",
-			"url": "https://www.dropout.tv/search/talent/658/dc-pierson"
+			"name": "DC Pierson"
 		},
 		{
 			"id": "demi-adejuyigbe",
-			"name": "Demi Adejuyigbe",
-			"url": "https://www.dropout.tv/search/talent/632/demi-adejuyigbe"
+			"name": "Demi Adejuyigbe"
 		},
 		{
 			"id": "devon-stewart",
@@ -155,43 +132,35 @@
 		},
 		{
 			"id": "edgar-momplaisir",
-			"name": "Edgar Momplaisir",
-			"url": "https://www.dropout.tv/search/talent/685/edgar-momplaisir"
+			"name": "Edgar Momplaisir"
 		},
 		{
 			"id": "eli-yudin",
-			"name": "Eli Yudin",
-			"url": "https://www.dropout.tv/search/talent/763/eli-yudin"
+			"name": "Eli Yudin"
 		},
 		{
 			"id": "eme-ikwuakor",
-			"name": "Eme Ikwuakor",
-			"url": "https://www.dropout.tv/search/talent/1300/eme-ikwuakor"
+			"name": "Eme Ikwuakor"
 		},
 		{
 			"id": "emily-axford",
-			"name": "Emily Axford",
-			"url": "https://www.dropout.tv/search/talent/11/emily-axford"
+			"name": "Emily Axford"
 		},
 		{
 			"id": "emily-heller",
-			"name": "Emily Heller",
-			"url": "https://www.dropout.tv/search/talent/684/emily-heller"
+			"name": "Emily Heller"
 		},
 		{
 			"id": "emma-fyffe",
-			"name": "Emma Fyffe",
-			"url": "https://www.dropout.tv/search/talent/780/emma-fyffe"
+			"name": "Emma Fyffe"
 		},
 		{
 			"id": "erika-ishii",
-			"name": "Erika Ishii",
-			"url": "https://www.dropout.tv/search/talent/738/erika-ishii"
+			"name": "Erika Ishii"
 		},
 		{
 			"id": "grant-obrien",
-			"name": "Grant O'Brien",
-			"url": "https://www.dropout.tv/search/talent/186/grant-o-brien"
+			"name": "Grant O'Brien"
 		},
 		{
 			"id": "fiona-nova",
@@ -199,8 +168,7 @@
 		},
 		{
 			"id": "frank-hejl",
-			"name": "Frank Hejl",
-			"url": "https://www.dropout.tv/search/talent/1082/frank-hejl"
+			"name": "Frank Hejl"
 		},
 		{
 			"id": "grae-drake",
@@ -212,43 +180,35 @@
 		},
 		{
 			"id": "haley-mancini",
-			"name": "Haley Mancini",
-			"url": "https://www.dropout.tv/search/talent/385/haley-mancini"
+			"name": "Haley Mancini"
 		},
 		{
 			"id": "hector-navarro",
-			"name": "Hector Navarro",
-			"url": "https://www.dropout.tv/search/talent/696/hector-navarro"
+			"name": "Hector Navarro"
 		},
 		{
 			"id": "ify-nwadiwe",
-			"name": "Ify Nwadiwe",
-			"url": "https://www.dropout.tv/search/talent/492/ify-nwadiwe"
+			"name": "Ify Nwadiwe"
 		},
 		{
 			"id": "jackie-kashian",
-			"name": "Jackie Kashian",
-			"url": "https://www.dropout.tv/search/talent/678/jackie-kashian"
+			"name": "Jackie Kashian"
 		},
 		{
 			"id": "jamel-wood",
-			"name": "Jamel Wood",
-			"url": "https://www.dropout.tv/search/talent/1351/jamel-wood"
+			"name": "Jamel Wood"
 		},
 		{
 			"id": "janie-stolar",
-			"name": "Janie Stolar",
-			"url": "https://www.dropout.tv/search/talent/709/janie-stolar"
+			"name": "Janie Stolar"
 		},
 		{
 			"id": "jared-logan",
-			"name": "Jared Logan",
-			"url": "https://www.dropout.tv/search/talent/358/jared-logan"
+			"name": "Jared Logan"
 		},
 		{
 			"id": "jason-gong",
-			"name": "Jason Gong",
-			"url": "https://www.dropout.tv/search/talent/1210/jason-gong"
+			"name": "Jason Gong"
 		},
 		{
 			"id": "jay-washington",
@@ -260,43 +220,35 @@
 		},
 		{
 			"id": "jenny-lorenzo",
-			"name": "Jenny Lorenzo",
-			"url": "https://www.dropout.tv/search/talent/737/jenny-lorenzo"
+			"name": "Jenny Lorenzo"
 		},
 		{
 			"id": "jeremy-puckett",
-			"name": "Jeremy Puckett",
-			"url": "https://www.dropout.tv/search/talent/1226/jeremy-puckett"
+			"name": "Jeremy Puckett"
 		},
 		{
 			"id": "jessica-clemons",
-			"name": "Jessica Clemons",
-			"url": "https://www.dropout.tv/search/talent/589/jessica-clemons"
+			"name": "Jessica Clemons"
 		},
 		{
 			"id": "jessica-ross",
-			"name": "Jessica Ross",
-			"url": "https://www.dropout.tv/search/talent/240/jessica-ross"
+			"name": "Jessica Ross"
 		},
 		{
 			"id": "joan-ford",
-			"name": "Joan Ford",
-			"url": "https://www.dropout.tv/search/talent/1136/joan-ford"
+			"name": "Joan Ford"
 		},
 		{
 			"id": "jon-gabrus",
-			"name": "Jon Gabrus",
-			"url": "https://www.dropout.tv/search/talent/39/jon-gabrus"
+			"name": "Jon Gabrus"
 		},
 		{
 			"id": "jon-gutierrez",
-			"name": "Jon \"Gutes\" Gutierrez",
-			"url": "https://www.dropout.tv/search/talent/745/jon-guiterrez"
+			"name": "Jon \"Gutes\" Gutierrez"
 		},
 		{
 			"id": "jordan-doll",
-			"name": "Jordan Doll",
-			"url": "https://www.dropout.tv/search/talent/716/jordan-doll"
+			"name": "Jordan Doll"
 		},
 		{
 			"id": "julia-prescott",
@@ -312,8 +264,7 @@
 		},
 		{
 			"id": "ken-napzok",
-			"name": "Ken Napzok",
-			"url": "https://www.dropout.tv/search/talent/1340/ken-napzok"
+			"name": "Ken Napzok"
 		},
 		{
 			"id": "kim-horcher",
@@ -321,18 +272,15 @@
 		},
 		{
 			"id": "kirk-damato",
-			"name": "Kirk Damato",
-			"url": "https://www.dropout.tv/search/talent/729/kirk-damato"
+			"name": "Kirk Damato"
 		},
 		{
 			"id": "liam-senior",
-			"name": "Liam Senior",
-			"url": "https://www.dropout.tv/search/talent/1335/liam-senior"
+			"name": "Liam Senior"
 		},
 		{
 			"id": "lily-du",
-			"name": "Lily Du",
-			"url": "https://www.dropout.tv/search/talent/1121/lily-du"
+			"name": "Lily Du"
 		},
 		{
 			"id": "lindsay-jones",
@@ -344,18 +292,15 @@
 		},
 		{
 			"id": "luke-field",
-			"name": "Luke Field",
-			"url": "https://www.dropout.tv/search/talent/594/luke-field"
+			"name": "Luke Field"
 		},
 		{
 			"id": "maddox",
-			"name": "Maddox",
-			"url": "http://maddox.xmission.com/"
+			"name": "Maddox"
 		},
 		{
 			"id": "maggie-mae-fish",
-			"name": "Maggie Mae Fish",
-			"url": "https://www.dropout.tv/search/talent/746/maggie-mae-fish"
+			"name": "Maggie Mae Fish"
 		},
 		{
 			"id": "malika-lim-eubank",
@@ -363,8 +308,7 @@
 		},
 		{
 			"id": "marisha-ray",
-			"name": "Marisha Ray",
-			"url": "https://www.dropout.tv/search/talent/1161/marisha-ray"
+			"name": "Marisha Ray"
 		},
 		{
 			"id": "markeia-mccarty",
@@ -372,68 +316,55 @@
 		},
 		{
 			"id": "matt-kirshen",
-			"name": "Matt Kirshen",
-			"url": "https://www.dropout.tv/search/talent/715/matt-kirshen"
+			"name": "Matt Kirshen"
 		},
 		{
 			"id": "matt-mercer",
-			"name": "Matt Mercer",
-			"url": "https://www.dropout.tv/search/talent/665/matt-mercer"
+			"name": "Matt Mercer"
 		},
 		{
 			"id": "michelle-nguyen-bradley",
-			"name": "Michelle Nguyen Bradley",
-			"url": "https://www.dropout.tv/search/talent/1341/michelle-nguyen-bradley"
+			"name": "Michelle Nguyen Bradley"
 		},
 		{
 			"id": "mike-drucker",
-			"name": "Mike Drucker",
-			"url": "https://www.dropout.tv/search/talent/1331/mike-drucker"
+			"name": "Mike Drucker"
 		},
 		{
 			"id": "mike-trapp",
-			"name": "Mike Trapp",
-			"url": "https://www.dropout.tv/search/talent/157/mike-trapp"
+			"name": "Mike Trapp"
 		},
 		{
 			"id": "rachel-bloom",
-			"name": "Rachel Bloom",
-			"url": "https://www.dropout.tv/search/talent/1334/rachel-bloom"
+			"name": "Rachel Bloom"
 		},
 		{
 			"id": "natalie-palamides",
-			"name": "Natalie Palamides",
-			"url": "https://www.dropout.tv/search/talent/694/natalie-palamides"
+			"name": "Natalie Palamides"
 		},
 		{
 			"id": "nate-dern",
-			"name": "Nate Dern",
-			"url": "https://www.dropout.tv/search/talent/383/nate-dern"
+			"name": "Nate Dern"
 		},
 		{
 			"id": "nathan-yaffe",
-			"name": "Nathan Yaffe",
-			"url": "https://www.dropout.tv/search/talent/256/nathan-yaffe"
+			"name": "Nathan Yaffe"
 		},
 		{
 			"id": "nick-marini",
-			"name": "Nick Marini",
-			"url": "https://www.dropout.tv/search/talent/683/nick-marini"
+			"name": "Nick Marini"
 		},
 		{
 			"id": "nick-mundy",
-			"name": "Nick Mundy",
-			"url": "https://www.dropout.tv/search/talent/126/nick-mundy"
+			"name": "Nick Mundy"
 		},
 		{
 			"id": "noah-diamond",
-			"name": "Noah Diamond",
-			"url": "https://www.dropout.tv/search/talent/769/noah-diamond"
+			"name": "Noah Diamond"
 		},
 		{
 			"id": "oscar-montoya",
-			"name": "Oscar Montoya",
-			"url": "https://www.dropout.tv/search/talent/84/oscar-montoya"
+			"name": "Oscar Montoya"
 		},
 		{
 			"id": "owen-parsons",
@@ -445,8 +376,7 @@
 		},
 		{
 			"id": "rekha-shankar",
-			"name": "Rekha Shankar",
-			"url": "https://www.dropout.tv/search/talent/224/rekha-shankar"
+			"name": "Rekha Shankar"
 		},
 		{
 			"id": "ryan-creamer",
@@ -454,18 +384,15 @@
 		},
 		{
 			"id": "ryan-martin",
-			"name": "Ryan Martin",
-			"url": "https://www.dropout.tv/search/talent/590/ryan-martin"
+			"name": "Ryan Martin"
 		},
 		{
 			"id": "ryanni",
-			"name": "Ryanni",
-			"url": "https://www.dropout.tv/search/talent/1294/ryanni"
+			"name": "Ryanni"
 		},
 		{
 			"id": "sam-bashor",
-			"name": "Sam Bashor",
-			"url": "https://www.dropout.tv/search/talent/766/sam-bashor"
+			"name": "Sam Bashor"
 		},
 		{
 			"id": "sam-maggs",
@@ -473,23 +400,19 @@
 		},
 		{
 			"id": "shane-crown",
-			"name": "Shane Crown",
-			"url": "https://www.dropout.tv/search/talent/191/shane-crown"
+			"name": "Shane Crown"
 		},
 		{
 			"id": "shay-parsons",
-			"name": "Shay Parsons",
-			"url": "https://www.dropout.tv/search/talent/1141/shay-parsons"
+			"name": "Shay Parsons"
 		},
 		{
 			"id": "siobhan-thompson",
-			"name": "Siobhan Thompson",
-			"url": "https://www.dropout.tv/search/talent/181/siobhan-thompson"
+			"name": "Siobhan Thompson"
 		},
 		{
 			"id": "stef-woodburn",
-			"name": "Stef Woodburn",
-			"url": "https://www.dropout.tv/search/talent/781/stef-woodburn"
+			"name": "Stef Woodburn"
 		},
 		{
 			"id": "sungwon-cho",
@@ -497,8 +420,7 @@
 		},
 		{
 			"id": "tao-yang",
-			"name": "Tao Yang",
-			"url": "https://www.dropout.tv/search/talent/1122/tao-yang"
+			"name": "Tao Yang"
 		},
 		{
 			"id": "terence-wiggins",
@@ -506,13 +428,11 @@
 		},
 		{
 			"id": "thomas-middleditch",
-			"name": "Thomas Middleditch",
-			"url": "https://www.dropout.tv/search/talent/23/thomas-middleditch"
+			"name": "Thomas Middleditch"
 		},
 		{
 			"id": "tj-gonzalez",
-			"name": "T.J. Gonzalez",
-			"url": "https://www.dropout.tv/search/talent/1091/tj-gonzalez"
+			"name": "T.J. Gonzalez"
 		},
 		{
 			"id": "trisha-hershberger",
@@ -528,23 +448,19 @@
 		},
 		{
 			"id": "zac-oyama",
-			"name": "Zac Oyama",
-			"url": "https://www.dropout.tv/search/talent/182/zac-oyama"
+			"name": "Zac Oyama"
 		},
 		{
 			"id": "zach-kornfeld",
-			"name": "Zach Kornfeld",
-			"url": "https://www.dropout.tv/search/talent/697/zach-kornfeld"
+			"name": "Zach Kornfeld"
 		},
 		{
 			"id": "zach-sherwin",
-			"name": "Zach Sherwin",
-			"url": "https://www.dropout.tv/search/talent/679/zach-sherwin"
+			"name": "Zach Sherwin"
 		},
 		{
 			"id": "zeke-nicholson",
-			"name": "Zeke Nicholson",
-			"url": "https://www.dropout.tv/search/talent/710/zeke-nicholson"
+			"name": "Zeke Nicholson"
 		}
 	],
 	"teams": [
