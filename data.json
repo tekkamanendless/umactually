@@ -507,6 +507,9 @@
 			"name": "Anything You Can Do, I Can Do Better"
 		},
 		{
+			"name": "Apocalypse When?"
+		},
+		{
 			"name": "Augh! My One Weakness"
 		},
 		{
@@ -613,6 +616,9 @@
 		},
 		{
 			"name": "Name That Goblin"
+		},
+		{
+			"name": "Name That Martian"
 		},
 		{
 			"name": "Name That Monkey"
@@ -1631,6 +1637,10 @@
 		{
 			"id": "watchmen",
 			"name": "Watchmen"
+		},
+		{
+			"id": "watership-down",
+			"name": "Watership Down"
 		},
 		{
 			"id": "wicked",
@@ -11370,6 +11380,141 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"grant-obrien"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s04e12",
+			"title": "All-Stars",
+			"description": "Brennan, Erika, and Goots compete in an all-star battle royale.",
+			"url": "https://www.dropout.tv/um-actually/season:4/videos/all-stars",
+			"thumbnail_landscape": "images/s04e12.jpg",
+			"duration": 2248,
+			"number": "12",
+			"season_number": "4",
+			"release_date": "2021-01-15",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "jon-gutierrez",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "erika-ishii",
+					"score": 1
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "brennan-lee-mulligan",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "doctor-who",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "comics",
+					"topicDetails": [
+						"Chew"
+					],
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "avatar-the-last-airbender",
+					"submittedBy": "Colby",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Name That Martian",
+					"shiny": true,
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "walking-dead",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "comics",
+					"topicDetails": [
+						"Comics Code Authority"
+					],
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "watership-down",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "comics",
+					"topicDetails": [
+						"Captain Canada",
+						"Captain Canuck"
+					],
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Apocalypse When?",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"brennan-lee-mulligan"
 					]
 				}
 			]
