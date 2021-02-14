@@ -14,7 +14,11 @@
 		},
 		{
 			"number": "4",
-			"title": "Season 4 (Special Edition)"
+			"title": "Season 4"
+		},
+		{
+			"number": "5",
+			"title": "Season 5"
 		}
 	],
 	"people": [
@@ -117,6 +121,10 @@
 		{
 			"id": "david-gallegos",
 			"name": "David Gallegos"
+		},
+		{
+			"id": "david-kerns",
+			"name": "David Kerns"
 		},
 		{
 			"id": "dc-pierson",
@@ -253,6 +261,10 @@
 		{
 			"id": "julia-prescott",
 			"name": "Julia Prescott"
+		},
+		{
+			"id": "justin-matson",
+			"name": "Justin Matson"
 		},
 		{
 			"id": "kaitlin-thompson",
@@ -464,6 +476,22 @@
 		}
 	],
 	"teams": [
+		{
+			"id": "becca-and-david",
+			"name": "Becca and David",
+			"players": [
+				"becca-scott",
+				"david-kerns"
+			]
+		},
+		{
+			"id": "justin-and-ben",
+			"name": "Justin and Ben",
+			"players": [
+				"justin-matson",
+				"benjamin-siemon"
+			]
+		},
 		{
 			"id": "kaitlin-and-jess",
 			"name": "Kaitlin and Jess",
@@ -975,6 +1003,10 @@
 			"name": "The Fifth Element"
 		},
 		{
+			"id": "fifty-shades",
+			"name": "Fifty Shades of Grey"
+		},
+		{
 			"id": "final-fantasy",
 			"name": "Final Fantasy"
 		},
@@ -1201,6 +1233,10 @@
 		{
 			"id": "lost",
 			"name": "Lost"
+		},
+		{
+			"id": "love",
+			"name": "Love (concept)"
 		},
 		{
 			"id": "lumberjanes",
@@ -11516,6 +11552,138 @@
 					"winners": [
 						"brennan-lee-mulligan"
 					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e01",
+			"title": "Return To Love, Actually!",
+			"description": "It's another couples-only, love-celebrating, still-pedantic edition of Um Actually!",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/return-to-love-actually",
+			"thumbnail_landscape": "images/s05e01.jpg",
+			"duration": 2211,
+			"number": "1",
+			"season_number": "5",
+			"release_date": "2021-02-12",
+			"host": "mike-trapp",
+			"teams": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "becca-and-david",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "justin-and-ben",
+					"score": 6
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "princess-bride",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "star-trek",
+					"winners": [
+						"justin-and-ben"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "fifty-shades",
+					"winners": [
+						"justin-and-ben"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "greek-mythology",
+					"submittedBy": "@faethaguefort",
+					"winners": [
+						"justin-and-ben"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"justin-and-ben"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "anime",
+					"topicDetails": [
+						"Your Name (2016)"
+					],
+					"winners": [
+						"becca-and-david"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "love",
+					"topicDetails": [
+						"Harry Potter",
+						"Ernest Scared Stupid",
+						"Scott Pilgrim vs. the World",
+						"Wonder Woman"
+					],
+					"winners": [
+						"becca-and-david"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "futurama",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "Matchmaker",
+					"shiny": true,
+					"winners": [
+						"becca-and-david",
+						"justin-and-ben"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "video-games",
+					"topicDetails": [
+						"Stardew Valley"
+					],
+					"winners": [
+						"justin-and-ben"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "movies",
+					"topicDetails": [
+						"The Time Traveler's Wife"
+					],
+					"winners": [
+						"becca-and-david"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "movies",
+					"title": "Under Review",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
