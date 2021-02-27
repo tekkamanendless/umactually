@@ -335,6 +335,10 @@
 			"name": "Matt Mercer"
 		},
 		{
+			"id": "michael-saltzman",
+			"name": "Michael Saltzman"
+		},
+		{
 			"id": "michelle-nguyen-bradley",
 			"name": "Michelle Nguyen Bradley"
 		},
@@ -737,6 +741,9 @@
 		},
 		{
 			"name": "We'll Just Have To Adapt"
+		},
+		{
+			"name": "We're Not So Different You And I"
 		},
 		{
 			"name": "What's My Line?"
@@ -1239,6 +1246,10 @@
 			"name": "Love (concept)"
 		},
 		{
+			"id": "lovecraft-country",
+			"name": "Lovecraft Country"
+		},
+		{
 			"id": "lumberjanes",
 			"name": "Lumberjanes (comic)"
 		},
@@ -1297,6 +1308,10 @@
 		{
 			"id": "mst3k",
 			"name": "Mystery Science Theater 3000"
+		},
+		{
+			"id": "mummies-alive",
+			"name": "Mummies Alive!"
 		},
 		{
 			"id": "musicals",
@@ -1401,6 +1416,10 @@
 		{
 			"id": "roger-rabbit",
 			"name": "Who Framed Roger Rabbit?"
+		},
+		{
+			"id": "sabrina-the-teenage-witch",
+			"name": "Sabrina The Teenage Witch"
 		},
 		{
 			"id": "saga",
@@ -11684,6 +11703,144 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e02",
+			"title": "Crew Battle",
+			"description": "The writers / past hosts of Um Actually compete in the ultimate nerdy battle royale.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/crew-battle",
+			"thumbnail_landscape": "images/s05e02.jpg",
+			"duration": 2164,
+			"number": "2",
+			"season_number": "5",
+			"release_date": "2021-02-26",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "brennan-lee-mulligan",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "ify-nwadiwe",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "michael-saltzman",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "lovecraft-country",
+					"winners": [
+						"michael-saltzman"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "gravity-falls",
+					"winners": [
+						"michael-saltzman"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "star-wars",
+					"topicDetails": [
+						"The Mandalorian"
+					],
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "scifi-books",
+					"topicDetails": [
+						"A True Story"
+					],
+					"submittedBy": "ToriMahoney",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"michael-saltzman"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "marvel",
+					"topicDetails": [
+						"Venom (Character)"
+					],
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "watership-down",
+					"topicDetails": [
+						"Bunnies & Burrows"
+					],
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "sabrina-the-teenage-witch",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 9,
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "mummies-alive",
+					"winners": [
+						"michael-saltzman"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "fifth-element",
+					"winners": [
+						"michael-saltzman"
+					]
+				},
+				{
+					"number": 12,
+					"title": "A Book By Its Cover",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"brennan-lee-mulligan",
+						"ify-nwadiwe"
+					]
 				}
 			]
 		}
