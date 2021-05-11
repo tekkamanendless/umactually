@@ -163,6 +163,10 @@
 			"name": "Emma Fyffe"
 		},
 		{
+			"id": "erik-voss",
+			"name": "Erik Voss"
+		},
+		{
 			"id": "erika-ishii",
 			"name": "Erika Ishii"
 		},
@@ -12427,6 +12431,147 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"kirk-damato"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e07",
+			"title": "Dystopias",
+			"description": "Erik Voss, Kelly Nugent, and DC Pierson compete to see whose new world is the bravest.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/dystopias",
+			"thumbnail_landscape": "images/s05e07.jpg",
+			"duration": 2115,
+			"number": "7",
+			"season_number": "5",
+			"release_date": "2021-05-07",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "erik-voss",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "kelly-nugent",
+					"score": 1
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "dc-pierson",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "hunger-games",
+					"winners": [
+						"erik-voss"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"topicDetails": [
+						"The Purge"
+					],
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "logans-run",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "movies",
+					"topicDetails": [
+						"Divergent (by Veronica Roth)"
+					],
+					"submittedBy": "@MayaTheInferno",
+					"winners": [
+						"erik-voss"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Apocalypse When?",
+					"shiny": true,
+					"winners": [
+						"erik-voss"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "comics",
+					"topicDetails": [
+						"Judge Dredd"
+					],
+					"winners": [
+						"dc-pierson"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "the-matrix",
+					"winners": [
+						"erik-voss"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "video-games",
+					"topicDetails": [
+						"Deus Ex"
+					],
+					"winners": [
+						"erik-voss"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Brand Awareness",
+					"shiny": true,
+					"winners": [
+						"dc-pierson"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"topicDetails": [
+						"A Clockwork Orange"
+					],
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "movies",
+					"topicDetails": [
+						"Snowpiercer"
+					],
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"dc-pierson"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"dc-pierson"
 					]
 				}
 			]
