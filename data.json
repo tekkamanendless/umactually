@@ -103,6 +103,10 @@
 			"name": "Chris Calilung"
 		},
 		{
+			"id": "clint-mcelroy",
+			"name": "Clint McElroy"
+		},
+		{
 			"id": "dan-black",
 			"name": "Dan Black"
 		},
@@ -269,6 +273,10 @@
 		{
 			"id": "justin-matson",
 			"name": "Justin Matson"
+		},
+		{
+			"id": "justin-mcelroy",
+			"name": "Justin McElroy"
 		},
 		{
 			"id": "kaitlin-thompson",
@@ -453,6 +461,10 @@
 		{
 			"id": "tj-gonzalez",
 			"name": "T.J. Gonzalez"
+		},
+		{
+			"id": "travis-mcelroy",
+			"name": "Travis McElroy"
 		},
 		{
 			"id": "trisha-hershberger",
@@ -655,6 +667,9 @@
 		},
 		{
 			"name": "Name That Flora"
+		},
+		{
+			"name": "Name That Ghost"
 		},
 		{
 			"name": "Name That Goblin"
@@ -1513,6 +1528,10 @@
 		{
 			"id": "south-park",
 			"name": "South Park"
+		},
+		{
+			"id": "spaceballs",
+			"name": "Spaceballs"
 		},
 		{
 			"id": "spider-man",
@@ -12572,6 +12591,136 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"dc-pierson"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e08",
+			"title": "The McElroy Melee",
+			"description": "Justin, Travis, and Clint McElroy battle to see who's the most pedantic member of the family.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/the-mcelroy-melee",
+			"thumbnail_landscape": "images/s05e08.jpg",
+			"duration": 2248,
+			"number": "8",
+			"season_number": "5",
+			"release_date": "2021-05-21",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "clint-mcelroy",
+					"score": 1
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "travis-mcelroy",
+					"score": 7
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "justin-mcelroy",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "mcu",
+					"winners": [
+						"justin-mcelroy"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "spaceballs",
+					"winners": [
+						"travis-mcelroy"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "movies",
+					"topicDetails": [
+						"Michael Bay (director)"
+					],
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "stargate",
+					"submittedBy": "Tamisyn",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": [
+						"justin-mcelroy"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "pokemon",
+					"winners": [
+						"travis-mcelroy"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "jurassic-park",
+					"winners": [
+						"travis-mcelroy"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "roger-rabbit",
+					"winners": [
+						"travis-mcelroy"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Name That Ghost",
+					"shiny": true,
+					"winners": [
+						"travis-mcelroy"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "fraggle-rock",
+					"winners": [
+						"clint-mcelroy"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "disney",
+					"winners": [
+						"justin-mcelroy"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "video-games",
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"travis-mcelroy",
+						"justin-mcelroy"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"travis-mcelroy"
 					]
 				}
 			]

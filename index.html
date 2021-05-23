@@ -1,131 +1,134 @@
 <html>
-	<head>
-		<title>"Um, Actually..." stats</title>
-		<meta name="description" content='This page provides stats about the College Humor web series "Um, Actually...".'>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=0.5,maximum-scale=3,user-scalable=yes">
-		<link rel="icon" href="images/um-actually.png" type="image/png" sizes="500x500">
-		<link href="main.css" rel="stylesheet">
-		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3"></script>
-		<script src="page.js"></script>
-	</head>
-	<body onload="onPageLoaded();">
-		<h1>"Um, Actually..." stats</h1>
+
+<head>
+	<title>"Um, Actually..." stats</title>
+	<meta name="description" content='This page provides stats about the College Humor web series "Um, Actually...".'>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=0.5,maximum-scale=3,user-scalable=yes">
+	<link rel="icon" href="images/um-actually.png" type="image/png" sizes="500x500">
+	<link href="main.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3"></script>
+	<script src="page.js"></script>
+</head>
+
+<body onload="onPageLoaded();">
+	<h1>"Um, Actually..." stats</h1>
+	<p>
+		"Um, Actually..." is a web series produced by <a href="https://www.collegehumor.com">College Humor</a> and available on <a href="https://dropout.tv">DROPOUT</a>.
+		This page shows the stats about the show: winners, losers, scores, appearances, you name it.
+	</p>
+	<h2>Stats</h2>
+	<div>
+		<div class="chart-container">
+			<canvas id="chart-runtimes"></canvas>
+		</div>
+		<div class="chart-container">
+			<canvas id="chart-points"></canvas>
+		</div>
+	</div>
+	<button id="clearfilters" onclick="clearFilters();">Clear filters</button>
+	<h2>Seasons</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Season</th>
+				<th>Episodes</th>
+				<th>Hosts</th>
+				<th>Players</th>
+				<th>Teams</th>
+			</tr>
+		</thead>
+		<tbody id="seasons_tbody">
+		</tbody>
+	</table>
+	<h2>Episodes</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Link</th>
+				<th>Number</th>
+				<th>Title</th>
+				<th>Length</th>
+				<th>Questions</th>
+				<th>Host</th>
+				<th>Players</th>
+			</tr>
+		</thead>
+		<tbody id="episodes_tbody">
+		</tbody>
+	</table>
+	<h2>Questions</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Episode</th>
+				<th>Number</th>
+				<th>Topic</th>
+				<th>Title</th>
+				<th>Winners</th>
+			</tr>
+		</thead>
+		<tbody id="questions_tbody">
+		</tbody>
+	</table>
+	<h2>People</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Appearances</th>
+				<th>Times Hosted</th>
+				<th>First Place</th>
+				<th>Second Place</th>
+				<th>Third Place</th>
+			</tr>
+		</thead>
+		<tbody id="people_tbody">
+		</tbody>
+	</table>
+	<h2>Teams</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>People</th>
+				<th>Appearances</th>
+				<th>First Place</th>
+				<th>Second Place</th>
+				<th>Third Place</th>
+			</tr>
+		</thead>
+		<tbody id="teams_tbody">
+		</tbody>
+	</table>
+	<h2>Topics</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Episodes</th>
+			</tr>
+		</thead>
+		<tbody id="topics_tbody">
+		</tbody>
+	</table>
+	<h2>Titles</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Episodes</th>
+			</tr>
+		</thead>
+		<tbody id="titles_tbody">
+		</tbody>
+	</table>
+	<div class="footer">
 		<p>
-			"Um, Actually..." is a web series produced by <a href="https://www.collegehumor.com">College Humor</a> and available on <a href="https://dropout.tv">DROPOUT</a>.
-			This page shows the stats about the show: winners, losers, scores, appearances, you name it.
+			This page is generated from the data provided by the <a href="https://github.com/tekkamanendless/umactually">tekkamanendless/umactually</a> repo on <a href="https://github.com/">GitHub</a>.
+			To make corrections or improvements, submit a pull request.
 		</p>
-		<h2>Stats</h2>
-		<div>
-			<div class="chart-container">
-				<canvas id="chart-runtimes"></canvas>
-			</div>
-			<div class="chart-container">
-				<canvas id="chart-points"></canvas>
-			</div>
-		</div>
-		<button id="clearfilters" onclick="clearFilters();">Clear filters</button>
-		<h2>Seasons</h2>
-		<table>
-			<thead>
-				<tr>
-					<th>Season</th>
-					<th>Episodes</th>
-					<th>Hosts</th>
-					<th>Players</th>
-					<th>Teams</th>
-				</tr>
-			</thead>
-			<tbody id="seasons_tbody">
-			</tbody>
-		</table>
-		<h2>Episodes</h2>
-		<table>
-			<thead>
-				<tr>
-					<th>Link</th>
-					<th>Number</th>
-					<th>Title</th>
-					<th>Length</th>
-					<th>Questions</th>
-					<th>Host</th>
-					<th>Players</th>
-				</tr>
-			</thead>
-			<tbody id="episodes_tbody">
-			</tbody>
-		</table>
-		<h2>Questions</h2>
-		<table>
-			<thead>
-				<tr>
-					<th>Episode</th>
-					<th>Number</th>
-					<th>Topic</th>
-					<th>Title</th>
-					<th>Winners</th>
-				</tr>
-			</thead>
-			<tbody id="questions_tbody">
-			</tbody>
-		</table>
-		<h2>People</h2>
-		<table>
-			<thead>
-				<tr>
-					<th>Name</th>
-					<th>Appearances</th>
-					<th>Times Hosted</th>
-					<th>First Place</th>
-					<th>Second Place</th>
-					<th>Third Place</th>
-				</tr>
-			</thead>
-			<tbody id="people_tbody">
-			</tbody>
-		</table>
-		<h2>Teams</h2>
-		<table>
-			<thead>
-				<tr>
-					<th>Name</th>
-					<th>People</th>
-					<th>Appearances</th>
-					<th>First Place</th>
-					<th>Second Place</th>
-					<th>Third Place</th>
-				</tr>
-			</thead>
-			<tbody id="teams_tbody">
-			</tbody>
-		</table>
-		<h2>Topics</h2>
-		<table>
-			<thead>
-				<tr>
-					<th>Name</th>
-					<th>Episodes</th>
-				</tr>
-			</thead>
-			<tbody id="topics_tbody">
-			</tbody>
-		</table>
-		<h2>Titles</h2>
-		<table>
-			<thead>
-				<tr>
-					<th>Name</th>
-					<th>Episodes</th>
-				</tr>
-			</thead>
-			<tbody id="titles_tbody">
-			</tbody>
-		</table>
-		<div class="footer">
-			<p>
-				This page is generated from the data provided by the <a href="https://github.com/tekkamanendless/umactually">tekkamanendless/umactually</a> repo on <a href="https://github.com/">GitHub</a>.
-				To make corrections or improvements, submit a pull request.
-			</p>
-		</div>
-	</body>
+	</div>
+</body>
+
 </html>

@@ -77,3 +77,7 @@ tbody td {
 .footer p {
 	font-size: 0.8em;
 }
+
+.topic-details {
+	font-style: italic;
+}
