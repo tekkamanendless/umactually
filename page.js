@@ -53,24 +53,28 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (season.episodes.length) {
 				newColumn.appendChild(document.createTextNode(season.episodes.length));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (season.hosts.length) {
 				newColumn.appendChild(document.createTextNode(season.hosts.length));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (season.players.length) {
 				newColumn.appendChild(document.createTextNode(season.players.length));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (season.teams.length) {
 				newColumn.appendChild(document.createTextNode(season.teams.length));
 			}
@@ -116,6 +120,13 @@ function renderPage(stats, filters) {
 
 			newColumn = document.createElement("td");
 			newColumn.appendChild(createFilterLink(episode.title, { type: "episode", id: episode.dropouttv_productid, role: "*" }));
+			{
+				newColumn.appendChild(document.createElement("br"));
+				let span = document.createElement("span");
+				span.className = "description";
+				span.appendChild(document.createTextNode(episode.description));
+				newColumn.appendChild(span);
+			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
@@ -123,6 +134,7 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (Array.isArray(episode.questions)) {
 				newColumn.appendChild(document.createTextNode(episode.questions.length));
 			} else {
@@ -262,6 +274,7 @@ function renderPage(stats, filters) {
 				newRow.appendChild(newColumn);
 
 				newColumn = document.createElement("td");
+				newColumn.className = "number";
 				newColumn.appendChild(document.createTextNode(question.number));
 				newRow.appendChild(newColumn);
 
@@ -338,32 +351,57 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (person.appearances.length > 0) {
 				newColumn.appendChild(createFilterLink(person.appearances.length, { type: "person", id: person.id, role: "*" }));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (person.times_hosted.length) {
 				newColumn.appendChild(createFilterLink(person.times_hosted.length, { type: "person", id: person.id, role: "host" }));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (person.times_first.length) {
-				newColumn.appendChild(createFilterLink(person.times_first.length, { type: "person", id: person.id, role: "first" }));
+				let link = createFilterLink(person.times_first.length, { type: "person", id: person.id, role: "first" });
+				link.classList.add("first");
+				newColumn.appendChild(link);
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (person.times_second.length) {
-				newColumn.appendChild(createFilterLink(person.times_second.length, { type: "person", id: person.id, role: "second" }));
+				let link = createFilterLink(person.times_second.length, { type: "person", id: person.id, role: "second" });
+				link.classList.add("second");
+				newColumn.appendChild(link);
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (person.times_third.length) {
-				newColumn.appendChild(createFilterLink(person.times_third.length, { type: "person", id: person.id, role: "third" }));
+				let link = createFilterLink(person.times_third.length, { type: "person", id: person.id, role: "third" });
+				link.classList.add("third");
+				newColumn.appendChild(link);
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			newColumn.className = "number";
+			if (person.time_until_first_point.average !== null) {
+				newColumn.appendChild(document.createTextNode(person.time_until_first_point.average.toFixed(1)));
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			newColumn.className = "number";
+			if (person.time_until_first_point.minimum != person.time_until_first_point.maximum) {
+				newColumn.appendChild(document.createTextNode(" (" + person.time_until_first_point.minimum + " - " + person.time_until_first_point.maximum + ")"));
 			}
 			newRow.appendChild(newColumn);
 
@@ -402,24 +440,28 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (team.appearances.length > 0) {
 				newColumn.appendChild(createFilterLink(team.appearances.length, { type: "team", id: team.id, role: "*" }));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (team.times_first.length) {
 				newColumn.appendChild(createFilterLink(team.times_first.length, { type: "team", id: team.id, role: "first" }));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (team.times_second.length) {
 				newColumn.appendChild(createFilterLink(team.times_second.length, { type: "team", id: team.id, role: "second" }));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (team.times_third.length) {
 				newColumn.appendChild(createFilterLink(team.times_third.length, { type: "team", id: team.id, role: "third" }));
 			}
@@ -450,6 +492,7 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (topic.episodes.length) {
 				newColumn.appendChild(createFilterLink(topic.episodes.length, { type: "topic", id: topic.id, role: "*" }));
 			}
@@ -480,6 +523,7 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
+			newColumn.className = "number";
 			if (title.episodes.length) {
 				newColumn.appendChild(createFilterLink(title.episodes.length, { type: "title", id: title.name, role: "*" }));
 			}
@@ -500,6 +544,9 @@ function computeDurationString(timeInSeconds) {
 	let durationString = "";
 	if (hours > 0) {
 		durationString += hours + "h";
+	}
+	if (seconds < 10) {
+		seconds = "0" + seconds;
 	}
 	durationString += minutes + "m" + seconds + "s";
 	return durationString;
@@ -1010,6 +1057,13 @@ function computeStats(data) {
 		person.topics = [];
 		person.titles = [];
 		person.teams = [];
+		person.time_until_first_point = {
+			average: null,
+			minimum: null,
+			maximum: null,
+			_sum: 0,
+			_count: 0,
+		};
 		peopleMap[person.id] = person;
 	}
 
@@ -1173,6 +1227,11 @@ function computeStats(data) {
 		episode.questionTopicMap = {};
 		episode.questionTitleMap = {};
 		if (Array.isArray(episode.questions)) {
+			let firstAnswerMap = {};
+			for (let playerId of episode.playerIds) {
+				firstAnswerMap[playerId] = null;
+			}
+
 			for (let q = 0; q < episode.questions.length; q++) {
 				let question = episode.questions[q];
 				if (question.topic) {
@@ -1232,6 +1291,25 @@ function computeStats(data) {
 						}
 					}
 				}
+				for (let winnerId of question.winners) {
+					if (typeof firstAnswerMap[winnerId] !== 'undefined' && firstAnswerMap[winnerId] === null) {
+						firstAnswerMap[winnerId] = q + 1;
+					}
+				}
+			}
+
+			for (let playerId in firstAnswerMap) {
+				if (firstAnswerMap[playerId]) {
+					peopleMap[playerId].time_until_first_point._sum += firstAnswerMap[playerId];
+					peopleMap[playerId].time_until_first_point._count++;
+
+					if (peopleMap[playerId].time_until_first_point.minimum === null || firstAnswerMap[playerId] < peopleMap[playerId].time_until_first_point.minimum) {
+						peopleMap[playerId].time_until_first_point.minimum = firstAnswerMap[playerId];
+					}
+					if (peopleMap[playerId].time_until_first_point.maximum === null || firstAnswerMap[playerId] > peopleMap[playerId].time_until_first_point.maximum) {
+						peopleMap[playerId].time_until_first_point.maximum = firstAnswerMap[playerId];
+					}
+				}
 			}
 		}
 
@@ -1250,18 +1328,24 @@ function computeStats(data) {
 		stats.episodes.push(episode);
 	}
 
-	for (key in peopleMap) {
+	for (let key in peopleMap) {
+		let person = peopleMap[key];
+		if (person.time_until_first_point._count > 0) {
+			person.time_until_first_point.average = person.time_until_first_point._sum / person.time_until_first_point._count;
+		}
+	}
+	for (let key in peopleMap) {
 		stats.people.push(peopleMap[key]);
 	}
 	stats.people.sort((a, b) => a.name.localeCompare(b.name));
 
-	for (key in teamMap) {
+	for (let key in teamMap) {
 		stats.teams.push(teamMap[key]);
 	}
 	console.log("stats.teams:", stats.teams);
 	stats.teams.sort((a, b) => a.name.localeCompare(b.name));
 
-	for (key in seasonMap) {
+	for (let key in seasonMap) {
 		let season = seasonMap[key];
 
 		season.hosts = [];

@@ -18,6 +18,9 @@ tbody tr:nth-child(odd) {
 tbody td {
 	padding: 0.2em;
 }
+tbody td.number {
+	text-align: right;
+}
 
 .person {
 	white-space: nowrap;
@@ -26,12 +29,15 @@ tbody td {
 }
 .person.first {
 	font-weight: bold;
+}
+
+.first {
 	color: #d9d919;
 }
-.person.second {
+.second {
 	color: #c0c0c0;
 }
-.person.third {
+.third {
 	color: #8c7853;
 }
 
@@ -78,6 +84,12 @@ tbody td {
 	font-size: 0.8em;
 }
 
+#episodes_tbody .description {
+	font-style: italic;
+	font-size: 0.9em;
+}
+
 .topic-details {
 	font-style: italic;
+	font-size: 0.9em;
 }
