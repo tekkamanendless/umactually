@@ -19,12 +19,12 @@ function renderPage(stats, filters) {
 	// Fill out the clear filters button.
 	{
 		let button = document.getElementById("clearfilters");
-		if( filters.length == 0 ) {
+		if (filters.length == 0) {
 			button.disabled = true;
 			button.innerHTML = "Clear filters";
 		} else {
 			button.disabled = false;
-			if( filters.length == 1 ) {
+			if (filters.length == 1) {
 				button.innerHTML = "Clear 1 filter";
 			} else {
 				button.innerHTML = "Clear " + filters.length + " filters";
@@ -35,13 +35,13 @@ function renderPage(stats, filters) {
 	// Fill out the seasons table.
 	{
 		let tbody = document.getElementById("seasons_tbody");
-		while(tbody.firstChild) {
+		while (tbody.firstChild) {
 			tbody.removeChild(tbody.firstChild);
 		}
 
-		for( let i = 0; i < stats.seasons.length; i++ ) {
+		for (let i = 0; i < stats.seasons.length; i++) {
 			let season = stats.seasons[i];
-			if( ! seasonPassesFilter(season, filters) ) {
+			if (!seasonPassesFilter(season, filters)) {
 				continue;
 			}
 
@@ -53,25 +53,25 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( season.episodes.length ) {
+			if (season.episodes.length) {
 				newColumn.appendChild(document.createTextNode(season.episodes.length));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( season.hosts.length ) {
+			if (season.hosts.length) {
 				newColumn.appendChild(document.createTextNode(season.hosts.length));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( season.players.length ) {
+			if (season.players.length) {
 				newColumn.appendChild(document.createTextNode(season.players.length));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( season.teams.length ) {
+			if (season.teams.length) {
 				newColumn.appendChild(document.createTextNode(season.teams.length));
 			}
 			newRow.appendChild(newColumn);
@@ -83,13 +83,13 @@ function renderPage(stats, filters) {
 	// Fill out the episodes table.
 	{
 		let tbody = document.getElementById("episodes_tbody");
-		while(tbody.firstChild) {
+		while (tbody.firstChild) {
 			tbody.removeChild(tbody.firstChild);
 		}
 
-		for( let i = 0; i < stats.episodes.length; i++ ) {
+		for (let i = 0; i < stats.episodes.length; i++) {
 			let episode = stats.episodes[i];
-			if( ! episodePassesFilter(episode, filters) ) {
+			if (!episodePassesFilter(episode, filters)) {
 				continue;
 			}
 
@@ -111,11 +111,11 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			newColumn.appendChild(createFilterLink(episode.season_and_number, {type: "episode", id: episode.dropouttv_productid, role: "*"}));
+			newColumn.appendChild(createFilterLink(episode.season_and_number, { type: "episode", id: episode.dropouttv_productid, role: "*" }));
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			newColumn.appendChild(createFilterLink(episode.title, {type: "episode", id: episode.dropouttv_productid, role: "*"}));
+			newColumn.appendChild(createFilterLink(episode.title, { type: "episode", id: episode.dropouttv_productid, role: "*" }));
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
@@ -123,7 +123,7 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( Array.isArray(episode.questions) ) {
+			if (Array.isArray(episode.questions)) {
 				newColumn.appendChild(document.createTextNode(episode.questions.length));
 			} else {
 				newColumn.appendChild(document.createTextNode("TBD"));
@@ -132,15 +132,15 @@ function renderPage(stats, filters) {
 
 			newColumn = document.createElement("td");
 			newColumn.className = "person host";
-			newColumn.appendChild(createFilterLink(episode.host_name, {type: "person", id: episode.host, role: "host"}));
+			newColumn.appendChild(createFilterLink(episode.host_name, { type: "person", id: episode.host, role: "host" }));
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if(Array.isArray(episode.players)) {
-				for( let p = 0; p < episode.players.length; p++ ) {
+			if (Array.isArray(episode.players)) {
+				for (let p = 0; p < episode.players.length; p++) {
 					let player = episode.players[p];
 					let span = document.createElement("div");
-					switch(player.place) {
+					switch (player.place) {
 						case 1:
 							span.className = "person first";
 							break;
@@ -154,9 +154,9 @@ function renderPage(stats, filters) {
 					let podium = document.createElement("span");
 					podium.className = "podium " + player.color;
 					span.appendChild(podium);
-					span.appendChild(createFilterLink(player.name, {type: "person", id: player.id, role: "player"}));
+					span.appendChild(createFilterLink(player.name, { type: "person", id: player.id, role: "player" }));
 					span.appendChild(document.createTextNode(" (" + player.score + ")"));
-					if( player.notes ) {
+					if (player.notes) {
 						span.appendChild(document.createTextNode(" "));
 
 						let abbr = document.createElement("abbr");
@@ -168,11 +168,11 @@ function renderPage(stats, filters) {
 				}
 				newRow.appendChild(newColumn);
 			}
-			if(Array.isArray(episode.teams)) {
-				for( let t = 0; t < episode.teams.length; t++ ) {
+			if (Array.isArray(episode.teams)) {
+				for (let t = 0; t < episode.teams.length; t++) {
 					let team = episode.teams[t];
 					let span = document.createElement("div");
-					switch(team.place) {
+					switch (team.place) {
 						case 1:
 							span.className = "person first";
 							break;
@@ -186,9 +186,9 @@ function renderPage(stats, filters) {
 					let podium = document.createElement("span");
 					podium.className = "podium " + team.color;
 					span.appendChild(podium);
-					span.appendChild(createFilterLink(team.name, {type: "team", id: team.id, role: "player"}));
+					span.appendChild(createFilterLink(team.name, { type: "team", id: team.id, role: "player" }));
 					span.appendChild(document.createTextNode(" (" + team.score + ")"));
-					if( team.notes ) {
+					if (team.notes) {
 						span.appendChild(document.createTextNode(" "));
 
 						let abbr = document.createElement("abbr");
@@ -208,48 +208,48 @@ function renderPage(stats, filters) {
 	// Fill out the questions table.
 	{
 		let tbody = document.getElementById("questions_tbody");
-		while(tbody.firstChild) {
+		while (tbody.firstChild) {
 			tbody.removeChild(tbody.firstChild);
 		}
 
-		for( let i = 0; i < stats.episodes.length; i++ ) {
+		for (let i = 0; i < stats.episodes.length; i++) {
 			let episode = stats.episodes[i];
-			if( ! episodePassesFilter(episode, filters) ) {
+			if (!episodePassesFilter(episode, filters)) {
 				continue;
 			}
 
-			for( let q = 0; q < episode.questions.length; q++ ) {
+			for (let q = 0; q < episode.questions.length; q++) {
 				let question = episode.questions[q];
 
 				let topic = null;
-				if( question.topic ) {
+				if (question.topic) {
 					topic = stats.questionTopics.find(item => item.id === question.topic);
 				}
-				if( ! topicPassesFilter(topic, filters.filter(item => item.type === "topic")) ) {
+				if (!topicPassesFilter(topic, filters.filter(item => item.type === "topic"))) {
 					continue;
 				}
 
 				let title = null;
-				if( question.title ) {
+				if (question.title) {
 					title = stats.questionTitles.find(item => item.name === question.title);
 				}
-				if( ! titlePassesFilter(title, filters.filter(item => item.type === "title")) ) {
+				if (!titlePassesFilter(title, filters.filter(item => item.type === "title"))) {
 					continue;
 				}
 
 				let playerFilters = filters.filter(item => item.type === "person");
-				if( playerFilters.length > 0 ) {
+				if (playerFilters.length > 0) {
 					let somePlayerMatches = false;
-					for( let p = 0; p < question.winners.length; p++ ) {
+					for (let p = 0; p < question.winners.length; p++) {
 						let playerId = question.winners[p];
 						let person = stats.people.find(item => item.id === playerId);
 
-						if( personPassesFilter(person, playerFilters) ) {
+						if (personPassesFilter(person, playerFilters)) {
 							somePlayerMatches = true;
 							break;
 						}
 					}
-					if( ! somePlayerMatches ) {
+					if (!somePlayerMatches) {
 						continue;
 					}
 				}
@@ -258,7 +258,7 @@ function renderPage(stats, filters) {
 				let newColumn = null;
 
 				newColumn = document.createElement("td");
-				newColumn.appendChild(createFilterLink(episode.season_and_number, {type: "episode", id: episode.dropouttv_productid, role: "*"}));
+				newColumn.appendChild(createFilterLink(episode.season_and_number, { type: "episode", id: episode.dropouttv_productid, role: "*" }));
 				newRow.appendChild(newColumn);
 
 				newColumn = document.createElement("td");
@@ -266,20 +266,27 @@ function renderPage(stats, filters) {
 				newRow.appendChild(newColumn);
 
 				newColumn = document.createElement("td");
-				if( topic ) {
-					newColumn.appendChild(createFilterLink(topic.name, {type: "topic", id: topic.id, role: "*"}));
+				if (topic) {
+					newColumn.appendChild(createFilterLink(topic.name, { type: "topic", id: topic.id, role: "*" }));
+				}
+				if (Array.isArray(question.topicDetails)) {
+					newColumn.appendChild(document.createElement("br"));
+					let span = document.createElement("span");
+					span.className = "topic-details";
+					span.appendChild(document.createTextNode(question.topicDetails.join(", ")));
+					newColumn.appendChild(span);
 				}
 				newRow.appendChild(newColumn);
 
 				newColumn = document.createElement("td");
-				if( title ) {
-					newColumn.appendChild(createFilterLink(title.name, {type: "title", id: title.name, role: "*"}));
+				if (title) {
+					newColumn.appendChild(createFilterLink(title.name, { type: "title", id: title.name, role: "*" }));
 				}
 				newRow.appendChild(newColumn);
 
 				newColumn = document.createElement("td");
-				for( let p = 0; p < question.winners.length; p++ ) {
-					if(Array.isArray(episode.players)) {
+				for (let p = 0; p < question.winners.length; p++) {
+					if (Array.isArray(episode.players)) {
 						let playerId = question.winners[p];
 						let player = episode.players.find(item => item.id === playerId);
 
@@ -287,10 +294,10 @@ function renderPage(stats, filters) {
 						let podium = document.createElement("span");
 						podium.className = "podium " + player.color;
 						span.appendChild(podium);
-						span.appendChild(createFilterLink(player.name, {type: "person", id: player.id, role: "player"}));
+						span.appendChild(createFilterLink(player.name, { type: "person", id: player.id, role: "player" }));
 						newColumn.appendChild(span);
 					}
-					if(Array.isArray(episode.teams)) {
+					if (Array.isArray(episode.teams)) {
 						let teamId = question.winners[p];
 						let team = episode.teams.find(item => item.id === teamId);
 
@@ -298,7 +305,7 @@ function renderPage(stats, filters) {
 						let podium = document.createElement("span");
 						podium.className = "podium " + team.color;
 						span.appendChild(podium);
-						span.appendChild(createFilterLink(team.name, {type: "team", id: team.id, role: "player"}));
+						span.appendChild(createFilterLink(team.name, { type: "team", id: team.id, role: "player" }));
 						newColumn.appendChild(span);
 					}
 				}
@@ -312,13 +319,13 @@ function renderPage(stats, filters) {
 	// Fill out the people table.
 	{
 		let tbody = document.getElementById("people_tbody");
-		while(tbody.firstChild) {
+		while (tbody.firstChild) {
 			tbody.removeChild(tbody.firstChild);
 		}
 
-		for( let i = 0; i < stats.people.length; i++ ) {
+		for (let i = 0; i < stats.people.length; i++) {
 			let person = stats.people[i];
-			if( ! personPassesFilter(person, filters) ) {
+			if (!personPassesFilter(person, filters)) {
 				continue;
 			}
 
@@ -327,36 +334,36 @@ function renderPage(stats, filters) {
 
 			newColumn = document.createElement("td");
 			newColumn.className = "person";
-			newColumn.appendChild(createFilterLink(person.name, {type: "person", id: person.id, role: "*"}));
+			newColumn.appendChild(createFilterLink(person.name, { type: "person", id: person.id, role: "*" }));
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( person.appearances.length > 0 ) {
-				newColumn.appendChild(createFilterLink(person.appearances.length, {type: "person", id: person.id, role: "*"}));
+			if (person.appearances.length > 0) {
+				newColumn.appendChild(createFilterLink(person.appearances.length, { type: "person", id: person.id, role: "*" }));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( person.times_hosted.length ) {
-				newColumn.appendChild(createFilterLink(person.times_hosted.length, {type: "person", id: person.id, role: "host"}));
+			if (person.times_hosted.length) {
+				newColumn.appendChild(createFilterLink(person.times_hosted.length, { type: "person", id: person.id, role: "host" }));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( person.times_first.length ) {
-				newColumn.appendChild(createFilterLink(person.times_first.length, {type: "person", id: person.id, role: "first"}));
+			if (person.times_first.length) {
+				newColumn.appendChild(createFilterLink(person.times_first.length, { type: "person", id: person.id, role: "first" }));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( person.times_second.length ) {
-				newColumn.appendChild(createFilterLink(person.times_second.length, {type: "person", id: person.id, role: "second"}));
+			if (person.times_second.length) {
+				newColumn.appendChild(createFilterLink(person.times_second.length, { type: "person", id: person.id, role: "second" }));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( person.times_third.length ) {
-				newColumn.appendChild(createFilterLink(person.times_third.length, {type: "person", id: person.id, role: "third"}));
+			if (person.times_third.length) {
+				newColumn.appendChild(createFilterLink(person.times_third.length, { type: "person", id: person.id, role: "third" }));
 			}
 			newRow.appendChild(newColumn);
 
@@ -367,13 +374,13 @@ function renderPage(stats, filters) {
 	// Fill out the teams table.
 	{
 		let tbody = document.getElementById("teams_tbody");
-		while(tbody.firstChild) {
+		while (tbody.firstChild) {
 			tbody.removeChild(tbody.firstChild);
 		}
 
-		for( let i = 0; i < stats.teams.length; i++ ) {
+		for (let i = 0; i < stats.teams.length; i++) {
 			let team = stats.teams[i];
-			if( ! teamPassesFilter(team, filters) ) {
+			if (!teamPassesFilter(team, filters)) {
 				continue;
 			}
 
@@ -382,39 +389,39 @@ function renderPage(stats, filters) {
 
 			newColumn = document.createElement("td");
 			newColumn.className = "person";
-			newColumn.appendChild(createFilterLink(team.name, {type: "team", id: team.id, role: "player"}));
+			newColumn.appendChild(createFilterLink(team.name, { type: "team", id: team.id, role: "player" }));
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			for( let p = 0; p < team.players.length; p++ ) {
+			for (let p = 0; p < team.players.length; p++) {
 				let span = document.createElement("div");
 				let player = stats.people.find(item => item.id == team.players[p]);
-				span.appendChild(createFilterLink(player.name, {type: "person", id: player.id, role: "player"}));
+				span.appendChild(createFilterLink(player.name, { type: "person", id: player.id, role: "player" }));
 				newColumn.appendChild(span);
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( team.appearances.length > 0 ) {
-				newColumn.appendChild(createFilterLink(team.appearances.length, {type: "team", id: team.id, role: "*"}));
+			if (team.appearances.length > 0) {
+				newColumn.appendChild(createFilterLink(team.appearances.length, { type: "team", id: team.id, role: "*" }));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( team.times_first.length ) {
-				newColumn.appendChild(createFilterLink(team.times_first.length, {type: "team", id: team.id, role: "first"}));
+			if (team.times_first.length) {
+				newColumn.appendChild(createFilterLink(team.times_first.length, { type: "team", id: team.id, role: "first" }));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( team.times_second.length ) {
-				newColumn.appendChild(createFilterLink(team.times_second.length, {type: "team", id: team.id, role: "second"}));
+			if (team.times_second.length) {
+				newColumn.appendChild(createFilterLink(team.times_second.length, { type: "team", id: team.id, role: "second" }));
 			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( team.times_third.length ) {
-				newColumn.appendChild(createFilterLink(team.times_third.length, {type: "team", id: team.id, role: "third"}));
+			if (team.times_third.length) {
+				newColumn.appendChild(createFilterLink(team.times_third.length, { type: "team", id: team.id, role: "third" }));
 			}
 			newRow.appendChild(newColumn);
 
@@ -425,13 +432,13 @@ function renderPage(stats, filters) {
 	// Fill out the topics table.
 	{
 		let tbody = document.getElementById("topics_tbody");
-		while(tbody.firstChild) {
+		while (tbody.firstChild) {
 			tbody.removeChild(tbody.firstChild);
 		}
 
-		for( let i = 0; i < stats.questionTopics.length; i++ ) {
+		for (let i = 0; i < stats.questionTopics.length; i++) {
 			let topic = stats.questionTopics[i];
-			if( ! topicPassesFilter(topic, filters) ) {
+			if (!topicPassesFilter(topic, filters)) {
 				continue;
 			}
 
@@ -439,12 +446,12 @@ function renderPage(stats, filters) {
 			let newColumn = null;
 
 			newColumn = document.createElement("td");
-			newColumn.appendChild(createFilterLink(topic.name, {type: "topic", id: topic.id, role: "*"}));
+			newColumn.appendChild(createFilterLink(topic.name, { type: "topic", id: topic.id, role: "*" }));
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( topic.episodes.length ) {
-				newColumn.appendChild(createFilterLink(topic.episodes.length, {type: "topic", id: topic.id, role: "*"}));
+			if (topic.episodes.length) {
+				newColumn.appendChild(createFilterLink(topic.episodes.length, { type: "topic", id: topic.id, role: "*" }));
 			}
 			newRow.appendChild(newColumn);
 
@@ -455,13 +462,13 @@ function renderPage(stats, filters) {
 	// Fill out the titles table.
 	{
 		let tbody = document.getElementById("titles_tbody");
-		while(tbody.firstChild) {
+		while (tbody.firstChild) {
 			tbody.removeChild(tbody.firstChild);
 		}
 
-		for( let i = 0; i < stats.questionTitles.length; i++ ) {
+		for (let i = 0; i < stats.questionTitles.length; i++) {
 			let title = stats.questionTitles[i];
-			if( ! titlePassesFilter(title, filters) ) {
+			if (!titlePassesFilter(title, filters)) {
 				continue;
 			}
 
@@ -469,12 +476,12 @@ function renderPage(stats, filters) {
 			let newColumn = null;
 
 			newColumn = document.createElement("td");
-			newColumn.appendChild(createFilterLink(title.name, {type: "title", id: title.name, role: "*"}));
+			newColumn.appendChild(createFilterLink(title.name, { type: "title", id: title.name, role: "*" }));
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			if( title.episodes.length ) {
-				newColumn.appendChild(createFilterLink(title.episodes.length, {type: "title", id: title.name, role: "*"}));
+			if (title.episodes.length) {
+				newColumn.appendChild(createFilterLink(title.episodes.length, { type: "title", id: title.name, role: "*" }));
 			}
 			newRow.appendChild(newColumn);
 
@@ -485,13 +492,13 @@ function renderPage(stats, filters) {
 
 function computeDurationString(timeInSeconds) {
 	timeInSeconds = parseInt(timeInSeconds);
-	let hours = parseInt( timeInSeconds / 3600 );
+	let hours = parseInt(timeInSeconds / 3600);
 	let remainder = timeInSeconds - hours * 3600;
-	let minutes = parseInt( remainder / 60 );
+	let minutes = parseInt(remainder / 60);
 	let seconds = remainder - minutes * 60;
 
 	let durationString = "";
-	if( hours > 0 ) {
+	if (hours > 0) {
 		durationString += hours + "h";
 	}
 	durationString += minutes + "m" + seconds + "s";
@@ -509,16 +516,16 @@ function addFilter(newFilter) {
 	console.log("addFilter: newFilter:", newFilter);
 
 	let changed = false;
-	for( let i = 0; i < filters.length; i++ ) {
+	for (let i = 0; i < filters.length; i++) {
 		let filter = filters[i];
-		if( filtersAreSimilar(filter,newFilter) ) {
+		if (filtersAreSimilar(filter, newFilter)) {
 			filters[i] = newFilter;
 			changed = true;
 			console.log("addFilter: Changed i:", i);
 			break;
 		}
 	}
-	if( ! changed ) {
+	if (!changed) {
 		filters.push(newFilter);
 		console.log("addFilter: Added.");
 	}
@@ -526,21 +533,21 @@ function addFilter(newFilter) {
 }
 
 function filtersAreSimilar(a, b) {
-	return ( a.type == b.type && a.id == b.id );
+	return (a.type == b.type && a.id == b.id);
 }
 
 function filtersAreEqual(a, b) {
-	return ( a.type == b.type && a.id == b.id && a.role == b.role );
+	return (a.type == b.type && a.id == b.id && a.role == b.role);
 }
 
 function removeFilter(newFilter) {
 	console.log("removeFilter: filters:", filters);
 	console.log("removeFilter: newFilter:", newFilter);
-	for( let i = 0; i < filters.length; i++ ) {
+	for (let i = 0; i < filters.length; i++) {
 		let filter = filters[i];
 
-		if( filtersAreEqual(filter, newFilter) ) {
-			filters.splice(i,1);
+		if (filtersAreEqual(filter, newFilter)) {
+			filters.splice(i, 1);
 			console.log("removeFilter: Removed from i:", i);
 			renderPage(stats, filters);
 			return;
@@ -549,10 +556,10 @@ function removeFilter(newFilter) {
 }
 
 function hasFilter(newFilter) {
-	for( let i = 0; i < filters.length; i++ ) {
+	for (let i = 0; i < filters.length; i++) {
 		let filter = filters[i];
 
-		if( filtersAreEqual(filter, newFilter) ) {
+		if (filtersAreEqual(filter, newFilter)) {
 			return true;
 		}
 	}
@@ -560,17 +567,17 @@ function hasFilter(newFilter) {
 }
 
 function createFilterLink(title, filter) {
-	let newFilter = ! hasFilter(filter);
+	let newFilter = !hasFilter(filter);
 
 	let link = document.createElement("span");
 	link.className = "link";
-	if( newFilter ) {
+	if (newFilter) {
 		link.className += " filter-off";
 	} else {
 		link.className += " filter-on";
 	}
 	link.onclick = () => {
-		if( newFilter ) {
+		if (newFilter) {
 			addFilter(filter);
 		} else {
 			removeFilter(filter);
@@ -583,53 +590,53 @@ function createFilterLink(title, filter) {
 function seasonPassesFilter(season, filters) {
 	let match = true;
 
-	for( let i = 0; i < filters.length; i++ ) {
+	for (let i = 0; i < filters.length; i++) {
 		let filter = filters[i];
-		switch(filter.type) {
+		switch (filter.type) {
 			case "episode":
-				if( ! season.episodes.includes(filter.id) ) {
+				if (!season.episodes.includes(filter.id)) {
 					match = false;
 				}
 				break;
 			case "topic":
-				if( ! season.questionTopics.includes(filter.id) ) {
+				if (!season.questionTopics.includes(filter.id)) {
 					match = false;
 				}
 				break;
 			case "title":
-				if( ! season.questionTitles.includes(filter.id) ) {
+				if (!season.questionTitles.includes(filter.id)) {
 					match = false;
 				}
 				break;
 			case "person":
-				switch(filter.role) {
+				switch (filter.role) {
 					case "host":
-						if( ! season.hosts.includes(filter.id) ) {
+						if (!season.hosts.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "player":
-						if( ! season.players.includes(filter.id) ) {
+						if (!season.players.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "*":
-						if( ! season.hosts.includes(filter.id) && ! season.players.includes(filter.id) ) {
+						if (!season.hosts.includes(filter.id) && !season.players.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "first":
-						if( ! season.firstIds.includes(filter.id) ) {
+						if (!season.firstIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "second":
-						if( ! season.secondIds.includes(filter.id) ) {
+						if (!season.secondIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "third":
-						if( ! season.thirdIds.includes(filter.id) ) {
+						if (!season.thirdIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
@@ -639,29 +646,29 @@ function seasonPassesFilter(season, filters) {
 				}
 				break;
 			case "team":
-				switch(filter.role) {
+				switch (filter.role) {
 					case "player":
-						if( ! season.teams.includes(filter.id) ) {
+						if (!season.teams.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "*":
-						if( ! season.teams.includes(filter.id) ) {
+						if (!season.teams.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "first":
-						if( ! season.firstIds.includes(filter.id) ) {
+						if (!season.firstIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "second":
-						if( ! season.secondIds.includes(filter.id) ) {
+						if (!season.secondIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "third":
-						if( ! season.thirdIds.includes(filter.id) ) {
+						if (!season.thirdIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
@@ -682,53 +689,53 @@ function seasonPassesFilter(season, filters) {
 function episodePassesFilter(episode, filters) {
 	let match = true;
 
-	for( let i = 0; i < filters.length; i++ ) {
+	for (let i = 0; i < filters.length; i++) {
 		let filter = filters[i];
-		switch(filter.type) {
+		switch (filter.type) {
 			case "episode":
-				if( episode.dropouttv_productid != filter.id ) {
+				if (episode.dropouttv_productid != filter.id) {
 					match = false;
 				}
 				break;
 			case "topic":
-				if( ! episode.questionTopics.includes(filter.id) ) {
+				if (!episode.questionTopics.includes(filter.id)) {
 					match = false;
 				}
 				break;
 			case "title":
-				if( ! episode.questionTitles.includes(filter.id) ) {
+				if (!episode.questionTitles.includes(filter.id)) {
 					match = false;
 				}
 				break;
 			case "person":
-				switch(filter.role) {
+				switch (filter.role) {
 					case "host":
-						if( episode.host != filter.id ) {
+						if (episode.host != filter.id) {
 							match = false;
 						}
 						break;
 					case "player":
-						if( ! episode.playerIds.includes(filter.id) ) {
+						if (!episode.playerIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "*":
-						if( episode.host != filter.id && ! episode.playerIds.includes(filter.id) ) {
+						if (episode.host != filter.id && !episode.playerIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "first":
-						if( ! episode.firstIds.includes(filter.id) ) {
+						if (!episode.firstIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "second":
-						if( ! episode.secondIds.includes(filter.id) ) {
+						if (!episode.secondIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "third":
-						if( ! episode.thirdIds.includes(filter.id) ) {
+						if (!episode.thirdIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
@@ -738,29 +745,29 @@ function episodePassesFilter(episode, filters) {
 				}
 				break;
 			case "team":
-				switch(filter.role) {
+				switch (filter.role) {
 					case "player":
-						if( ! episode.teamIds.includes(filter.id) ) {
+						if (!episode.teamIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "*":
-						if( ! episode.teamIds.includes(filter.id) ) {
+						if (!episode.teamIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "first":
-						if( ! episode.firstIds.includes(filter.id) ) {
+						if (!episode.firstIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "second":
-						if( ! episode.secondIds.includes(filter.id) ) {
+						if (!episode.secondIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
 					case "third":
-						if( ! episode.thirdIds.includes(filter.id) ) {
+						if (!episode.thirdIds.includes(filter.id)) {
 							match = false;
 						}
 						break;
@@ -781,24 +788,24 @@ function episodePassesFilter(episode, filters) {
 function topicPassesFilter(topic, filters) {
 	let match = false;
 
-	if( filters.length == 0 ) {
+	if (filters.length == 0) {
 		return true;
 	}
 
-	if( ! topic ) {
+	if (!topic) {
 		return false;
 	}
 
-	for( let i = 0; i < filters.length; i++ ) {
+	for (let i = 0; i < filters.length; i++) {
 		let filter = filters[i];
-		switch(filter.type) {
+		switch (filter.type) {
 			case "episode":
-				if( topic.episodes.includes(filter.id) ) {
+				if (topic.episodes.includes(filter.id)) {
 					match = true;
 				}
 				break;
 			case "topic":
-				if( topic.id == filter.id ) {
+				if (topic.id == filter.id) {
 					match = true;
 				}
 				break;
@@ -806,12 +813,12 @@ function topicPassesFilter(topic, filters) {
 				// TODO
 				break;
 			case "person":
-				if( topic.players.includes(filter.id) ) {
+				if (topic.players.includes(filter.id)) {
 					match = true;
 				}
 				break;
 			case "team":
-				if( topic.teams.includes(filter.id) ) {
+				if (topic.teams.includes(filter.id)) {
 					match = true;
 				}
 				break;
@@ -827,19 +834,19 @@ function topicPassesFilter(topic, filters) {
 function titlePassesFilter(title, filters) {
 	let match = false;
 
-	if( filters.length == 0 ) {
+	if (filters.length == 0) {
 		return true;
 	}
 
-	if( ! title ) {
+	if (!title) {
 		return false;
 	}
 
-	for( let i = 0; i < filters.length; i++ ) {
+	for (let i = 0; i < filters.length; i++) {
 		let filter = filters[i];
-		switch(filter.type) {
+		switch (filter.type) {
 			case "episode":
-				if( title.episodes.includes(filter.id) ) {
+				if (title.episodes.includes(filter.id)) {
 					match = true;
 				}
 				break;
@@ -847,17 +854,17 @@ function titlePassesFilter(title, filters) {
 				// TODO
 				break;
 			case "title":
-				if( title.name == filter.id ) {
+				if (title.name == filter.id) {
 					match = true;
 				}
 				break;
 			case "person":
-				if( title.players.includes(filter.id) ) {
+				if (title.players.includes(filter.id)) {
 					match = true;
 				}
 				break;
 			case "team":
-				if( title.teams.includes(filter.id) ) {
+				if (title.teams.includes(filter.id)) {
 					match = true;
 				}
 				break;
@@ -873,39 +880,39 @@ function titlePassesFilter(title, filters) {
 function personPassesFilter(person, filters) {
 	let match = false;
 
-	if( filters.length == 0 ) {
+	if (filters.length == 0) {
 		return true;
 	}
 
-	if( ! person ) {
+	if (!person) {
 		return false;
 	}
 
-	for( let i = 0; i < filters.length; i++ ) {
+	for (let i = 0; i < filters.length; i++) {
 		let filter = filters[i];
-		switch(filter.type) {
+		switch (filter.type) {
 			case "episode":
-				if( person.appearances.includes(filter.id) ) {
+				if (person.appearances.includes(filter.id)) {
 					match = true;
 				}
 				break;
 			case "topic":
-				if( person.topics.includes(filter.id) ) {
+				if (person.topics.includes(filter.id)) {
 					match = true;
 				}
 				break;
 			case "title":
-				if( person.titles.includes(filter.id) ) {
+				if (person.titles.includes(filter.id)) {
 					match = true;
 				}
 				break;
 			case "person":
-				if( person.id == filter.id ) {
+				if (person.id == filter.id) {
 					match = true;
 				}
 				break;
 			case "team":
-				if( person.teams.includes(filter.id) ) {
+				if (person.teams.includes(filter.id)) {
 					match = true;
 				}
 				break;
@@ -921,39 +928,39 @@ function personPassesFilter(person, filters) {
 function teamPassesFilter(team, filters) {
 	let match = false;
 
-	if( filters.length == 0 ) {
+	if (filters.length == 0) {
 		return true;
 	}
 
-	if( ! team ) {
+	if (!team) {
 		return false;
 	}
 
-	for( let i = 0; i < filters.length; i++ ) {
+	for (let i = 0; i < filters.length; i++) {
 		let filter = filters[i];
-		switch(filter.type) {
+		switch (filter.type) {
 			case "episode":
-				if( team.appearances.includes(filter.id) ) {
+				if (team.appearances.includes(filter.id)) {
 					match = true;
 				}
 				break;
 			case "topic":
-				if( team.topics.includes(filter.id) ) {
+				if (team.topics.includes(filter.id)) {
 					match = true;
 				}
 				break;
 			case "title":
-				if( team.titles.includes(filter.id) ) {
+				if (team.titles.includes(filter.id)) {
 					match = true;
 				}
 				break;
 			case "person":
-				if( team.players.includes(filter.id) ) {
+				if (team.players.includes(filter.id)) {
 					match = true;
 				}
 				break;
 			case "team":
-				if( team.id == filter.id ) {
+				if (team.id == filter.id) {
 					match = true;
 				}
 				break;
@@ -977,7 +984,7 @@ function computeStats(data) {
 	};
 
 	let seasonMap = {};
-	for( let i = 0; i < data.seasons.length; i++ ) {
+	for (let i = 0; i < data.seasons.length; i++) {
 		let season = JSON.parse(JSON.stringify(data.seasons[i]));
 		season.episodes = [];
 		season.hostMap = {};
@@ -992,7 +999,7 @@ function computeStats(data) {
 	}
 
 	let peopleMap = {};
-	for( let i = 0; i < data.people.length; i++ ) {
+	for (let i = 0; i < data.people.length; i++) {
 		let person = JSON.parse(JSON.stringify(data.people[i]));
 		person.times_hosted = [];
 		person.times_played = [];
@@ -1007,7 +1014,7 @@ function computeStats(data) {
 	}
 
 	let teamMap = {};
-	for( let i = 0; i < data.teams.length; i++ ) {
+	for (let i = 0; i < data.teams.length; i++) {
 		let team = JSON.parse(JSON.stringify(data.teams[i]));
 		team.times_played = [];
 		team.times_first = [];
@@ -1020,7 +1027,7 @@ function computeStats(data) {
 	}
 
 	let questionTopicMap = {};
-	for( let i = 0; i < data.topics.length; i++ ) {
+	for (let i = 0; i < data.topics.length; i++) {
 		let topic = JSON.parse(JSON.stringify(data.topics[i]));
 		topic.episodes = [];
 		topic.players = [];
@@ -1029,7 +1036,7 @@ function computeStats(data) {
 	}
 
 	let questionTitleMap = {};
-	for( let i = 0; i < data.titles.length; i++ ) {
+	for (let i = 0; i < data.titles.length; i++) {
 		let title = JSON.parse(JSON.stringify(data.titles[i]));
 		title.episodes = [];
 		title.players = [];
@@ -1046,18 +1053,18 @@ function computeStats(data) {
 		});
 	});
 
-	for( let i = 0; i < data.episodes.length; i++ ) {
+	for (let i = 0; i < data.episodes.length; i++) {
 		let episode = JSON.parse(JSON.stringify(data.episodes[i]));
 		{
 			episode.season_and_number = "S";
 			let n = Number.parseInt(episode.season_number);
-			if( n < 10 ) {
+			if (n < 10) {
 				episode.season_and_number += "0";
 			}
 			episode.season_and_number += n;
 			episode.season_and_number += "E";
 			n = Number.parseInt(episode.number);
-			if( n < 10 ) {
+			if (n < 10) {
 				episode.season_and_number += "0";
 			}
 			episode.season_and_number += n;
@@ -1073,28 +1080,28 @@ function computeStats(data) {
 		seasonMap[episode.season_number].hostMap[hostId] = true;
 
 		let scores = [];
-		if(Array.isArray(episode.players)) {
-			for( let p = 0; p < episode.players.length; p++ ) {
+		if (Array.isArray(episode.players)) {
+			for (let p = 0; p < episode.players.length; p++) {
 				let player = episode.players[p];
-				if( ! scores.includes(player.score) ) {
+				if (!scores.includes(player.score)) {
 					scores.push(player.score);
 				}
 			}
-			scores.sort((a,b) => b-a);
+			scores.sort((a, b) => b - a);
 		}
-		if(Array.isArray(episode.teams)) {
-			for( let t = 0; t < episode.teams.length; t++ ) {
+		if (Array.isArray(episode.teams)) {
+			for (let t = 0; t < episode.teams.length; t++) {
 				let team = episode.teams[t];
-				if( ! scores.includes(team.score) ) {
+				if (!scores.includes(team.score)) {
 					scores.push(team.score);
 				}
 			}
-			scores.sort((a,b) => b-a);
+			scores.sort((a, b) => b - a);
 		}
 
 		let scoreMap = {};
-		for( let s = 0; s < scores.length; s++ ) {
-			scoreMap["score="+scores[s]] = s + 1;
+		for (let s = 0; s < scores.length; s++) {
+			scoreMap["score=" + scores[s]] = s + 1;
 		}
 
 		episode.playerIds = [];
@@ -1102,15 +1109,15 @@ function computeStats(data) {
 		episode.firstIds = [];
 		episode.secondIds = [];
 		episode.thirdIds = [];
-		if(Array.isArray(episode.players)) {
-			for( let p = 0; p < episode.players.length; p++ ) {
+		if (Array.isArray(episode.players)) {
+			for (let p = 0; p < episode.players.length; p++) {
 				let player = episode.players[p];
 				episode.playerIds.push(player.id);
 				peopleMap[player.id].appearances.push(episode.dropouttv_productid);
 				seasonMap[episode.season_number].playerMap[player.id] = true;
 
-				let place = scoreMap["score="+player.score];
-				switch(place) {
+				let place = scoreMap["score=" + player.score];
+				switch (place) {
 					case 1:
 						episode.firstIds.push(player.id);
 						peopleMap[player.id].times_first.push(episode.dropouttv_productid);
@@ -1132,15 +1139,15 @@ function computeStats(data) {
 				episode.players[p].place = place;
 			}
 		}
-		if(Array.isArray(episode.teams)) {
-			for( let t = 0; t < episode.teams.length; t++ ) {
+		if (Array.isArray(episode.teams)) {
+			for (let t = 0; t < episode.teams.length; t++) {
 				let team = episode.teams[t];
 				episode.teamIds.push(team.id);
 				teamMap[team.id].appearances.push(episode.dropouttv_productid);
 				seasonMap[episode.season_number].teamMap[team.id] = true;
 
-				let place = scoreMap["score="+team.score];
-				switch(place) {
+				let place = scoreMap["score=" + team.score];
+				switch (place) {
 					case 1:
 						episode.firstIds.push(team.id);
 						teamMap[team.id].times_first.push(episode.dropouttv_productid);
@@ -1165,62 +1172,62 @@ function computeStats(data) {
 
 		episode.questionTopicMap = {};
 		episode.questionTitleMap = {};
-		if( Array.isArray(episode.questions) ) {
-			for( let q = 0; q < episode.questions.length; q++ ) {
+		if (Array.isArray(episode.questions)) {
+			for (let q = 0; q < episode.questions.length; q++) {
 				let question = episode.questions[q];
-				if( question.topic ) {
+				if (question.topic) {
 					episode.questionTopicMap[question.topic] = true;
-					if( ! questionTopicMap[question.topic] ) {
+					if (!questionTopicMap[question.topic]) {
 						console.warn("undefined topic:", question.topic);
 					}
-					if( ! questionTopicMap[question.topic].episodes.includes(episode.dropouttv_productid) ) {
+					if (!questionTopicMap[question.topic].episodes.includes(episode.dropouttv_productid)) {
 						questionTopicMap[question.topic].episodes.push(episode.dropouttv_productid);
 					}
-					if( ! seasonMap[episode.season_number].questionTopics.includes(question.topic) ) {
+					if (!seasonMap[episode.season_number].questionTopics.includes(question.topic)) {
 						seasonMap[episode.season_number].questionTopics.push(question.topic);
 					}
-					for( let playerId of episode.playerIds ) {
-						if( ! peopleMap[playerId].topics.includes(question.topic) ) {
+					for (let playerId of episode.playerIds) {
+						if (!peopleMap[playerId].topics.includes(question.topic)) {
 							peopleMap[playerId].topics.push(question.topic);
 						}
-						if( ! questionTopicMap[question.topic].players.includes(playerId) ) {
+						if (!questionTopicMap[question.topic].players.includes(playerId)) {
 							questionTopicMap[question.topic].players.push(playerId);
 						}
 					}
-					for( let teamId of episode.teamIds ) {
-						if( ! teamMap[teamId].topics.includes(question.topic) ) {
+					for (let teamId of episode.teamIds) {
+						if (!teamMap[teamId].topics.includes(question.topic)) {
 							teamMap[teamId].topics.push(question.topic);
 						}
-						if( ! questionTopicMap[question.topic].teams.includes(teamId) ) {
+						if (!questionTopicMap[question.topic].teams.includes(teamId)) {
 							questionTopicMap[question.topic].teams.push(teamId);
 						}
 					}
 				}
-				if( question.title ) {
+				if (question.title) {
 					episode.questionTitleMap[question.title] = true;
-					if( ! questionTitleMap[question.title] ) {
+					if (!questionTitleMap[question.title]) {
 						console.warn("undefined title:", question.title);
 					}
 
-					if( ! questionTitleMap[question.title].episodes.includes(episode.dropouttv_productid) ) {
+					if (!questionTitleMap[question.title].episodes.includes(episode.dropouttv_productid)) {
 						questionTitleMap[question.title].episodes.push(episode.dropouttv_productid);
 					}
-					if( ! seasonMap[episode.season_number].questionTitles.includes(question.title) ) {
+					if (!seasonMap[episode.season_number].questionTitles.includes(question.title)) {
 						seasonMap[episode.season_number].questionTitles.push(question.title);
 					}
-					for( let playerId of episode.playerIds ) {
-						if( ! peopleMap[playerId].titles.includes(question.title) ) {
+					for (let playerId of episode.playerIds) {
+						if (!peopleMap[playerId].titles.includes(question.title)) {
 							peopleMap[playerId].titles.push(question.title);
 						}
-						if( ! questionTitleMap[question.title].players.includes(playerId) ) {
+						if (!questionTitleMap[question.title].players.includes(playerId)) {
 							questionTitleMap[question.title].players.push(playerId);
 						}
 					}
-					for( let teamId of episode.teamIds ) {
-						if( ! teamMap[teamId].titles.includes(question.title) ) {
+					for (let teamId of episode.teamIds) {
+						if (!teamMap[teamId].titles.includes(question.title)) {
 							teamMap[teamId].titles.push(question.title);
 						}
-						if( ! questionTitleMap[question.title].teams.includes(teamId) ) {
+						if (!questionTitleMap[question.title].teams.includes(teamId)) {
 							questionTitleMap[question.title].teams.push(teamId);
 						}
 					}
@@ -1229,13 +1236,13 @@ function computeStats(data) {
 		}
 
 		episode.questionTopics = [];
-		for( let key in episode.questionTopicMap ) {
+		for (let key in episode.questionTopicMap) {
 			episode.questionTopics.push(key);
 		}
 		delete episode.questionTopicMap;
 
 		episode.questionTitles = [];
-		for( let key in episode.questionTitleMap ) {
+		for (let key in episode.questionTitleMap) {
 			episode.questionTitles.push(key);
 		}
 		delete episode.questionTitleMap;
@@ -1243,52 +1250,52 @@ function computeStats(data) {
 		stats.episodes.push(episode);
 	}
 
-	for( key in peopleMap ) {
+	for (key in peopleMap) {
 		stats.people.push(peopleMap[key]);
 	}
-	stats.people.sort((a,b) => a.name.localeCompare(b.name));
+	stats.people.sort((a, b) => a.name.localeCompare(b.name));
 
-	for( key in teamMap ) {
+	for (key in teamMap) {
 		stats.teams.push(teamMap[key]);
 	}
 	console.log("stats.teams:", stats.teams);
-	stats.teams.sort((a,b) => a.name.localeCompare(b.name));
+	stats.teams.sort((a, b) => a.name.localeCompare(b.name));
 
-	for( key in seasonMap ) {
+	for (key in seasonMap) {
 		let season = seasonMap[key];
 
 		season.hosts = [];
-		for( let key in season.hostMap ) {
+		for (let key in season.hostMap) {
 			season.hosts.push(key);
 		}
 		delete season.hostMap;
 
 		season.players = [];
-		for( let key in season.playerMap ) {
+		for (let key in season.playerMap) {
 			season.players.push(key);
 		}
 		delete season.playerMap;
 
 		season.teams = [];
-		for( let key in season.teamMap ) {
+		for (let key in season.teamMap) {
 			season.teams.push(key);
 		}
 		delete season.teamMap;
 
 		season.firstIds = [];
-		for( let key in season.firstMap ) {
+		for (let key in season.firstMap) {
 			season.firstIds.push(key);
 		}
 		delete season.firstMap;
 
 		season.secondIds = [];
-		for( let key in season.secondMap ) {
+		for (let key in season.secondMap) {
 			season.secondIds.push(key);
 		}
 		delete season.secondMap;
 
 		season.thirdIds = [];
-		for( let key in season.thirdMap ) {
+		for (let key in season.thirdMap) {
 			season.thirdIds.push(key);
 		}
 		delete season.thirdMap;
@@ -1296,15 +1303,15 @@ function computeStats(data) {
 		stats.seasons.push(seasonMap[key]);
 	}
 
-	for( key in questionTopicMap ) {
+	for (key in questionTopicMap) {
 		stats.questionTopics.push(questionTopicMap[key]);
 	}
-	stats.questionTopics.sort((a,b) => a.name.localeCompare(b.name));
+	stats.questionTopics.sort((a, b) => a.name.localeCompare(b.name));
 
-	for( key in questionTitleMap ) {
+	for (key in questionTitleMap) {
 		stats.questionTitles.push(questionTitleMap[key]);
 	}
-	stats.questionTitles.sort((a,b) => a.name.localeCompare(b.name));
+	stats.questionTitles.sort((a, b) => a.name.localeCompare(b.name));
 
 	return stats;
 }
@@ -1321,53 +1328,53 @@ function renderChartRuntimes(ctx) {
 
 	stats.episodes.forEach(episode => {
 		xValues.push(episode.season_and_number);
-		yValues.push(episode.duration/60);
+		yValues.push(episode.duration / 60);
 		yValuesRaw.push(episode.duration);
 	});
 
 	let chart = new Chart(ctx, {
-	    // The type of chart we want to create
-	    type: 'bar',
-	    // The data for our dataset
-	    data: {
-	        labels: xValues,
-	        datasets: [{
-	            label: 'Episode Runtimes',
-	            data: yValues,
+		// The type of chart we want to create
+		type: 'bar',
+		// The data for our dataset
+		data: {
+			labels: xValues,
+			datasets: [{
+				label: 'Episode Runtimes',
+				data: yValues,
 				backgroundColor: 'rgba(0,0,0,0.3)',
 				borderColor: 'rgba(0,0,0,0.4)',
 				borderWidth: 1,
-	        }],
-	    },
-	    // Configuration options go here
-	    options: {
-				animation: {
-					duration: 0,
-				},
-				maintainAspectRatio: false,
-				tooltips: {
-					callbacks: {
-						// Render the runtime as ""##m##s".
-						label: function(tooltipItem, data) {
-							let v = yValuesRaw[tooltipItem.index];
-
-							let minutes = parseInt(v/60);
-							let seconds = v%60;
-
-							let minutesString = "" + minutes;
-							if( minutesString.length < 2 ) {
-								minutesString = "0" + minutesString;
-							}
-							let secondsString = "" + seconds;
-							if( secondsString.length < 2 ) {
-								secondsString = "0" + secondsString;
-							}
-
-							return minutesString + "m" + secondsString + "s";
-						},
-					}
-				},
+			}],
+		},
+		// Configuration options go here
+		options: {
+			animation: {
+				duration: 0,
 			},
+			maintainAspectRatio: false,
+			tooltips: {
+				callbacks: {
+					// Render the runtime as ""##m##s".
+					label: function (tooltipItem, data) {
+						let v = yValuesRaw[tooltipItem.index];
+
+						let minutes = parseInt(v / 60);
+						let seconds = v % 60;
+
+						let minutesString = "" + minutes;
+						if (minutesString.length < 2) {
+							minutesString = "0" + minutesString;
+						}
+						let secondsString = "" + seconds;
+						if (secondsString.length < 2) {
+							secondsString = "0" + secondsString;
+						}
+
+						return minutesString + "m" + secondsString + "s";
+					},
+				}
+			},
+		},
 	});
 }
 
@@ -1377,11 +1384,11 @@ function renderChartTotalPoints(ctx) {
 
 	stats.episodes.forEach(episode => {
 		let playerPoints = 0;
-		if(Array.isArray(episode.players)) {
+		if (Array.isArray(episode.players)) {
 			playerPoints = episode.players.reduce((accumulator, player) => accumulator + player.score, 0);
 		}
 		let teamPoints = 0;
-		if(Array.isArray(episode.teams)) {
+		if (Array.isArray(episode.teams)) {
 			teamPoints = episode.teams.reduce((accumulator, team) => accumulator + team.score, 0);
 		}
 
@@ -1390,25 +1397,25 @@ function renderChartTotalPoints(ctx) {
 	});
 
 	let chart = new Chart(ctx, {
-	    // The type of chart we want to create
-	    type: 'bar',
-	    // The data for our dataset
-	    data: {
-	        labels: xValues,
-	        datasets: [{
-	            label: 'Episode Point Totals',
-	            data: yValues,
+		// The type of chart we want to create
+		type: 'bar',
+		// The data for our dataset
+		data: {
+			labels: xValues,
+			datasets: [{
+				label: 'Episode Point Totals',
+				data: yValues,
 				backgroundColor: 'rgba(0,0,0,0.3)',
 				borderColor: 'rgba(0,0,0,0.4)',
 				borderWidth: 1,
-	        }],
-	    },
-	    // Configuration options go here
-	    options: {
-				animation: {
-					duration: 0,
-				},
-				maintainAspectRatio: false,
+			}],
+		},
+		// Configuration options go here
+		options: {
+			animation: {
+				duration: 0,
 			},
+			maintainAspectRatio: false,
+		},
 	});
 }
