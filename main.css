@@ -21,6 +21,9 @@ tbody td {
 tbody td.number {
 	text-align: right;
 }
+td sup {
+	float: right;
+}
 
 .person {
 	white-space: nowrap;
