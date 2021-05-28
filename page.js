@@ -281,6 +281,14 @@ function renderPage(stats, filters) {
 				newColumn = document.createElement("td");
 				if (topic) {
 					newColumn.appendChild(createFilterLink(topic.name, { type: "topic", id: topic.id, role: "*" }));
+					if (question.submittedBy) {
+						let abbr = document.createElement("abbr");
+						abbr.title = "Submitted by " + question.submittedBy;
+						let sup = document.createElement("sup");
+						sup.appendChild(document.createTextNode(question.submittedBy));
+						abbr.appendChild(sup);
+						newColumn.appendChild(abbr);
+					}
 				}
 				if (Array.isArray(question.topicDetails)) {
 					newColumn.appendChild(document.createElement("br"));
