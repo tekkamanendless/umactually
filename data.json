@@ -331,6 +331,10 @@
 			"name": "Malika Lim Eubank"
 		},
 		{
+			"id": "marina-mastros",
+			"name": "Marina Mastros"
+		},
+		{
 			"id": "marisha-ray",
 			"name": "Marisha Ray"
 		},
@@ -576,6 +580,9 @@
 			"name": "Categorical"
 		},
 		{
+			"name": "Chimerical"
+		},
+		{
 			"name": "Crunch Time"
 		},
 		{
@@ -646,6 +653,9 @@
 		},
 		{
 			"name": "Mystery Box"
+		},
+		{
+			"name": "Mythological Murder Mystery"
 		},
 		{
 			"name": "N.A.M.E."
@@ -806,12 +816,8 @@
 			"name": "Adventure Time"
 		},
 		{
-			"id": "aristocats",
-			"name": "Aristocats"
-		},
-		{
-			"id": "avatar-the-last-airbender",
-			"name": "Avatar: The Last Airbender"
+			"id": "african-mythology",
+			"name": "African Mythology"
 		},
 		{
 			"id": "aladdin",
@@ -850,8 +856,16 @@
 			"name": "1,001 Arabian Nights"
 		},
 		{
+			"id": "aristocats",
+			"name": "Aristocats"
+		},
+		{
 			"id": "arthurian-myth",
 			"name": "Arthurian Myth"
+		},
+		{
+			"id": "avatar-the-last-airbender",
+			"name": "Avatar: The Last Airbender"
 		},
 		{
 			"id": "back-to-the-future",
@@ -1123,7 +1137,7 @@
 		},
 		{
 			"id": "greek-mythology",
-			"name": "Greek Mythlology"
+			"name": "Greek Mythology"
 		},
 		{
 			"id": "gremlins",
@@ -1220,6 +1234,10 @@
 		{
 			"id": "it",
 			"name": "It (Stephen King novel)"
+		},
+		{
+			"id": "japanese-mythology",
+			"name": "Japanese Mythology"
 		},
 		{
 			"id": "jojo",
@@ -1359,7 +1377,7 @@
 		},
 		{
 			"id": "mythology",
-			"name": "Mythlology"
+			"name": "Mythology"
 		},
 		{
 			"id": "naruto",
@@ -1610,6 +1628,10 @@
 			"name": "Tailspin"
 		},
 		{
+			"id": "taxidermy",
+			"name": "Taxidermy"
+		},
+		{
 			"id": "the-black-cauldron",
 			"name": "The Black Cauldron"
 		},
@@ -1696,6 +1718,10 @@
 		{
 			"id": "torchwood",
 			"name": "Torchwood"
+		},
+		{
+			"id": "toys",
+			"name": "Toys"
 		},
 		{
 			"id": "transformers",
@@ -12721,6 +12747,147 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"travis-mcelroy"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e09",
+			"title": "Monsters, Myths, and Folklore",
+			"description": "Jordan, Marina, and Trisha talk all kinds of creatures from ancient tales.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/monsters-myths-and-folklore",
+			"thumbnail_landscape": "images/s05e09.jpg",
+			"duration": 2227,
+			"number": "9",
+			"season_number": "5",
+			"release_date": "2021-06-04",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "jordan-doll",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "marina-mastros",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "trisha-hershberger",
+					"score": 1
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "toys",
+					"topicDetails": [
+						"Monster In My Pocket"
+					],
+					"winners": [
+						"marina-mastros"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "mythology",
+					"topicDetails": [
+						"Gilgamesh"
+					],
+					"winners": [
+						"marina-mastros"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "pokemon",
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "norse-mythology",
+					"submittedBy": "Francis36",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "Chimerical",
+					"shiny": true,
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "norse-mythology",
+					"winners": [
+						"trisha-hershberger"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "taxidermy",
+					"topicDetails": [
+						"Gaff Taxidermy"
+					],
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "greek-mythology",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "Cryptogeography",
+					"shiny": true,
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "japanese-mythology",
+					"topicDetails": [
+						"Yokai",
+						"Shirime"
+					],
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "african-mythology",
+					"topicDetails": [
+						"West African Mythology",
+						"Anansi"
+					],
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "mythology",
+					"title": "Mythological Murder Mystery",
+					"shiny": true,
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"marina-mastros"
 					]
 				}
 			]
