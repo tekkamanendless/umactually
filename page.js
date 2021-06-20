@@ -408,8 +408,22 @@ function renderPage(stats, filters) {
 
 			newColumn = document.createElement("td");
 			newColumn.className = "number";
-			if (person.time_until_first_point.minimum != person.time_until_first_point.maximum) {
-				newColumn.appendChild(document.createTextNode(" (" + person.time_until_first_point.minimum + " - " + person.time_until_first_point.maximum + ")"));
+			if (person.time_until_first_point.average !== null) {
+				newColumn.appendChild(document.createTextNode(" (" + (person.time_until_first_point.minimum != person.time_until_first_point.maximum ? person.time_until_first_point.minimum + " - " : "") + person.time_until_first_point.maximum + ")"));
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			newColumn.className = "number";
+			if (person.high_score.average !== null) {
+				newColumn.appendChild(document.createTextNode(person.high_score.average.toFixed(1)));
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			newColumn.className = "number";
+			if (person.high_score.average !== null) {
+				newColumn.appendChild(document.createTextNode(" (" + (person.high_score.minimum != person.high_score.maximum ? person.high_score.minimum + " - " : "") + person.high_score.maximum + ")"));
 			}
 			newRow.appendChild(newColumn);
 
@@ -1072,6 +1086,13 @@ function computeStats(data) {
 			_sum: 0,
 			_count: 0,
 		};
+		person.high_score = {
+			average: null,
+			minimum: null,
+			maximum: null,
+			_sum: 0,
+			_count: 0,
+		};
 		peopleMap[person.id] = person;
 	}
 
@@ -1195,6 +1216,16 @@ function computeStats(data) {
 						peopleMap[player.id].times_third.push(episode.dropouttv_productid);
 						seasonMap[episode.season_number].thirdMap[player.id] = true;
 						break;
+				}
+
+				peopleMap[player.id].high_score._sum += player.score;
+				peopleMap[player.id].high_score._count++;
+
+				if (peopleMap[player.id].high_score.minimum === null || player.score < peopleMap[player.id].high_score.minimum) {
+					peopleMap[player.id].high_score.minimum = player.score;
+				}
+				if (peopleMap[player.id].high_score.maximum === null || player.score > peopleMap[player.id].high_score.maximum) {
+					peopleMap[player.id].high_score.maximum = player.score;
 				}
 
 				episode.players[p].name = peopleMap[player.id].name;
@@ -1340,6 +1371,9 @@ function computeStats(data) {
 		let person = peopleMap[key];
 		if (person.time_until_first_point._count > 0) {
 			person.time_until_first_point.average = person.time_until_first_point._sum / person.time_until_first_point._count;
+		}
+		if (person.high_score._count > 0) {
+			person.high_score.average = person.high_score._sum / person.high_score._count;
 		}
 	}
 	for (let key in peopleMap) {
