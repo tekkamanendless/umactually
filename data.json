@@ -351,6 +351,10 @@
 			"name": "Matt Mercer"
 		},
 		{
+			"id": "maude-garrett",
+			"name": "Maude Garrett"
+		},
+		{
 			"id": "michael-saltzman",
 			"name": "Michael Saltzman"
 		},
@@ -12888,6 +12892,145 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"marina-mastros"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e10",
+			"title": "Demiliches, Isengard, I Am Legend",
+			"description": "Maude, Erika, and Carolyn talk Uruk-hai impressions and more.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/demiliches-isengard-i-am-legend",
+			"thumbnail_landscape": "images/s05e10.jpg",
+			"duration": 1917,
+			"number": "10",
+			"season_number": "5",
+			"release_date": "2021-06-18",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "maude-garrett",
+					"score": 1
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "erika-ishii",
+					"score": 8
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "carolyn-page",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "dnd",
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Bucky O'Hare and the Toad Wars"
+					],
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "pokemon",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "lord-of-the-rings",
+					"submittedBy": "Kajotex",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 5,
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "anime",
+					"topicDetails": [
+						"Steins;Gate"
+					],
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "scifi-books",
+					"topicDetails": [
+						"I Am Legend"
+					],
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "the-muppets",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "disney",
+					"topicDetails": [
+						"The Great Mouse Detective"
+					],
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 12,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"maude-garrett"
 					]
 				}
 			]
