@@ -203,6 +203,10 @@
 			"name": "Hector Navarro"
 		},
 		{
+			"id": "ian-adams",
+			"name": "Ian Adams"
+		},
+		{
 			"id": "ify-nwadiwe",
 			"name": "Ify Nwadiwe"
 		},
@@ -371,6 +375,10 @@
 			"name": "Mike Trapp"
 		},
 		{
+			"id": "morgan-lavandowska",
+			"name": "Morgan Lavandowska"
+		},
+		{
 			"id": "rachel-bloom",
 			"name": "Rachel Bloom"
 		},
@@ -449,6 +457,10 @@
 		{
 			"id": "stef-woodburn",
 			"name": "Stef Woodburn"
+		},
+		{
+			"id": "steven-plescia",
+			"name": "Steven Plescia"
 		},
 		{
 			"id": "sungwon-cho",
@@ -932,6 +944,10 @@
 			"name": "A Chorus Line"
 		},
 		{
+			"id": "clone-high",
+			"name": "Clone High"
+		},
+		{
 			"id": "collectibles",
 			"name": "Collectibles"
 		},
@@ -1212,6 +1228,10 @@
 			"name": "Homestar Runner"
 		},
 		{
+			"id": "horror",
+			"name": "Horror (Genre)"
+		},
+		{
 			"id": "horror-books",
 			"name": "Horror Books"
 		},
@@ -1328,6 +1348,10 @@
 			"name": "Mass Effect"
 		},
 		{
+			"id": "mcdonaldland",
+			"name": "McDonaldland"
+		},
+		{
 			"id": "mcu",
 			"name": "Marvel Cinematic Universe"
 		},
@@ -1414,6 +1438,10 @@
 		{
 			"id": "one-punch-man",
 			"name": "One Punch Man"
+		},
+		{
+			"id": "outlander",
+			"name": "Outlander"
 		},
 		{
 			"id": "overwatch",
@@ -1630,6 +1658,10 @@
 		{
 			"id": "tailspin",
 			"name": "Tailspin"
+		},
+		{
+			"id": "tarzan",
+			"name": "Tarzan"
 		},
 		{
 			"id": "taxidermy",
@@ -13031,6 +13063,136 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"maude-garrett"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e11",
+			"title": "Battle of the Mods",
+			"description": "The Dropout mods take a break from keeping the Discord civil to compete over nerdy trivia.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/battle-of-the-mods",
+			"thumbnail_landscape": "images/s05e11.jpg",
+			"duration": 1796,
+			"number": "11",
+			"season_number": "5",
+			"release_date": "2021-07-02",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "morgan-lavandowska",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "ian-adams",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "steven-plescia",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "horror",
+					"winners": [
+						"ian-adams"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "mcdonaldland",
+					"winners": [
+						"morgan-lavandowska"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "star-wars",
+					"topicDetails": [
+						"Star Wars: Clone Wars",
+						"Star Wars: The Clone Wars"
+					],
+					"winners": [
+						"morgan-lavandowska"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "avatar-the-last-airbender",
+					"submittedBy": "Nextorl",
+					"winners": [
+						"steven-plescia"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 6,
+					"topic": "the-good-place",
+					"winners": [
+						"ian-adams"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "tarzan",
+					"winners": [
+						"morgan-lavandowska"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "clone-high",
+					"winners": [
+						"steven-plescia"
+					]
+				},
+				{
+					"number": 9,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"ian-adams"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"videoGuest": "Doug Jones",
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "outlander",
+					"winners": [
+						"ian-adams"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"ian-adams"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"ian-adams"
 					]
 				}
 			]
