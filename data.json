@@ -623,6 +623,9 @@
 			"name": "Fully Evolved"
 		},
 		{
+			"name": "Gimmick Change"
+		},
+		{
 			"name": "G-O-N In 60 Seconds"
 		},
 		{
@@ -813,6 +816,9 @@
 		},
 		{
 			"name": "Where Am I?"
+		},
+		{
+			"name": "Wrestling Lingo"
 		},
 		{
 			"name": "\"Yeah, But In The Book...\""
@@ -13194,6 +13200,141 @@
 					"winners": [
 						"ian-adams"
 					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e12",
+			"title": "ActuallyMania",
+			"description": "Danielle, Dan, and Jay bodyslam some wrestling trivia to see who will win the belt.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/actuallymania",
+			"thumbnail_landscape": "images/s05e12.jpg",
+			"duration": 2077,
+			"number": "12",
+			"season_number": "5",
+			"release_date": "2021-07-16",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "danielle-radford",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "dan-black",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "jay-washington",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "wrestling",
+					"winners": [
+						"dan-black"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "wrestling",
+					"topicDetails": [
+						"The Undertaker (Wrestler)"
+					],
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "wrestling",
+					"winners": [
+						"dan-black"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "wrestling",
+					"submittedBy": "lexxon",
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "wrestling",
+					"title": "Wrestling Lingo",
+					"shiny": true,
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "wrestling",
+					"topicDetails": [
+						"The Boogeyman (Wrestler)"
+					],
+					"winners": [
+						"dan-black"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "wrestling",
+					"topicDetails": [
+						"WWE (World Wrestling Entertainment)"
+					],
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "wrestling",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"topic": "wrestling",
+					"title": "Gimmick Change",
+					"shiny": true,
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "wrestling",
+					"winners": [
+						"dan-black"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "wrestling",
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "wrestling",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
