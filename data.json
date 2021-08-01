@@ -629,6 +629,9 @@
 			"name": "G-O-N In 60 Seconds"
 		},
 		{
+			"name": "Heads Up"
+		},
+		{
 			"name": "Hear Me Roar"
 		},
 		{
@@ -1598,6 +1601,10 @@
 			"name": "Spin (Robert Charles Wilson novel)"
 		},
 		{
+			"id": "spongebob",
+			"name": "Spongebob Squarepants"
+		},
+		{
 			"id": "star-trek",
 			"name": "Star Trek"
 		},
@@ -1770,6 +1777,10 @@
 			"name": "Transformers"
 		},
 		{
+			"id": "tv",
+			"name": "TV"
+		},
+		{
 			"id": "twilight",
 			"name": "Twilight"
 		},
@@ -1778,8 +1789,8 @@
 			"name": "The Twilight Zone"
 		},
 		{
-			"id": "tv",
-			"name": "TV"
+			"id": "umbrella-academy",
+			"name": "The Umbrella Academy"
 		},
 		{
 			"id": "v-for-vendetta",
@@ -13329,6 +13340,138 @@
 					"shiny": true,
 					"winners": [
 						"jay-washington"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e13",
+			"title": "Star Wars Names, HUDs, The Umbrella Academy",
+			"description": "Jordan, Michelle, and Shane compete but more importantly learn what an echidna looks like.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/star-wars-names-huds-umbrella-academy",
+			"thumbnail_landscape": "images/s05e13.jpg",
+			"duration": 1709,
+			"number": "13",
+			"season_number": "5",
+			"release_date": "2021-07-30",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "jordan-doll",
+					"score": 7
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "michelle-nguyen-bradley",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "shane-crown",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "sonic",
+					"topicDetails": [
+						"Knuckles The Echidna"
+					],
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "spongebob",
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "star-wars",
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "halo",
+					"submittedBy": "@Peter_Morris",
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "video-games",
+					"title": "Heads Up",
+					"shiny": true,
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "superheroes",
+					"winners": [
+						"michelle-nguyen-bradley"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "marvel",
+					"topicDetails": [
+						"Thor"
+					],
+					"winners": [
+						"michelle-nguyen-bradley"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "alien",
+					"winners": [
+						"shane-crown"
+					]
+				},
+				{
+					"number": 9,
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "watership-down",
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "umbrella-academy",
+					"winners": [
+						"jordan-doll"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"jordan-doll"
 					]
 				},
 				{
