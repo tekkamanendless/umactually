@@ -219,6 +219,10 @@
 			"name": "Jamel Wood"
 		},
 		{
+			"id": "james-willems",
+			"name": "James Willems"
+		},
+		{
 			"id": "janie-stolar",
 			"name": "Janie Stolar"
 		},
@@ -441,6 +445,10 @@
 		{
 			"id": "sam-maggs",
 			"name": "Sam Maggs"
+		},
+		{
+			"id": "satine-phoenix",
+			"name": "Satine Phoenix"
 		},
 		{
 			"id": "shane-crown",
@@ -1307,6 +1315,10 @@
 		{
 			"id": "lewis-carroll",
 			"name": "Lewis Carroll"
+		},
+		{
+			"id": "literature",
+			"name": "Literature"
 		},
 		{
 			"id": "little-mermaid",
@@ -13478,6 +13490,164 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e14",
+			"title": "Hades, Herlock Sholmes, The Stormlight Archives",
+			"description": "Becca Scott, Satine Phoenix, and James Willems unionize to fight the oppressive point system.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/hades-herlock-sholmes-tv-production-cards",
+			"thumbnail_landscape": "images/s05e14.jpg",
+			"duration": 1942,
+			"number": "14",
+			"season_number": "5",
+			"release_date": "2021-08-13",
+			"host": "mike-trapp",
+			"hostPoints": 1,
+			"hostPointsNotes": "James gave Trapp his final point for the last question.",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "becca-scott",
+					"score": 4,
+					"notes": "Becca had a raw score of 3.  James donated a point to Becca after question 3.  Becca donated this point to Satine after question 7.  Satine returned this point after question 12."
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "satine-phoenix",
+					"score": 4,
+					"notes": "Satine had a raw score of 4.  James donated a point to Satine after question 3.  Becca donated a point to Satine after question 7.  Satine returned her point from James back to him after question 9.  Satine returned her point from Becca after questino 12."
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "james-willems",
+					"score": 4,
+					"notes": "James had a raw score of 6.  James donated 1 point each to Becca and Satine after question 3.  James received his point back from Satine after question 9.  James donated a point to Trapp (so all three contestants would tie and Trapp would lose) after question 13."
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "watchmen",
+					"winners": [
+						"james-willems"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "video-games",
+					"topicDetails": [
+						"Pickmin"
+					],
+					"winners": [
+						"james-willems"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "video-games",
+					"topicDetails": [
+						"Hades"
+					],
+					"winners": [
+						"james-willems"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Minecraft"
+					],
+					"submittedBy": "@DumpyFrog",
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 5,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "video-games",
+					"topicDetails": [
+						"Mortal Kombat"
+					],
+					"winners": [
+						"james-willems"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "literature",
+					"topicDetails": [
+						"Mauric LeBlanc",
+						"Arsene Lupin"
+					],
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "star-trek",
+					"topicDetails": [
+						"Star Trek: Lower Decks"
+					],
+					"winners": [
+						"satine-phoenix"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "video-games",
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"satine-phoenix"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "fantasy",
+					"topicDetails": [
+						"The Stormlight Archives (Brandon Sanderson)"
+					],
+					"winners": [
+						"satine-phoenix"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "dragon-age",
+					"winners": [
+						"james-willems"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "tv",
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"satine-phoenix"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"james-willems"
+					]
 				}
 			]
 		}
