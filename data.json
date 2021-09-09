@@ -383,6 +383,10 @@
 			"name": "Morgan Lavandowska"
 		},
 		{
+			"id": "mt",
+			"name": "MT"
+		},
+		{
 			"id": "rachel-bloom",
 			"name": "Rachel Bloom"
 		},
@@ -563,6 +567,9 @@
 		},
 		{
 			"name": "A Book By Its Cover"
+		},
+		{
+			"name": "A Long Time Ago In A Galaxy Far Far Away"
 		},
 		{
 			"name": "A Movie By Its Poster"
@@ -915,6 +922,10 @@
 		{
 			"id": "batman",
 			"name": "Batman"
+		},
+		{
+			"id": "beastmaster",
+			"name": "The Beastmaster (1982 film)"
 		},
 		{
 			"id": "bioshock",
@@ -1675,6 +1686,10 @@
 		{
 			"id": "sword-art-online",
 			"name": "Swort Art Online"
+		},
+		{
+			"id": "sword-of-shannara",
+			"name": "The Sword of Shannara (Terry Brooks series)"
 		},
 		{
 			"id": "tabletop-games",
@@ -13647,6 +13662,151 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"james-willems"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e15",
+			"title": "Alien vs Predator, The Beastmaster, ET",
+			"description": "Erik Voss, MT, and Jay Washington dance in their seats with excitement.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/alien-vs-predator-the-beastmaster-et",
+			"thumbnail_landscape": "images/s05e15.jpg",
+			"duration": 1866,
+			"number": "15",
+			"season_number": "5",
+			"release_date": "2021-09-03",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "erik-voss",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "mt",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "jay-washington",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "alien",
+					"topicDetails": [
+						"Aliens vs. Predator: Duel"
+					],
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "mcu",
+					"topicDetails": [
+						"WandaVision"
+					],
+					"winners": [
+						"erik-voss"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "sword-of-shannara",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Animal Crossing"
+					],
+					"submittedBy": "@Baybop",
+					"winners": [
+						"mt"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "star-wars",
+					"title": "A Long Time Ago In A Galaxy Far Far Away",
+					"shiny": true,
+					"winners": [
+						"erik-voss"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "the-expanse",
+					"topicDetails": [
+						"Nemesis Games (Expanse book 5)"
+					],
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "video-games",
+					"topicDetails": [
+						"Assassin's Creed"
+					],
+					"winners": [
+						"mt"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "beastmaster",
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "video-games",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "aladdin",
+					"topicDetails": [
+						"Aladdin (the animated series)"
+					],
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "movies",
+					"topicDetails": [
+						"E.T."
+					],
+					"winners": [
+						"erik-voss"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "video-games",
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"mt"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"mt"
 					]
 				}
 			]
