@@ -299,6 +299,10 @@
 			"name": "Ken Napzok"
 		},
 		{
+			"id": "kendra-wells",
+			"name": "Kendra Wells"
+		},
+		{
 			"id": "kim-horcher",
 			"name": "Kim Horcher"
 		},
@@ -413,6 +417,10 @@
 		{
 			"id": "noah-diamond",
 			"name": "Noah Diamond"
+		},
+		{
+			"id": "orion-black",
+			"name": "Orion Black"
 		},
 		{
 			"id": "oscar-montoya",
@@ -13808,6 +13816,157 @@
 					"winners": [
 						"mt"
 					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e16",
+			"title": "Um, Anime!",
+			"description": "Orion Black, Kendra Wells, and Eli Yudin face off in an entirely anime themed episode.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/um-anime",
+			"thumbnail_landscape": "images/s05e16.jpg",
+			"duration": 2055,
+			"number": "16",
+			"season_number": "5",
+			"release_date": "2021-09-10",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "orion-black",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "kendra-wells",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "eli-yudin",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "anime",
+					"topicDetails": [
+						"Paprika"
+					],
+					"winners": [
+						"eli-yudin"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "anime",
+					"topicDetails": [
+						"Hunter X Hunter"
+					],
+					"winners": [
+						"kendra-wells"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "anime",
+					"topicDetails": [
+						"Galaxy Express 999"
+					],
+					"winners": [
+						"eli-yudin"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "anime",
+					"topicDetails": [
+						"Doctor Stone"
+					],
+					"submittedBy": "@Colby",
+					"winners": [
+						"orion-black"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "anime",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"kendra-wells"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "anime",
+					"topicDetails": [
+						"Ghost in the Shell"
+					],
+					"winners": [
+						"orion-black"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "anime",
+					"topicDetails": [
+						"The Tatami Galaxy"
+					],
+					"winners": [
+						"eli-yudin"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "anime",
+					"topicDetails": [
+						"Panty & Stocking with Garterbelt"
+					],
+					"winners": [
+						"kendra-wells"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "anime",
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"kendra-wells"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "fullmetal-alchemist",
+					"winners": [
+						"eli-yudin"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "naruto",
+					"winners": [
+						"eli-yudin"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "anime",
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"orion-black"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
