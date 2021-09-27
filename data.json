@@ -766,6 +766,9 @@
 			"name": "Once More Without Feeling"
 		},
 		{
+			"name": "Oh My God"
+		},
+		{
 			"name": "Order Up"
 		},
 		{
@@ -1570,6 +1573,10 @@
 		{
 			"id": "scifi-books",
 			"name": "Science-fiction books"
+		},
+		{
+			"id": "scifi-movies",
+			"name": "Science-fiction movies"
 		},
 		{
 			"id": "scott-pilgrim",
@@ -13961,6 +13968,148 @@
 					"shiny": true,
 					"winners": [
 						"orion-black"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e17",
+			"title": "Sunshine, Casper the Friendly Ghost, Sex Criminals",
+			"description": "Carolyn Page, Gus Sorola, and Andrew Rosas duke it out in a redemption episode.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/sunshine-casper-the-friendly-ghost-sex-criminals",
+			"thumbnail_landscape": "images/s05e17.jpg",
+			"duration": 2143,
+			"number": "17",
+			"season_number": "5",
+			"release_date": "2021-09-24",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "carolyn-page",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "gus-sorola",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "andrew-rosas",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "walking-dead",
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "scifi-movies",
+					"topicDetails": [
+						"Forbidden Planet (1956 movie)"
+					],
+					"winners": [
+						"gus-sorola"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "scifi-movies",
+					"topicDetails": [
+						"Sunshine (2007 movie)"
+					],
+					"winners": [
+						"gus-sorola"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "pokemon",
+					"submittedBy": "OliverC",
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 6,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Casper the Friendly Ghost"
+					],
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "comics",
+					"topicDetails": [
+						"The League of Extraordinary Gentlemen"
+					],
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "star-wars",
+					"topicDetails": [
+						"Star Wars Jedi: Fallen Order (video game)"
+					],
+					"winners": [
+						"gus-sorola"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Oh My God",
+					"shiny": true,
+					"winners": [
+						"carolyn-page",
+						"andrew-rosas"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "comics",
+					"topicDetails": [
+						"Sex Criminals"
+					],
+					"winners": [
+						"andrew-rosas"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "gremlins",
+					"winners": [
+						"gus-sorola"
+					]
+				},
+				{
+					"number": 12,
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": [
+						"carolyn-page"
 					]
 				},
 				{
