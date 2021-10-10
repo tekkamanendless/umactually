@@ -760,6 +760,9 @@
 			"name": "Needs More Pixels"
 		},
 		{
+			"name": "Not So Super"
+		},
+		{
 			"name": "Not The Droid You're Looking For"
 		},
 		{
@@ -809,6 +812,9 @@
 		},
 		{
 			"name": "Tag Out"
+		},
+		{
+			"name": "They Say The Best Swords Have Names"
 		},
 		{
 			"name": "Tic Tac Tec"
@@ -1727,6 +1733,10 @@
 			"name": "The Black Cauldron"
 		},
 		{
+			"id": "the-boys",
+			"name": "The Boys"
+		},
+		{
 			"id": "the-cosmere",
 			"name": "The Cosmere (fictional universe)"
 		},
@@ -1913,6 +1923,10 @@
 		{
 			"id": "xena",
 			"name": "Xena, Warrior Princess"
+		},
+		{
+			"id": "yu-gi-oh",
+			"name": "Yu-Gi-Oh!"
 		},
 		{
 			"id": "zelda",
@@ -14116,6 +14130,148 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e18",
+			"title": "Arrival, Dragon Ball Super, Elf With a Gun",
+			"description": "Kelly Nugent, Erika Ishii, and Malika Lim Eubank try to run faster than their friends.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/arrival-dragon-ball-super-elf-with-a-gun",
+			"thumbnail_landscape": "images/s05e18.jpg",
+			"duration": 2068,
+			"number": "18",
+			"season_number": "5",
+			"release_date": "2021-10-08",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "kelly-nugent",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "erika-ishii",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "malika-lim-eubank",
+					"score": 1
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "scifi-movies",
+					"topicDetails": [
+						"Arrival (2016 movie)"
+					],
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "the-boys",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "stephen-king",
+					"topicDetails": [
+						"The Bachman Books"
+					],
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "dragon-ball",
+					"topicDetails": [
+						"Dragon Ball Super"
+					],
+					"submittedBy": "xenocryptica",
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Where Am I?",
+					"shiny": true,
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "video-games",
+					"topicDetails": [
+						"Metroid"
+					],
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "comics",
+					"winners": [
+						"malika-lim-eubank"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "movies",
+					"topicDetails": [
+						"The Day The Earth Stood Still",
+						"Army of Darkness"
+					],
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "Not So Super",
+					"shiny": true,
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Aqua Teen Hunger Force"
+					],
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "yu-gi-oh",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 12,
+					"title": "They Say The Best Swords Have Names",
+					"shiny": true,
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"kelly-nugent"
+					]
 				}
 			]
 		}
