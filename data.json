@@ -351,6 +351,10 @@
 			"name": "Marisha Ray"
 		},
 		{
+			"id": "mark-rennie",
+			"name": "Mark Rennie"
+		},
+		{
 			"id": "markeia-mccarty",
 			"name": "Markeia McCarty"
 		},
@@ -812,6 +816,9 @@
 		},
 		{
 			"name": "Tag Out"
+		},
+		{
+			"name": "Tag You're It"
 		},
 		{
 			"name": "They Say The Best Swords Have Names"
@@ -14271,6 +14278,157 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"kelly-nugent"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e19",
+			"title": "The Haunting of Hill House, Hereditary, The Ring",
+			"description": "Betsy Sodaro, Mark Rennie, and Oscar Montoya determine which horror franchises never went to space.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/the-haunting-of-hill-house-hereditary-the-ring",
+			"thumbnail_landscape": "images/s05e19.png",
+			"duration": 2215,
+			"number": "19",
+			"season_number": "5",
+			"release_date": "2021-10-22",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "betsy-sodaro",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "mark-rennie",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "oscar-montoya",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "horror",
+					"topicDetails": [
+						"The Haunting of Hill House"
+					],
+					"winners": [
+						"mark-rennie"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "horror",
+					"topicDetails": [
+						"Candyman",
+						"The Forbidden"
+					],
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "horror-movies",
+					"winners": [
+						"oscar-montoya"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "horror-movies",
+					"submittedBy": "@Doug",
+					"winners": [
+						"mark-rennie"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "horror-movies",
+					"title": "Tag You're It",
+					"shiny": true,
+					"winners": [
+						"mark-rennie"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Hereditary"
+					],
+					"winners": [
+						"betsy-sodaro"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Frankenstein (1931 movie)"
+					],
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"The Conjuring"
+					],
+					"winners": [
+						"mark-rennie"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "horror-movies",
+					"title": "A Book By Its Cover",
+					"shiny": true,
+					"winners": [
+						"betsy-sodaro",
+						"oscar-montoya"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"The Ring (2002 movie)"
+					],
+					"winners": [
+						"betsy-sodaro"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Us (2019 movie)"
+					],
+					"winners": [
+						"oscar-montoya"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "horror-movies",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"betsy-sodaro"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"mark-rennie"
 					]
 				}
 			]
