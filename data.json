@@ -91,6 +91,10 @@
 			"name": "Brennan Lee Mulligan"
 		},
 		{
+			"id": "brodie-reed",
+			"name": "Brodie Reed"
+		},
+		{
 			"id": "caldwell-tanner",
 			"name": "Caldwell Tanner"
 		},
@@ -395,12 +399,12 @@
 			"name": "MT"
 		},
 		{
-			"id": "rachel-bloom",
-			"name": "Rachel Bloom"
-		},
-		{
 			"id": "natalie-palamides",
 			"name": "Natalie Palamides"
+		},
+		{
+			"id": "nando",
+			"name": "Matthew \"Nando\" Kelly"
 		},
 		{
 			"id": "nate-dern",
@@ -433,6 +437,10 @@
 		{
 			"id": "owen-parsons",
 			"name": "Owen Parsons"
+		},
+		{
+			"id": "rachel-bloom",
+			"name": "Rachel Bloom"
 		},
 		{
 			"id": "raphael-chestang",
@@ -546,6 +554,22 @@
 			"players": [
 				"becca-scott",
 				"david-kerns"
+			]
+		},
+		{
+			"id": "dani-and-danielle",
+			"name": "Dani and Danielle",
+			"players": [
+				"dani-fernandez",
+				"danielle-radford"
+			]
+		},
+		{
+			"id": "ify-and-brodie",
+			"name": "Ify and Brodie",
+			"players": [
+				"ify-nwadiwe",
+				"brodie-reed"
 			]
 		},
 		{
@@ -734,6 +758,9 @@
 			"name": "Name That Goblin"
 		},
 		{
+			"name": "Name That Mad Scientist"
+		},
+		{
 			"name": "Name That Martian"
 		},
 		{
@@ -798,6 +825,9 @@
 		},
 		{
 			"name": "Rules Lawyer"
+		},
+		{
+			"name": "So, Where Are You From?"
 		},
 		{
 			"name": "Sp'el Ling Bi"
@@ -14429,6 +14459,288 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"mark-rennie"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e20",
+			"title": "Soulcalibur, Dread, The Sims: Livin' Large",
+			"description": "Matt Mercer, Haley Mancini, and Matthew Kelly wonder if there's an Aquaman for rivers and lakes.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/soulcalibur-dread-the-sims-livin-large",
+			"thumbnail_landscape": "images/s05e20.jpg",
+			"duration": 2118,
+			"number": "20",
+			"season_number": "5",
+			"release_date": "2021-11-05",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "matt-mercer",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "haley-mancini",
+					"score": 0
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "nando",
+					"score": 6
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "the-boys",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "video-games",
+					"topicDetails": [
+						"Soulcalibur (video game series)"
+					],
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "dnd",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "tabletop-games",
+					"submittedBy": "@BoxedLogic",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 5,
+					"title": "So, Where Are You From?",
+					"shiny": true,
+					"winners": [
+						"nando"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "scifi-movies",
+					"topicDetails": [
+						"The Incredible Shrinking Man"
+					],
+					"winners": [
+						"nando"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "batman",
+					"winners": [
+						"nando"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "video-games",
+					"topicDetails": [
+						"The Sims: Livin' Large"
+					],
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 9,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"nando"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Space Ghost",
+						"Space Ghost Coast to Coast"
+					],
+					"winners": [
+						"nando"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "gaming",
+					"topicDetails": [
+						"Infocom text adventure games"
+					],
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": [
+						"nando"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e21",
+			"title": "Catwoman, Undertale, Clayface",
+			"description": "Ify Nwadiwe and Brodie Reed team up to face off against Dani Fernandez and Danielle Radford.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/catwoman-undertale-clayface",
+			"thumbnail_landscape": "images/s05e21.jpg",
+			"duration": 2075,
+			"number": "21",
+			"season_number": "5",
+			"release_date": "2021-11-19",
+			"host": "mike-trapp",
+			"teams": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "ify-and-brodie",
+					"score": 8
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "dani-and-danielle",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "dune",
+					"winners": [
+						"ify-and-brodie"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "batman",
+					"topicDetails": [
+						"Catwoman (2004 movie)"
+					],
+					"winners": [
+						"ify-and-brodie"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "comics",
+					"topicDetails": [
+						"Homestuck"
+					],
+					"winners": [
+						"ify-and-brodie"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Undertale"
+					],
+					"submittedBy": "@Shinitenshi",
+					"winners": [
+						"dani-and-danielle"
+					]
+				},
+				{
+					"number": 5,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"ify-and-brodie"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "video-games",
+					"topicDetails": [
+						"Animal Crossing"
+					],
+					"winners": [
+						"dani-and-danielle"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Disenchantment"
+					],
+					"winners": [
+						"ify-and-brodie"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "batman",
+					"winners": [
+						"ify-and-brodie"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Name That Mad Scientist",
+					"shiny": true,
+					"winners": [
+						"ify-and-brodie",
+						"dani-and-danielle"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "scifi-movies",
+					"topicDetails": [
+						"Metropolis (1927 film)"
+					],
+					"winners": [
+						"dani-and-danielle"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "x-files",
+					"topicDetails": [
+						"The Lone Gunmen"
+					],
+					"winners": [
+						"ify-and-brodie"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Under Review",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"dani-and-danielle"
 					]
 				}
 			]
