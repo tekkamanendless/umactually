@@ -23,6 +23,10 @@
 	],
 	"people": [
 		{
+			"id": "aabria-iyengar",
+			"name": "Aabria Iyengar"
+		},
+		{
 			"id": "adam-conover",
 			"name": "Adam Conover"
 		},
@@ -499,6 +503,10 @@
 			"name": "SungWon Cho"
 		},
 		{
+			"id": "talieson-jaffe",
+			"name": "Talieson Jaffe"
+		},
+		{
 			"id": "tao-yang",
 			"name": "Tao Yang"
 		},
@@ -897,6 +905,10 @@
 		}
 	],
 	"topics": [
+		{
+			"id": "1984",
+			"name": "1984 (George Orwell novel)"
+		},
 		{
 			"id": "2001",
 			"name": "2001: A Space Odyssey"
@@ -14741,6 +14753,154 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"dani-and-danielle"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e22",
+			"title": "1984, Hunter x Hunter, Supernatural",
+			"description": "Aabria Iyengar, Taliesin Jaffe, and Brennan Lee Mulligan sing the praises of the long Tetris piece.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/1984-hunter-x-hunter-supernatural",
+			"thumbnail_landscape": "images/s05e22.jpg",
+			"duration": 2154,
+			"number": "22",
+			"season_number": "5",
+			"release_date": "2021-12-03",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "aabria-iyengar",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "talieson-jaffe",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "brennan-lee-mulligan",
+					"score": 7
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "1984",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"topicDetails": [
+						"The Creature from the Black Lagoon"
+					],
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "dc",
+					"topicDetails": [
+						"Doom Patrol"
+					],
+					"winners": [
+						"talieson-jaffe"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "anime",
+					"topicDetails": [
+						"Hunter X Hunter"
+					],
+					"submittedBy": "The Littlest Jam",
+					"winners": [
+						"talieson-jaffe"
+					]
+				},
+				{
+					"number": 5,
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "video-games",
+					"topicDetails": [
+						"Super Smash Bros. Ultimate"
+					],
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "movies",
+					"topicDetails": [
+						"Scanners (1981 movie)"
+					],
+					"winners": [
+						"aabria-iyengar"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "adventure-time",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 9,
+					"title": "So, Where Are You From?",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "tv",
+					"topicDetails": [
+						"Supernatural"
+					],
+					"winners": [
+						"aabria-iyengar"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "wizard-of-oz",
+					"topicDetails": [
+						"The Patchwork Girl of Oz"
+					],
+					"winners": [
+						"talieson-jaffe"
+					]
+				},
+				{
+					"number": 12,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"brennan-lee-mulligan"
 					]
 				}
 			]
