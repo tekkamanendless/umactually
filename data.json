@@ -853,6 +853,9 @@
 			"name": "Technical Difficulties"
 		},
 		{
+			"name": "Technically A Christmas Movie"
+		},
+		{
 			"name": "Tag Out"
 		},
 		{
@@ -1036,6 +1039,10 @@
 		{
 			"id": "chorus-line",
 			"name": "A Chorus Line"
+		},
+		{
+			"id": "christmas",
+			"name": "Christmas (holiday)"
 		},
 		{
 			"id": "clone-high",
@@ -14901,6 +14908,158 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"brennan-lee-mulligan"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e23",
+			"title": "The Nutcracker, The Nightmare Before Christmas, White Christmas",
+			"description": "Emma Fyffe, Amy Vorpahl, and Winston A. Marshall ho ho throw down in a holiday themed episode.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/the-nutcracker-the-nightmare-before-christmas-white-christmas",
+			"thumbnail_landscape": "images/s05e23.jpg",
+			"duration": 1906,
+			"number": "23",
+			"season_number": "5",
+			"release_date": "2021-12-17",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "emma-fyffe",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "amy-vorpahl",
+					"score": 1
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "winston-marshall",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "movies",
+					"topicDetails": [
+						"Santa Claus Conquers the Martians (1964 film)"
+					],
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "tv",
+					"topicDetails": [
+						"Blackadder",
+						"Blackadder's Christmas Carol"
+					],
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "christmas",
+					"topicDetails": [
+						"The Nutcracker"
+					],
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Bayonetta 2"
+					],
+					"submittedBy": "@Peter_Morris",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"topic": "christmas",
+					"title": "Once More Without Feeling",
+					"shiny": true,
+					"winners": [
+						"emma-fyffe",
+						"winston-marshall"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "movies",
+					"topicDetails": [
+						"Rare Exports: A Christmas Tale (film)"
+					],
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "nightmare-before-christmas",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "tv",
+					"topicDetails": [
+						"Black Mirror"
+					],
+					"winners": [
+						"winston-marshall"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "christmas",
+					"title": "Technically A Christmas Movie",
+					"shiny": true,
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "tv",
+					"topicDetails": [
+						"Tales From the Crypt"
+					],
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "sabrina-the-teenage-witch",
+					"topicDetails": [
+						"The Chilling Adventures of Sabrina"
+					],
+					"winners": []
+				},
+				{
+					"number": 12,
+					"topic": "christmas",
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 13,
+					"topicDetails": [
+						"Medicine",
+						"Generic Drugs"
+					],
+					"title": "Real Life Skills",
+					"winners": [
+						"emma-fyffe"
 					]
 				}
 			]
