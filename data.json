@@ -1005,6 +1005,10 @@
 			"name": "Blade Runner"
 		},
 		{
+			"id": "bloodchild",
+			"name": "Bloodchild (Octavia Butler novella)"
+		},
+		{
 			"id": "board-games",
 			"name": "Board Games"
 		},
@@ -15060,6 +15064,145 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"emma-fyffe"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s05e24",
+			"title": "Star Trek, Species, Bionicle",
+			"description": "Michael Saltzman, Amy Dallen, and Markiea McCarty test their knowledge of bird sounds and logos.",
+			"url": "https://www.dropout.tv/um-actually/season:6/videos/star-trek-species-bionicle",
+			"thumbnail_landscape": "images/s05e24.jpg",
+			"duration": 2087,
+			"number": "24",
+			"season_number": "5",
+			"release_date": "2021-12-31",
+			"host": "mike-trapp",
+			"players": [
+				{
+					"position": "1",
+					"color": "red",
+					"id": "michael-saltzman",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "green",
+					"id": "amy-dallen",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "yellow",
+					"id": "markeia-mccarty",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "star-trek",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "bloodchild",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "twilight-zone",
+					"topicDetails": [
+						"Long Distance Call (episode)"
+					],
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "doctor-who",
+					"submittedBy": "Oliver C.",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"michael-saltzman"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "scifi-movies",
+					"topicDetails": [
+						"Species (1995 film)"
+					],
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "mass-effect",
+					"topicDetails": [
+						"Mass Effect: Andromeda"
+					],
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "comics",
+					"topicDetails": [
+						"The Wicked + The Divine"
+					],
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Brand Awareness",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "toys",
+					"topicDetails": [
+						"LEGO Bionicle"
+					],
+					"winners": [
+						"michael-saltzman"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "fantasy",
+					"topicDetails": [
+						"Jonathan Strange & Mr. Norrell"
+					],
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"michael-saltzman"
 					]
 				}
 			]
