@@ -19,6 +19,10 @@
 		{
 			"number": "5",
 			"title": "Season 5"
+		},
+		{
+			"number": "6",
+			"title": "Season 6"
 		}
 	],
 	"people": [
@@ -899,6 +903,9 @@
 		},
 		{
 			"name": "Where Am I?"
+		},
+		{
+			"name": "Who's Your Daddy"
 		},
 		{
 			"name": "Wrestling Lingo"
@@ -15204,6 +15211,146 @@
 					"winners": [
 						"michael-saltzman"
 					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s06e01",
+			"title": "Um Actually Smackdown",
+			"description": "Jon Gabrus, Jay Washington, and Brian Murphy try not to tap out first in this wrestling themed episode.",
+			"url": "https://www.dropout.tv/um-actually/season:7/videos/um-actually-smackdown",
+			"thumbnail_landscape": "images/s06e01.jpg",
+			"duration": 2059,
+			"number": "1",
+			"season_number": "6",
+			"release_date": "2022-01-14",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jon-gabrus",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "jay-washington",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "brian-murphy",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "wrestling",
+					"topicDetails": [
+						"Halloween Havoc (1995)",
+						"The Yeti"
+					],
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "wrestling",
+					"topicDetails": [
+						"WWE (World Wrestling Entertainment)"
+					],
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "wrestling",
+					"topicDetails": [
+						"Backlash (2006)"
+					],
+					"winners": [
+						"jon-gabrus"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "wrestling",
+					"submittedBy": "Elyse Marie",
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "wrestling",
+					"title": "So, Where Are You From?",
+					"shiny": true,
+					"winners": [
+						"brian-murphy"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "wrestling",
+					"submittedBy": "@eloquentdylan",
+					"winners": [
+						"jon-gabrus"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "wrestling",
+					"winners": [
+						"brian-murphy"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "wrestling",
+					"winners": [
+						"brian-murphy"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "wrestling",
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "wrestling",
+					"winners": [
+						"jon-gabrus"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "wrestling",
+					"winners": [
+						"brian-murphy"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "wrestling",
+					"title": "Who's Your Daddy",
+					"shiny": true,
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
