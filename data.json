@@ -15353,6 +15353,155 @@
 					"winners": []
 				}
 			]
+		},
+		{
+			"dropouttv_productid": "s06e02",
+			"title": "Beauty and The Beast, Birdbox, Timecop",
+			"description": "Becca Scott, Joan Ford, and Erika Ishii hump something and break rules.",
+			"url": "https://www.dropout.tv/um-actually/season:7/videos/beauty-and-the-beast-birdbox-timecop",
+			"thumbnail_landscape": "images/s06e02.jpg",
+			"duration": 1991,
+			"number": "2",
+			"season_number": "6",
+			"release_date": "2022-01-28",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "becca-scott",
+					"score": 1
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "joan-ford",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "erika-ishii",
+					"score": 7
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "battlestar",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"topicDetails": [
+						"The Shape of Water (2017 film)"
+					],
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "disney",
+					"topicDetails": [
+						"Beauty and the Beast"
+					],
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "dc",
+					"submittedBy": "ToasterCrusade",
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 5,
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "movies",
+					"topicDetails": [
+						"Bird Box"
+					],
+					"winners": [
+						"becca-scott"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "street-fighter",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Ben 10"
+					],
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"topicDetails": [
+						"The Wolf Man (1941 film)"
+					],
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "scifi-movies",
+					"topicDetails": [
+						"Timecop (1994 film)"
+					],
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "star-trek",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"erika-ishii"
+					]
+				}
+			]
 		}
 	]
 }
