@@ -875,6 +875,9 @@
 			"name": "Time Travel Maps"
 		},
 		{
+			"name": "TV Time"
+		},
+		{
 			"name": "Under Review"
 		},
 		{
@@ -15499,6 +15502,151 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"erika-ishii"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s06e02",
+			"title": "Tolkien, Gotham, Scrooge McDuck",
+			"description": "Brennan Lee Mulligan, Siobhan Thompson, and Winston A. Marshall try to deliver a Santa fatality.",
+			"url": "https://www.dropout.tv/um-actually/season:7/videos/tolkien-gotham-scrooge-mcduck",
+			"thumbnail_landscape": "images/s06e02.jpg",
+			"duration": 2265,
+			"number": "2",
+			"season_number": "6",
+			"release_date": "2022-02-11",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "brennan-lee-mulligan",
+					"score": 7
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "siobhan-thompson",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "winston-marshall",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "dc",
+					"topicDetails": [
+						"Gotham (City)"
+					],
+					"winners": [
+						"winston-marshall"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "video-games",
+					"topicDetails": [
+						"Death Stranding"
+					],
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "pokemon",
+					"submittedBy": "theAwwesomeEridan",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 5,
+					"title": "TV Time",
+					"shiny": true,
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "movies",
+					"topicDetails": [
+						"What We Do in the Shadows"
+					],
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "movies",
+					"topicDetails": [
+						"Okja"
+					],
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "mcu",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 9,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "witcher",
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "cartoons",
+					"topicDetails": [
+						"DuckTales"
+					],
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "superhero-movies",
+					"title": "Tag You're It",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan",
+						"winston-marshall"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"winston-marshall"
 					]
 				}
 			]
