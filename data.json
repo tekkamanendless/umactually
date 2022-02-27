@@ -371,6 +371,10 @@
 			"name": "Markeia McCarty"
 		},
 		{
+			"id": "matt-acevedo",
+			"name": "Matt Acevedo"
+		},
+		{
 			"id": "matt-kirshen",
 			"name": "Matt Kirshen"
 		},
@@ -15507,13 +15511,13 @@
 			]
 		},
 		{
-			"dropouttv_productid": "s06e02",
+			"dropouttv_productid": "s06e03",
 			"title": "Tolkien, Gotham, Scrooge McDuck",
 			"description": "Brennan Lee Mulligan, Siobhan Thompson, and Winston A. Marshall try to deliver a Santa fatality.",
 			"url": "https://www.dropout.tv/um-actually/season:7/videos/tolkien-gotham-scrooge-mcduck",
-			"thumbnail_landscape": "images/s06e02.jpg",
+			"thumbnail_landscape": "images/s06e03.jpg",
 			"duration": 2265,
-			"number": "2",
+			"number": "3",
 			"season_number": "6",
 			"release_date": "2022-02-11",
 			"host": "mike-trapp",
@@ -15647,6 +15651,148 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"winston-marshall"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s06e04",
+			"title": "X-Men, The Warriors, The Mummy",
+			"description": "Markeia McCarty, Matt Acevedo, and Malika Lim Eubank learn about Goldballs' balls.",
+			"url": "https://www.dropout.tv/um-actually/season:7/videos/x-men-the-warriors-the-mummy",
+			"thumbnail_landscape": "images/s06e04.jpg",
+			"duration": 2170,
+			"number": "4",
+			"season_number": "6",
+			"release_date": "2022-02-25",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "markeia-mccarty",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "matt-acevedo",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "malika-lim-eubank",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "sandman",
+					"winners": [
+						"malika-lim-eubank"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "dnd",
+					"topicDetails": [
+						"Kenku"
+					],
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "scifi-books",
+					"topicDetails": [
+						"Dragonriders of Pern"
+					],
+					"submittedBy": "SimianSig",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 6,
+					"topic": "x-men",
+					"topicDetails": [
+						"Jubilee"
+					],
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "movies",
+					"topicDetails": [
+						"The Warriors (1979 film)"
+					],
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "movies",
+					"topicDetails": [
+						"The Mummy (1999 film)"
+					],
+					"winners": [
+						"matt-acevedo"
+					]
+				},
+				{
+					"number": 9,
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": [
+						"markeia-mccarty",
+						"matt-acevedo"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"topicDetails": [
+						"Repo Man (1984 film)"
+					],
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "disney",
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "movies",
+					"title": "A Movie By Its Poster",
+					"shiny": true,
+					"winners": [
+						"matt-acevedo"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"malika-lim-eubank"
 					]
 				}
 			]
