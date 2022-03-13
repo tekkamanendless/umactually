@@ -499,6 +499,10 @@
 			"name": "Siobhan Thompson"
 		},
 		{
+			"id": "spencer-porter",
+			"name": "Spencer Porter"
+		},
+		{
 			"id": "stef-woodburn",
 			"name": "Stef Woodburn"
 		},
@@ -850,6 +854,9 @@
 		},
 		{
 			"name": "Special Speaking"
+		},
+		{
+			"name": "Spinoff Chains"
 		},
 		{
 			"name": "Super Saying"
@@ -15793,6 +15800,154 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"malika-lim-eubank"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s06e05",
+			"title": "Community, It's Always Sunny, Scrubs",
+			"description": "Jordan Doll, Rekha Shankar, and Spencer Porter fight to get greenlit in this TV themed episode.",
+			"url": "https://www.dropout.tv/um-actually/season:7/videos/community-it-s-always-sunny-scrubs",
+			"thumbnail_landscape": "images/s06e05.jpg",
+			"duration": 2200,
+			"number": "5",
+			"season_number": "6",
+			"release_date": "2022-03-11",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jordan-doll",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "rekha-shankar",
+					"score": 10
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "spencer-porter",
+					"score": 1
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "community",
+					"winners": [
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "the-good-place",
+					"winners": [
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "tv",
+					"topicDetails": [
+						"St. Elsewhere"
+					],
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "tv",
+					"topicDetails": [
+						"Family Matters"
+					],
+					"submittedBy": "20sidedhero",
+					"winners": [
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "tv",
+					"title": "Brand Awareness",
+					"shiny": true,
+					"winners": [
+						"jordan-doll",
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "tv",
+					"topicDetails": [
+						"It's Always Sunny in Philadelphia"
+					],
+					"winners": [
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "seinfeld",
+					"winners": [
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "tv",
+					"topicDetails": [
+						"That 70's Show"
+					],
+					"winners": [
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "tv",
+					"title": "Spinoff Chains",
+					"shiny": true,
+					"winners": [
+						"jordan-doll",
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "tv",
+					"topicDetails": [
+						"Scrubs"
+					],
+					"winners": [
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "tv",
+					"winners": [
+						"spencer-porter"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "tv",
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"jordan-doll"
 					]
 				}
 			]
