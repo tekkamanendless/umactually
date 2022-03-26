@@ -91,6 +91,10 @@
 			"name": "Betsy Sodaro"
 		},
 		{
+			"id": "brian-david-gilbert",
+			"name": "Brian David Gilbert"
+		},
+		{
 			"id": "brian-murphy",
 			"name": "Brian \"Murph\" Murphy"
 		},
@@ -301,6 +305,10 @@
 		{
 			"id": "kaitlin-thompson",
 			"name": "Kaitlin Thompson"
+		},
+		{
+			"id": "karen-han",
+			"name": "Karen Han"
 		},
 		{
 			"id": "kelly-nugent",
@@ -890,6 +898,9 @@
 		},
 		{
 			"name": "Under Review"
+		},
+		{
+			"name": "Venndemonium"
 		},
 		{
 			"name": "Voice Over"
@@ -15948,6 +15959,154 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"jordan-doll"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s06e06",
+			"title": "Edward Scissorhands, Metroidvanias, Diablo",
+			"description": "Newcomers Brian David Gilbert and Karen Han face off against Emma Fyffe and try to draw a La Cegua.",
+			"url": "https://www.dropout.tv/um-actually/season:7/videos/edward-scissorhands-metroidvanias-diablo",
+			"thumbnail_landscape": "images/s06e06.jpg",
+			"duration": 2172,
+			"number": "6",
+			"season_number": "6",
+			"release_date": "2022-03-25",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "brian-david-gilbert",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "karen-han",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "emma-fyffe",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "zelda",
+					"topicDetails": [
+						"Legend of Zelda: Breath of the Wild"
+					],
+					"winners": [
+						"brian-david-gilbert"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"topicDetails": [
+						"Edward Scissorhands"
+					],
+					"winners": [
+						"karen-han"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "movies",
+					"topicDetails": [
+						"The Toxic Avenger"
+					],
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Metroidvania (Genre)"
+					],
+					"submittedBy": "Tori Mahoney",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"brian-david-gilbert"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "movies",
+					"topicDetails": [
+						"Rollerball (1975 film)"
+					],
+					"winners": [
+						"karen-han"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "tv",
+					"topicDetails": [
+						"Charmed"
+					],
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "diablo",
+					"winners": [
+						"karen-han"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Venndemonium",
+					"shiny": true,
+					"winners": [
+						"karen-han",
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"karen-han"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "video-games",
+					"topicDetails": [
+						"Sega"
+					],
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"emma-fyffe"
 					]
 				}
 			]
