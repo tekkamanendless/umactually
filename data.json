@@ -16110,6 +16110,154 @@
 					]
 				}
 			]
+		},
+		{
+			"dropouttv_productid": "s06e07",
+			"title": "Journey, Freakazoid!, Seaman",
+			"description": "Andrew Rosas, Carolyn Page, and Jon Gutierrez learn about the origins of hello before the game even starts.",
+			"url": "https://www.dropout.tv/um-actually/season:7/videos/journey-freakazoid-seaman",
+			"thumbnail_landscape": "images/s06e07.jpg",
+			"duration": 2078,
+			"number": "7",
+			"season_number": "6",
+			"release_date": "2022-04-08",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "andrew-rosas",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "carolyn-page",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jon-gutierrez",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "video-games",
+					"topicDetails": [
+						"Journey (2012 video game)"
+					],
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"topicDetails": [
+						"Willy Wonka and the Chocolate Factory"
+					],
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Freakazoid"
+					],
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "movies",
+					"topicDetails": [
+						"How To Train Your Dragon"
+					],
+					"submittedBy": "@the mean lesbian",
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 5,
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "tv",
+					"topicDetails": [
+						"Garth Marenghi's Dark Place"
+					],
+					"winners": [
+						"andrew-rosas"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "movies",
+					"topicDetails": [
+						"The Babadook"
+					],
+					"winners": [
+						"andrew-rosas"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "dc",
+					"topicDetails": [
+						"Teen Titans Go! vs Teen Titans (2019 film)"
+					],
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "video-games",
+					"topicDetails": [
+						"Seaman (Sega Dreamcast game)"
+					],
+					"winners": [
+						"andrew-rosas"
+					]
+				},
+				{
+					"number": 12,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"jon-gutierrez"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"carolyn-page"
+					]
+				}
+			]
 		}
 	]
 }
