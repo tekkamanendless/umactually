@@ -684,6 +684,9 @@
 			"name": "Cryptogeography"
 		},
 		{
+			"name": "Doom Doctor"
+		},
+		{
 			"name": "Dr. Cop, Esq."
 		},
 		{
@@ -16255,6 +16258,161 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"carolyn-page"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s06e08",
+			"title": "Porco Rosso, Super Mario Odyssey, The Wonder Twins",
+			"description": "Amy Dallen, Danielle Radford, and Tao Yang discuss what makes you a true New Donker.",
+			"url": "https://www.dropout.tv/um-actually/season:7/videos/porco-rosso-super-mario-odyssey-the-wonder-twins",
+			"thumbnail_landscape": "images/s06e08.jpg",
+			"duration": 2049,
+			"number": "8",
+			"season_number": "6",
+			"release_date": "2022-04-22",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "amy-dallen",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "danielle-radford",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "tao-yang",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "video-games",
+					"topicDetails": [
+						"Dark Souls (video game series)"
+					],
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"topicDetails": [
+						"Porco Rosso (1992 Miyazaki film)"
+					],
+					"winners": [
+						"tao-yang"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "dc",
+					"topicDetails": [
+						"Green Lantern Corps"
+					],
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "super-mario",
+					"topicDetails": [
+						"Super Mario Odyssey (2017 video game)"
+					],
+					"submittedBy": "@seaonsonal",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"topic": "movies",
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"tao-yang"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "tv",
+					"topicDetails": [
+						"The Six Million Dollar Man"
+					],
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "scifi-movies",
+					"topicDetails": [
+						"Plan 9 from Outer Space (1959 film)"
+					],
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "movies",
+					"topicDetails": [
+						"Escape From New York (1981 film)"
+					],
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Doom Doctor",
+					"shiny": true,
+					"winners": [
+						"amy-dallen",
+						"danielle-radford",
+						"tao-yang"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "star-wars",
+					"topicDetails": [
+						"Star Wars (1987 Famicom game)"
+					],
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "dc",
+					"topicDetails": [
+						"Wonder Twins"
+					],
+					"winners": [
+						"tao-yang"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "lord-of-the-rings",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"amy-dallen"
 					]
 				}
 			]
