@@ -16416,6 +16416,159 @@
 					]
 				}
 			]
+		},
+		{
+			"dropouttv_productid": "s06e09",
+			"title": "Cartoons",
+			"description": "Julia Prescott, Ben Siemon, and Haley Mancini hope they're not too old for an all cartoons episode.",
+			"url": "https://www.dropout.tv/um-actually/season:7/videos/cartoons",
+			"thumbnail_landscape": "images/s06e09.jpg",
+			"duration": 2067,
+			"number": "9",
+			"season_number": "6",
+			"release_date": "2022-05-06",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "julia-prescott",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "benjamin-siemon",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "haley-mancini",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Foster's Home for Imaginary Friends"
+					],
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Phineas and Ferb"
+					],
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "adventure-time",
+					"winners": [
+						"julia-prescott"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Danny Phantom"
+					],
+					"submittedBy": "@Cricketon",
+					"winners": [
+						"julia-prescott"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Gumball"
+					],
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Goober and the Ghost Chasers"
+					],
+					"winners": [
+						"benjamin-siemon"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "cartoons",
+					"topicDetails": [
+						"The Flintstones"
+					],
+					"winners": [
+						"benjamin-siemon"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Samurai Jack"
+					],
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "cartoons",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "cartoons",
+					"topicDetails": [
+						"The Boondocks"
+					],
+					"winners": [
+						"haley-mancini"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "steven-universe",
+					"winners": [
+						"benjamin-siemon"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "cartoons",
+					"title": "Once More Without Feeling",
+					"shiny": true,
+					"winners": [
+						"benjamin-siemon"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"julia-prescott"
+					]
+				}
+			]
 		}
 	]
 }
