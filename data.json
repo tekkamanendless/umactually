@@ -343,6 +343,10 @@
 			"name": "Lindsay Jones"
 		},
 		{
+			"id": "lindsay-katai",
+			"name": "Lindsay Katai"
+		},
+		{
 			"id": "lou-wilson",
 			"name": "Lou Wilson"
 		},
@@ -1410,6 +1414,10 @@
 		{
 			"id": "john-carter",
 			"name": "John Carter"
+		},
+		{
+			"id": "jumanji",
+			"name": "Jumanji"
 		},
 		{
 			"id": "jurassic-park",
@@ -16566,6 +16574,156 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"julia-prescott"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s06e10",
+			"title": "Kool Aid Man, Over The Garden Wall, Jumanji",
+			"description": "Jess Ross, Lindsay Katai, and Kelly Nugent wonder why there's no question about John Carter's balls.",
+			"url": "https://www.dropout.tv/um-actually/season:7/videos/kool-aid-man-over-the-garden-wall-jumanji",
+			"thumbnail_landscape": "images/s06e10.jpg",
+			"duration": 2119,
+			"number": "10",
+			"season_number": "6",
+			"release_date": "2020-05-20",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jessica-ross",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "lindsay-katai",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "kelly-nugent",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "superman",
+					"topicDetails": [
+						"Bizzaro"
+					],
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"topicDetails": [
+						"Death Race 2000 (1975 film)"
+					],
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "scifi-books",
+					"topicDetails": [
+						"The Barsoom series (Edgar Rice Burroughs)"
+					],
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "marvel",
+					"topicDetails": [
+						"The Kool-Aid Man"
+					],
+					"submittedBy": "@MoxxieBlue",
+					"winners": [
+						"lindsay-katai"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Doom Doctor",
+					"shiny": true,
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Over the Garden Wall"
+					],
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "batman",
+					"topicDetails": [
+						"Batman (1966 TV series)"
+					],
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "jumanji",
+					"topicDetails": [
+						"Jumanji (1995 film)"
+					],
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 9,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "hp-lovecraft",
+					"topicDetails": [
+						"The King in Yellow"
+					],
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "diablo",
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Venndemonium",
+					"shiny": true,
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"lindsay-katai"
 					]
 				}
 			]
