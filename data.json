@@ -331,6 +331,14 @@
 			"name": "Kirk Damato"
 		},
 		{
+			"id": "krystina-arielle",
+			"name": "Krystina Arielle"
+		},
+		{
+			"id": "liam-obrien",
+			"name": "Liam O'Brien"
+		},
+		{
 			"id": "liam-senior",
 			"name": "Liam Senior"
 		},
@@ -493,6 +501,10 @@
 		{
 			"id": "sam-maggs",
 			"name": "Sam Maggs"
+		},
+		{
+			"id": "sam-riegel",
+			"name": "Sam Riegel"
 		},
 		{
 			"id": "satine-phoenix",
@@ -791,6 +803,9 @@
 		},
 		{
 			"name": "Name That Goblin"
+		},
+		{
+			"name": "Name That Grimoire"
 		},
 		{
 			"name": "Name That Mad Scientist"
@@ -16724,6 +16739,148 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"lindsay-katai"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s06e11",
+			"title": "My Hero Academia, Pokemon, The Simpsons",
+			"description": "Newcomers Liam O'Brien, Krystina Arielle, and Sam Riegel wonder who named the Eternals.",
+			"url": "https://www.dropout.tv/um-actually/season:7/videos/my-hero-academia-pokemon-the-simpsons",
+			"thumbnail_landscape": "images/s06e11.jpg",
+			"duration": 2009,
+			"number": "11",
+			"season_number": "6",
+			"release_date": "2022-06-03",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "liam-obrien",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "krystina-arielle",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "sam-riegel",
+					"score": 3,
+					"notes": "Sam was also awarded a point for question 8 retroactively after question 9."
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "video-games",
+					"topicDetails": [
+						"Shao Kahn",
+						"Mortal Kombat"
+					],
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "cowboy-bebop",
+					"winners": [
+						"liam-obrien"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "pokemon",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "my-hero-academia",
+					"submittedBy": "King Violet",
+					"winners": [
+						"sam-riegel"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Name That Grimoire",
+					"shiny": true,
+					"winners": [
+						"liam-obrien",
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "movies",
+					"topicDetails": [
+						"Being John Malkovich (1999 film)"
+					],
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "movies",
+					"topicDetails": [
+						"Them! (1954 film)"
+					],
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "the-simpsons",
+					"winners": [
+						"liam-obrien",
+						"sam-riegel"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "futurama",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"topicDetails": [
+						"Night of the Comet (1984 film)"
+					],
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "marvel",
+					"topicDetails": [
+						"The Eternals"
+					],
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"sam-riegel"
 					]
 				}
 			]
