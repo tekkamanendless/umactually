@@ -71,6 +71,10 @@
 			"name": "Andrew Rosas"
 		},
 		{
+			"id": "b-dave-walters",
+			"name": "B. Dave Walters"
+		},
+		{
 			"id": "becca-scott",
 			"name": "Becca Scott"
 		},
@@ -109,6 +113,10 @@
 		{
 			"id": "caldwell-tanner",
 			"name": "Caldwell Tanner"
+		},
+		{
+			"id": "carlos-luna",
+			"name": "Carlos Luna"
 		},
 		{
 			"id": "carolyn-page",
@@ -225,6 +233,10 @@
 		{
 			"id": "ify-nwadiwe",
 			"name": "Ify Nwadiwe"
+		},
+		{
+			"id": "izzy-roland",
+			"name": "Izzy Roland"
 		},
 		{
 			"id": "jackie-kashian",
@@ -797,6 +809,9 @@
 		},
 		{
 			"name": "Name That Flora"
+		},
+		{
+			"name": "Name That Frog"
 		},
 		{
 			"name": "Name That Ghost"
@@ -16881,6 +16896,151 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"sam-riegel"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s06e12",
+			"title": "The Invisible Man, Crash Bandicoot, Katamari Damacy",
+			"description": "Carlos Luna, Izzy Roland, and B. Dave Walters talk about walking out of the Garfield movie.",
+			"url": "https://www.dropout.tv/um-actually/season:7/videos/the-invisible-man-crash-bandicoot-katamari-damacy",
+			"thumbnail_landscape": "images/s06e12.jpg",
+			"duration": 2053,
+			"number": "12",
+			"season_number": "6",
+			"release_date": "2022-06-17",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "carlos-luna",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "izzy-roland",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "b-dave-walters",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "scifi-books",
+					"topicDetails": [
+						"The Invisible Man (H.G. Wells)"
+					],
+					"winners": [
+						"carlos-luna"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"topicDetails": [
+						"Pirates of the Caribbean: Curse of the Black Pearl"
+					],
+					"winners": [
+						"b-dave-walters"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "star-trek",
+					"winners": [
+						"izzy-roland"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Crash Bandicoot"
+					],
+					"submittedBy": "MarioToast",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "TV Time",
+					"shiny": true,
+					"winners": [
+						"carlos-luna"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "video-games",
+					"topicDetails": [
+						"Zombies Ate My Neighbors (1993 video game)"
+					],
+					"winners": [
+						"carlos-luna"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "spider-man",
+					"winners": [
+						"b-dave-walters"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "scifi-books",
+					"topicDetails": [
+						"I Have No Mouth and I Must Scream (Harlan Ellison)"
+					],
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "Name That Frog",
+					"shiny": true,
+					"winners": [
+						"b-dave-walters"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"topicDetails": [
+						"The Host (Bong Jooh-Ho film)"
+					],
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "video-games",
+					"topicDetails": [
+						"Katamari Damacy"
+					],
+					"winners": [
+						"carlos-luna"
+					]
+				},
+				{
+					"number": 12,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"izzy-roland"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"carlos-luna"
 					]
 				}
 			]
