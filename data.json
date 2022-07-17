@@ -23,6 +23,10 @@
 		{
 			"number": "6",
 			"title": "Season 6"
+		},
+		{
+			"number": "7",
+			"title": "Season 7"
 		}
 	],
 	"people": [
@@ -874,6 +878,9 @@
 			"name": "Out Of Range"
 		},
 		{
+			"name": "PC Police"
+		},
+		{
 			"name": "Pitch Session"
 		},
 		{
@@ -923,6 +930,9 @@
 		},
 		{
 			"name": "They Say The Best Swords Have Names"
+		},
+		{
+			"name": "This or That"
 		},
 		{
 			"name": "Tic Tac Tec"
@@ -1044,6 +1054,10 @@
 		{
 			"id": "avatar-the-last-airbender",
 			"name": "Avatar: The Last Airbender"
+		},
+		{
+			"id": "babylon-5",
+			"name": "Babylon 5"
 		},
 		{
 			"id": "back-to-the-future",
@@ -17041,6 +17055,145 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"carlos-luna"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s07e01",
+			"title": "Spongebob, Lord of the Rings, The Twilight Zone",
+			"description": "Oops, all loud, opinionated, center stagers! Featuring Brennan, Adam Conover, and Jon Gabrus.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/spongebob-lord-of-the-rings-the-twilight-zone",
+			"thumbnail_landscape": "images/s07e01.jpg",
+			"duration": 2153,
+			"number": "1",
+			"season_number": "7",
+			"release_date": "2022-07-15",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "brennan-lee-mulligan",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "adam-conover",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jon-gabrus",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "spongebob",
+					"winners": [
+						"jon-gabrus"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "tv",
+					"topicDetails": [
+						"Severance"
+					],
+					"winners": [
+						"adam-conover"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "babylon-5",
+					"submittedBy": "Sovreignry",
+					"winners": [
+						"jon-gabrus"
+					]
+				},
+				{
+					"number": 5,
+					"title": "This or That",
+					"shiny": true,
+					"winners": [
+						"adam-conover"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "fantasy",
+					"topicDetails": [
+						"Wheel of Time"
+					],
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "scifi-books",
+					"topicDetails": [
+						"Murderbot"
+					],
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "x-men",
+					"winners": [
+						"jon-gabrus"
+					]
+				},
+				{
+					"number": 9,
+					"title": "PC Police",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "final-fantasy",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "twilight-zone",
+					"winners": [
+						"brennan-lee-mulligan",
+						"adam-conover"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "movies",
+					"title": "Under Review",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"jon-gabrus"
 					]
 				}
 			]
