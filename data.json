@@ -203,6 +203,10 @@
 			"name": "Erika Ishii"
 		},
 		{
+			"id": "glenn-boozan",
+			"name": "Glenn Boozan"
+		},
+		{
 			"id": "grant-obrien",
 			"name": "Grant O'Brien"
 		},
@@ -893,6 +897,9 @@
 			"name": "Real Life Skills"
 		},
 		{
+			"name": "Reality Bites"
+		},
+		{
 			"name": "Rose Madder By Any Other Name"
 		},
 		{
@@ -939,6 +946,9 @@
 		},
 		{
 			"name": "Time Travel Maps"
+		},
+		{
+			"name": "To Be Real"
 		},
 		{
 			"name": "TV Time"
@@ -1670,6 +1680,10 @@
 		{
 			"id": "ranma",
 			"name": "Ranma 1/2"
+		},
+		{
+			"id": "reality-tv",
+			"name": "Reality TV"
 		},
 		{
 			"id": "red-dwarf",
@@ -17194,6 +17208,162 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"jon-gabrus"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s07e02",
+			"title": "Reality TV",
+			"description": "Glenn Boozan, Krystina Arielle, and Izzy Roland enter the Bravo-verse.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/reality-tv",
+			"thumbnail_landscape": "images/s07e02.jpg",
+			"duration": 2083,
+			"number": "2",
+			"season_number": "7",
+			"release_date": "2022-07-29",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "glenn-boozan",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "krystina-arielle",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "izzy-roland",
+					"score": 6
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"Flavor of Love"
+					],
+					"winners": [
+						"izzy-roland"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"Real Housewives"
+					],
+					"winners": [
+						"izzy-roland"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"RuPaul's Drag Race"
+					],
+					"winners": [
+						"glenn-boozan"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"The Amazing Race"
+					],
+					"submittedBy": "Dahn",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"topic": "reality-tv",
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"glenn-boozan"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"Survivor"
+					],
+					"winners": [
+						"izzy-roland"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"The Real World"
+					],
+					"winners": [
+						"glenn-boozan"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"Jersey Shore"
+					],
+					"winners": []
+				},
+				{
+					"number": 9,
+					"topic": "reality-tv",
+					"title": "Reality Bites",
+					"shiny": true,
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"The Bachelor (Franchise)"
+					],
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"Top Chef"
+					],
+					"winners": [
+						"izzy-roland"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "reality-tv",
+					"title": "To Be Real",
+					"shiny": true,
+					"winners": [
+						"izzy-roland"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"izzy-roland"
 					]
 				}
 			]
