@@ -491,6 +491,10 @@
 			"name": "Owen Parsons"
 		},
 		{
+			"id": "persephone-valentine",
+			"name": "Persephone Valentine"
+		},
+		{
 			"id": "rachel-bloom",
 			"name": "Rachel Bloom"
 		},
@@ -811,6 +815,9 @@
 		},
 		{
 			"name": "Name That Elf"
+		},
+		{
+			"name": "Name That Evil Corporate Executive"
 		},
 		{
 			"name": "Name That Expansion"
@@ -1732,6 +1739,10 @@
 		{
 			"id": "sandman",
 			"name": "The Sandman"
+		},
+		{
+			"id": "scifi",
+			"name": "Science-fiction"
 		},
 		{
 			"id": "scifi-aliens",
@@ -17365,6 +17376,146 @@
 					"winners": [
 						"izzy-roland"
 					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s07e03",
+			"title": "Loki, Gargoyles, Avenue 5",
+			"description": "Amy Vorpahl, Aabria Iyengar, and Persephone Valentine learn exactly three phrases in German.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/loki-gargoyles-avenue-5",
+			"thumbnail_landscape": "images/s07e03.jpg",
+			"duration": 2041,
+			"number": "3",
+			"season_number": "7",
+			"release_date": "2022-08-12",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "amy-vorpahl",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "aabria-iyengar",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "persephone-valentine",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "mcu",
+					"topicDetails": [
+						"Loki (series)"
+					],
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"topicDetails": [
+						"Sorry to Bother You"
+					],
+					"winners": [
+						"aabria-iyengar"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "the-simpsons",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "doctor-who",
+					"submittedBy": "Ganonthegreat",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "cartoons",
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"aabria-iyengar"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "gargoyles",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "zelda",
+					"winners": [
+						"aabria-iyengar"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "scifi",
+					"topicDetails": [
+						"Avenue 5"
+					],
+					"winners": [
+						"aabria-iyengar"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Name That Evil Corporate Executive",
+					"shiny": true,
+					"winners": [
+						"persephone-valentine"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"topicDetails": [
+						"Tenet"
+					],
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "godzilla",
+					"topicDetails": [
+						"Godzilla vs. Gigan"
+					],
+					"winners": [
+						"persephone-valentine"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"aabria-iyengar"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
