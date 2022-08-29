@@ -243,6 +243,10 @@
 			"name": "Ify Nwadiwe"
 		},
 		{
+			"id": "ivan-van-norman",
+			"name": "Ivan Van Norman"
+		},
+		{
 			"id": "izzy-roland",
 			"name": "Izzy Roland"
 		},
@@ -727,6 +731,9 @@
 			"name": "Doom Doctor"
 		},
 		{
+			"name": "Dopplegang Up"
+		},
+		{
 			"name": "Dr. Cop, Esq."
 		},
 		{
@@ -1119,6 +1126,10 @@
 		{
 			"id": "book-of-mormon",
 			"name": "Book of Mormon"
+		},
+		{
+			"id": "books",
+			"name": "Books"
 		},
 		{
 			"id": "borderlands",
@@ -17510,6 +17521,158 @@
 					"shiny": true,
 					"winners": [
 						"aabria-iyengar"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s07e04",
+			"title": "Preschool Television",
+			"description": "Dads Ivan Van Norman, Ify Nwadiwe, and Caldwell Tanner see who knows their kids' favorite shows best.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/preschool-television",
+			"thumbnail_landscape": "images/s07e04.jpg",
+			"duration": 2136,
+			"number": "4",
+			"season_number": "7",
+			"release_date": "2022-08-26",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "ivan-van-norman",
+					"score": 0
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "ify-nwadiwe",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "caldwell-tanner",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "tv",
+					"topicDetails": [
+						"Sesame Street",
+						"Count von Count (Sesame Street character)"
+					],
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Pinkfong"
+					],
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Bluey"
+					],
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Blues Clues",
+						"Blues Clues And You"
+					],
+					"submittedBy": "Peter S. Svensson",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"topic": "cartoons",
+					"title": "Dopplegang Up",
+					"topicDetails": [
+						"Cocomelon"
+					],
+					"shiny": true,
+					"winners": [
+						"caldwell-tanner"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Peppa Pig"
+					],
+					"winners": [
+						"caldwell-tanner"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "books",
+					"topicDetails": [
+						"Children's books",
+						"Eric Carle (author)"
+					],
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Mickey Mouse Clubhouse"
+					],
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 9,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"topicDetails": [
+						"Encanto"
+					],
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Paw Patrol"
+					],
+					"winners": [
+						"caldwell-tanner"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"ify-nwadiwe"
 					]
 				},
 				{
