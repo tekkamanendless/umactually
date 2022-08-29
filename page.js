@@ -143,8 +143,24 @@ function renderPage(stats, filters) {
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
-			newColumn.className = "person host";
-			newColumn.appendChild(createFilterLink(episode.host_name, { type: "person", id: episode.host, role: "host" }));
+			newColumn.className = "center"
+			{
+				let div = document.createElement('div');
+				div.className = "person host";
+				div.appendChild(createFilterLink(episode.host_name, { type: "person", id: episode.host, role: "host" }));
+				newColumn.appendChild(div);
+
+				if (episode.fact_checker) {
+					div = document.createElement('div');
+					div.appendChild(document.createTextNode('/'));
+					newColumn.appendChild(div);
+
+					div = document.createElement('div');
+					div.className = "person fact-checker";
+					div.appendChild(createFilterLink(episode.fact_checker_name, { type: "person", id: episode.fact_checker, role: "fact-checker" }));
+					newColumn.appendChild(div);
+				}
+			}
 			newRow.appendChild(newColumn);
 
 			newColumn = document.createElement("td");
@@ -369,6 +385,13 @@ function renderPage(stats, filters) {
 			newColumn.className = "number";
 			if (person.times_hosted.length) {
 				newColumn.appendChild(createFilterLink(person.times_hosted.length, { type: "person", id: person.id, role: "host" }));
+			}
+			newRow.appendChild(newColumn);
+
+			newColumn = document.createElement("td");
+			newColumn.className = "number";
+			if (person.times_fact_checked.length) {
+				newColumn.appendChild(createFilterLink(person.times_fact_checked.length, { type: "person", id: person.id, role: "fact-checker" }));
 			}
 			newRow.appendChild(newColumn);
 
@@ -684,6 +707,11 @@ function seasonPassesFilter(season, filters) {
 							match = false;
 						}
 						break;
+					case "fact-checker":
+						if (!season.factCheckers.includes(filter.id)) {
+							match = false;
+						}
+						break;
 					case "player":
 						if (!season.players.includes(filter.id)) {
 							match = false;
@@ -742,7 +770,7 @@ function seasonPassesFilter(season, filters) {
 						}
 						break;
 					default:
-						console.warn("seasonPassesFilter: Unhandled person role:", filter.role);
+						console.warn("seasonPassesFilter: Unhandled team role:", filter.role);
 						match = false;
 				}
 				break;
@@ -780,6 +808,11 @@ function episodePassesFilter(episode, filters) {
 				switch (filter.role) {
 					case "host":
 						if (episode.host != filter.id) {
+							match = false;
+						}
+						break;
+					case "fact-checker":
+						if (episode.fact_checker != filter.id) {
 							match = false;
 						}
 						break;
@@ -841,7 +874,7 @@ function episodePassesFilter(episode, filters) {
 						}
 						break;
 					default:
-						console.warn("episodePassesFilter: Unhandled person role:", filter.role);
+						console.warn("episodePassesFilter: Unhandled team role:", filter.role);
 						match = false;
 				}
 				break;
@@ -1057,6 +1090,7 @@ function computeStats(data) {
 		let season = JSON.parse(JSON.stringify(data.seasons[i]));
 		season.episodes = [];
 		season.hostMap = {};
+		season.factCheckerMap = {};
 		season.playerMap = {};
 		season.teamMap = {};
 		season.firstMap = {};
@@ -1071,6 +1105,7 @@ function computeStats(data) {
 	for (let i = 0; i < data.people.length; i++) {
 		let person = JSON.parse(JSON.stringify(data.people[i]));
 		person.times_hosted = [];
+		person.times_fact_checked = [];
 		person.times_played = [];
 		person.times_first = [];
 		person.times_second = [];
@@ -1161,6 +1196,15 @@ function computeStats(data) {
 		peopleMap[hostId].times_hosted.push(episode.dropouttv_productid);
 		peopleMap[hostId].appearances.push(episode.dropouttv_productid);
 		seasonMap[episode.season_number].hostMap[hostId] = true;
+
+		let factCheckerId = episode.fact_checker;
+		if (factCheckerId) {
+			episode.fact_checker_name = peopleMap[factCheckerId].name;
+
+			peopleMap[factCheckerId].times_fact_checked.push(episode.dropouttv_productid);
+			peopleMap[factCheckerId].appearances.push(episode.dropouttv_productid);
+			seasonMap[episode.season_number].factCheckerMap[factCheckerId] = true;
+		}
 
 		let scores = [];
 		if (Array.isArray(episode.players)) {
@@ -1396,6 +1440,12 @@ function computeStats(data) {
 		}
 		delete season.hostMap;
 
+		season.factCheckers = [];
+		for (let key in season.factCheckerMap) {
+			season.factCheckers.push(key);
+		}
+		delete season.factCheckerMap;
+
 		season.players = [];
 		for (let key in season.playerMap) {
 			season.players.push(key);
@@ -1445,17 +1495,27 @@ function computeStats(data) {
 function renderCharts(stats) {
 	renderChartRuntimes(document.getElementById('chart-runtimes').getContext('2d'));
 	renderChartTotalPoints(document.getElementById('chart-points').getContext('2d'));
+	renderChartPlayerWins(document.getElementById('chart-wins').getContext('2d'));
 }
 
 function renderChartRuntimes(ctx) {
-	let xValues = [];
-	let yValues = [];
-	let yValuesRaw = [];
+	let items = [];
 
 	stats.episodes.forEach(episode => {
-		xValues.push(episode.season_and_number);
-		yValues.push(episode.duration / 60);
-		yValuesRaw.push(episode.duration);
+		items.push({
+			id: episode.dropouttv_productid,
+			season_and_number: episode.season_and_number,
+			durationInSeconds: episode.duration,
+			durationInMinutes: episode.duration / 60,
+		});
+	});
+
+	let xValues = [];
+	let yValues = [];
+
+	items.forEach(item => {
+		xValues.push(item.season_and_number);
+		yValues.push(item.durationInMinutes);
 	});
 
 	let chart = new Chart(ctx, {
@@ -1477,12 +1537,38 @@ function renderChartRuntimes(ctx) {
 			animation: {
 				duration: 0,
 			},
+			legend: {
+				// TODO: This doesn't seem to work.
+				onClick: function (e) {
+					console.log("e:", e);
+					console.log("arguments:", arguments);
+				},
+			},
 			maintainAspectRatio: false,
+			onClick: function (e) {
+				//console.log("e:", e);
+				const activePoints = chart.getElementsAtEventForMode(e, 'nearest', {
+					intersect: true
+				}, false);
+				//console.log("activePoints:", activePoints);
+				if (activePoints.length == 0) {
+					return;
+				}
+				let index = activePoints[0]._index;
+				let filter = { type: "episode", id: items[index].id, role: "*" };
+
+				let newFilter = !hasFilter(filter);
+				if (newFilter) {
+					addFilter(filter);
+				} else {
+					removeFilter(filter);
+				}
+			},
 			tooltips: {
 				callbacks: {
 					// Render the runtime as ""##m##s".
 					label: function (tooltipItem, data) {
-						let v = yValuesRaw[tooltipItem.index];
+						let v = items[tooltipItem.index].durationInSeconds;
 
 						let minutes = parseInt(v / 60);
 						let seconds = v % 60;
@@ -1505,8 +1591,7 @@ function renderChartRuntimes(ctx) {
 }
 
 function renderChartTotalPoints(ctx) {
-	let xValues = [];
-	let yValues = [];
+	let items = [];
 
 	stats.episodes.forEach(episode => {
 		let playerPoints = 0;
@@ -1518,8 +1603,18 @@ function renderChartTotalPoints(ctx) {
 			teamPoints = episode.teams.reduce((accumulator, team) => accumulator + team.score, 0);
 		}
 
-		xValues.push(episode.season_and_number);
-		yValues.push(playerPoints + teamPoints);
+		items.push({
+			id: episode.dropouttv_productid,
+			season_and_number: episode.season_and_number,
+			points: playerPoints + teamPoints,
+		});
+	});
+
+	let xValues = [];
+	let yValues = [];
+	items.forEach(item => {
+		xValues.push(item.season_and_number);
+		yValues.push(item.points);
 	});
 
 	let chart = new Chart(ctx, {
@@ -1541,7 +1636,130 @@ function renderChartTotalPoints(ctx) {
 			animation: {
 				duration: 0,
 			},
+			legend: {
+				// TODO: This doesn't seem to work.
+				onClick: function (e) {
+					console.log("e:", e);
+					console.log("arguments:", arguments);
+				},
+			},
 			maintainAspectRatio: false,
+			onClick: function (e) {
+				//console.log("e:", e);
+				const activePoints = chart.getElementsAtEventForMode(e, 'nearest', {
+					intersect: true
+				}, false);
+				//console.log("activePoints:", activePoints);
+				if (activePoints.length == 0) {
+					return;
+				}
+				let index = activePoints[0]._index;
+				let filter = { type: "episode", id: items[index].id, role: "*" };
+
+				let newFilter = !hasFilter(filter);
+				if (newFilter) {
+					addFilter(filter);
+				} else {
+					removeFilter(filter);
+				}
+			},
+		},
+	});
+}
+
+function renderChartPlayerWins(ctx) {
+	let items = [];
+
+	stats.people.forEach(person => {
+		let playerWins = 0;
+		if (Array.isArray(person.times_first)) {
+			playerWins = person.times_first.length;
+		}
+
+		items.push({
+			id: person.id,
+			name: person.name,
+			wins: playerWins
+		});
+	});
+
+	items.sort((left, right) => {
+		let difference = left.wins - right.wins;
+		if (difference < 0) {
+			return 1;
+		} else if (difference > 0) {
+			return -1;
+		}
+		return left.name.localeCompare(right.name);
+	});
+
+	if (items.length > 10) {
+		items = items.slice(0, 10);
+	}
+
+	let xValues = [];
+	let yValues = [];
+	items.forEach(point => {
+		xValues.push(point.name);
+		yValues.push(point.wins)
+	})
+
+	let chart = new Chart(ctx, {
+		// The type of chart we want to create
+		type: 'horizontalBar',
+		// The data for our dataset
+		data: {
+			labels: xValues,
+			datasets: [{
+				label: 'Player Wins',
+				data: yValues,
+				backgroundColor: 'rgba(0,0,0,0.3)',
+				borderColor: 'rgba(0,0,0,0.4)',
+				borderWidth: 1,
+			}],
+		},
+		// Configuration options go here
+		options: {
+			animation: {
+				duration: 0,
+			},
+			legend: {
+				// TODO: This doesn't seem to work.
+				onClick: function (e) {
+					console.log("e:", e);
+					console.log("arguments:", arguments);
+				},
+			},
+			maintainAspectRatio: false,
+			onClick: function (e) {
+				//console.log("e:", e);
+				const activePoints = chart.getElementsAtEventForMode(e, 'nearest', {
+					intersect: true
+				}, false);
+				//console.log("activePoints:", activePoints);
+				if (activePoints.length == 0) {
+					return;
+				}
+				let index = activePoints[0]._index;
+				let filter = { type: "person", id: items[index].id, role: "player" };
+
+				let newFilter = !hasFilter(filter);
+				if (newFilter) {
+					addFilter(filter);
+				} else {
+					removeFilter(filter);
+				}
+			},
+			scales: {
+				xAxes: [
+					{
+						display: true,
+						ticks: {
+							min: 0,
+						},
+					},
+				],
+			},
 		},
 	});
 }
