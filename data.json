@@ -135,6 +135,10 @@
 			"name": "Clint McElroy"
 		},
 		{
+			"id": "cody-ziglar",
+			"name": "Cody Ziglar"
+		},
+		{
 			"id": "damien-haas",
 			"name": "Damien Haas"
 		},
@@ -513,6 +517,10 @@
 		{
 			"id": "rekha-shankar",
 			"name": "Rekha Shankar"
+		},
+		{
+			"id": "riley-silverman",
+			"name": "Riley Silverman"
 		},
 		{
 			"id": "ryan-creamer",
@@ -17832,6 +17840,155 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"nick-marini"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s07e06",
+			"title": "Elden Ring, Chrono Trigger, Mobile Fighter G Gundam",
+			"description": "Riley, Zig, and Siobhan talk Chrono Trigger music, Shonda Rhimes, and more.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/elden-ring-chrono-trigger-mobile-fighter-g-gundam",
+			"thumbnail_landscape": "images/s07e06.jpg",
+			"duration": 1880,
+			"number": "6",
+			"season_number": "7",
+			"release_date": "2022-09-23",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "riley-silverman",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "cody-ziglar",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "siobhan-thompson",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "narnia",
+					"topicDetails": [
+						"The Magician's Nephew (C.S. Lewis novel)"
+					],
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "scifi",
+					"topicDetails": [
+						"She-Ra: Princesses of Power",
+						"Horizon Zero Dawn",
+						"World of Warcraft"
+					],
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "video-games",
+					"topicDetails": [
+						"Skyrim"
+					],
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "dnd",
+					"submittedBy": "Burt from Ohio",
+					"winners": [
+						"riley-silverman"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "video-games",
+					"topicDetails": [
+						"Eldenring"
+					],
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "gundam",
+					"topicDetails": [
+						"Mobile Fighter G Gundam"
+					],
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "scifi",
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "video-games",
+					"title": "Heads Up",
+					"shiny": true,
+					"winners": [
+						"riley-silverman",
+						"cody-ziglar",
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "video-games",
+					"topicDetails": [
+						"Control (2019 game)"
+					],
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "arthurian-myth",
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "monsters",
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"cody-ziglar"
 					]
 				}
 			]
