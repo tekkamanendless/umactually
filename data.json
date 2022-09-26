@@ -135,6 +135,10 @@
 			"name": "Clint McElroy"
 		},
 		{
+			"id": "damien-haas",
+			"name": "Damien Haas"
+		},
+		{
 			"id": "dan-black",
 			"name": "Dan Black"
 		},
@@ -681,6 +685,9 @@
 		},
 		{
 			"name": "A Movie By Its Poster"
+		},
+		{
+			"name": "A Rose By Any Other Name"
 		},
 		{
 			"name": "A Title Of Words"
@@ -17679,6 +17686,153 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s07e05",
+			"title": "Naruto, Wanderhome, Doom",
+			"description": "Nick Marini, B. Dave Walters, and Damien Haas make up a bunch of zombie names.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/naruto-wanderhome-doom",
+			"thumbnail_landscape": "images/s07e05.jpg",
+			"duration": 1689,
+			"number": "5",
+			"season_number": "7",
+			"release_date": "2022-09-09",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "nick-marini",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "b-dave-walters",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "damien-haas",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "movies",
+					"topicDetails": [
+						"The Mitchells vs The Machines"
+					],
+					"winners": [
+						"b-dave-walters"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"topicDetails": [
+						"Spirited Away"
+					],
+					"winners": [
+						"damien-haas"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "superman",
+					"topicDetails": [
+						"Darkseid (DC character)"
+					],
+					"winners": [
+						"nick-marini"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "naruto",
+					"submittedBy": "Graidy Schottmeier",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": [
+						"b-dave-walters"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "tabletop-games",
+					"topicDetails": [
+						"Wanderhome"
+					],
+					"winners": [
+						"nick-marini"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "game-of-thrones",
+					"topicDetails": [
+						"A Song of Ice and Fire"
+					],
+					"winners": [
+						"b-dave-walters"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "doom",
+					"winners": [
+						"damien-haas"
+					]
+				},
+				{
+					"number": 9,
+					"topicDetails": [
+						"Zombies (concept)"
+					],
+					"title": "A Rose By Any Other Name",
+					"shiny": true,
+					"winners": [
+						"b-dave-walters"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "avatar-the-last-airbender",
+					"winners": [
+						"b-dave-walters"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "dnd",
+					"winners": [
+						"nick-marini",
+						"damien-haas"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": [
+						"damien-haas"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"nick-marini"
+					]
 				}
 			]
 		}
