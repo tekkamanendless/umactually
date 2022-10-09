@@ -75,6 +75,10 @@
 			"name": "Andrew Rosas"
 		},
 		{
+			"id": "anthony-burch",
+			"name": "Anthony Burch"
+		},
+		{
 			"id": "b-dave-walters",
 			"name": "B. Dave Walters"
 		},
@@ -933,6 +937,9 @@
 		},
 		{
 			"name": "Rules Lawyer"
+		},
+		{
+			"name": "Saving Time"
 		},
 		{
 			"name": "So, Where Are You From?"
@@ -17990,6 +17997,156 @@
 					"winners": [
 						"cody-ziglar"
 					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s07e07",
+			"title": "Aqua Teen Hunger Force, Disco Elysium, Haikyuu!!",
+			"description": "Anthony, Jess, and Tao talk videogame cutscenes, Superman's weird powers, and more.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/aqua-teen-hunger-force-disco-elysium-haikyuu",
+			"thumbnail_landscape": "images/s07e07.jpg",
+			"duration": 1837,
+			"number": "7",
+			"season_number": "7",
+			"release_date": "2022-10-07",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "anthony-burch",
+					"score": 8
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "jessica-ross",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "tao-yang",
+					"score": 1
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Aqua Teen Hunger Force"
+					],
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "video-games",
+					"topicDetails": [
+						"Hades"
+					],
+					"winners": [
+						"anthony-burch"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "movies",
+					"topicDetails": [
+						"Time Travel",
+						"Bruce Willis"
+					],
+					"winners": [
+						"anthony-burch"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Scooby-Doo"
+					],
+					"submittedBy": "Evan & Sarah",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"topicDetails": [
+						"Time Travel"
+					],
+					"title": "Saving Time",
+					"shiny": true,
+					"winners": [
+						"anthony-burch",
+						"jessica-ross",
+						"tao-yang"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "superman",
+					"winners": [
+						"anthony-burch"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "video-games",
+					"topicDetails": [
+						"Disco Elysium"
+					],
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "tv",
+					"topicDetails": [
+						"Squid Game"
+					],
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "cartoons",
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"anthony-burch"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "anime",
+					"topicDetails": [
+						"Haikyuu!!"
+					],
+					"winners": [
+						"anthony-burch"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "sherlock-holmes",
+					"winners": [
+						"anthony-burch"
+					]
+				},
+				{
+					"number": 12,
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": [
+						"anthony-burch"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
