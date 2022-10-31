@@ -343,6 +343,10 @@
 			"name": "Kaitlin Thompson"
 		},
 		{
+			"id": "kara-klenk",
+			"name": "Kara Klenk"
+		},
+		{
 			"id": "karen-han",
 			"name": "Karen Han"
 		},
@@ -18147,6 +18151,162 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s07e08",
+			"title": "Scream, Uzumaki, Train To Busan",
+			"description": "Kelly, Markeia, and Kara take on Mike Trapp's spookiest horror media incorrect statements.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/scream-uzumaki-train-to-busan",
+			"thumbnail_landscape": "images/s07e08.jpg",
+			"duration": 1860,
+			"number": "8",
+			"season_number": "7",
+			"release_date": "2022-10-21",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "kelly-nugent",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "markeia-mccarty",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "kara-klenk",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Old (2021 film)"
+					],
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Hush (2016 film)",
+						"Don't Breathe (2016 film)"
+					],
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "horror",
+					"topicDetails": [
+						"Lesbian Vampire Killers (2009 film)"
+					],
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "horror",
+					"topicDetails": [
+						"Goosebumps"
+					],
+					"submittedBy": "Lexxon",
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "horror-movies",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"kara-klenk"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Train To Busan (2016 film)"
+					],
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "video-games",
+					"topicDetails": [
+						"Resident Evil Village (2021 video game)"
+					],
+					"winners": [
+						"kara-klenk"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "horror",
+					"topicDetails": [
+						"Uzumaki (1998 manga)"
+					],
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "horror",
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "stephen-king",
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Drag Me To Hell (2009 film)"
+					],
+					"winners": []
+				},
+				{
+					"number": 12,
+					"topic": "horror",
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"markeia-mccarty"
+					]
 				}
 			]
 		}
