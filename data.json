@@ -451,6 +451,10 @@
 			"name": "Michael Saltzman"
 		},
 		{
+			"id": "michelle-khare",
+			"name": "Michelle Khare"
+		},
+		{
 			"id": "michelle-nguyen-bradley",
 			"name": "Michelle Nguyen Bradley"
 		},
@@ -585,6 +589,10 @@
 		{
 			"id": "sungwon-cho",
 			"name": "SungWon Cho"
+		},
+		{
+			"id": "surena-marie",
+			"name": "Surena Marie"
 		},
 		{
 			"id": "talieson-jaffe",
@@ -1534,6 +1542,10 @@
 			"name": "Labyrinth"
 		},
 		{
+			"id": "language",
+			"name": "Language (human, made-up, or otherwise)"
+		},
+		{
 			"id": "last-of-us",
 			"name": "Last of Us"
 		},
@@ -1716,6 +1728,10 @@
 		{
 			"id": "predator",
 			"name": "Predator (Franchise)"
+		},
+		{
+			"id": "primal",
+			"name": "Genndy Tartakovsky's Primal"
 		},
 		{
 			"id": "princess-bride",
@@ -18307,6 +18323,146 @@
 					"winners": [
 						"markeia-mccarty"
 					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s07e09",
+			"title": "Primal, Ewoks, Detective Mike Trapp",
+			"description": "Surena, Danielle, and Michelle talk sunglasses, Steven Universe, and karma.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/primal-ewoks-detective-mike-trapp",
+			"thumbnail_landscape": "images/s07e09.jpg",
+			"duration": 1922,
+			"number": "9",
+			"season_number": "7",
+			"release_date": "2022-11-04",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "surena-marie",
+					"notes": "Surena said 'Um, so' on question 3 and was scooped by Michelle, who gave the point back.",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "danielle-radford",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "michelle-khare",
+					"notes": "Surena said 'Um, so' on question 3 and was scooped by Michelle, who gave the point back.",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "primal",
+					"winners": [
+						"surena-marie"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "star-wars",
+					"topicDetails": [
+						"Ewoks: The Battle for Endor"
+					],
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "tmnt",
+					"winners": [
+						"michelle-khare"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "tabletop-games",
+					"topicDetails": [
+						"Pathfinder"
+					],
+					"submittedBy": "@Chromois_",
+					"winners": [
+						"michelle-khare"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "movies",
+					"title": "Under Review",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 6,
+					"topic": "language",
+					"topicDetails": [
+						"The Dragon Prince",
+						"Skyrim",
+						"Earthsea Cycle"
+					],
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "dc",
+					"topicDetails": [
+						"Black Lightning"
+					],
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "steven-universe",
+					"winners": []
+				},
+				{
+					"number": 9,
+					"topic": "horror-movies",
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"surena-marie",
+						"michelle-khare"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "sailor-moon",
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "marvel",
+					"topicDetails": [
+						"Captain America"
+					],
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Saving Time",
+					"shiny": true,
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
