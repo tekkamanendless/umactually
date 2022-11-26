@@ -99,6 +99,10 @@
 			"name": "Benjamin Siemon"
 		},
 		{
+			"id": "beth-may",
+			"name": "Beth May"
+		},
+		{
 			"id": "betsy-sodaro",
 			"name": "Betsy Sodaro"
 		},
@@ -231,6 +235,10 @@
 			"name": "Frank Hejl"
 		},
 		{
+			"id": "freddie-wong",
+			"name": "Freddie Wong"
+		},
+		{
 			"id": "grae-drake",
 			"name": "Grae Drake"
 		},
@@ -309,6 +317,10 @@
 		{
 			"id": "jessica-ross",
 			"name": "Jessica Ross"
+		},
+		{
+			"id": "jimmy-wong",
+			"name": "Jimmy Wong"
 		},
 		{
 			"id": "joan-ford",
@@ -1892,6 +1904,10 @@
 		{
 			"id": "starship-troopers",
 			"name": "Starship Troopers"
+		},
+		{
+			"id": "station-11",
+			"name": "Station 11"
 		},
 		{
 			"id": "stephen-king",
@@ -18463,6 +18479,159 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s07e10",
+			"title": "Station Eleven, Marvin the Martian, Phantom of the Opera",
+			"description": "Jimmy, Beth, and Freddie talk cheat codes, Super Mario, and vampires.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/station-eleven-marvin-the-martian-phantom-of-the-opera",
+			"thumbnail_landscape": "images/s07e10.jpg",
+			"duration": 2058,
+			"number": "10",
+			"season_number": "7",
+			"release_date": "2022-11-18",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jimmy-wong",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "beth-may",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "freddie-wong",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "station-11",
+					"winners": [
+						"freddie-wong"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "video-games",
+					"topicDetails": [
+						"NBA Jam (1993 video game)"
+					],
+					"winners": [
+						"freddie-wong"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "mcu",
+					"topicDetails": [
+						"The Eternals (2021 film)"
+					],
+					"winners": [
+						"jimmy-wong"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "mtg",
+					"submittedBy": "The Travel Log",
+					"winners": [
+						"jimmy-wong"
+					]
+				},
+				{
+					"number": 5,
+					"topicDetails": [
+						"Vampires"
+					],
+					"title": "A Rose By Any Other Name",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 6,
+					"topic": "disney",
+					"topicDetails": [
+						"Daffy Duck",
+						"Duck Dodgers",
+						"Marvin the Martian"
+					],
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "super-mario",
+					"winners": [
+						"beth-may"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "musicals",
+					"topicDetails": [
+						"The Phantom of the Opera"
+					],
+					"winners": [
+						"freddie-wong"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "movies",
+					"topicDetails": [
+						"Conan the Barbarian"
+					],
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"freddie-wong"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "batman",
+					"winners": [
+						"beth-may"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "x-men",
+					"winners": [
+						"beth-may"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "movies",
+					"topicDetails": [
+						"Star Trek",
+						"DC",
+						"Marvel"
+					],
+					"title": "Venndemonium",
+					"shiny": true,
+					"winners": [
+						"jimmy-wong"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"jimmy-wong"
+					]
 				}
 			]
 		}
