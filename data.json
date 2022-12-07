@@ -239,6 +239,10 @@
 			"name": "Freddie Wong"
 		},
 		{
+			"id": "frosk",
+			"name": "Frosk"
+		},
+		{
 			"id": "grae-drake",
 			"name": "Grae Drake"
 		},
@@ -18632,6 +18636,153 @@
 					"winners": [
 						"jimmy-wong"
 					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s07e11",
+			"title": "Arcane, H.A.M.M.E.R., Sekiro",
+			"description": "Frosk, Fiona, and Carolyn draw redcaps, figure out alternate werewolf names, and salute the horrors of America.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/arcane-h-a-m-m-e-r-sekiro",
+			"thumbnail_landscape": "images/s07e11.jpg",
+			"duration": 2104,
+			"number": "11",
+			"season_number": "7",
+			"release_date": "2022-12-02",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "frosk",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "fiona-nova",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "carolyn-page",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "diablo",
+					"winners": [
+						"fiona-nova"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "tv",
+					"topicDetails": [
+						"League of Legends (video game)",
+						"Arcane (TV series)"
+					],
+					"winners": [
+						"frosk"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "the-matrix",
+					"topicDetails": [
+						"The Matrix: Revolutions"
+					],
+					"winners": [
+						"fiona-nova"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "star-wars",
+					"submittedBy": "pinkDoberman",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": [
+						"frosk",
+						"fiona-nova",
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Kipo and the Age of Wonderbeasts"
+					],
+					"winners": [
+						"frosk"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "marvel",
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "tv",
+					"topicDetails": [
+						"Castlevania (Netflix series)",
+						"Castlevania (video game series)"
+					],
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "dc",
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "video-games",
+					"topicDetails": [
+						"Sekiro: Shadows Die Twice"
+					],
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "one-piece",
+					"winners": [
+						"carolyn-page"
+					]
+				},
+				{
+					"number": 12,
+					"topicDetails": [
+						"Werewolves (mythical creatures)"
+					],
+					"title": "A Rose By Any Other Name",
+					"shiny": true,
+					"winners": [
+						"frosk"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
