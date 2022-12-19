@@ -18785,6 +18785,144 @@
 					"winners": []
 				}
 			]
+		},
+		{
+			"dropouttv_productid": "s07e12",
+			"title": "Our Flag Means Death, Marvel Swimsuit Issue, Corrupted Blood",
+			"description": "Amy, Brian, and Emma discuss procotts, himbos, and how villains apply for credit cards.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/our-flag-means-death-marvel-swimsuit-issue-corrupted-blood",
+			"thumbnail_landscape": "images/s07e12.jpg",
+			"duration": 1800,
+			"number": "12",
+			"season_number": "7",
+			"release_date": "2022-12-16",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "amy-dallen",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "brian-david-gilbert",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "emma-fyffe",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "avatar-the-last-airbender",
+					"winners": [
+						"brian-david-gilbert"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "sailor-moon",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "dragon-age",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "marvel",
+					"submittedBy": "Nobod_E and Matthew Cullen",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Brand Awareness",
+					"shiny": true,
+					"winners": [
+						"brian-david-gilbert"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "dnd",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "fantasy",
+					"topicDetails": [
+						"Fairy Tales (genre)",
+						"The Charmings (1998 sitcom)",
+						"The 10th Kingdom (2000 miniseries)"
+					],
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "world-of-warcraft",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 9,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"brian-david-gilbert"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"topicDetails": [
+						"Gods of Egypt (2016 film)"
+					],
+					"winners": [
+						"brian-david-gilbert"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "tv",
+					"topicDetails": [
+						"Our Flag Means Death (romcom)"
+					],
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "movies",
+					"title": "Needs More Pixels",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"emma-fyffe"
+					]
+				}
+			]
 		}
 	]
 }
