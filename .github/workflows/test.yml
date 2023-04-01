@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 16
       - name: Setup
-        run: install -g ajv-cli
+        run: npm install -g ajv-cli
       - name: Test
         run: ajv validate -s schema.json -d data.json
 
