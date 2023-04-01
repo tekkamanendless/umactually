@@ -1,8 +1,12 @@
-matrix:
+language: node_js
+os: linux
+dist: xenial
+node_js:
+  - "16"
+jobs:
   include:
-    - language: node_js
-      node_js:
-        - "10"
+    - name: lint
       before_script:
         - npm install -g ajv-cli
       script: ajv validate -s schema.json -d data.json
+
