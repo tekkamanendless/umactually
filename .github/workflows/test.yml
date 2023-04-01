@@ -1,0 +1,21 @@
+name: Test
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Go
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Setup
+        run: install -g ajv-cli
+      - name: Test
+        run: ajv validate -s schema.json -d data.json
+
