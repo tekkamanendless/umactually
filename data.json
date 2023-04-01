@@ -27,6 +27,10 @@
 		{
 			"number": "7",
 			"title": "Season 7"
+		},
+		{
+			"number": "8",
+			"title": "Season 8"
 		}
 	],
 	"people": [
@@ -757,6 +761,9 @@
 			"name": "Be Our Guest... Star"
 		},
 		{
+			"name": "Better Known As"
+		},
+		{
 			"name": "Brand Awareness"
 		},
 		{
@@ -908,6 +915,9 @@
 		},
 		{
 			"name": "Name That Santa"
+		},
+		{
+			"name": "Name That Ship"
 		},
 		{
 			"name": "Name That Toon"
@@ -18920,6 +18930,150 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"emma-fyffe"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s08e01",
+			"title": "Knights of the Old Republic, Howard the Duck, Westworld",
+			"description": "Brennan, Siobhan, and Ify discuss British cuisine, breaking the fourth wall and why ships are named with numerals.",
+			"url": "https://www.dropout.tv/um-actually/season:8/videos/knights-of-the-old-republic-howard-the-duck-westworld",
+			"thumbnail_landscape": "images/s08e01.jpg",
+			"duration": 2421,
+			"number": "1",
+			"season_number": "8",
+			"release_date": "2023-03-31",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "brennan-lee-mulligan",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "siobhan-thompson",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "ify-nwadiwe",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "tv",
+					"topicDetails": [
+						"Homeboys in Outer Space"
+					],
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "doctor-who",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "star-trek",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "kingdom-hearts",
+					"submittedBy": "Willy Bee",
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Where Am I?",
+					"shiny": true,
+					"winners": [
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "marvel",
+					"topicDetails": [
+						"Howard The Duck"
+					],
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "tv",
+					"topicDetails": [
+						"Westworld"
+					],
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "books",
+					"topicDetails": [
+						"Pinocchio"
+					],
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Better Known As",
+					"shiny": true,
+					"winners": [
+						"siobhan-thompson",
+						"ify-nwadiwe"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "star-wars",
+					"topicDetails": [
+						"Knights of the Old Republic"
+					],
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "watchmen",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Name That Ship",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"siobhan-thompson"
 					]
 				}
 			]
