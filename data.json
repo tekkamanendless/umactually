@@ -151,6 +151,10 @@
 			"name": "Cody Ziglar"
 		},
 		{
+			"id": "coy-jandreau",
+			"name": "Coy Jandreau"
+		},
+		{
 			"id": "damien-haas",
 			"name": "Damien Haas"
 		},
@@ -491,6 +495,10 @@
 			"name": "Morgan Lavandowska"
 		},
 		{
+			"id": "morgana-ignis",
+			"name": "Morgana Ignis"
+		},
+		{
 			"id": "mt",
 			"name": "MT"
 		},
@@ -723,6 +731,9 @@
 		},
 		{
 			"name": "A Book By Its Cover"
+		},
+		{
+			"name": "A Local Delicacy"
 		},
 		{
 			"name": "A Long Time Ago In A Galaxy Far Far Away"
@@ -1044,6 +1055,9 @@
 		},
 		{
 			"name": "We're Not So Different You And I"
+		},
+		{
+			"name": "What A Concept"
 		},
 		{
 			"name": "What's My Line?"
@@ -19075,6 +19089,150 @@
 					"winners": [
 						"siobhan-thompson"
 					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s08e02",
+			"title": "Mob Psycho 100, The Sandman, Lost in Space",
+			"description": "Matt, Coy, and Morgana talk franchises, dystopian empathy, and why there were so many cartoons about ducks in the nineties.",
+			"url": "https://www.dropout.tv/um-actually/season:8/videos/mob-psycho-100-the-sandman-lost-in-space",
+			"thumbnail_landscape": "images/s08e02.jpg",
+			"duration": 2111,
+			"number": "2",
+			"season_number": "8",
+			"release_date": "2023-04-14",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "matt-acevedo",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "coy-jandreau",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "morgana-ignis",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "star-wars",
+					"topicDetails": [
+						"Star Wars Episode IX: The Rise of Skywalker"
+					],
+					"winners": [
+						"coy-jandreau"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "anime",
+					"topicDetails": [
+						"Mob Psycho 100"
+					],
+					"winners": [
+						"matt-acevedo"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "scream",
+					"winners": [
+						"morgana-ignis"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "sandman",
+					"submittedBy": "Backwards_Chic",
+					"winners": [
+						"morgana-ignis"
+					]
+				},
+				{
+					"number": 5,
+					"title": "A Local Delicacy",
+					"shiny": true,
+					"winners": [
+						"morgana-ignis"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "halo",
+					"winners": [
+						"matt-acevedo"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Mighty Ducks: The Animated Series"
+					],
+					"winners": [
+						"matt-acevedo"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "video-games",
+					"topicDetails": [
+						"Stray"
+					],
+					"winners": [
+						"matt-acevedo"
+					]
+				},
+				{
+					"number": 9,
+					"title": "What A Concept",
+					"shiny": true,
+					"winners": [
+						"matt-acevedo"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "tv",
+					"topicDetails": [
+						"The Chilling Adventures of Sabrina"
+					],
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "scifi-movies",
+					"topicDetails": [
+						"Lost In Space (1997 film)"
+					],
+					"winners": [
+						"matt-acevedo"
+					]
+				},
+				{
+					"number": 12,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"coy-jandreau"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
