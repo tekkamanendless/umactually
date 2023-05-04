@@ -339,6 +339,10 @@
 			"name": "Joan Ford"
 		},
 		{
+			"id": "jon-braylock",
+			"name": "Jon Braylock"
+		},
+		{
 			"id": "jon-gabrus",
 			"name": "Jon Gabrus"
 		},
@@ -2100,6 +2104,10 @@
 		{
 			"id": "tv",
 			"name": "TV"
+		},
+		{
+			"id": "tv-dramas",
+			"name": "TV Dramas"
 		},
 		{
 			"id": "twilight",
@@ -19242,6 +19250,170 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s08e03",
+			"title": "TV Dramas",
+			"description": "Kait, Janie, and Jon discuss what makes a show prestige television.",
+			"url": "https://www.dropout.tv/um-actually/season:8/videos/tv-dramas",
+			"thumbnail_landscape": "images/s08e03.jpg",
+			"duration": 1866,
+			"number": "3",
+			"season_number": "8",
+			"release_date": "2023-04-28",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "kaitlin-thompson",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "janie-stolar",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jon-braylock",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "tv-dramas",
+					"topicDetails": [
+						"The Sopranos"
+					],
+					"winners": [
+						"kaitlin-thompson"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "tv-dramas",
+					"topicDetails": [
+						"The Bear"
+					],
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "tv-dramas",
+					"topicDetails": [
+						"Mad Men"
+					],
+					"winners": [
+						"janie-stolar"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "tv-dramas",
+					"topicDetails": [
+						"Fargo (TV series)",
+						"Fargo (film)"
+					],
+					"submittedBy": "Backwards_Chic",
+					"winners": [
+						"janie-stolar"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "tv-dramas",
+					"topicDetails": [
+						"Arrested Development",
+						"Succession"
+					],
+					"title": "This or That",
+					"shiny": true,
+					"winners": [
+						"jon-braylock"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "tv-dramas",
+					"topicDetails": [
+						"The West Wing"
+					],
+					"winners": [
+						"janie-stolar"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "tv-dramas",
+					"topicDetails": [
+						"The Wire"
+					],
+					"winners": [
+						"kaitlin-thompson"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "tv-dramas",
+					"topicDetails": [
+						"Six Feet Under"
+					],
+					"winners": [
+						"kaitlin-thompson"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "tv-dramas",
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": [
+						"jon-braylock"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "tv-dramas",
+					"topicDetails": [
+						"Succession"
+					],
+					"winners": [
+						"jon-braylock"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "tv-dramas",
+					"topicDetails": [
+						"Breaking Bad"
+					],
+					"winners": [
+						"kaitlin-thompson"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "tv-dramas",
+					"title": "Once More Without Feeling",
+					"shiny": true,
+					"winners": [
+						"kaitlin-thompson",
+						"jon-braylock"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"jon-braylock"
+					]
 				}
 			]
 		}
