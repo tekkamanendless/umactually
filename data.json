@@ -303,6 +303,10 @@
 			"name": "Jared Logan"
 		},
 		{
+			"id": "jasmine-bhullar",
+			"name": "Jasmine Bhullar"
+		},
+		{
 			"id": "jason-gong",
 			"name": "Jason Gong"
 		},
@@ -337,6 +341,10 @@
 		{
 			"id": "joan-ford",
 			"name": "Joan Ford"
+		},
+		{
+			"id": "johnny-stanton",
+			"name": "Johnny Stanton"
 		},
 		{
 			"id": "jon-braylock",
@@ -1013,16 +1021,19 @@
 			"name": "Sweep The Leg"
 		},
 		{
+			"name": "Tag Out"
+		},
+		{
+			"name": "Tag You're It"
+		},
+		{
 			"name": "Technical Difficulties"
 		},
 		{
 			"name": "Technically A Christmas Movie"
 		},
 		{
-			"name": "Tag Out"
-		},
-		{
-			"name": "Tag You're It"
+			"name": "Theocrazy"
 		},
 		{
 			"name": "They Say The Best Swords Have Names"
@@ -19413,6 +19424,152 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"jon-braylock"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s08e04",
+			"title": "Powerpuff Girls, What We Do in the Shadows, Orbital Blues",
+			"description": "Jasmine, Johnny, and Jamie (Amy) talk cancer mages, eating souls, and how failure can be fun.",
+			"url": "https://www.dropout.tv/um-actually/season:8/videos/powerpuff-girls-what-we-do-in-the-shadows-orbital-blues",
+			"thumbnail_landscape": "images/s08e04.jpg",
+			"duration": 2088,
+			"number": "4",
+			"season_number": "8",
+			"release_date": "2023-05-12",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jasmine-bhullar",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "johnny-stanton",
+					"score": 1
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "amy-vorpahl",
+					"score": 6
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "dnd",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"topicDetails": [
+						"Die Another Day (James Bond film)"
+					],
+					"winners": [
+						"jasmine-bhullar"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "super-mario",
+					"topicDetails": [
+						"Super Mario Bros. (original NES game)"
+					],
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Powerpuff Girls"
+					],
+					"submittedBy": "Bri Guy",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 5,
+					"title": "This or That",
+					"shiny": true,
+					"winners": [
+						"jasmine-bhullar"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "tv",
+					"topicDetails": [
+						"What We Do in the Shadows"
+					],
+					"winners": [
+						"jasmine-bhullar"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "greek-mythology",
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "tabletop-games",
+					"topicDetails": [
+						"Orbital Blues"
+					],
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "What A Concept",
+					"shiny": true,
+					"winners": [
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "batman",
+					"topicDetails": [
+						"Batman and Robin (film)"
+					],
+					"winners": [
+						"jasmine-bhullar"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "video-games",
+					"winners": [
+						"jasmine-bhullar"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Theocrazy",
+					"shiny": true,
+					"winners": [
+						"jasmine-bhullar",
+						"johnny-stanton",
+						"amy-vorpahl"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"amy-vorpahl"
 					]
 				}
 			]
