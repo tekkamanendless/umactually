@@ -1,3 +1,8 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
 .chart-container {
 	position: relative;
 	height: 30vh;
@@ -118,4 +123,31 @@ td.center {
 .topic-details {
 	font-style: italic;
 	font-size: 0.9em;
+}
+
+
+.toc {
+	background-color: lightgrey;
+	width: 200px;
+}
+
+.jump-button {
+	position: fixed;
+	display: flex;
+	bottom: 10px;
+	right: 10px;
+	width: 40px;
+	height: 40px;
+	background-color: lightblue;
+
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 100%;
+}
+
+.jump-button > a {
+	font-size: xx-large;
+	text-decoration: none;
+	color: black;
 }
