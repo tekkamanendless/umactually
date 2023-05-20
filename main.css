@@ -1,8 +1,3 @@
-html {
-	scroll-behavior: smooth;
-}
-
-
 .chart-container {
 	position: relative;
 	height: 30vh;
@@ -146,9 +141,12 @@ td.center {
 	border-radius: 100%;
 }
 
-.jump-button > a {
-	font-size: xx-large;
+.jump-button>a {
 	text-decoration: none;
 	color: black;
-	margin-bottom: 5px;
+}
+
+.jump-button>a>svg {
+	width: 30px;
+	height: 30px;
 }
