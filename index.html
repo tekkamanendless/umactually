@@ -2,11 +2,14 @@
 
 <head>
 	<title>"Um, Actually..." stats</title>
-	<meta name="description" content='This page provides stats about the College Humor web series "Um, Actually...".'>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=0.5,maximum-scale=3,user-scalable=yes">
-	<link rel="icon" href="images/um-actually.png" type="image/png" sizes="500x500">
-	<link href="main.css" rel="stylesheet">
+	<meta name="description" content='This page provides stats about the College Humor web series "Um, Actually...".' />
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width,height=device-height,initial-scale=1,minimum-scale=0.5,maximum-scale=3,user-scalable=yes" />
+	<link rel="icon" href="images/um-actually.png" type="image/png" sizes="500x500" />
+
+	<link href="main.css" rel="stylesheet" />
+
 	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3"></script>
 	<script src="page.js"></script>
 </head>
@@ -14,10 +17,26 @@
 <body onload="onPageLoaded();">
 	<h1>"Um, Actually..." stats</h1>
 	<p>
-		"Um, Actually..." is a web series produced by <a href="https://www.collegehumor.com">College Humor</a> and available on <a href="https://dropout.tv">DROPOUT</a>.
-		This page shows the stats about the show: winners, losers, scores, appearances, you name it.
+		"Um, Actually..." is a web series produced by <a href="https://www.collegehumor.com">College Humor</a> and
+		available on <a href="https://dropout.tv">DROPOUT</a>. This page shows the stats about the show: winners,
+		losers, scores, appearances, you name it.
 	</p>
-	<h2>Stats</h2>
+
+	<div class="toc">
+		<h3>Table of contents</h3>
+		<ul>
+			<li><a href="#stats">Stats</a></li>
+			<li><a href="#seasons">Seasons</a></li>
+			<li><a href="#episodes">Episodes</a></li>
+			<li><a href="#questions">Questions</a></li>
+			<li><a href="#people">People</a></li>
+			<li><a href="#teams">Teams</a></li>
+			<li><a href="#topics">Topics</a></li>
+			<li><a href="#titles">Titles</a></li>
+		</ul>
+	</div>
+
+	<h2 id="stats">Stats</h2>
 	<div>
 		<div class="chart-container">
 			<canvas id="chart-runtimes"></canvas>
@@ -30,7 +49,7 @@
 		</div>
 	</div>
 	<button id="clearfilters" onclick="clearFilters();">Clear filters</button>
-	<h2>Seasons</h2>
+	<h2 id="seasons">Seasons</h2>
 	<table>
 		<thead>
 			<tr>
@@ -41,10 +60,9 @@
 				<th>Teams</th>
 			</tr>
 		</thead>
-		<tbody id="seasons_tbody">
-		</tbody>
+		<tbody id="seasons_tbody"></tbody>
 	</table>
-	<h2>Episodes</h2>
+	<h2 id="episodes">Episodes</h2>
 	<table>
 		<thead>
 			<tr>
@@ -57,10 +75,9 @@
 				<th>Players</th>
 			</tr>
 		</thead>
-		<tbody id="episodes_tbody">
-		</tbody>
+		<tbody id="episodes_tbody"></tbody>
 	</table>
-	<h2>Questions</h2>
+	<h2 id="questions">Questions</h2>
 	<table>
 		<thead>
 			<tr>
@@ -71,10 +88,9 @@
 				<th>Winners</th>
 			</tr>
 		</thead>
-		<tbody id="questions_tbody">
-		</tbody>
+		<tbody id="questions_tbody"></tbody>
 	</table>
-	<h2>People</h2>
+	<h2 id="people">People</h2>
 	<table>
 		<thead>
 			<tr>
@@ -85,14 +101,20 @@
 				<th>First Place</th>
 				<th>Second Place</th>
 				<th>Third Place</th>
-				<th colspan="2"><abbr title="Time To First Point; this is the number of questions that it takes to score the first point for the player.  The parenthetical range is the spread for this value.">TTFP</abbr></th>
-				<th colspan="2"><abbr title="Average Score; this is the number of highest score for the player.  The parenthetical range is the spread for this value.">Average Score</abbr></th>
+				<th colspan="2">
+					<abbr
+						title="Time To First Point; this is the number of questions that it takes to score the first point for the player.  The parenthetical range is the spread for this value.">TTFP</abbr>
+				</th>
+				<th colspan="2">
+					<abbr
+						title="Average Score; this is the number of highest score for the player.  The parenthetical range is the spread for this value.">Average
+						Score</abbr>
+				</th>
 			</tr>
 		</thead>
-		<tbody id="people_tbody">
-		</tbody>
+		<tbody id="people_tbody"></tbody>
 	</table>
-	<h2>Teams</h2>
+	<h2 id="teams">Teams</h2>
 	<table>
 		<thead>
 			<tr>
@@ -104,10 +126,9 @@
 				<th>Third Place</th>
 			</tr>
 		</thead>
-		<tbody id="teams_tbody">
-		</tbody>
+		<tbody id="teams_tbody"></tbody>
 	</table>
-	<h2>Topics</h2>
+	<h2 id="topics">Topics</h2>
 	<table>
 		<thead>
 			<tr>
@@ -115,10 +136,9 @@
 				<th>Episodes</th>
 			</tr>
 		</thead>
-		<tbody id="topics_tbody">
-		</tbody>
+		<tbody id="topics_tbody"></tbody>
 	</table>
-	<h2>Titles</h2>
+	<h2 id="titles">Titles</h2>
 	<table>
 		<thead>
 			<tr>
@@ -126,14 +146,22 @@
 				<th>Episodes</th>
 			</tr>
 		</thead>
-		<tbody id="titles_tbody">
-		</tbody>
+		<tbody id="titles_tbody"></tbody>
 	</table>
 	<div class="footer">
 		<p>
-			This page is generated from the data provided by the <a href="https://github.com/tekkamanendless/umactually">tekkamanendless/umactually</a> repo on <a href="https://github.com/">GitHub</a>.
-			To make corrections or improvements, submit a pull request.
+			This page is generated from the data provided by the
+			<a href="https://github.com/tekkamanendless/umactually">tekkamanendless/umactually</a>
+			repo on <a href="https://github.com/">GitHub</a>. To make corrections or
+			improvements, submit a pull request.
 		</p>
+	</div>
+	<div class="jump-button">
+		<a href="#">
+			<svg viewbox="0 0 24 20">
+				<path d="M9 16h6v-6h4l-7-7-7 7h4zm-4">
+			</svg>
+		</a>
 	</div>
 </body>
 
