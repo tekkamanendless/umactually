@@ -451,6 +451,10 @@
 			"name": "Malika Lim Eubank"
 		},
 		{
+			"id": "mano-agapion",
+			"name": "Mano Agapion"
+		},
+		{
 			"id": "marina-mastros",
 			"name": "Marina Mastros"
 		},
@@ -1811,6 +1815,10 @@
 		{
 			"id": "rent",
 			"name": "Rent"
+		},
+		{
+			"id": "resident-evil",
+			"name": "Resident Evil (Franchise)"
 		},
 		{
 			"id": "rick-and-morty",
@@ -18338,7 +18346,7 @@
 				},
 				{
 					"number": 7,
-					"topic": "video-games",
+					"topic": "resident-evil",
 					"topicDetails": [
 						"Resident Evil Village (2021 video game)"
 					],
@@ -19570,6 +19578,147 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"amy-vorpahl"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s08e05",
+			"title": "Ready 2 Rumble Boxing, Grindhouse, Resident Evil: Afterlife",
+			"description": "Cody, Mano, and Jay talk about TSA pre-check, rude games, and trigonometry.",
+			"url": "https://www.dropout.tv/um-actually/season:8/videos/ready-2-rumble-boxing-grindhouse-resident-evil-afterlife",
+			"thumbnail_landscape": "images/s08e05.jpg",
+			"duration": 1866,
+			"number": "5",
+			"season_number": "8",
+			"release_date": "2023-05-26",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "cody-ziglar",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "mano-agapion",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jay-washington",
+					"score": 1
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "resident-evil",
+					"topicDetails": [
+						"Resident Evil: Afterlife (film)"
+					],
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "star-wars",
+					"winners": [
+						"mano-agapion"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "neverending-story",
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Microsoft Flight Simulator (2020 video game)"
+					],
+					"submittedBy": "Mark Stanton",
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 5,
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "walking-dead",
+					"winners": [
+						"mano-agapion"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "video-games",
+					"topicDetails": [
+						"Ready 2 Rumble Boxing (2000 video game)"
+					],
+					"winners": [
+						"mano-agapion"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "movies",
+					"topicDetails": [
+						"Grindhouse (2007 movie)"
+					],
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "video-games",
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "the-expanse",
+					"winners": [
+						"mano-agapion"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "books",
+					"topicDetails": [
+						"Peter and Wendy (J. M. Barrie novel)"
+					],
+					"winners": []
+				},
+				{
+					"number": 12,
+					"topic": "star-trek",
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"cody-ziglar"
 					]
 				}
 			]
