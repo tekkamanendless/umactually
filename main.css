@@ -124,6 +124,15 @@ td.center {
 .toc {
 	background-color: lightgrey;
 	width: 200px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.toc h3 {
+	margin: 0px;
+	padding: 0px;
 }
 
 .jump-button {
