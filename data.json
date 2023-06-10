@@ -19722,6 +19722,142 @@
 					]
 				}
 			]
+		},
+		{
+			"dropouttv_productid": "s08e06",
+			"title": "The Owl House, Solar Opposites, Segagaga",
+			"description": "Amy, Markeia, and Kelly ask the age old question: is it worse to sleep with your clone or your sibling?",
+			"url": "https://www.dropout.tv/um-actually/season:8/videos/the-owl-house-solar-opposites-segagaga",
+			"thumbnail_landscape": "images/s08e06.jpg",
+			"duration": 2099,
+			"number": "6",
+			"season_number": "8",
+			"release_date": "2023-06-09",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "amy-dallen",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "markeia-mccarty",
+					"score": 2
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "kelly-nugent",
+					"score": 1
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "star-wars",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "cartoons",
+					"topicDetails": [
+						"The Owl House"
+					],
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "scifi",
+					"topicDetails": [
+						"Orphan Black"
+					],
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "x-men",
+					"submittedBy": "Artemis",
+					"winners": [
+						"kelly-nugent"
+					]
+				},
+				{
+					"number": 5,
+					"title": "This or That",
+					"shiny": true,
+					"winners": [
+						"markeia-mccarty"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "video-games",
+					"topicDetails": [
+						"Segagaga (2001 video game)"
+					],
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "fifth-element",
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Solar Opposites"
+					],
+					"winners": []
+				},
+				{
+					"number": 9,
+					"topic": "mcu",
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "anime",
+					"topicDetails": [
+						"Ranking of Kings"
+					],
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "marvel",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
+				}
+			]
 		}
 	]
 }
