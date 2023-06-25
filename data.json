@@ -1043,6 +1043,9 @@
 			"name": "They Say The Best Swords Have Names"
 		},
 		{
+			"name": "This Is So Fake"
+		},
+		{
 			"name": "This or That"
 		},
 		{
@@ -19856,6 +19859,173 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s08e07",
+			"title": "Reality TV Volume 2",
+			"description": "Glenn, Krystina, and Izzy return to the Bravoverse and sing every Real Housewives song to Trapp.",
+			"url": "https://www.dropout.tv/um-actually/season:8/videos/reality-tv-volume-2",
+			"thumbnail_landscape": "images/s08e07.jpg",
+			"duration": 2187,
+			"number": "7",
+			"season_number": "8",
+			"release_date": "2023-06-23",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "glenn-boozan",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "krystina-arielle",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "izzy-roland",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"America's Next Top Model"
+					],
+					"winners": [
+						"izzy-roland"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"Survivor"
+					],
+					"winners": [
+						"glenn-boozan"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"DuPaul's Drag Race"
+					],
+					"winners": [
+						"izzy-roland"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"Big Brother"
+					],
+					"submittedBy": "MarmadukeVXS",
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"The Real Housewives (Franchise)"
+					],
+					"title": "Hear Me Roar",
+					"shiny": true,
+					"winners": [
+						"krystina-arielle",
+						"izzy-roland"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"The Circle"
+					],
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"The Real World: Seattle"
+					],
+					"winners": [
+						"izzy-roland"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"Claim to Fame"
+					],
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "reality-tv",
+					"title": "To Be Real",
+					"shiny": true,
+					"winners": [
+						"glenn-boozan"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"Megan Wants a Millionaire"
+					],
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"The Real Housewives (Franchise)"
+					],
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"RuPaul's Drag Race"
+					],
+					"title": "This Is So Fake",
+					"shiny": true,
+					"winners": [
+						"glenn-boozan"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"glenn-boozan"
+					]
 				}
 			]
 		}
