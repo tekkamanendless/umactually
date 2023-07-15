@@ -667,6 +667,10 @@
 			"name": "Trisha Hershberger"
 		},
 		{
+			"id": "vanessa-guerrero",
+			"name": "Vanessa Guerrero"
+		},
+		{
 			"id": "vernon-odemns",
 			"name": "Vernon X. Odemns"
 		},
@@ -924,6 +928,9 @@
 		},
 		{
 			"name": "Name That Grimoire"
+		},
+		{
+			"name": "Name That Horse"
 		},
 		{
 			"name": "Name That Mad Scientist"
@@ -20026,6 +20033,144 @@
 					"winners": [
 						"glenn-boozan"
 					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s08e08",
+			"title": "The Last Unicorn, Nope, A.E.W.",
+			"description": "Danielle, Michelle, and Vanessa talk about fizzy-fizzy boom magic, hot sauce names, and hate-reading. *Note: When filming the episode, something went wrong with recording Saltzman's audio. Our sound mixer did their best to clean it up.*",
+			"url": "https://www.dropout.tv/um-actually/season:8/videos/the-last-unicorn-nope-a-e-w",
+			"thumbnail_landscape": "images/s08e08.jpg",
+			"duration": 1832,
+			"number": "8",
+			"season_number": "8",
+			"release_date": "2023-07-07",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "danielle-radford",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "michelle-nguyen-bradley",
+					"score": 1
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "vanessa-guerrero",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "stephen-king",
+					"topicDetails": [
+						"The Shining"
+					],
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "the-last-unicorn",
+					"winners": [
+						"vanessa-guerrero"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "wrestling",
+					"topicDetails": [
+						"All Elite Wrestling"
+					],
+					"submittedBy": "@verrictv",
+					"winners": []
+				},
+				{
+					"number": 5,
+					"title": "Better Known As",
+					"shiny": true,
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Nope"
+					],
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "pokemon",
+					"winners": [
+						"vanessa-guerrero"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "star-trek",
+					"topicDetails": [
+						"Star Trek III: The Search for Spock"
+					],
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 9,
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 10,
+					"topic": "hunger-games",
+					"topicDetails": [
+						"Catching Fire"
+					],
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "mcu",
+					"winners": [
+						"vanessa-guerrero"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Name That Horse",
+					"shiny": true,
+					"winners": [
+						"michelle-nguyen-bradley",
+						"vanessa-guerrero"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
