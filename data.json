@@ -143,6 +143,10 @@
 			"name": "Chris Calilung"
 		},
 		{
+			"id": "chris-grace",
+			"name": "Chris Grace"
+		},
+		{
 			"id": "clint-mcelroy",
 			"name": "Clint McElroy"
 		},
@@ -541,6 +545,10 @@
 		{
 			"id": "nick-mundy",
 			"name": "Nick Mundy"
+		},
+		{
+			"id": "nikhil-clayton",
+			"name": "Nikhil Clayton"
 		},
 		{
 			"id": "noah-diamond",
@@ -20171,6 +20179,155 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s08e09",
+			"title": "American Horror Story, KaBlam!, Squid Game",
+			"description": "Chris, Emma, and Nikhil try to figure out what Count Dooku's first name is.",
+			"url": "https://www.dropout.tv/um-actually/season:8/videos/american-horror-story-kablam-squid-game",
+			"thumbnail_landscape": "images/s08e09.jpg",
+			"duration": 1953,
+			"number": "9",
+			"season_number": "8",
+			"release_date": "2023-07-21",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "chris-grace",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "emma-fyffe",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "nikhil-clayton",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "dragon-ball",
+					"topicDetails": [
+						"Dragonball Evolution (film)"
+					],
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "tv",
+					"topicDetails": [
+						"American Horror Story"
+					],
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "anime",
+					"topicDetails": [
+						"Howl's Moving Castle"
+					],
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "tv",
+					"topicDetails": [
+						"KABLAM! (Nickelodeon series)",
+						"They Might Be Giants (band)"
+					],
+					"submittedBy": "MokaLynx",
+					"winners": [
+						"nikhil-clayton"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "board-games",
+					"topicDetails": [
+						"Scrabble (board game)"
+					],
+					"title": "What's Wrong With This Picture?",
+					"shiny": true,
+					"winners": [
+						"nikhil-clayton"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "rick-and-morty",
+					"winners": [
+						"nikhil-clayton"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "dune",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "marvel",
+					"winners": [
+						"chris-grace"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Augh! My One Weakness",
+					"shiny": true,
+					"winners": [
+						"emma-fyffe",
+						"nikhil-clayton"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "tv",
+					"topicDetails": [
+						"Squid Game"
+					],
+					"winners": [
+						"chris-grace"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "comics",
+					"topicDetails": [
+						"Basketful of Heads"
+					],
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": [
+						"chris-grace",
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"chris-grace"
+					]
 				}
 			]
 		}
