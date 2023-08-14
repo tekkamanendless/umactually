@@ -1079,7 +1079,7 @@
 			"name": "This Is So Fake"
 		},
 		{
-			"name": "This or That"
+			"name": "This Or That"
 		},
 		{
 			"name": "Tic Tac Tec"
@@ -17324,7 +17324,7 @@
 				},
 				{
 					"number": 5,
-					"title": "This or That",
+					"title": "This Or That",
 					"shiny": true,
 					"winners": [
 						"adam-conover"
@@ -19392,7 +19392,7 @@
 						"Arrested Development",
 						"Succession"
 					],
-					"title": "This or That",
+					"title": "This Or That",
 					"shiny": true,
 					"winners": [
 						"jon-braylock"
@@ -19547,7 +19547,7 @@
 				},
 				{
 					"number": 5,
-					"title": "This or That",
+					"title": "This Or That",
 					"shiny": true,
 					"winners": [
 						"jasmine-bhullar"
@@ -19833,7 +19833,7 @@
 				},
 				{
 					"number": 5,
-					"title": "This or That",
+					"title": "This Or That",
 					"shiny": true,
 					"winners": [
 						"markeia-mccarty"
@@ -20483,7 +20483,7 @@
 				{
 					"number": 12,
 					"topic": "shakespeare",
-					"title": "This or That",
+					"title": "This Or That",
 					"shiny": true,
 					"winners": [
 						"ross-bryant"

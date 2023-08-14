@@ -20,5 +20,5 @@ There are three top-level objects:
 I recommend a simple HTTP server:
 
 ```
-python -m SimpleHTTPServer 8000
+python2 -m SimpleHTTPServer 8000
 ```
