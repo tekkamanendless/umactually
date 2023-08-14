@@ -111,6 +111,10 @@
 			"name": "Betsy Sodaro"
 		},
 		{
+			"id": "blaine-swen",
+			"name": "Blaine Swen"
+		},
+		{
 			"id": "brian-david-gilbert",
 			"name": "Brian David Gilbert"
 		},
@@ -345,6 +349,10 @@
 		{
 			"id": "joan-ford",
 			"name": "Joan Ford"
+		},
+		{
+			"id": "joey-bland",
+			"name": "Joey Bland"
 		},
 		{
 			"id": "johnny-stanton",
@@ -585,6 +593,10 @@
 		{
 			"id": "riley-silverman",
 			"name": "Riley Silverman"
+		},
+		{
+			"id": "ross-bryant",
+			"name": "Ross Bryant"
 		},
 		{
 			"id": "ryan-creamer",
@@ -851,6 +863,9 @@
 			"name": "G-O-N In 60 Seconds"
 		},
 		{
+			"name": "Haha, It Was Me All Along"
+		},
+		{
 			"name": "Heads Up"
 		},
 		{
@@ -996,6 +1011,9 @@
 		},
 		{
 			"name": "PC Police"
+		},
+		{
+			"name": "Perchance To Die"
 		},
 		{
 			"name": "Pitch Session"
@@ -1909,6 +1927,10 @@
 		{
 			"id": "shadowrun",
 			"name": "Shadowrun (Tabletop Game)"
+		},
+		{
+			"id": "shakespeare",
+			"name": "Shakespeare"
 		},
 		{
 			"id": "she-ra",
@@ -20327,6 +20349,151 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"chris-grace"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s08e10",
+			"title": "William Shakespeare",
+			"description": "Blaine, Ross, and Joey show off their knowledge of The Bard.",
+			"url": "https://www.dropout.tv/um-actually/season:8/videos/william-shakespeare",
+			"thumbnail_landscape": "images/s08e10.jpg",
+			"duration": 1786,
+			"number": "10",
+			"season_number": "8",
+			"release_date": "2023-08-04",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "blaine-swen",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "ross-bryant",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "joey-bland",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "shakespeare",
+					"winners": [
+						"ross-bryant"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "shakespeare",
+					"winners": [
+						"ross-bryant"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "shakespeare",
+					"topicDetails": [
+						"Henry V (Shakespeare play)"
+					],
+					"winners": [
+						"joey-bland"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "shakespeare",
+					"submittedBy": "@Tintinsel",
+					"winners": [
+						"joey-bland"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "shakespeare",
+					"title": "Perchance To Die",
+					"shiny": true,
+					"winners": [
+						"joey-bland"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "shakespeare",
+					"winners": [
+						"ross-bryant"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "shakespeare",
+					"topicDetails": [
+						"Romeo and Juliet (Shakespeare play)"
+					],
+					"winners": [
+						"blaine-swen"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "shakespeare",
+					"topicDetails": [
+						"Macbeth (Shakespeare play)"
+					],
+					"winners": [
+						"blaine-swen"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "shakespeare",
+					"title": "Haha, It Was Me All Along",
+					"shiny": true,
+					"winners": [
+						"joey-bland"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "shakespeare",
+					"topicDetails": [
+						"A Midsummer Night's Dream (Shakespeare play)"
+					],
+					"winners": [
+						"ross-bryant"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "shakespeare",
+					"winners": [
+						"blaine-swen"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "shakespeare",
+					"title": "This or That",
+					"shiny": true,
+					"winners": [
+						"ross-bryant"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"joey-bland"
 					]
 				}
 			]
