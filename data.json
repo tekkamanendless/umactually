@@ -563,6 +563,10 @@
 			"name": "Noah Diamond"
 		},
 		{
+			"id": "omar-najam",
+			"name": "Omar Najam"
+		},
+		{
 			"id": "orion-black",
 			"name": "Orion Black"
 		},
@@ -609,6 +613,10 @@
 		{
 			"id": "ryanni",
 			"name": "Ryanni"
+		},
+		{
+			"id": "saige-ryan",
+			"name": "Saige Ryan"
 		},
 		{
 			"id": "sam-bashor",
@@ -20494,6 +20502,143 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"joey-bland"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s08e11",
+			"title": "Picard, Contact, Legends of Tomorrow",
+			"description": "Saige, Omar, and Persephone discuss cortados, horror cartoons, and remind you to check your voter registration.",
+			"url": "https://www.dropout.tv/um-actually/season:8/videos/picard-contact-legends-of-tomorrow",
+			"thumbnail_landscape": "images/s08e11.jpg",
+			"duration": 1925,
+			"number": "11",
+			"season_number": "8",
+			"release_date": "2023-08-18",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "saige-ryan",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "omar-najam",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "persephone-valentine",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "the-matrix",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "saga",
+					"winners": [
+						"persephone-valentine"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "roald-dahl",
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "zelda",
+					"submittedBy": "spatialwarp",
+					"winners": [
+						"persephone-valentine"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": [
+						"omar-najam"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "doom",
+					"winners": [
+						"saige-ryan"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "scifi-movies",
+					"topicDetails": [
+						"Contact (1997 film)"
+					],
+					"winners": [
+						"persephone-valentine"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "dc",
+					"topicDetails": [
+						"Legends of Tomorrow"
+					],
+					"winners": [
+						"omar-najam"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"omar-najam"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "gremlins",
+					"topicDetails": [
+						"Gremlins 2: The New Batch"
+					],
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "star-trek",
+					"topicDetails": [
+						"Picard (TV series)"
+					],
+					"winners": [
+						"persephone-valentine"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "video-games",
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"saige-ryan"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"saige-ryan"
 					]
 				}
 			]
