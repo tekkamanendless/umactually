@@ -20642,6 +20642,148 @@
 					]
 				}
 			]
+		},
+		{
+			"dropouttv_productid": "s08e12",
+			"title": "Big Bird, Braindead, The Books of Magic",
+			"description": "Ryan, Jess, and Jess try not to break their buzzers and discover that God is canon.",
+			"url": "https://www.dropout.tv/um-actually/season:8/videos/big-bird-braindead-the-books-of-magic",
+			"thumbnail_landscape": "images/s08e12.jpg",
+			"duration": 1972,
+			"number": "12",
+			"season_number": "8",
+			"release_date": "2023-09-01",
+			"host": "mike-trapp",
+			"fact_checker": "michael-saltzman",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "ryan-creamer",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "jessica-ross",
+					"score": 1
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jessica-clemons",
+					"score": 6
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "video-games",
+					"topicDetails": [
+						"Darkest Dungeon (video game)"
+					],
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "battlestar",
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Friday The 13th (movie franchise)"
+					],
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "the-muppets",
+					"submittedBy": "@delilah_jk",
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "video-games",
+					"title": "Find The Fake",
+					"shiny": true,
+					"winners": [
+						"ryan-creamer"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "fantasy",
+					"topicDetails": [
+						"The Books of Magic (Neil Gaiman comic)"
+					],
+					"winners": [
+						"ryan-creamer"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "movies",
+					"topicDetails": [
+						"Braindead (Peter Jackson film)"
+					],
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "fantasy",
+					"topicDetails": [
+						"The Night Circus (Erin Morgenstern novel)"
+					],
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "Theocrazy",
+					"shiny": true,
+					"winners": [
+						"jessica-ross",
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "video-games",
+					"topicDetails": [
+						"Crash Bandicoot"
+					],
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "twilight-zone",
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "We're Not So Different You And I",
+					"shiny": true,
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"ryan-creamer"
+					]
+				}
+			]
 		}
 	]
 }
