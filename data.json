@@ -31,6 +31,10 @@
 		{
 			"number": "8",
 			"title": "Season 8"
+		},
+		{
+			"number": "9",
+			"title": "Season 9"
 		}
 	],
 	"people": [
@@ -781,6 +785,9 @@
 			"name": "A Book By Its Cover"
 		},
 		{
+			"name": "A Feast Of Stephens"
+		},
+		{
 			"name": "A Local Delicacy"
 		},
 		{
@@ -914,6 +921,9 @@
 		},
 		{
 			"name": "Mish-Mash Mix-Em-Up"
+		},
+		{
+			"name": "Miyazaki Or Miyazaki?"
 		},
 		{
 			"name": "Mounting Suspicion"
@@ -20781,6 +20791,149 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"ryan-creamer"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s09e01",
+			"title": "Curse of Strahd, The Holocron, Blaseball",
+			"description": "Erika, Jess, and Hector vie for winningest contestant and discuss 80s cartoon sidekicks.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/curse-of-strahd-the-holocron-blaseball",
+			"thumbnail_landscape": "images/s09e01.jpg",
+			"duration": 2289,
+			"number": "1",
+			"season_number": "9",
+			"release_date": "2024-02-27",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "erika-ishii",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "jessica-clemons",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "hector-navarro",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "movies",
+					"topicDetails": [
+						"The Invisible Man (1933 film)"
+					],
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "dnd",
+					"topicDetails": [
+						"Curse of Strahd (D&D campaign)"
+					],
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "star-wars",
+					"winners": [
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "resident-evil",
+					"topicDetails": [
+						"Resident Evil 4"
+					],
+					"submittedBy": "TheRigglee",
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "stephen-king",
+					"title": "A Feast Of Stephens",
+					"shiny": true,
+					"winners": [
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "spider-man",
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "he-man",
+					"winners": [
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "video-games",
+					"topicDetails": [
+						"Blaseball"
+					],
+					"winners": []
+				},
+				{
+					"number": 9,
+					"title": "Fictionary",
+					"shiny": true,
+					"winners": [
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "cartoons",
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "video-games",
+					"topicDetails": [
+						"Bloodborne"
+					],
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Miyazaki Or Miyazaki?",
+					"shiny": true,
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"erika-ishii",
+						"jessica-clemons"
 					]
 				}
 			]
