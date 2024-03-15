@@ -863,6 +863,9 @@
 			"name": "Earth 20XX"
 		},
 		{
+			"name": "Fantasy Pharma"
+		},
+		{
 			"name": "Fictionary"
 		},
 		{
@@ -1061,6 +1064,9 @@
 			"name": "So, Where Are You From?"
 		},
 		{
+			"name": "Somm, Actually"
+		},
+		{
 			"name": "Sp'el Ling Bi"
 		},
 		{
@@ -1071,6 +1077,9 @@
 		},
 		{
 			"name": "Super Saying"
+		},
+		{
+			"name": "Super Spirits"
 		},
 		{
 			"name": "Sweep The Leg"
@@ -2193,6 +2202,10 @@
 		{
 			"id": "twilight-zone",
 			"name": "The Twilight Zone"
+		},
+		{
+			"id": "um-actually",
+			"name": "Um, Actually..."
 		},
 		{
 			"id": "umbrella-academy",
@@ -20934,6 +20947,145 @@
 					"winners": [
 						"erika-ishii",
 						"jessica-clemons"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s09e02",
+			"title": "Pan-Galactic Gargle Blaster, Bubbling Bobbs, Blue Milk",
+			"description": "Saltzman, Lily, and Trapp test their foodie knowledge and argue what makes the best egg sandwich.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/pan-galactic-gargle-blaster-bubbling-bobbs-blue-milk",
+			"thumbnail_landscape": "images/s09e02.jpg",
+			"duration": 2459,
+			"number": "2",
+			"season_number": "9",
+			"release_date": "2024-03-05",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "michael-saltzman",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "lily-du",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "mike-trapp",
+					"score": 6
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "superheroes",
+					"title": "Super Spirits",
+					"shiny": true,
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "hitchhikers-guide",
+					"winners": [
+						"lily-du"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "fantasy",
+					"topicDetails": [
+						"Redwall (Brian Jacques series)"
+					],
+					"winners": [
+						"lily-du"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "dc",
+					"topicDetails": [
+						"Birds of Prey (And the Fantabulous Emancipation of One Harley Quinn"
+					],
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "dragon-age",
+					"submittedBy": "Harlen Sinclair",
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "star-trek",
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "star-wars",
+					"winners": [
+						"michael-saltzman"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "x-files",
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Fantasy Pharma",
+					"shiny": true,
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"topicDetails": [
+						"Only Yesterday (movie)"
+					],
+					"winners": [
+						"lily-du"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "um-actually",
+					"winners": [
+						"lily-du"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Somm, Actually",
+					"shiny": true,
+					"winners": [
+						"lily-du",
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"michael-saltzman"
 					]
 				}
 			]
