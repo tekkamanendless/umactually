@@ -379,6 +379,10 @@
 			"name": "Jordan Doll"
 		},
 		{
+			"id": "jujubee",
+			"name": "Jujubee"
+		},
+		{
 			"id": "julia-prescott",
 			"name": "Julia Prescott"
 		},
@@ -521,6 +525,10 @@
 		{
 			"id": "mike-trapp",
 			"name": "Mike Trapp"
+		},
+		{
+			"id": "monet-x-change",
+			"name": "Monét X Change"
 		},
 		{
 			"id": "morgan-lavandowska",
@@ -693,6 +701,10 @@
 		{
 			"id": "travis-mcelroy",
 			"name": "Travis McElroy"
+		},
+		{
+			"id": "trinity-taylor",
+			"name": "Trinity Taylor"
 		},
 		{
 			"id": "trisha-hershberger",
@@ -1013,6 +1025,9 @@
 			"name": "Needs More Pixels"
 		},
 		{
+			"name": "No Butts About It"
+		},
+		{
 			"name": "Not So Super"
 		},
 		{
@@ -1146,6 +1161,9 @@
 		},
 		{
 			"name": "What's My (Pickup) Line?"
+		},
+		{
+			"name": "What's The T?"
 		},
 		{
 			"name": "What's Wrong?"
@@ -1776,6 +1794,10 @@
 			"name": "Mummies Alive!"
 		},
 		{
+			"id": "music",
+			"name": "Music"
+		},
+		{
 			"id": "musicals",
 			"name": "Musicals"
 		},
@@ -1822,6 +1844,10 @@
 		{
 			"id": "one-punch-man",
 			"name": "One Punch Man"
+		},
+		{
+			"id": "outer-space",
+			"name": "Outer Space"
 		},
 		{
 			"id": "outlander",
@@ -21086,6 +21112,153 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"michael-saltzman"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s09e03",
+			"title": "Justice League, The Legend of Zelda, Animal Crossing",
+			"description": "Jujubee, Monét X Change, and Trinity Taylor identify superhero butts while Ify and Brian serve looks.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/justice-league-the-legend-of-zelda-animal-crossing",
+			"thumbnail_landscape": "images/s09e03.jpg",
+			"duration": 1789,
+			"number": "3",
+			"season_number": "9",
+			"release_date": "2024-03-26",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jujubee",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "monet-x-change",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "trinity-taylor",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "music",
+					"topicDetails": [
+						"The Monster Mash"
+					],
+					"winners": [
+						"monet-x-change"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "dc",
+					"winners": [
+						"monet-x-change"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "zelda",
+					"topicDetails": [
+						"The Legend of Zelda: A Link To The Past"
+					],
+					"winners": [
+						"trinity-taylor"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "gaming",
+					"topicDetails": [
+						"Pinball"
+					],
+					"submittedBy": "PsychedCrow",
+					"winners": [
+						"jujubee"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "superheroes",
+					"title": "No Butts About It",
+					"shiny": true,
+					"winners": [
+						"monet-x-change"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "outer-space",
+					"winners": []
+				},
+				{
+					"number": 7,
+					"topic": "video-games",
+					"topicDetails": [
+						"Animal Crossing"
+					],
+					"winners": [
+						"trinity-taylor"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Bugs Bunny"
+					],
+					"winners": [
+						"trinity-taylor"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Sp'el Ling Bi",
+					"shiny": true,
+					"winners": [
+						"jujubee"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "video-games",
+					"topicDetails": [
+						"Mortal Kombat"
+					],
+					"winners": [
+						"monet-x-change"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "star-trek",
+					"winners": [
+						"monet-x-change"
+					]
+				},
+				{
+					"number": 12,
+					"title": "What's The T?",
+					"shiny": true,
+					"winners": [
+						"trinity-taylor"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"monet-x-change"
 					]
 				}
 			]
