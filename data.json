@@ -723,6 +723,10 @@
 			"name": "Winston A. Marshall"
 		},
 		{
+			"id": "xavier-woods",
+			"name": "Xavier Woods"
+		},
+		{
 			"id": "zac-oyama",
 			"name": "Zac Oyama"
 		},
@@ -900,6 +904,9 @@
 		},
 		{
 			"name": "Hear Me Roar"
+		},
+		{
+			"name": "I Came, I Saw, I Conquered"
 		},
 		{
 			"name": "I Require Sustenance"
@@ -1110,6 +1117,9 @@
 		},
 		{
 			"name": "Technically A Christmas Movie"
+		},
+		{
+			"name": "The Last Acceptable Prejudice In A Galaxy Far, Far Away"
 		},
 		{
 			"name": "Theocrazy"
@@ -1640,6 +1650,10 @@
 		{
 			"id": "indiana-jones",
 			"name": "Indiana Jones"
+		},
+		{
+			"id": "internet",
+			"name": "Weird Internet details and lore"
 		},
 		{
 			"id": "invader-zim",
@@ -21259,6 +21273,158 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"monet-x-change"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s09e04",
+			"title": "Voltron, Conker's Bad Fur Day, G.I. Joe",
+			"description": "Jay, Austin, and Fiona discuss which video game characters are Black and why the Skywalkers are bad.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/voltron-conker-s-bad-fur-day-g-i-joe",
+			"thumbnail_landscape": "images/s09e04.jpg",
+			"duration": 2165,
+			"number": "4",
+			"season_number": "9",
+			"release_date": "2024-04-09",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jay-washington",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "xavier-woods",
+					"score": 7
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "fiona-nova",
+					"score": 1
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "halo",
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "anime",
+					"topicDetails": [
+						"Voltron"
+					],
+					"winners": [
+						"xavier-woods"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "video-games",
+					"topicDetails": [
+						"Conker's Bad Fur Day"
+					],
+					"winners": [
+						"xavier-woods"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Bloons TD 6"
+					],
+					"submittedBy": "searulean",
+					"winners": [
+						"fiona-nova"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "star-wars",
+					"title": "The Last Acceptable Prejudice In A Galaxy Far, Far Away",
+					"shiny": true,
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "cartoons",
+					"topicDetails": [
+						"G.I. Joe"
+					],
+					"winners": [
+						"xavier-woods"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "video-games",
+					"topicDetails": [
+						"Elden Ring"
+					],
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "thundercats",
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "movies",
+					"title": "Under Review",
+					"shiny": true,
+					"winners": [
+						"xavier-woods"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Casper the Friendly Ghost"
+					],
+					"winners": [
+						"xavier-woods"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "internet",
+					"topicDetails": [
+						"The bodybuilding.com how-many-days-in-a-week thread"
+					],
+					"winners": [
+						"jay-washington"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "video-games",
+					"title": "I Came, I Saw, I Conquered",
+					"shiny": true,
+					"winners": [
+						"xavier-woods"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"xavier-woods"
 					]
 				}
 			]
