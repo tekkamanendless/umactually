@@ -215,6 +215,10 @@
 			"name": "Eli Yudin"
 		},
 		{
+			"id": "elyse-willems",
+			"name": "Elyse Willems"
+		},
+		{
 			"id": "eme-ikwuakor",
 			"name": "Eme Ikwuakor"
 		},
@@ -862,6 +866,9 @@
 			"name": "Chimerical"
 		},
 		{
+			"name": "Choose Your Numbered Space Station Fighter"
+		},
+		{
 			"name": "Crunch Time"
 		},
 		{
@@ -1007,6 +1014,9 @@
 		},
 		{
 			"name": "Name That Martian"
+		},
+		{
+			"name": "Name That Mech"
 		},
 		{
 			"name": "Name That Monkey"
@@ -1163,6 +1173,9 @@
 		},
 		{
 			"name": "Wait, How Does This Work Again?!"
+		},
+		{
+			"name": "Wassa Motto U?"
 		},
 		{
 			"name": "We'll Just Have To Adapt"
@@ -21573,6 +21586,165 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"grant-obrien"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s09e06",
+			"title": "Yellowjackets, Metal Gear Solid, Castle in the Sky",
+			"description": "Dani, Elyse, and Danielle talk about juicy mouths, on the nose names, and Catholic school memories.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/yellowjackets-metal-gear-solid-castle-in-the-sky",
+			"thumbnail_landscape": "images/s09e06.jpg",
+			"duration": 1948,
+			"number": "6",
+			"season_number": "9",
+			"release_date": "2024-05-07",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "dani-fernandez",
+					"score": 7
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "elyse-willems",
+					"score": 1
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "danielle-radford",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "video-games",
+					"topicDetails": [
+						"Katamari Damacy (video game)"
+					],
+					"winners": [
+						"elyse-willems"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "tv",
+					"topicDetails": [
+						"Yellowjackets (TV series)"
+					],
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "scifi",
+					"topicDetails": [
+						"Alien vs. Predator: Requiem (film)"
+					],
+					"winners": [
+						"dani-fernandez"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Metal Gear Solid (video game franchise)"
+					],
+					"submittedBy": "LizardSuit",
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Name That Mech",
+					"shiny": true,
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "fantasy",
+					"topicDetails": [
+						"Castle Waiting (Linda Medley's graphic novel"
+					],
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "anime",
+					"topicDetails": [
+						"Studio Ghibli"
+					],
+					"winners": [
+						"dani-fernandez"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "video-games",
+					"topicDetails": [
+						"Hades"
+					],
+					"winners": [
+						"dani-fernandez"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Wassa Motto U?",
+					"shiny": true,
+					"winners": [
+						"dani-fernandez"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "marvel",
+					"winners": [
+						"dani-fernandez"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "movies",
+					"topicDetails": [
+						"The Maze Runner (film series)"
+					],
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "scifi",
+					"topicDetails": [
+						"Babylon 5",
+						"Deep Space 9"
+					],
+					"title": "Choose Your Numbered Space Station Fighter",
+					"shiny": true,
+					"winners": [
+						"dani-fernandez"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"dani-fernandez"
 					]
 				}
 			]
