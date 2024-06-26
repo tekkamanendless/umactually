@@ -319,6 +319,10 @@
 			"name": "Jared Logan"
 		},
 		{
+			"id": "jarvis-johnson",
+			"name": "Jarvis Johnson"
+		},
+		{
 			"id": "jasmine-bhullar",
 			"name": "Jasmine Bhullar"
 		},
@@ -377,6 +381,10 @@
 		{
 			"id": "jon-gutierrez",
 			"name": "Jon \"Gutes\" Gutierrez"
+		},
+		{
+			"id": "jordan-adika",
+			"name": "Jordan Adika"
 		},
 		{
 			"id": "jordan-doll",
@@ -911,6 +919,9 @@
 			"name": "Haha, It Was Me All Along"
 		},
 		{
+			"name": "Head Hunters"
+		},
+		{
 			"name": "Heads Up"
 		},
 		{
@@ -1100,6 +1111,9 @@
 			"name": "Saving Time"
 		},
 		{
+			"name": "Shipped or Ships"
+		},
+		{
 			"name": "So, Where Are You From?"
 		},
 		{
@@ -1161,6 +1175,9 @@
 		},
 		{
 			"name": "To Be Real"
+		},
+		{
+			"name": "Total Poser"
 		},
 		{
 			"name": "TV Time"
@@ -21914,6 +21931,149 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"haley-mancini"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s09e08",
+			"title": "GoBots, Pikmin, Sid Meier's Civilization",
+			"description": "Jordan, Jarvis, and Demi discuss why people love when a meanie and twink get together.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/gobots-pikmin-sid-meier-s-civilization",
+			"thumbnail_landscape": "images/s09e08.jpg",
+			"duration": 2033,
+			"number": "8",
+			"season_number": "9",
+			"release_date": "2024-06-04",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jordan-adika",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "jarvis-johnson",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "demi-adejuyigbe",
+					"score": 8
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "zelda",
+					"winners": [
+						"demi-adejuyigbe"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "gobots",
+					"winners": [
+						"demi-adejuyigbe"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "board-games",
+					"topicDetails": [
+						"Chess"
+					],
+					"winners": [
+						"demi-adejuyigbe"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Pikmin"
+					],
+					"submittedBy": "H2",
+					"winners": [
+						"demi-adejuyigbe"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Shipped or Ships",
+					"shiny": true,
+					"winners": [
+						"jarvis-johnson"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "video-games",
+					"topicDetails": [
+						"Sid Meier's Civilization"
+					],
+					"winners": [
+						"jarvis-johnson"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "wrestling",
+					"winners": [
+						"demi-adejuyigbe"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "movies",
+					"winners": [
+						"demi-adejuyigbe"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Total Poser",
+					"shiny": true,
+					"winners": [
+						"jordan-adika",
+						"jarvis-johnson"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "warhammer",
+					"winners": [
+						"jordan-adika"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "anime",
+					"topicDetails": [
+						"Getter Robo"
+					],
+					"winners": [
+						"demi-adejuyigbe"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Head Hunters",
+					"shiny": true,
+					"winners": [
+						"jordan-adika"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"demi-adejuyigbe"
 					]
 				}
 			]
