@@ -279,6 +279,10 @@
 			"name": "Haley Mancini"
 		},
 		{
+			"id": "harvey-guillen",
+			"name": "Harvey Guillén"
+		},
+		{
 			"id": "hector-navarro",
 			"name": "Hector Navarro"
 		},
@@ -381,6 +385,10 @@
 		{
 			"id": "jon-gutierrez",
 			"name": "Jon \"Gutes\" Gutierrez"
+		},
+		{
+			"id": "jonah-ray-rodrigues",
+			"name": "Jonah Ray Rodrigues"
 		},
 		{
 			"id": "jordan-adika",
@@ -541,6 +549,10 @@
 		{
 			"id": "mike-trapp",
 			"name": "Mike Trapp"
+		},
+		{
+			"id": "milana-vayntrub",
+			"name": "Milana Vayntrub"
 		},
 		{
 			"id": "monet-x-change",
@@ -1102,6 +1114,9 @@
 			"name": "Reality Bites"
 		},
 		{
+			"name": "Role Call"
+		},
+		{
 			"name": "Rose Madder By Any Other Name"
 		},
 		{
@@ -1109,6 +1124,9 @@
 		},
 		{
 			"name": "Saving Time"
+		},
+		{
+			"name": "Second's First"
 		},
 		{
 			"name": "Shipped or Ships"
@@ -1184,6 +1202,9 @@
 		},
 		{
 			"name": "Under Review"
+		},
+		{
+			"name": "Unmasked"
 		},
 		{
 			"name": "Venndemonium"
@@ -22075,6 +22096,150 @@
 					"winners": [
 						"demi-adejuyigbe"
 					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s09e09",
+			"title": "Boo, Actually!",
+			"description": "Jonah, Milana, and Harvey try to out buzzer each other while answering Ify's horror questions.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/boo-actually",
+			"thumbnail_landscape": "images/s09e09.jpg",
+			"duration": 1693,
+			"number": "9",
+			"season_number": "9",
+			"release_date": "2024-06-18",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jonah-ray-rodrigues",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "milana-vayntrub",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "harvey-guillen",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"The Wicker Man (1973 film)"
+					],
+					"winners": [
+						"milana-vayntrub"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Pet Semetary"
+					],
+					"winners": [
+						"jonah-ray-rodrigues"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Leprechaun 4: In Space"
+					],
+					"winners": [
+						"harvey-guillen"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"The Menu"
+					],
+					"submittedBy": "Peter the Human",
+					"winners": [
+						"milana-vayntrub"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "horror-movies",
+					"title": "Unmasked",
+					"shiny": true,
+					"winners": [
+						"jonah-ray-rodrigues"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "horror-movies",
+					"winners": [
+						"milana-vayntrub"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "horror-movies",
+					"winners": [
+						"jonah-ray-rodrigues"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "horror",
+					"winners": [
+						"jonah-ray-rodrigues"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Role Call",
+					"shiny": true,
+					"winners": [
+						"milana-vayntrub"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Hellraiser"
+					],
+					"winners": [
+						"milana-vayntrub"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "horror",
+					"winners": [
+						"jonah-ray-rodrigues"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Second's First",
+					"shiny": true,
+					"winners": [
+						"harvey-guillen"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
