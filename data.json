@@ -71,6 +71,10 @@
 			"name": "Alyssa Rousonelos"
 		},
 		{
+			"id": "amanda-lehan-canto",
+			"name": "Amanda Lehan-Canto"
+		},
+		{
 			"id": "amy-dallen",
 			"name": "Amy Dallen"
 		},
@@ -85,6 +89,10 @@
 		{
 			"id": "anthony-burch",
 			"name": "Anthony Burch"
+		},
+		{
+			"id": "azeem-jimoh",
+			"name": "Azeem Jimoh"
 		},
 		{
 			"id": "b-dave-walters",
@@ -949,6 +957,12 @@
 			"name": "I'd Give An Arm And A Leg"
 		},
 		{
+			"name": "Idle Hands"
+		},
+		{
+			"name": "In Space, No One Can Hear You Scream, But Everyone Knows Your Name"
+		},
+		{
 			"name": "In The Beginning"
 		},
 		{
@@ -1252,6 +1266,9 @@
 			"name": "Who's Your Daddy"
 		},
 		{
+			"name": "Winner, Winner, Critter Dinner"
+		},
+		{
 			"name": "Wrestling Lingo"
 		},
 		{
@@ -1414,6 +1431,10 @@
 		{
 			"id": "collectibles",
 			"name": "Collectibles"
+		},
+		{
+			"id": "columbo",
+			"name": "Columbo"
 		},
 		{
 			"id": "comics",
@@ -22240,6 +22261,150 @@
 					"number": 13,
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s09e10",
+			"title": "Glinda, Columbo, Inscryption",
+			"description": "Damien, Azeem, and Amanda rave over background extras and try to figure out what chuds are.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/glinda-columbo-inscryption",
+			"thumbnail_landscape": "images/s09e10.jpg",
+			"duration": 2015,
+			"number": "10",
+			"season_number": "9",
+			"release_date": "2024-07-02",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "damien-haas",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "azeem-jimoh",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "amanda-lehan-canto",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "spider-man",
+					"winners": [
+						"damien-haas"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"topicDetails": [
+						"Porco Rosso (1992 Miyazaki film)"
+					],
+					"winners": [
+						"damien-haas"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "wizard-of-oz",
+					"winners": [
+						"amanda-lehan-canto"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "warhammer",
+					"submittedBy": "@pwayman",
+					"winners": [
+						"azeem-jimoh"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "horror-movies",
+					"title": "Winner, Winner, Critter Dinner",
+					"shiny": true,
+					"winners": [
+						"amanda-lehan-canto"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "video-games",
+					"topicDetails": [
+						"Boyfriend Dungeon"
+					],
+					"winners": [
+						"azeem-jimoh"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "columbo",
+					"winners": [
+						"azeem-jimoh"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "music",
+					"topicDetails": [
+						"Kate Bush"
+					],
+					"winners": [
+						"damien-haas"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "video-games",
+					"title": "Idle Hands",
+					"shiny": true,
+					"winners": [
+						"damien-haas"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "tabletop-games",
+					"topicDetails": [
+						"Inscryption"
+					],
+					"winners": [
+						"damien-haas"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "ghostbusters",
+					"winners": [
+						"azeem-jimoh"
+					]
+				},
+				{
+					"number": 12,
+					"title": "In Space, No One Can Hear You Scream, But Everyone Knows Your Name",
+					"shiny": true,
+					"winners": [
+						"damien-haas"
+					]
+				},
+				{
+					"number": 13,
+					"title": "Real Life Skills",
+					"winners": [
+						"amanda-lehan-canto"
+					]
 				}
 			]
 		}
