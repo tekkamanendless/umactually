@@ -155,6 +155,10 @@
 			"name": "Carolyn Page"
 		},
 		{
+			"id": "charlotte-avery",
+			"name": "Charlotte Avery"
+		},
+		{
 			"id": "chris-calilung",
 			"name": "Chris Calilung"
 		},
@@ -888,6 +892,9 @@
 			"name": "But Can I Fuck It?"
 		},
 		{
+			"name": "Call Your Shots"
+		},
+		{
 			"name": "Categorical"
 		},
 		{
@@ -976,6 +983,9 @@
 		},
 		{
 			"name": "Mapmaker, Mapmaker, Make Me A Map"
+		},
+		{
+			"name": "MAS-GOTCHA"
 		},
 		{
 			"name": "Match The Voice"
@@ -1120,6 +1130,9 @@
 		},
 		{
 			"name": "Power Up"
+		},
+		{
+			"name": "Primary Colors"
 		},
 		{
 			"name": "Real Life Skills"
@@ -1993,6 +2006,10 @@
 			"name": "Ranma 1/2"
 		},
 		{
+			"id": "real-life",
+			"name": "Real life"
+		},
+		{
 			"id": "reality-tv",
 			"name": "Reality TV"
 		},
@@ -2546,6 +2563,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"caldwell-tanner"
@@ -2670,6 +2688,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"haley-mancini"
@@ -2788,6 +2807,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -2912,6 +2932,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"ify-nwadiwe"
@@ -3040,6 +3061,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"siobhan-thompson"
@@ -3167,6 +3189,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"zac-oyama"
@@ -3286,6 +3309,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"emily-axford"
@@ -3407,6 +3431,7 @@
 				},
 				{
 					"number": 12,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"amy-vorpahl"
@@ -3527,6 +3552,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"dan-black"
@@ -3652,6 +3678,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"siobhan-thompson"
@@ -3778,6 +3805,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"emily-heller"
@@ -3895,6 +3923,7 @@
 				},
 				{
 					"number": 12,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"brian-murphy"
@@ -4015,6 +4044,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"zach-kornfeld"
@@ -4144,6 +4174,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -4265,6 +4296,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"matt-kirshen"
@@ -4391,6 +4423,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"ify-nwadiwe"
@@ -4517,6 +4550,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -4642,6 +4676,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"haley-mancini"
@@ -4768,6 +4803,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -4892,6 +4928,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"maggie-mae-fish"
@@ -5020,6 +5057,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -5144,6 +5182,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"becca-scott"
@@ -5266,6 +5305,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"kirk-damato"
@@ -5393,6 +5433,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"emma-fyffe"
@@ -5519,6 +5560,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"ally-beardsley"
@@ -5645,6 +5687,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"siobhan-thompson"
@@ -5768,6 +5811,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -5893,6 +5937,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"siobhan-thompson"
@@ -6017,6 +6062,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"jessica-clemons"
@@ -6137,6 +6183,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"caldwell-tanner"
@@ -6264,6 +6311,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"amy-vorpahl"
@@ -6391,6 +6439,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"siobhan-thompson"
@@ -6518,6 +6567,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"brennan-lee-mulligan"
@@ -6767,6 +6817,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"ryanni"
@@ -6890,6 +6941,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"becca-scott"
@@ -7014,6 +7066,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -7135,6 +7188,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"ryan-martin"
@@ -7267,6 +7321,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"siobhan-thompson"
@@ -7393,6 +7448,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"liam-senior"
@@ -7522,6 +7578,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -7650,6 +7707,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"frank-hejl"
@@ -7794,6 +7852,7 @@
 				},
 				{
 					"number": 15,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"mike-drucker"
@@ -7919,6 +7978,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -8042,6 +8102,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"betsy-sodaro"
@@ -8168,6 +8229,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -8289,6 +8351,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"david-gallegos"
@@ -8411,6 +8474,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -8532,6 +8596,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"nick-marini"
@@ -8656,6 +8721,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"jessica-ross"
@@ -8778,6 +8844,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				},
@@ -8907,6 +8974,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -9024,6 +9092,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"tj-gonzalez"
@@ -9146,6 +9215,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"amy-vorpahl"
@@ -9268,6 +9338,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"kaitlin-and-jess",
@@ -9420,6 +9491,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"shane-crown"
@@ -9546,6 +9618,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"amy-dallen"
@@ -9675,6 +9748,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"winston-marshall"
@@ -9807,6 +9881,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"haley-mancini"
@@ -9928,6 +10003,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"liam-senior"
@@ -10050,6 +10126,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"jon-gutierrez"
@@ -10174,6 +10251,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"kim-horcher"
@@ -10308,6 +10386,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"erika-ishii"
@@ -10446,6 +10525,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"michelle-nguyen-bradley"
@@ -10574,6 +10654,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"jessica-clemons"
@@ -10709,6 +10790,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"jordan-doll"
@@ -10847,6 +10929,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -10992,6 +11075,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"dani-fernandez"
@@ -11131,6 +11215,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"ify-nwadiwe"
@@ -11259,6 +11344,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"gus-sorola"
@@ -11407,6 +11493,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"betsy-sodaro"
@@ -11557,6 +11644,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"rekha-shankar"
@@ -11694,6 +11782,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"owen-parsons"
@@ -11833,6 +11922,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"zac-oyama"
@@ -11963,6 +12053,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"eli-yudin"
@@ -12113,6 +12204,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"grant-obrien"
@@ -12248,6 +12340,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"brennan-lee-mulligan"
@@ -12382,6 +12475,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -12517,6 +12611,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"brennan-lee-mulligan",
@@ -12665,6 +12760,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"rekha-shankar"
@@ -12805,6 +12901,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -12935,6 +13032,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"emma-fyffe"
@@ -13084,6 +13182,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"kirk-damato"
@@ -13225,6 +13324,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"dc-pierson"
@@ -13355,6 +13455,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"travis-mcelroy"
@@ -13496,6 +13597,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"marina-mastros"
@@ -13635,6 +13737,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"maude-garrett"
@@ -13765,6 +13868,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"ian-adams"
@@ -13902,6 +14006,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -14034,6 +14139,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -14190,6 +14296,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"james-willems"
@@ -14335,6 +14442,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"mt"
@@ -14488,6 +14596,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -14630,6 +14739,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -14770,6 +14880,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"kelly-nugent"
@@ -14921,6 +15032,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"mark-rennie"
@@ -15062,6 +15174,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -15203,6 +15316,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"dani-and-danielle"
@@ -15351,6 +15465,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"brennan-lee-mulligan"
@@ -15503,6 +15618,7 @@
 						"Medicine",
 						"Generic Drugs"
 					],
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"emma-fyffe"
@@ -15642,6 +15758,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"michael-saltzman"
@@ -15784,6 +15901,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -15931,6 +16049,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"erika-ishii"
@@ -16076,6 +16195,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"winston-marshall"
@@ -16218,6 +16338,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"malika-lim-eubank"
@@ -16366,6 +16487,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"jordan-doll"
@@ -16514,6 +16636,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"emma-fyffe"
@@ -16662,6 +16785,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"carolyn-page"
@@ -16817,6 +16941,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"amy-dallen"
@@ -16970,6 +17095,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"julia-prescott"
@@ -17120,6 +17246,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"lindsay-katai"
@@ -17262,6 +17389,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"sam-riegel"
@@ -17407,6 +17535,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"carlos-luna"
@@ -17546,6 +17675,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"jon-gabrus"
@@ -17702,6 +17832,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"izzy-roland"
@@ -17844,6 +17975,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -17996,6 +18128,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -18141,6 +18274,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"nick-marini"
@@ -18290,6 +18424,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"cody-ziglar"
@@ -18442,6 +18577,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -18596,6 +18732,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"markeia-mccarty"
@@ -18738,6 +18875,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -18889,6 +19027,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"jimmy-wong"
@@ -19038,6 +19177,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -19174,6 +19314,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"emma-fyffe"
@@ -19318,6 +19459,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"siobhan-thompson"
@@ -19464,6 +19606,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -19626,6 +19769,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"jon-braylock"
@@ -19772,6 +19916,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"amy-vorpahl"
@@ -19913,6 +20058,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"cody-ziglar"
@@ -20051,6 +20197,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -20216,6 +20363,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"glenn-boozan"
@@ -20356,6 +20504,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -20503,6 +20652,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"chris-grace"
@@ -20648,6 +20798,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"joey-bland"
@@ -20785,6 +20936,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"saige-ryan"
@@ -20927,6 +21079,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"ryan-creamer"
@@ -21069,6 +21222,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"erika-ishii",
@@ -21209,6 +21363,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"michael-saltzman"
@@ -21356,6 +21511,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"monet-x-change"
@@ -21508,6 +21664,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"xavier-woods"
@@ -21645,6 +21802,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"grant-obrien"
@@ -21804,6 +21962,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"dani-fernandez"
@@ -21970,6 +22129,7 @@
 				},
 				{
 					"number": 14,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"haley-mancini"
@@ -22113,6 +22273,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"demi-adejuyigbe"
@@ -22259,6 +22420,7 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
 				}
@@ -22401,9 +22563,154 @@
 				},
 				{
 					"number": 13,
+					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": [
 						"amanda-lehan-canto"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s09e11",
+			"title": "Giant Robots",
+			"description": "Who digs giant robots? Karen, Cody, and Charlotte dig giant robots.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/giant-robots",
+			"thumbnail_landscape": "images/s09e11.jpg",
+			"duration": 2194,
+			"number": "11",
+			"season_number": "9",
+			"release_date": "2024-07-16",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "karen-han",
+					"score": 1
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "cody-ziglar",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "charlotte-avery",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "anime",
+					"topicDetails": [
+						"Yoko Kanno"
+					],
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "dnd",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "real-life",
+					"winners": [
+						"charlotte-avery"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "fallout",
+					"topicDetails": [
+						"Fallout 3"
+					],
+					"submittedBy": "Odedfire",
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 5,
+					"title": "MAS-GOTCHA",
+					"shiny": true,
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "warhammer",
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "video-games",
+					"topicDetails": [
+						"Baldur's Gate III"
+					],
+					"winners": [
+						"karen-han"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "anime",
+					"topicDetails": [
+						"Getter Robo"
+					],
+					"winners": [
+						"charlotte-avery"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Call Your Shots",
+					"shiny": true,
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "cartoons",
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "gundam",
+					"topicDetails": [
+						"Mobile Fighter G Gundam"
+					],
+					"winners": [
+						"charlotte-avery"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Primary Colors",
+					"shiny": true,
+					"winners": [
+						"charlotte-avery"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"charlotte-avery"
 					]
 				}
 			]
