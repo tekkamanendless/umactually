@@ -199,6 +199,10 @@
 			"name": "Danielle Radford"
 		},
 		{
+			"id": "dante-basco",
+			"name": "Dante Basco"
+		},
+		{
 			"id": "david-gallegos",
 			"name": "David Gallegos"
 		},
@@ -315,6 +319,10 @@
 			"name": "Izzy Roland"
 		},
 		{
+			"id": "jack-de-sena",
+			"name": "Jack De Sena"
+		},
+		{
 			"id": "jackie-kashian",
 			"name": "Jackie Kashian"
 		},
@@ -325,6 +333,10 @@
 		{
 			"id": "james-willems",
 			"name": "James Willems"
+		},
+		{
+			"id": "janet-varney",
+			"name": "Janet Varney"
 		},
 		{
 			"id": "janie-stolar",
@@ -937,6 +949,9 @@
 			"name": "Fully Evolved"
 		},
 		{
+			"name": "Ghibli-razzi"
+		},
+		{
 			"name": "Gimmick Change"
 		},
 		{
@@ -1150,6 +1165,9 @@
 			"name": "Rules Lawyer"
 		},
 		{
+			"name": "Save a Horse, Ride a..."
+		},
+		{
 			"name": "Saving Time"
 		},
 		{
@@ -1274,6 +1292,9 @@
 		},
 		{
 			"name": "Where Am I?"
+		},
+		{
+			"name": "Who's That Voice Actor?"
 		},
 		{
 			"name": "Who's Your Daddy"
@@ -1952,6 +1973,10 @@
 		{
 			"id": "norse-mythology",
 			"name": "Norse Mythology"
+		},
+		{
+			"id": "nsync",
+			"name": "NSYNC"
 		},
 		{
 			"id": "one-piece",
@@ -22711,6 +22736,153 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"charlotte-avery"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s09e12",
+			"title": "NSYNC, Five Nights at Freddy's, Red Lantern Corps",
+			"description": "Voice actors Dante, Janet, and Jack negotiate points and argue sub versus dub.",
+			"url": "https://www.dropout.tv/um-actually/season:9/videos/nsync-five-nights-at-freddy-s-red-lantern-corps",
+			"thumbnail_landscape": "images/s09e12.jpg",
+			"duration": 1836,
+			"number": "12",
+			"season_number": "9",
+			"release_date": "2024-07-30",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "dante-basco",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "janet-varney",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jack-de-sena",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "board-games",
+					"topicDetails": [
+						"Disney Villainous Board Game"
+					],
+					"winners": [
+						"dante-basco"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "board-games",
+					"topicDetails": [
+						"Clue"
+					],
+					"winners": [
+						"janet-varney"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"A Girl Walks Home Alone at Night"
+					],
+					"winners": [
+						"dante-basco"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "nsync",
+					"submittedBy": "Nigel Chinclucker",
+					"winners": [
+						"jack-de-sena"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Who's That Voice Actor?",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 6,
+					"topic": "video-games",
+					"topicDetails": [
+						"Five Nights at Freddy's"
+					],
+					"winners": [
+						"jack-de-sena"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "tv",
+					"topicDetails": [
+						"Detective John Munch (crossover character)"
+					],
+					"winners": [
+						"jack-de-sena"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "miyazaki",
+					"winners": [
+						"dante-basco"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Ghibli-razzi",
+					"shiny": true,
+					"winners": [
+						"janet-varney"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "dc",
+					"topicDetails": [
+						"Red Lantern Corps"
+					],
+					"winners": [
+						"jack-de-sena"
+					]
+				},
+				{
+					"number": 11,
+					"title": "Who's That Voice Actor?",
+					"shiny": true,
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Save a Horse, Ride a...",
+					"shiny": true,
+					"winners": [
+						"dante-basco"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"janet-varney",
+						"jack-de-sena"
 					]
 				}
 			]
