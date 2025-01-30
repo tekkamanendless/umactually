@@ -35,6 +35,10 @@
 		{
 			"number": "9",
 			"title": "Season 9"
+		},
+		{
+			"number": "10",
+			"title": "Season 10"
 		}
 	],
 	"people": [
@@ -871,6 +875,9 @@
 			"name": "A Title Of Words"
 		},
 		{
+			"name": "Aaahh!!! Real Monsters???"
+		},
+		{
 			"name": "ABC, 123"
 		},
 		{
@@ -970,6 +977,9 @@
 			"name": "Hear Me Roar"
 		},
 		{
+			"name": "Hula Hoopa"
+		},
+		{
 			"name": "I Came, I Saw, I Conquered"
 		},
 		{
@@ -998,6 +1008,9 @@
 		},
 		{
 			"name": "Mapmaker, Mapmaker, Make Me A Map"
+		},
+		{
+			"name": "Marvel, DC, Or Eurovision Song Contest Winner"
 		},
 		{
 			"name": "MAS-GOTCHA"
@@ -1331,6 +1344,10 @@
 			"name": "African Mythology"
 		},
 		{
+			"id": "akira",
+			"name": "Akira"
+		},
+		{
 			"id": "aladdin",
 			"name": "Aladdin"
 		},
@@ -1347,8 +1364,8 @@
 			"name": "American Gods"
 		},
 		{
-			"id": "akira",
-			"name": "Akira"
+			"id": "amusement-parks",
+			"name": "Amusment Parks"
 		},
 		{
 			"id": "an-american-tail",
@@ -22883,6 +22900,152 @@
 					"winners": [
 						"janet-varney",
 						"jack-de-sena"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s10e01",
+			"title": "Planet of the Apes, Deadpool, Alien",
+			"description": "Know-it-alls Hector, Joan, and Brennan debate if Celine Dion is a Marvel character.",
+			"url": "https://www.dropout.tv/um-actually/season:10/videos/planet-of-the-apes-deadpool-alien",
+			"thumbnail_landscape": "images/s10e01.jpg",
+			"duration": 2237,
+			"number": "1",
+			"season_number": "10",
+			"release_date": "2025-01-28",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "hector-navarro",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "joan-ford",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "brennan-lee-mulligan",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "star-wars",
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "amusement-parks",
+					"topicDetails": [
+						"Six Flags"
+					],
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "movies",
+					"topicDetails": [
+						"Planet of the Apes (franchise)"
+					],
+					"winners": [
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Hades"
+					],
+					"submittedBy": "TJonty",
+					"winners": [
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Marvel, DC, Or Eurovision Song Contest Winner",
+					"shiny": true,
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "dnd",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "x-men",
+					"winners": [
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "marvel",
+					"topicDetails": [
+						"Deadpool"
+					],
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "movies",
+					"title": "Aaahh!!! Real Monsters???",
+					"shiny": true,
+					"winners": [
+						"hector-navarro",
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "doctor-who",
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "alien",
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "pokemon",
+					"title": "Hula Hoopa",
+					"shiny": true,
+					"winners": [
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"brennan-lee-mulligan"
 					]
 				}
 			]
