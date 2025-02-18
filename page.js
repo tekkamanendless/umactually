@@ -1240,7 +1240,13 @@ function computeStats(data) {
 			for (let p = 0; p < episode.players.length; p++) {
 				let player = episode.players[p];
 				episode.playerIds.push(player.id);
+				if (!Object.hasOwn(peopleMap, player.id)) {
+					console.error("peopleMap is missing:", player.id)
+				}
 				peopleMap[player.id].appearances.push(episode.dropouttv_productid);
+				if (!Object.hasOwn(seasonMap, episode.season_number)) {
+					console.error("seasonMap is missing:", episode.season_number)
+				}
 				seasonMap[episode.season_number].playerMap[player.id] = true;
 
 				let place = scoreMap["score=" + player.score];
