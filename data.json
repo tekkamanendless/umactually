@@ -60,7 +60,7 @@
 		},
 		{
 			"id": "alex-song",
-			"name": "Alex Song"
+			"name": "Alex Song-Xia"
 		},
 		{
 			"id": "alice-wetterlund",
@@ -1133,10 +1133,16 @@
 			"name": "Not The Droid You're Looking For"
 		},
 		{
+			"name": "Oh My God"
+		},
+		{
 			"name": "Once More Without Feeling"
 		},
 		{
-			"name": "Oh My God"
+			"name": "Ooze Who?"
+		},
+		{
+			"name": "Open Door Policy"
 		},
 		{
 			"name": "Order Up"
@@ -1254,6 +1260,9 @@
 		},
 		{
 			"name": "Total Poser"
+		},
+		{
+			"name": "Toy Race: Transformers"
 		},
 		{
 			"name": "TV Time"
@@ -1652,6 +1661,10 @@
 			"name": "Game of Thrones"
 		},
 		{
+			"id": "game-shows",
+			"name": "Game Shows"
+		},
+		{
 			"id": "gaming",
 			"name": "Gaming"
 		},
@@ -2018,6 +2031,10 @@
 		{
 			"id": "pacific-rim",
 			"name": "Pacific Rim"
+		},
+		{
+			"id": "planet-of-the-apes",
+			"name": "Planet of the Apes (film franchise)"
 		},
 		{
 			"id": "pokemon",
@@ -23046,6 +23063,150 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"brennan-lee-mulligan"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s10e02",
+			"title": "R2D2, Dennis the Menace, Teenage Mutant Ninja Turtles",
+			"description": "Siobhan, Trapp, and Alex enter their villain era and identify ooze.",
+			"url": "https://www.dropout.tv/um-actually/season:10/videos/r2d2-dennis-the-menace-teenage-mutant-ninja-turtles",
+			"thumbnail_landscape": "images/s10e02.jpg",
+			"duration": 1897,
+			"number": "2",
+			"season_number": "10",
+			"release_date": "2025-02-11",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "siobhan-thompson",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "mike-trapp",
+					"score": 11
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "alex-song",
+					"score": 0
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "star-wars",
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "spider-man",
+					"winners": [
+						"siobhan-thompson"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "video-games",
+					"topicDetails": [
+						"Grand Theft Auto (video game series)"
+					],
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "comics",
+					"topicDetails": [
+						"Dennis the Menace"
+					],
+					"submittedBy": "Pentwarrior",
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Open Door Policy",
+					"shiny": true,
+					"winners": [
+						"siobhan-thompson",
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "animorphs",
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "tmnt",
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "game-shows",
+					"topicDetails": [
+						"Jeopardy"
+					],
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Ooze Who?",
+					"shiny": true,
+					"winners": [
+						"siobhan-thompson",
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "planet-of-the-apes",
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "music",
+					"topicDetails": [
+						"Weird Al"
+					],
+					"winners": []
+				},
+				{
+					"number": 12,
+					"topic": "transformers",
+					"title": "Toy Race: Transformers",
+					"shiny": true,
+					"winners": [
+						"mike-trapp"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"mike-trapp"
 					]
 				}
 			]
