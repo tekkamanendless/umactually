@@ -711,6 +711,10 @@
 			"name": "Shay Parsons"
 		},
 		{
+			"id": "siena-east",
+			"name": "Siena East"
+		},
+		{
 			"id": "siobhan-thompson",
 			"name": "Siobhan Thompson"
 		},
@@ -923,6 +927,9 @@
 			"name": "Choose Your Numbered Space Station Fighter"
 		},
 		{
+			"name": "Cosmopolitan Cuties"
+		},
+		{
 			"name": "Crunch Time"
 		},
 		{
@@ -1007,10 +1014,16 @@
 			"name": "Look What Ya Did, Ya Little Jerk!"
 		},
 		{
+			"name": "Lyrics Sold Separately"
+		},
+		{
 			"name": "Mapmaker, Mapmaker, Make Me A Map"
 		},
 		{
-			"name": "Marvel, DC, Or Eurovision Song Contest Winner"
+			"name": "Marvel, DC, Or American Girl Doll?"
+		},
+		{
+			"name": "Marvel, DC, Or Eurovision Song Contest Winner?"
 		},
 		{
 			"name": "MAS-GOTCHA"
@@ -22994,7 +23007,7 @@
 				},
 				{
 					"number": 5,
-					"title": "Marvel, DC, Or Eurovision Song Contest Winner",
+					"title": "Marvel, DC, Or Eurovision Song Contest Winner?",
 					"shiny": true,
 					"winners": [
 						"joan-ford"
@@ -23207,6 +23220,155 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"mike-trapp"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s10e03",
+			"title": "Gilmore Girls, Bratz, Totally Spies",
+			"description": "Persephone, Rekha, and Siena discuss who's babygirl, American Girl dolls, and toy jingles.",
+			"url": "https://www.dropout.tv/um-actually/season:10/videos/gilmore-girls-bratz-totally-spies",
+			"thumbnail_landscape": "images/s10e03.jpg",
+			"duration": 1724,
+			"number": "3",
+			"season_number": "10",
+			"release_date": "2025-02-25",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "persephone-valentine",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "rekha-shankar",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "siena-east",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "movies",
+					"topicDetails": [
+						"Clueless"
+					],
+					"winners": [
+						"persephone-valentine"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "tv",
+					"topicDetails": [
+						"Gilmore Girls"
+					],
+					"winners": [
+						"siena-east"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "tv",
+					"topicDetails": [
+						"Bridgerton"
+					],
+					"winners": [
+						"siena-east"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Stardew Valley"
+					],
+					"submittedBy": "joll05",
+					"winners": [
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Marvel, DC, Or American Girl Doll?",
+					"shiny": true,
+					"winners": [
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "sailor-moon",
+					"winners": [
+						"persephone-valentine"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "buffy",
+					"winners": [
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "toys",
+					"topicDetails": [
+						"Bratz Dolls"
+					],
+					"winners": [
+						"persephone-valentine"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Lyrics Sold Separately",
+					"shiny": true,
+					"winners": [
+						"rekha-shankar"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "mass-effect",
+					"winners": [
+						"persephone-valentine"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "tv",
+					"topicDetails": [
+						"Totally Spies!"
+					],
+					"winners": [
+						"persephone-valentine"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Cosmopolitan Cuties",
+					"shiny": true,
+					"winners": [
+						"siena-east"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"persephone-valentine"
 					]
 				}
 			]
