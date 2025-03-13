@@ -455,6 +455,10 @@
 			"name": "Karen Han"
 		},
 		{
+			"id": "katie-marovitch",
+			"name": "Katie Marovitch"
+		},
+		{
 			"id": "keith-habersberger",
 			"name": "Keith Habersberger"
 		},
@@ -693,6 +697,10 @@
 		{
 			"id": "sam-maggs",
 			"name": "Sam Maggs"
+		},
+		{
+			"id": "sam-reich",
+			"name": "Sam Reich"
 		},
 		{
 			"id": "sam-riegel",
@@ -936,6 +944,9 @@
 			"name": "Cryptogeography"
 		},
 		{
+			"name": "Doctored Up"
+		},
+		{
 			"name": "Doom Doctor"
 		},
 		{
@@ -949,6 +960,9 @@
 		},
 		{
 			"name": "Earth 20XX"
+		},
+		{
+			"name": "Extra Extra (Terrestrials)"
 		},
 		{
 			"name": "Fantasy Pharma"
@@ -1306,6 +1320,9 @@
 		},
 		{
 			"name": "What A Concept"
+		},
+		{
+			"name": "What The Hell Is A Fighting Type?"
 		},
 		{
 			"name": "What's My Line?"
@@ -23369,6 +23386,151 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"persephone-valentine"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s10e04",
+			"title": "The Baby Bracket Volume 2",
+			"description": "Raph, Sam, and Katie argue what counts as a video game and rave about Yorgos Lanthimos.",
+			"url": "https://www.dropout.tv/um-actually/season:10/videos/the-baby-bracket-volume-2",
+			"thumbnail_landscape": "images/s10e04.jpg",
+			"duration": 1888,
+			"number": "4",
+			"season_number": "10",
+			"release_date": "2025-03-11",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "raphael-chestang",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "sam-reich",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "katie-marovitch",
+					"score": 6
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "star-trek",
+					"winners": [
+						"raphael-chestang"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"raphael-chestang"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "dnd",
+					"winners": [
+						"raphael-chestang"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "halo",
+					"submittedBy": "Jacob Bernard",
+					"winners": [
+						"raphael-chestang"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "pokemon",
+					"title": "What The Hell Is A Fighting Type?",
+					"shiny": true,
+					"winners": [
+						"katie-marovitch"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "board-games",
+					"topicDetails": [
+						"Settlers of Catan"
+					],
+					"winners": [
+						"katie-marovitch"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "video-games",
+					"topicDetails": [
+						"Helldivers (video game series)"
+					],
+					"winners": [
+						"raphael-chestang"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "x-men",
+					"winners": [
+						"katie-marovitch"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Doctored Up",
+					"shiny": true,
+					"winners": [
+						"sam-reich"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"topicDetails": [
+						"The Lobster (Yorgos Lanthimos film)"
+					],
+					"winners": [
+						"katie-marovitch"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "video-games",
+					"topicDetails": [
+						"Baldur's Gate 3"
+					],
+					"winners": [
+						"sam-reich"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Extra Extra (Terrestrials)",
+					"shiny": true,
+					"winners": [
+						"sam-reich",
+						"katie-marovitch"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"katie-marovitch"
 					]
 				}
 			]
