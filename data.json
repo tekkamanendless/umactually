@@ -63,6 +63,10 @@
 			"name": "Alex Song-Xia"
 		},
 		{
+			"id": "alexis-nikole",
+			"name": "Alexis Nikole Nelson"
+		},
+		{
 			"id": "alice-wetterlund",
 			"name": "Alice Wetterlund"
 		},
@@ -133,6 +137,10 @@
 		{
 			"id": "brian-david-gilbert",
 			"name": "Brian David Gilbert"
+		},
+		{
+			"id": "brian-morabito",
+			"name": "Brian Furey Morabito"
 		},
 		{
 			"id": "brian-murphy",
@@ -759,6 +767,10 @@
 			"name": "Terence Wiggins"
 		},
 		{
+			"id": "thomas-sanders",
+			"name": "Thomas Sanders"
+		},
+		{
 			"id": "thomas-middleditch",
 			"name": "Thomas Middleditch"
 		},
@@ -1040,6 +1052,9 @@
 			"name": "Marvel, DC, Or Eurovision Song Contest Winner?"
 		},
 		{
+			"name": "Marvel, DC, Or Former U.S. Secretary Of State?"
+		},
+		{
 			"name": "MAS-GOTCHA"
 		},
 		{
@@ -1196,6 +1211,9 @@
 			"name": "Primary Colors"
 		},
 		{
+			"name": "Quit Clowning Around"
+		},
+		{
 			"name": "Real Life Skills"
 		},
 		{
@@ -1344,6 +1362,9 @@
 		},
 		{
 			"name": "Where Am I?"
+		},
+		{
+			"name": "Which One Do I Shoot?"
 		},
 		{
 			"name": "Who's That Voice Actor?"
@@ -23531,6 +23552,150 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"katie-marovitch"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s10e05",
+			"title": "Bowsette, Akira, Gen Con",
+			"description": "Alexis, Thomas, and Brian learn about tentacles, nightshade, and snail mating rituals.",
+			"url": "https://www.dropout.tv/um-actually/season:10/videos/bowsette-akira-gen-con",
+			"thumbnail_landscape": "images/s10e05.jpg",
+			"duration": 1734,
+			"number": "5",
+			"season_number": "10",
+			"release_date": "2025-03-25",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "alexis-nikole",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "thomas-sanders",
+					"score": 6
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "brian-morabito",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "steven-universe",
+					"winners": [
+						"thomas-sanders"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "video-games",
+					"topicDetails": [
+						"The Elder Scrolls (video game series)"
+					],
+					"winners": [
+						"thomas-sanders"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "super-mario",
+					"topicDetails": [
+						"Bowsette"
+					],
+					"winners": [
+						"alexis-nikole"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Lego Island (video game)"
+					],
+					"submittedBy": "Derficus Doctor",
+					"winners": [
+						"thomas-sanders"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Quit Clowning Around",
+					"shiny": true,
+					"winners": [
+						"brian-morabito"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "akira",
+					"winners": [
+						"thomas-sanders"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "tabletop-games",
+					"topicDetails": [
+						"Gen Con"
+					],
+					"winners": [
+						"alexis-nikole"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "spongebob",
+					"winners": [
+						"brian-morabito"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Marvel, DC, Or Former U.S. Secretary Of State?",
+					"shiny": true,
+					"winners": [
+						"alexis-nikole",
+						"thomas-sanders"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "nightmare-before-christmas",
+					"winners": [
+						"alexis-nikole"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "animorphs",
+					"winners": [
+						"brian-morabito"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Which One Do I Shoot?",
+					"shiny": true,
+					"winners": [
+						"thomas-sanders"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"alexis-nikole"
 					]
 				}
 			]
