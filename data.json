@@ -1274,6 +1274,9 @@
 			"name": "Tag You're It"
 		},
 		{
+			"name": "Tamra's Taglines"
+		},
+		{
 			"name": "Technical Difficulties"
 		},
 		{
@@ -23696,6 +23699,162 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"alexis-nikole"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s10e06",
+			"title": "Reality TV Volume 3",
+			"description": "Glenn, Krystina, and Izzy settle once and for all who's the queen of reality tv trivia.",
+			"url": "https://www.dropout.tv/um-actually/season:10/videos/reality-tv-volume-3",
+			"thumbnail_landscape": "images/s10e06.jpg",
+			"duration": 2215,
+			"number": "6",
+			"season_number": "10",
+			"release_date": "2025-04-08",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "glenn-boozan",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "krystina-arielle",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "izzy-roland",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "reality-tv",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"Flavor of Love"
+					],
+					"winners": [
+						"izzy-roland"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"Love Is Blind"
+					],
+					"winners": [
+						"glenn-boozan"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"RuPaul's Drag Race"
+					],
+					"submittedBy": "Audra",
+					"winners": [
+						"izzy-roland"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "reality-tv",
+					"title": "To Be Real",
+					"shiny": true,
+					"winners": [
+						"glenn-boozan"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"The Traitors"
+					],
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"RuPaul's Drag Race"
+					],
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"Survivor"
+					],
+					"winners": [
+						"izzy-roland"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "reality-tv",
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"Love Village"
+					],
+					"winners": [
+						"glenn-boozan"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"Top Chef"
+					],
+					"winners": [
+						"izzy-roland"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "reality-tv",
+					"title": "Tamra's Taglines",
+					"shiny": true,
+					"winners": [
+						"glenn-boozan"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"krystina-arielle"
 					]
 				}
 			]
