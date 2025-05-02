@@ -131,6 +131,10 @@
 			"name": "Betsy Sodaro"
 		},
 		{
+			"id": "biqtch-puddin",
+			"name": "Biqtch Puddin'"
+		},
+		{
 			"id": "blaine-swen",
 			"name": "Blaine Swen"
 		},
@@ -481,6 +485,10 @@
 		{
 			"id": "kendra-wells",
 			"name": "Kendra Wells"
+		},
+		{
+			"id": "kevin-mcdonald",
+			"name": "Kevin McDonald"
 		},
 		{
 			"id": "kim-horcher",
@@ -914,6 +922,9 @@
 			"name": "Always Pay Your Debts"
 		},
 		{
+			"name": "Animal Magnetism"
+		},
+		{
 			"name": "Anything You Can Do, I Can Do Better"
 		},
 		{
@@ -945,6 +956,9 @@
 		},
 		{
 			"name": "Choose Your Numbered Space Station Fighter"
+		},
+		{
+			"name": "Chum, Actually"
 		},
 		{
 			"name": "Cosmopolitan Cuties"
@@ -1453,6 +1467,10 @@
 		{
 			"id": "arthurian-myth",
 			"name": "Arthurian Myth"
+		},
+		{
+			"id": "avatar",
+			"name": "Avatar (James Cameron franchise)"
 		},
 		{
 			"id": "avatar-the-last-airbender",
@@ -23855,6 +23873,142 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"krystina-arielle"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s10e07",
+			"title": "Wingspan, Matterhorn Bobsleds, Avatar: The Way of Water",
+			"description": "Kevin, Ally, and Biqtch Puddin' rage against dinosaurs and try to earn super points.",
+			"url": "https://www.dropout.tv/um-actually/season:10/videos/wingspan-matterhorn-bobsleds-avatar-the-way-of-water",
+			"thumbnail_landscape": "images/s10e07.jpg",
+			"duration": 1901,
+			"number": "7",
+			"season_number": "10",
+			"release_date": "2025-04-22",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "kevin-mcdonald",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "ally-beardsley",
+					"score": 7
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "biqtch-puddin",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "the-matrix",
+					"winners": [
+						"biqtch-puddin"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "board-games",
+					"topicDetails": [
+						"Wingspan (board game)"
+					],
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "pokemon",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "disney",
+					"submittedBy": "@wolfwithdances",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Chum, Actually",
+					"shiny": true,
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "sandman",
+					"winners": [
+						"biqtch-puddin"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "board-games",
+					"winners": [
+						"biqtch-puddin"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Animal Magnetism",
+					"shiny": true,
+					"winners": [
+						"kevin-mcdonald",
+						"biqtch-puddin"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "avatar",
+					"winners": [
+						"kevin-mcdonald"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "dnd",
+					"topicDetails": [
+						"Honor Among Thieves (D&D movie)"
+					],
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Which One Do I Shoot?",
+					"shiny": true,
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"ally-beardsley"
 					]
 				}
 			]
