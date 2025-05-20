@@ -95,6 +95,14 @@
 			"name": "Andrew Rosas"
 		},
 		{
+			"id": "anjali-bhimani",
+			"name": "Anjali Bhimani"
+		},
+		{
+			"id": "anna-brisbin",
+			"name": "Anna Brisbin"
+		},
+		{
 			"id": "anthony-burch",
 			"name": "Anthony Burch"
 		},
@@ -799,6 +807,10 @@
 			"name": "Trisha Hershberger"
 		},
 		{
+			"id": "valeria-rodriguez",
+			"name": "Valeria Rodriguez"
+		},
+		{
 			"id": "vanessa-guerrero",
 			"name": "Vanessa Guerrero"
 		},
@@ -1048,6 +1060,9 @@
 			"name": "Incantatio Ridiculum"
 		},
 		{
+			"name": "Kitchen Cosplay"
+		},
+		{
 			"name": "Legal Limit"
 		},
 		{
@@ -1207,6 +1222,9 @@
 			"name": "Out Of Range"
 		},
 		{
+			"name": "Pair the Char(acter creation screen)"
+		},
+		{
 			"name": "PC Police"
 		},
 		{
@@ -1289,6 +1307,9 @@
 		},
 		{
 			"name": "Tamra's Taglines"
+		},
+		{
+			"name": "TCDs (Trading Card Dragons)"
 		},
 		{
 			"name": "Technical Difficulties"
@@ -24010,6 +24031,158 @@
 					"winners": [
 						"ally-beardsley"
 					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s10e08",
+			"title": "Delicious in Dungeon, X-Men '97, Fallout",
+			"description": "Voice actors Anna, Anjali, and Valeria talk about moose knuckles, spelling bees, and Stevie Nicks.",
+			"url": "https://www.dropout.tv/um-actually/season:10/videos/delicious-in-dungeon-x-men-97-fallout",
+			"thumbnail_landscape": "images/s10e08.jpg",
+			"duration": 1739,
+			"number": "8",
+			"season_number": "10",
+			"release_date": "2025-05-06",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "anna-brisbin",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "anjali-bhimani",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "valeria-rodriguez",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "anime",
+					"topicDetails": [
+						"Delicious in Dungeon"
+					],
+					"winners": [
+						"anna-brisbin"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "video-games",
+					"topicDetails": [
+						"Horizon: Zero Dawn (video game)"
+					],
+					"winners": [
+						"anna-brisbin"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "x-men",
+					"topicDetails": [
+						"X-Men '97"
+					],
+					"winners": [
+						"anjali-bhimani"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Team Fortress 2 (video game)"
+					],
+					"submittedBy": "Enderdude",
+					"winners": [
+						"anjali-bhimani"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "video-games",
+					"title": "Pair the Char(acter creation screen)",
+					"shiny": true,
+					"winners": [
+						"anna-brisbin"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "buffy",
+					"winners": [
+						"anna-brisbin"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "anime",
+					"topicDetails": [
+						"Ouran High School Host Club"
+					],
+					"winners": [
+						"valeria-rodriguez"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "tabletop-games",
+					"topicDetails": [
+						"White Wolf (tabletop game company)"
+					],
+					"winners": [
+						"anjali-bhimani"
+					]
+				},
+				{
+					"number": 9,
+					"title": "TCDs (Trading Card Dragons)",
+					"shiny": true,
+					"winners": [
+						"anna-brisbin",
+						"valeria-rodriguez"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "one-piece",
+					"winners": [
+						"anjali-bhimani"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "fallout",
+					"topicDetails": [
+						"Fallout (TV series)"
+					],
+					"winners": [
+						"anjali-bhimani"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Kitchen Cosplay",
+					"shiny": true,
+					"winners": [
+						"valeria-rodriguez"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": []
 				}
 			]
 		}
