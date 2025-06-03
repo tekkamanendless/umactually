@@ -395,6 +395,10 @@
 			"name": "Jenny Lorenzo"
 		},
 		{
+			"id": "jeremy-lambert",
+			"name": "Jeremy Lambert"
+		},
+		{
 			"id": "jeremy-puckett",
 			"name": "Jeremy Puckett"
 		},
@@ -699,6 +703,10 @@
 			"name": "Ross Bryant"
 		},
 		{
+			"id": "ruha-taslimi",
+			"name": "Ruha Taslimi"
+		},
+		{
 			"id": "ryan-creamer",
 			"name": "Ryan Creamer"
 		},
@@ -931,6 +939,9 @@
 			"name": "Across The Pond"
 		},
 		{
+			"name": "All Dressed Up And No Apocalypse"
+		},
+		{
 			"name": "Always Pay Your Debts"
 		},
 		{
@@ -1061,6 +1072,9 @@
 		},
 		{
 			"name": "Kitchen Cosplay"
+		},
+		{
+			"name": "Know Your Demons"
 		},
 		{
 			"name": "Legal Limit"
@@ -24183,6 +24197,142 @@
 					"topic": "real-life",
 					"title": "Real Life Skills",
 					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s10e09",
+			"title": "SlayerFest '25",
+			"description": "Buffy superfans Beth, Ruha, and Jeremy return to Sunnydale and discuss why Xander is the worst.",
+			"url": "https://www.dropout.tv/um-actually/season:10/videos/slayerfest-25",
+			"thumbnail_landscape": "images/s10e09.jpg",
+			"duration": 1846,
+			"number": "9",
+			"season_number": "10",
+			"release_date": "2025-05-20",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "beth-may",
+					"score": 6,
+					"notes": "Beth got 2 points on question 11 for finding two incorrect items."
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "ruha-taslimi",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jeremy-lambert",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "buffy",
+					"winners": [
+						"ruha-taslimi"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "buffy",
+					"winners": [
+						"ruha-taslimi"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "buffy",
+					"winners": [
+						"jeremy-lambert"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "buffy",
+					"submittedBy": "LeisureSuitLink",
+					"winners": [
+						"beth-may"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "buffy",
+					"title": "Know Your Demons",
+					"shiny": true,
+					"winners": [
+						"beth-may"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "buffy",
+					"winners": [
+						"ruha-taslimi"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "buffy",
+					"winners": [
+						"beth-may"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "buffy",
+					"winners": [
+						"ruha-taslimi"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "buffy",
+					"title": "All Dressed Up And No Apocalypse",
+					"shiny": true,
+					"winners": [
+						"ruha-taslimi"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "x-files",
+					"winners": [
+						"jeremy-lambert"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "buffy",
+					"winners": [
+						"beth-may",
+						"beth-may"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "buffy",
+					"title": "Which One Do I Shoot?",
+					"shiny": true,
+					"winners": [
+						"jeremy-lambert"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"beth-may"
+					]
 				}
 			]
 		}
