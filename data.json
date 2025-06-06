@@ -423,6 +423,10 @@
 			"name": "Joey Bland"
 		},
 		{
+			"id": "joey-clift",
+			"name": "Joey Clift"
+		},
+		{
 			"id": "johnny-stanton",
 			"name": "Johnny Stanton"
 		},
@@ -465,6 +469,10 @@
 		{
 			"id": "justin-mcelroy",
 			"name": "Justin McElroy"
+		},
+		{
+			"id": "justin-michael",
+			"name": "Justin Michael"
 		},
 		{
 			"id": "kaitlin-thompson",
@@ -969,6 +977,9 @@
 			"name": "But Can I Fuck It?"
 		},
 		{
+			"name": "By Your Powers Combined"
+		},
+		{
 			"name": "Call Your Shots"
 		},
 		{
@@ -1359,7 +1370,7 @@
 			"name": "Total Poser"
 		},
 		{
-			"name": "Toy Race: Transformers"
+			"name": "Toy Race"
 		},
 		{
 			"name": "TV Time"
@@ -23302,7 +23313,7 @@
 				{
 					"number": 12,
 					"topic": "transformers",
-					"title": "Toy Race: Transformers",
+					"title": "Toy Race",
 					"shiny": true,
 					"winners": [
 						"mike-trapp"
@@ -24332,6 +24343,156 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"beth-may"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s10e10",
+			"title": "90s Television",
+			"description": "Danielle, Joey, and Justin head back to the 90s and try to sabotage one another.",
+			"url": "https://www.dropout.tv/um-actually/season:10/videos/90s-television",
+			"thumbnail_landscape": "images/s10e10.jpg",
+			"duration": 1769,
+			"number": "10",
+			"season_number": "10",
+			"release_date": "2025-06-03",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "danielle-radford",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "joey-clift",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "justin-michael",
+					"score": 6
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "batman",
+					"topicDetails": [
+						"Batman: The Animated Series"
+					],
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "x-men",
+					"topicDetails": [
+						"X-Men: The Animated Series"
+					],
+					"winners": [
+						"joey-clift"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "cartoons",
+					"topicDetails": [
+						"SWAT Kats"
+					],
+					"winners": [
+						"joey-clift"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "cartoons",
+					"submittedBy": "Jaxts",
+					"winners": [
+						"justin-michael"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "cartoons",
+					"title": "Legal Limit",
+					"shiny": true,
+					"winners": [
+						"justin-michael"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "gargoyles",
+					"winners": [
+						"joey-clift"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "spider-man",
+					"winners": [
+						"justin-michael"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "cartoons",
+					"topicDetails": [
+						"Spawn"
+					],
+					"winners": []
+				},
+				{
+					"number": 9,
+					"topic": "captain-planet",
+					"title": "By Your Powers Combined",
+					"shiny": true,
+					"winners": [
+						"justin-michael"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "batman",
+					"topicDetails": [
+						"Batman Beyond"
+					],
+					"winners": [
+						"justin-michael"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "movies",
+					"topicDetails": [
+						"Cool World (1992 film)"
+					],
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "power-rangers",
+					"title": "Toy Race",
+					"shiny": true,
+					"winners": [
+						"justin-michael"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"danielle-radford"
 					]
 				}
 			]
