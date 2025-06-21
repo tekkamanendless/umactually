@@ -115,6 +115,10 @@
 			"name": "B. Dave Walters"
 		},
 		{
+			"id": "bailey-meyers",
+			"name": "Bailey Meyers"
+		},
+		{
 			"id": "becca-scott",
 			"name": "Becca Scott"
 		},
@@ -965,6 +969,9 @@
 			"name": "Augh! My One Weakness"
 		},
 		{
+			"name": "Bone Apple Tea"
+		},
+		{
 			"name": "Be Our Guest... Star"
 		},
 		{
@@ -1080,6 +1087,9 @@
 		},
 		{
 			"name": "Incantatio Ridiculum"
+		},
+		{
+			"name": "It's The Titular Screen"
 		},
 		{
 			"name": "Kitchen Cosplay"
@@ -1221,6 +1231,9 @@
 		},
 		{
 			"name": "No Butts About It"
+		},
+		{
+			"name": "Nom Nom Monsters"
 		},
 		{
 			"name": "Not So Super"
@@ -24493,6 +24506,158 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"danielle-radford"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s10e11",
+			"title": "House of the Dragon, Xena: Warrior Princess, Cardcaptor Sakura",
+			"description": "Jess, Emma, and Bailey talk about bad movie wigs, anime food, and Bible spoilers.",
+			"url": "https://www.dropout.tv/um-actually/season:10/videos/house-of-the-dragon-xena-warrior-princess-cardcaptor-sakura",
+			"thumbnail_landscape": "images/s10e11.jpg",
+			"duration": 2109,
+			"number": "11",
+			"season_number": "10",
+			"release_date": "2025-06-17",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jessica-clemons",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "emma-fyffe",
+					"score": 7
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "bailey-meyers",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "game-of-thrones",
+					"topicDetails": [
+						"House of the Dragon"
+					],
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "avatar-the-last-airbender",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"The Great British Bake Off"
+					],
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "pokemon",
+					"submittedBy": "Beckysmith121991",
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "anime",
+					"topicDetails": [
+						"Dungeon Meshi (Delicious in Dungeon)"
+					],
+					"title": "Nom Nom Monsters",
+					"shiny": true,
+					"winners": [
+						"bailey-meyers"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "video-games",
+					"topicDetails": [
+						"Monster Hunter (video game series)"
+					],
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "xena",
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "sonic",
+					"topicDetails": [
+						"Sonic the Hedgehog 2"
+					],
+					"winners": [
+						"bailey-meyers"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "video-games",
+					"title": "It's The Titular Screen",
+					"shiny": true,
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "lumberjanes",
+					"winners": [
+						"jessica-clemons"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "anime",
+					"topicDetails": [
+						"Cardcaptor Sakura"
+					],
+					"winners": [
+						"emma-fyffe"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Bone Apple Tea",
+					"shiny": true,
+					"winners": [
+						"emma-fyffe",
+						"bailey-meyers"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"bailey-meyers"
 					]
 				}
 			]
