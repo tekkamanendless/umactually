@@ -251,6 +251,10 @@
 			"name": "Devon Stewart"
 		},
 		{
+			"id": "drew-gooden",
+			"name": "Drew Gooden"
+		},
+		{
 			"id": "edgar-momplaisir",
 			"name": "Edgar Momplaisir"
 		},
@@ -1131,6 +1135,9 @@
 			"name": "Medic"
 		},
 		{
+			"name": "Meme-sterpiece Theatre"
+		},
+		{
 			"name": "Michael, Michael, What's The Michael?"
 		},
 		{
@@ -1260,6 +1267,9 @@
 			"name": "Out Of Range"
 		},
 		{
+			"name": "Out Of The Internet"
+		},
+		{
 			"name": "Pair the Char(acter creation screen)"
 		},
 		{
@@ -1384,6 +1394,9 @@
 		},
 		{
 			"name": "Toy Race"
+		},
+		{
+			"name": "Tricky Wikis"
 		},
 		{
 			"name": "TV Time"
@@ -24658,6 +24671,160 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"bailey-meyers"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s10e12",
+			"title": "Terminally Online",
+			"description": "SungWon, Drew, and Jarvis talk about Pokémon shiny rates and the Tommy Westphall universe.",
+			"url": "https://www.dropout.tv/um-actually/season:10/videos/terminally-online",
+			"thumbnail_landscape": "images/s10e12.jpg",
+			"duration": 1943,
+			"number": "12",
+			"season_number": "10",
+			"release_date": "2025-07-01",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "sungwon-cho",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "drew-gooden",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jarvis-johnson",
+					"score": 6
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "the-simpsons",
+					"winners": [
+						"drew-gooden"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "internet",
+					"topicDetails": [
+						"Schfifty Five"
+					],
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "internet",
+					"topicDetails": [
+						"This Is Fine (meme)"
+					],
+					"winners": [
+						"jarvis-johnson"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Wordle"
+					],
+					"submittedBy": "Elaara",
+					"winners": [
+						"sungwon-cho"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "internet",
+					"topicDetails": [
+						"Wikipedia"
+					],
+					"title": "Tricky Wikis",
+					"shiny": true,
+					"winners": [
+						"drew-gooden",
+						"jarvis-johnson"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "internet",
+					"winners": [
+						"sungwon-cho"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "internet",
+					"topicDetails": [
+						"Goncharov (fictional 1973 film)"
+					],
+					"winners": [
+						"jarvis-johnson"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "internet",
+					"winners": [
+						"drew-gooden"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "internet",
+					"title": "Out Of The Internet",
+					"shiny": true,
+					"winners": [
+						"jarvis-johnson"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "internet",
+					"topicDetails": [
+						"YouTube"
+					],
+					"winners": [
+						"drew-gooden"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "internet",
+					"topicDetails": [
+						"TV Tropes (wiki)"
+					],
+					"winners": [
+						"jarvis-johnson"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "internet",
+					"title": "Meme-sterpiece Theatre",
+					"shiny": true,
+					"winners": [
+						"jarvis-johnson"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"sungwon-cho"
 					]
 				}
 			]
