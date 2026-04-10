@@ -39,6 +39,10 @@
 		{
 			"number": "10",
 			"title": "Season 10"
+		},
+		{
+			"number": "11",
+			"title": "Season 11"
 		}
 	],
 	"people": [
@@ -153,6 +157,10 @@
 		{
 			"id": "brian-david-gilbert",
 			"name": "Brian David Gilbert"
+		},
+		{
+			"id": "brian-kibler",
+			"name": "Brian Kibler"
 		},
 		{
 			"id": "brian-morabito",
@@ -313,6 +321,10 @@
 		{
 			"id": "frosk",
 			"name": "Frosk"
+		},
+		{
+			"id": "garrick-bernard",
+			"name": "Garrick Bernard"
 		},
 		{
 			"id": "grae-drake",
@@ -679,6 +691,10 @@
 			"name": "Noah Diamond"
 		},
 		{
+			"id": "olivia-gobert-hicks",
+			"name": "Olivia Gobert-Hicks"
+		},
+		{
 			"id": "omar-najam",
 			"name": "Omar Najam"
 		},
@@ -813,6 +829,10 @@
 		{
 			"id": "thomas-middleditch",
 			"name": "Thomas Middleditch"
+		},
+		{
+			"id": "thundercat",
+			"name": "Thundercat"
 		},
 		{
 			"id": "tj-gonzalez",
@@ -1018,6 +1038,9 @@
 			"name": "Doctored Up"
 		},
 		{
+			"name": "Don't Stop Your Sleevin'"
+		},
+		{
 			"name": "Doom Doctor"
 		},
 		{
@@ -1046,6 +1069,9 @@
 		},
 		{
 			"name": "Fully Evolved"
+		},
+		{
+			"name": "Get Carded!"
 		},
 		{
 			"name": "Ghibli-razzi"
@@ -1294,10 +1320,16 @@
 			"name": "Quit Clowning Around"
 		},
 		{
+			"name": "Real Life Dictator Or Anime Villain?"
+		},
+		{
 			"name": "Real Life Skills"
 		},
 		{
 			"name": "Reality Bites"
+		},
+		{
+			"name": "Red Shirt"
 		},
 		{
 			"name": "Role Call"
@@ -1367,6 +1399,9 @@
 		},
 		{
 			"name": "The Last Acceptable Prejudice In A Galaxy Far, Far Away"
+		},
+		{
+			"name": "The Mask Makes The Man"
 		},
 		{
 			"name": "Theocrazy"
@@ -1448,6 +1483,9 @@
 		},
 		{
 			"name": "What's Wrong With This Picture?"
+		},
+		{
+			"name": "What's Your Sign?"
 		},
 		{
 			"name": "Where Am I?"
@@ -1971,6 +2009,10 @@
 		{
 			"id": "john-wick",
 			"name": "John Wick (franchise)"
+		},
+		{
+			"id": "jujutsu-kaisen",
+			"name": "Jujutsu Kaisen"
 		},
 		{
 			"id": "jumanji",
@@ -2531,6 +2573,10 @@
 		{
 			"id": "toys",
 			"name": "Toys"
+		},
+		{
+			"id": "trading-card-games",
+			"name": "Trading Card Games"
 		},
 		{
 			"id": "transformers",
@@ -24825,6 +24871,278 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"sungwon-cho"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s11e01",
+			"title": "Zig, Garrick, and Thundercat Weeb Out",
+			"description": "Cody, Garrick, and Thundercat show off their anime expertise and reminisce about Suncoast Video.",
+			"url": "https://watch.dropout.tv/um-actually/season:11/videos/zig-garrick-and-thundercat-weeb-out",
+			"thumbnail_landscape": "images/s11e01.jpg",
+			"duration": 1785,
+			"number": "1",
+			"season_number": "11",
+			"release_date": "2026-01-20",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "thundercat",
+					"score": 4
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "garrick-bernard",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "cody-ziglar",
+					"score": 6
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "video-games",
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "akira",
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "star-wars",
+					"winners": [
+						"garrick-bernard"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "jujutsu-kaisen",
+					"submittedBy": "@smittyisknitting",
+					"winners": [
+						"thundercat"
+					]
+				},
+				{
+					"number": 5,
+					"title": "The Mask Makes The Man",
+					"shiny": true,
+					"winners": [
+						"garrick-bernard"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "anime",
+					"topicDetails": [
+						"Lazarus (Anime)"
+					],
+					"winners": [
+						"thundercat"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"The Conjuring"
+					],
+					"winners": [
+						"thundercat"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "dragon-ball",
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "anime",
+					"title": "Real Life Dictator Or Anime Villain?",
+					"shiny": true,
+					"winners": [
+						"thundercat",
+						"garrick-bernard",
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "evangelion",
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "spider-man",
+					"winners": [
+						"cody-ziglar"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Red Shirt",
+					"shiny": true,
+					"winners": [
+						"garrick-bernard"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"cody-ziglar"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s11e02",
+			"title": "Collectible Card Games",
+			"description": "Ally, Brian, and Olivia test their Magic: The Gathering knowledge and learn any IP can become a CCG.",
+			"url": "https://watch.dropout.tv/um-actually/season:11/videos/collectible-card-games",
+			"thumbnail_landscape": "images/s11e02.jpg",
+			"duration": 1792,
+			"number": "2",
+			"season_number": "11",
+			"release_date": "2026-02-03",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "olivia-gobert-hicks",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "brian-kibler",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "ally-beardsley",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"brian-kibler"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"olivia-gobert-hicks"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "magic-the-gathering",
+					"submittedBy": "Nick Schmucker",
+					"winners": [
+						"brian-kibler"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "trading-card-games",
+					"title": "What's Your Sign?",
+					"shiny": true,
+					"winners": [
+						"olivia-gobert-hicks"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "pokemon",
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"brian-kibler"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "trading-card-games",
+					"title": "Get Carded!",
+					"shiny": true,
+					"winners": [
+						"olivia-gobert-hicks",
+						"brian-kibler",
+						"ally-beardsley"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"brian-kibler"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "magic-the-gathering",
+					"winners": [
+						"olivia-gobert-hicks"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "trading-card-games",
+					"title": "Don't Stop Your Sleevin'",
+					"shiny": true,
+					"winners": [
+						"olivia-gobert-hicks"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"ally-beardsley"
 					]
 				}
 			]
