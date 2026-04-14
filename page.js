@@ -1303,7 +1303,7 @@ function computeStats(data) {
 						break;
 					case 3:
 						episode.thirdIds.push(team.id);
-						peopleMap[team.id].times_third.push(episode.dropouttv_productid);
+						teamMap[team.id].times_third.push(episode.dropouttv_productid);
 						seasonMap[episode.season_number].thirdMap[team.id] = true;
 						break;
 				}

@@ -531,6 +531,10 @@
 			"name": "Kevin McDonald"
 		},
 		{
+			"id": "kiana-khansmith",
+			"name": "Kiana Khansmith"
+		},
+		{
 			"id": "kim-horcher",
 			"name": "Kim Horcher"
 		},
@@ -913,6 +917,14 @@
 			]
 		},
 		{
+			"id": "jarvis-and-jordan",
+			"name": "Jarvis and Jordan",
+			"players": [
+				"jarvis-johnson",
+				"jordan-adika"
+			]
+		},
+		{
 			"id": "justin-and-ben",
 			"name": "Justin and Ben",
 			"players": [
@@ -929,11 +941,27 @@
 			]
 		},
 		{
+			"id": "kiana-and-caldwell",
+			"name": "Kiana and Caldwell",
+			"players": [
+				"kiana-khansmith",
+				"caldwell-tanner"
+			]
+		},
+		{
 			"id": "matt-and-marisha",
 			"name": "Matt and Marisha",
 			"players": [
 				"matt-mercer",
 				"marisha-ray"
+			]
+		},
+		{
+			"id": "murph-and-emily",
+			"name": "Murph and Emily",
+			"players": [
+				"brian-murphy",
+				"emily-axford"
 			]
 		}
 	],
@@ -1002,6 +1030,9 @@
 			"name": "Better Known As"
 		},
 		{
+			"name": "Bootleg Boogaloo!"
+		},
+		{
 			"name": "Brand Awareness"
 		},
 		{
@@ -1048,6 +1079,9 @@
 		},
 		{
 			"name": "Dr. Cop, Esq."
+		},
+		{
+			"name": "Drift Compatible"
 		},
 		{
 			"name": "Drug Dealer"
@@ -1351,6 +1385,9 @@
 		},
 		{
 			"name": "Shipped or Ships"
+		},
+		{
+			"name": "Should I Eat It?"
 		},
 		{
 			"name": "So, Where Are You From?"
@@ -22905,7 +22942,7 @@
 					"number": 7,
 					"topic": "video-games",
 					"topicDetails": [
-						"Baldur's Gate III"
+						"Baldur's Gate 3"
 					],
 					"winners": [
 						"karen-han"
@@ -25143,6 +25180,154 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"ally-beardsley"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s11e03",
+			"title": "The Tag Team Episode",
+			"description": "Murph, Emily, Jordan, Jarvis, Kiana, and Caldwell battle it out for the title of nerdiest duo.",
+			"url": "https://watch.dropout.tv/um-actually/season:11/videos/the-tag-team-episode",
+			"thumbnail_landscape": "images/s11e03.jpg",
+			"duration": 1956,
+			"number": "3",
+			"season_number": "11",
+			"release_date": "2026-",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"teams": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "murph-and-emily",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "jarvis-and-jordan",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "kiana-and-caldwell",
+					"score": 3
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "pokemon",
+					"winners": [
+						"kiana-and-caldwell"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "anime",
+					"topicDetails": [
+						"Dandadan"
+					],
+					"winners": [
+						"murph-and-emily"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "video-games",
+					"topicDetails": [
+						"Balatro (video game)"
+					],
+					"winners": [
+						"jarvis-and-jordan"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "books",
+					"topicDetails": [
+						"A Series of Unfortunate Events"
+					],
+					"submittedBy": "poisonheartfrog",
+					"winners": [
+						"murph-and-emily"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Should I Eat It?",
+					"shiny": true,
+					"winners": [
+						"murph-and-emily",
+						"kiana-and-caldwell"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "animorphs",
+					"winners": [
+						"murph-and-emily"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "video-games",
+					"winners": [
+						"jarvis-and-jordan"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "video-games",
+					"topicDetails": [
+						"Baldur's Gate 3"
+					],
+					"winners": [
+						"jarvis-and-jordan"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "toys",
+					"title": "Bootleg Boogaloo!",
+					"shiny": true,
+					"winners": [
+						"jarvis-and-jordan"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "steven-universe",
+					"winners": [
+						"kiana-and-caldwell"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "movies",
+					"topicDetails": [
+						"The Fast And The Furious (franchise)"
+					],
+					"winners": [
+						"murph-and-emily"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Drift Compatible",
+					"shiny": true,
+					"winners": [
+						"murph-and-emily"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"jarvis-and-jordan"
 					]
 				}
 			]
