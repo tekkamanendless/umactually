@@ -99,6 +99,10 @@
 			"name": "Andrew Rosas"
 		},
 		{
+			"id": "angela-giarratana",
+			"name": "Angela Giarratana"
+		},
+		{
 			"id": "anjali-bhimani",
 			"name": "Anjali Bhimani"
 		},
@@ -191,8 +195,16 @@
 			"name": "Carolyn Page"
 		},
 		{
+			"id": "chanse-mccrary",
+			"name": "Chanse McCrary"
+		},
+		{
 			"id": "charlotte-avery",
 			"name": "Charlotte Avery"
+		},
+		{
+			"id": "chelsea-rebecca",
+			"name": "Chelsea Rebecca"
 		},
 		{
 			"id": "chris-calilung",
@@ -375,6 +387,10 @@
 			"name": "Jamel Wood"
 		},
 		{
+			"id": "james-janisse",
+			"name": "James A. Janisse"
+		},
+		{
 			"id": "james-willems",
 			"name": "James Willems"
 		},
@@ -473,6 +489,10 @@
 		{
 			"id": "jordan-doll",
 			"name": "Jordan Doll"
+		},
+		{
+			"id": "josh-ruben",
+			"name": "Josh Ruben"
 		},
 		{
 			"id": "jujubee",
@@ -1129,6 +1149,9 @@
 			"name": "Hear Me Roar"
 		},
 		{
+			"name": "Helping Hands"
+		},
+		{
 			"name": "Hula Hoopa"
 		},
 		{
@@ -1157,6 +1180,9 @@
 		},
 		{
 			"name": "Kitchen Cosplay"
+		},
+		{
+			"name": "Kitchen Cosplay: Horror Edition"
 		},
 		{
 			"name": "Know Your Demons"
@@ -1390,6 +1416,9 @@
 			"name": "Should I Eat It?"
 		},
 		{
+			"name": "Size Matters!"
+		},
+		{
 			"name": "So, Where Are You From?"
 		},
 		{
@@ -1537,6 +1566,9 @@
 			"name": "Who's Your Daddy"
 		},
 		{
+			"name": "Wig Out!"
+		},
+		{
 			"name": "Winner, Winner, Critter Dinner"
 		},
 		{
@@ -1544,6 +1576,9 @@
 		},
 		{
 			"name": "\"Yeah, But In The Book...\""
+		},
+		{
+			"name": "You Miss 100% Of The Quotes You Don't Make Up"
 		}
 	],
 	"topics": [
@@ -2418,6 +2453,10 @@
 		{
 			"id": "spaceballs",
 			"name": "Spaceballs"
+		},
+		{
+			"id": "spawn",
+			"name": "Spawn (comic book franchise)"
 		},
 		{
 			"id": "spider-man",
@@ -24552,10 +24591,7 @@
 				},
 				{
 					"number": 8,
-					"topic": "cartoons",
-					"topicDetails": [
-						"Spawn"
-					],
+					"topic": "spawn",
 					"winners": []
 				},
 				{
@@ -25328,6 +25364,309 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"jarvis-and-jordan"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s11e04",
+			"title": "Boo, Actually! Volume 2",
+			"description": "Horror superfans Josh, James, and Chelsea talk about morticians, final girls, and cryptids.",
+			"url": "https://watch.dropout.tv/um-actually/season:11/videos/boo-actually-volume-2",
+			"thumbnail_landscape": "images/s11e04.jpg",
+			"duration": 1587,
+			"number": "4",
+			"season_number": "11",
+			"release_date": "2026-03-03",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "chelsea-rebecca",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "james-janisse",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "josh-ruben",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Blair Witch (franchise)"
+					],
+					"winners": [
+						"james-janisse"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"The Autopsy of Jane Doe (2016 film)"
+					],
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "alien",
+					"winners": [
+						"james-janisse"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "horror-books",
+					"topicDetails": [
+						"Frankenstein (novel by Mary Shelley)"
+					],
+					"submittedBy": "Kyra B.",
+					"winners": [
+						"chelsea-rebecca"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Helping Hands",
+					"shiny": true,
+					"winners": [
+						"chelsea-rebecca",
+						"josh-ruben"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Mimic (1997 film)"
+					],
+					"winners": [
+						"josh-ruben"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Audition (1999 film)"
+					],
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Terrifier (franchise)"
+					],
+					"winners": [
+						"chelsea-rebecca"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "horror",
+					"title": "Size Matters!",
+					"shiny": true,
+					"winners": [
+						"chelsea-rebecca"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Event Horizon (1997 film)"
+					],
+					"winners": [
+						"chelsea-rebecca"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "monsters",
+					"winners": [
+						"josh-ruben"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "horror",
+					"title": "Kitchen Cosplay: Horror Edition",
+					"shiny": true,
+					"winners": [
+						"chelsea-rebecca",
+						"james-janisse"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"josh-ruben"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s11e05",
+			"title": "Amanda, Chanse, and Angela from Smosh check that the cameras are on and wig out.",
+			"description": "Amanda, Chanse, and Angela Fear They're Losing the Room",
+			"url": "https://watch.dropout.tv/um-actually/season:11/videos/amanda-chanse-and-angela-fear-they-re-losing-the-room",
+			"thumbnail_landscape": "images/s11e05.jpg",
+			"duration": 1575,
+			"number": "5",
+			"season_number": "11",
+			"release_date": "2026-03-17",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "amanda-lehan-canto",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "chanse-mccrary",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "angela-giarratana",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "tabletop-games",
+					"topicDetails": [
+						"Dread (TTRPG)"
+					],
+					"winners": [
+						"angela-giarratana"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"topicDetails": [
+						"The Princess Diaries (2001 film)"
+					],
+					"winners": [
+						"angela-giarratana"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "video-games",
+					"topicDetails": [
+						"Fortnight (video game)"
+					],
+					"winners": []
+				},
+				{
+					"number": 4,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Five Nights at Freddy's"
+					],
+					"submittedBy": "@jadelion",
+					"winners": [
+						"amanda-lehan-canto"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "movies",
+					"title": "You Miss 100% Of The Quotes You Don't Make Up",
+					"shiny": true,
+					"winners": [
+						"amanda-lehan-canto",
+						"chanse-mccrary",
+						"angela-giarratana"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "video-games",
+					"topicDetails": [
+						"Elder Scrolls (Video game series)"
+					],
+					"winners": [
+						"angela-giarratana"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "tv",
+					"topicDetails": [
+						"Are You Afraid of the Dark? (television series)"
+					],
+					"winners": [
+						"amanda-lehan-canto"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "spawn",
+					"winners": [
+						"chanse-mccrary"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Wig Out!",
+					"shiny": true,
+					"winners": [
+						"chanse-mccrary"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "video-games",
+					"topicDetails": [
+						"Hades (video game)"
+					],
+					"winners": [
+						"chanse-mccrary"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "star-wars",
+					"winners": []
+				},
+				{
+					"number": 12,
+					"title": "Who's That Voice Actor?",
+					"shiny": true,
+					"winners": [
+						"angela-giarratana"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"chanse-mccrary"
 					]
 				}
 			]
