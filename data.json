@@ -59,6 +59,10 @@
 			"name": "Adam Lustick"
 		},
 		{
+			"id": "alanah-pearce",
+			"name": "Alanah Pearce"
+		},
+		{
 			"id": "alex-schmidt",
 			"name": "Alex Schmidt"
 		},
@@ -97,6 +101,10 @@
 		{
 			"id": "andrew-rosas",
 			"name": "Andrew Rosas"
+		},
+		{
+			"id": "andy-cortez",
+			"name": "Andy Cortez"
 		},
 		{
 			"id": "angela-giarratana",
@@ -157,6 +165,10 @@
 		{
 			"id": "blaine-swen",
 			"name": "Blaine Swen"
+		},
+		{
+			"id": "blessing-adeoye-jr",
+			"name": "Blessing Adeoye, Jr."
 		},
 		{
 			"id": "brian-david-gilbert",
@@ -489,6 +501,10 @@
 		{
 			"id": "jordan-doll",
 			"name": "Jordan Doll"
+		},
+		{
+			"id": "jordan-myrick",
+			"name": "Jordan Myrick"
 		},
 		{
 			"id": "josh-ruben",
@@ -859,6 +875,10 @@
 			"name": "Thundercat"
 		},
 		{
+			"id": "tien-tran",
+			"name": "Tien Tran"
+		},
+		{
 			"id": "tj-gonzalez",
 			"name": "T.J. Gonzalez"
 		},
@@ -1011,6 +1031,9 @@
 			"name": "A Title Of Words"
 		},
 		{
+			"name": "A Touching Moment"
+		},
+		{
 			"name": "Aaahh!!! Real Monsters???"
 		},
 		{
@@ -1045,6 +1068,9 @@
 		},
 		{
 			"name": "Be Our Guest... Star"
+		},
+		{
+			"name": "Best Coast Or Rest Coast"
 		},
 		{
 			"name": "Better Known As"
@@ -1329,6 +1355,9 @@
 			"name": "Nom Nom Monsters"
 		},
 		{
+			"name": "Noscope Speedrun"
+		},
+		{
 			"name": "Not So Super"
 		},
 		{
@@ -1491,6 +1520,9 @@
 			"name": "To Be Real"
 		},
 		{
+			"name": "Tony! Toni! Tony?"
+		},
+		{
 			"name": "Total Poser"
 		},
 		{
@@ -1525,6 +1557,9 @@
 		},
 		{
 			"name": "We're Not So Different You And I"
+		},
+		{
+			"name": "Weapon Of Choice"
 		},
 		{
 			"name": "What A Concept"
@@ -25667,6 +25702,309 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"chanse-mccrary"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s11e06",
+			"title": "Blessing, Alanah, and Andy Do a Speedrun",
+			"description": "Video game nerds Blessing, Alanah, and Andy get ridiculous and learn about degaussing.",
+			"url": "https://watch.dropout.tv/um-actually/season:11/videos/blessing-alanah-and-andy-do-a-speedrun",
+			"thumbnail_landscape": "images/s11e06.jpg",
+			"duration": 2013,
+			"number": "6",
+			"season_number": "11",
+			"release_date": "2026-03-31",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "andy-cortez",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "alanah-pearce",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "blessing-adeoye-jr",
+					"score": 8
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "video-games",
+					"topicDetails": [
+						"Monster Hunter (video game series)"
+					],
+					"winners": [
+						"blessing-adeoye-jr"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "video-games",
+					"topicDetails": [
+						"Dredge (video game)"
+					],
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "video-games",
+					"topicDetails": [
+						"Alan Wake 2",
+						"Alan Wake (video game franchise)"
+					],
+					"winners": [
+						"andy-cortez"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"submittedBy": "@scarymask",
+					"winners": [
+						"blessing-adeoye-jr"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "video-games",
+					"title": "Best Coast Or Rest Coast",
+					"shiny": true,
+					"winners": [
+						"andy-cortez",
+						"alanah-pearce",
+						"blessing-adeoye-jr"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "video-games",
+					"winners": [
+						"andy-cortez"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "fallout",
+					"winners": [
+						"alanah-pearce"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "video-games",
+					"topicDetails": [
+						"Fortnite (video game)"
+					],
+					"winners": [
+						"blessing-adeoye-jr"
+					]
+				},
+				{
+					"number": 9,
+					"topic": "video-games",
+					"title": "Weapon Of Choice",
+					"shiny": true,
+					"winners": [
+						"blessing-adeoye-jr"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "video-games",
+					"winners": [
+						"blessing-adeoye-jr"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "video-games",
+					"topicDetails": [
+						"Baldur's Gate 3"
+					],
+					"winners": [
+						"blessing-adeoye-jr"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "video-games",
+					"title": "Noscope Speedrun",
+					"shiny": true,
+					"winners": [
+						"alanah-pearce"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"blessing-adeoye-jr"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s11e07",
+			"title": "Jordan, Tien, and Jess Have a Touching Moment",
+			"description": "Couch potatoes Jordan, Tien, and Jess discuss pitfall physics, IP based tv shows, and wild endings.",
+			"url": "https://watch.dropout.tv/um-actually/season:11/videos/jordan-tien-and-jess-have-a-touching-moment",
+			"thumbnail_landscape": "images/s11e07.jpg",
+			"duration": 1906,
+			"number": "7",
+			"season_number": "11",
+			"release_date": "2026-04-14",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "jessica-ross",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "tien-tran",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "jordan-myrick",
+					"score": 2
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "tv",
+					"topicDetails": [
+						"Ted Lasso"
+					],
+					"winners": [
+						"tien-tran"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "xena",
+					"winners": [
+						"jordan-myrick"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "tv",
+					"topicDetails": [
+						"Severance (TV series)"
+					],
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "reality-tv",
+					"topicDetails": [
+						"Survivor (TV series)"
+					],
+					"submittedBy": "MonsterDust",
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "tv",
+					"title": "Best Coast Or Rest Coast",
+					"shiny": true,
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "tv",
+					"topicDetails": [
+						"Murderbot"
+					],
+					"winners": [
+						"tien-tran"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "tv",
+					"topicDetails": [
+						"Over The Garden Wall"
+					],
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "tv",
+					"topicDetails": [
+						"Dinosaurs (TV series)"
+					],
+					"winners": []
+				},
+				{
+					"number": 9,
+					"topic": "tv",
+					"title": "Tony! Toni! Tony?",
+					"shiny": true,
+					"winners": [
+						"jordan-myrick"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "tv",
+					"topicDetails": [
+						"Degrassi (TV franchise)"
+					],
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "tv",
+					"topicDetails": [
+						"Legends of the Hidden Temple"
+					],
+					"winners": [
+						"tien-tran"
+					]
+				},
+				{
+					"number": 12,
+					"title": "A Touching Moment",
+					"shiny": true,
+					"winners": [
+						"jessica-ross"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"tien-tran"
 					]
 				}
 			]
