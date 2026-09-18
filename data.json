@@ -199,6 +199,10 @@
 			"name": "Caldwell Tanner"
 		},
 		{
+			"id": "carl-tart",
+			"name": "Carl Tart"
+		},
+		{
 			"id": "carlos-luna",
 			"name": "Carlos Luna"
 		},
@@ -771,6 +775,10 @@
 			"name": "Riley Silverman"
 		},
 		{
+			"id": "ronnie-adrian",
+			"name": "Ronnie Adrian"
+		},
+		{
 			"id": "ross-bryant",
 			"name": "Ross Bryant"
 		},
@@ -1112,6 +1120,9 @@
 			"name": "Cryptogeography"
 		},
 		{
+			"name": "D8 With Destiny"
+		},
+		{
 			"name": "Doctored Up"
 		},
 		{
@@ -1149,6 +1160,9 @@
 		},
 		{
 			"name": "Fully Evolved"
+		},
+		{
+			"name": "Game Of Rings, Lord Of The Thrones"
 		},
 		{
 			"name": "Get Carded!"
@@ -1203,6 +1217,9 @@
 		},
 		{
 			"name": "It's The Titular Screen"
+		},
+		{
+			"name": "Jewel Of Denial"
 		},
 		{
 			"name": "Kitchen Cosplay"
@@ -1451,6 +1468,9 @@
 			"name": "So, Where Are You From?"
 		},
 		{
+			"name": "Some Thing Some Thing Some Thing"
+		},
+		{
 			"name": "Somm, Actually"
 		},
 		{
@@ -1461,6 +1481,9 @@
 		},
 		{
 			"name": "Spinoff Chains"
+		},
+		{
+			"name": "Splash Or Pass"
 		},
 		{
 			"name": "Super Saying"
@@ -1605,6 +1628,9 @@
 		},
 		{
 			"name": "Winner, Winner, Critter Dinner"
+		},
+		{
+			"name": "Wrecking Crew"
 		},
 		{
 			"name": "Wrestling Lingo"
@@ -26005,6 +26031,294 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"tien-tran"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s11e08",
+			"title": "The Baby Bracket Volume 3",
+			"description": "Not-so-super-nerds Ronnie, Carl, and Zeke discuss fantasy names and vie for points from big dawg.",
+			"url": "https://watch.dropout.tv/um-actually/season:11/videos/the-baby-bracket-volume-3",
+			"thumbnail_landscape": "images/s11e08.jpg",
+			"duration": 1796,
+			"number": "8",
+			"season_number": "11",
+			"release_date": "2026-04-28",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "zeke-nicholson",
+					"score": 6
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "carl-tart",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "ronnie-adrian",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "star-wars",
+					"winners": [
+						"zeke-nicholson"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "zelda",
+					"winners": [
+						"zeke-nicholson"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "neopets",
+					"winners": [
+						"ronnie-adrian"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "disney",
+					"submittedBy": "Mimurs1212",
+					"winners": [
+						"ronnie-adrian"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Game Of Rings, Lord Of The Thrones",
+					"shiny": true,
+					"winners": [
+						"zeke-nicholson"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "avatar-the-last-airbender",
+					"winners": [
+						"ronnie-adrian"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Midsommar (2019 film)"
+					],
+					"winners": [
+						"zeke-nicholson"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "horror-movies",
+					"topicDetails": [
+						"Halloween (franchise)"
+					],
+					"winners": [
+						"carl-tart"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Some Thing Some Thing Some Thing",
+					"shiny": true,
+					"winners": [
+						"zeke-nicholson",
+						"carl-tart"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"winners": [
+						"ronnie-adrian"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "video-games",
+					"topicDetails": [
+						"Kirby and the Forgetten Land (video game)"
+					],
+					"winners": [
+						"zeke-nicholson"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Wrecking Crew",
+					"shiny": true,
+					"winners": [
+						"ronnie-adrian"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"carl-tart"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s11e09",
+			"title": "Tournament of Champions '26 Part 1",
+			"description": "Krystina, Matt, and Hector quibble over splash pages and compete for winningest champion.",
+			"url": "https://watch.dropout.tv/um-actually/season:11/videos/tournament-of-champions-26-part-1",
+			"thumbnail_landscape": "images/s11e09.jpg",
+			"duration": 1957,
+			"number": "9",
+			"season_number": "11",
+			"release_date": "2026-05-26",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "matt-mercer",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "krystina-arielle",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "hector-navarro",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "marvel",
+					"topicDetails": [
+						"Blade (Marvel character)"
+					],
+					"winners": []
+				},
+				{
+					"number": 2,
+					"topic": "anime",
+					"topicDetails": [
+						"Dungeon Meshi"
+					],
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "mistborn",
+					"winners": [
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Splatoon (video game)"
+					],
+					"submittedBy": "Ollie M",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 5,
+					"topic": "comics",
+					"title": "Splash Or Pass",
+					"shiny": true,
+					"winners": [
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "animorphs",
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "tabletop-games",
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "dc",
+					"topicDetails": [
+						"Green Lantern"
+					],
+					"winners": [
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Jewel Of Denial",
+					"shiny": true,
+					"winners": [
+						"matt-mercer",
+						"hector-navarro"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "anime",
+					"topicDetails": [
+						"Inu Yasha"
+					],
+					"winners": []
+				},
+				{
+					"number": 11,
+					"topic": "video-games",
+					"topicDetails": [
+						"Elden Ring (video game)"
+					],
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 12,
+					"title": "D8 With Destiny",
+					"shiny": true,
+					"winners": [
+						"krystina-arielle"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"krystina-arielle"
 					]
 				}
 			]
