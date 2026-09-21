@@ -1102,6 +1102,9 @@
 			"name": "Categorical"
 		},
 		{
+			"name": "Challenge Rating Relating"
+		},
+		{
 			"name": "Chimerical"
 		},
 		{
@@ -1145,6 +1148,12 @@
 		},
 		{
 			"name": "Earth 20XX"
+		},
+		{
+			"name": "Evading Captcha"
+		},
+		{
+			"name": "Expansion Your Mind"
 		},
 		{
 			"name": "Extra Extra (Terrestrials)"
@@ -1225,6 +1234,9 @@
 			"name": "Kitchen Cosplay"
 		},
 		{
+			"name": "Kitchen Cosplay: Don't Blue Your Cover"
+		},
+		{
 			"name": "Kitchen Cosplay: Horror Edition"
 		},
 		{
@@ -1232,6 +1244,9 @@
 		},
 		{
 			"name": "Legal Limit"
+		},
+		{
+			"name": "Legal Limit Reversed"
 		},
 		{
 			"name": "Look What Ya Did, Ya Little Jerk!"
@@ -1507,6 +1522,9 @@
 			"name": "Tamra's Taglines"
 		},
 		{
+			"name": "Targeting Computer"
+		},
+		{
 			"name": "TCDs (Trading Card Dragons)"
 		},
 		{
@@ -1540,6 +1558,9 @@
 			"name": "Time Travel Maps"
 		},
 		{
+			"name": "Tit For Tattoo"
+		},
+		{
 			"name": "To Be Real"
 		},
 		{
@@ -1565,6 +1586,9 @@
 		},
 		{
 			"name": "Venndemonium"
+		},
+		{
+			"name": "Vivid Sections"
 		},
 		{
 			"name": "Voice Over"
@@ -1613,6 +1637,9 @@
 		},
 		{
 			"name": "Where Am I?"
+		},
+		{
+			"name": "Where'd That Dragon Come From?"
 		},
 		{
 			"name": "Which One Do I Shoot?"
@@ -26319,6 +26346,425 @@
 					"title": "Real Life Skills",
 					"winners": [
 						"krystina-arielle"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s11e10",
+			"title": "Tournament of Champions '26 Part 2",
+			"description": "Amy, Joan, and Zac contend for the title of Most Correct and expansion their minds.",
+			"url": "https://watch.dropout.tv/um-actually/season:11/videos/tournament-of-champions-26-part-2",
+			"thumbnail_landscape": "images/s11e10.jpg",
+			"duration": 1870,
+			"number": "10",
+			"season_number": "11",
+			"release_date": "2026-06-02",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "zac-oyama",
+					"score": 3
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "joan-ford",
+					"score": 4
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "amy-dallen",
+					"score": 5
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "video-games",
+					"topicDetails": [
+						"Elden Ring (video game)"
+					],
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "battlestar",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 3,
+					"topic": "final-fantasy",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"submittedBy": "MsCthulhu",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Tit For Tattoo",
+					"shiny": true,
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "movies",
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "animorphs",
+					"winners": [
+						"zac-oyama"
+					]
+				},
+				{
+					"number": 8,
+					"topic": "final-fantasy",
+					"topicDetails": [
+						"Final Fantasy VII"
+					],
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Legal Limit Reversed",
+					"shiny": true,
+					"winners": [
+						"joan-ford"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "books",
+					"topicDetails": [
+						"The Count of Monte Cristo (Alexandre Dumas novel)"
+					],
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "sailor-moon",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 12,
+					"title": "Expansion Your Mind",
+					"shiny": true,
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": []
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s11e11",
+			"title": "Tournament of Champions '26 Part 3",
+			"description": "Magical Misfits Brennan, Erika, and Danielle budget XP and battle for know-it-all supremacy.",
+			"url": "https://watch.dropout.tv/um-actually/season:11/videos/tournament-of-champions-26-part-3",
+			"thumbnail_landscape": "images/s11e11.jpg",
+			"duration": 2262,
+			"number": "11",
+			"season_number": "11",
+			"release_date": "2026-06-09",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "danielle-radford",
+					"score": 2
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "erika-ishii",
+					"score": 5
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "brennan-lee-mulligan",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "lord-of-the-rings",
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "movies",
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "dune",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "video-games",
+					"topicDetails": [
+						"Clair Obscur: Expedition 33 (video game)"
+					],
+					"submittedBy": "The FrostyKnight",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Where'd That Dragon Come From?",
+					"shiny": true,
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "music",
+					"topicDetails": [
+						"Coheed and Cambria (music band)"
+					],
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "hunger-games",
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "tabletop-games",
+					"topicDetails": [
+						"World of Darkness"
+					],
+					"winners": [
+						"brennan-lee-mulligan"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Vivid Sections",
+					"shiny": true,
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "video-games",
+					"topicDetails": [
+						"Heaven's Vault"
+					],
+					"winners": [
+						"danielle-radford",
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "animorphs",
+					"winners": []
+				},
+				{
+					"number": 12,
+					"topic": "dnd",
+					"title": "Challenge Rating Relating",
+					"shiny": true,
+					"winners": [
+						"danielle-radford"
+					]
+				},
+				{
+					"number": 13,
+					"shiny": true,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"erika-ishii"
+					]
+				}
+			]
+		},
+		{
+			"dropouttv_productid": "s11e12",
+			"title": "Tournament of Champions '26 Part 4",
+			"description": "Ify and Brian crown the new principal pedant of Um, Actually.",
+			"url": "https://watch.dropout.tv/um-actually/season:11/videos/tournament-of-champions-26-part-4",
+			"thumbnail_landscape": "images/s11e12.jpg",
+			"duration": 1901,
+			"number": "12",
+			"season_number": "11",
+			"release_date": "2026-06-16",
+			"host": "ify-nwadiwe",
+			"fact_checker": "brian-david-gilbert",
+			"players": [
+				{
+					"position": "1",
+					"color": "yellow",
+					"id": "erika-ishii",
+					"score": 5
+				},
+				{
+					"position": "2",
+					"color": "blue",
+					"id": "matt-mercer",
+					"score": 3
+				},
+				{
+					"position": "3",
+					"color": "red",
+					"id": "amy-dallen",
+					"score": 4
+				}
+			],
+			"questions": [
+				{
+					"number": 1,
+					"topic": "animorphs",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 2,
+					"topic": "fantasy",
+					"topicDetails": [
+						"The Wheel Of Time (TV series)"
+					],
+					"winners": []
+				},
+				{
+					"number": 3,
+					"topic": "zelda",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 4,
+					"topic": "lord-of-the-rings",
+					"submittedBy": "Motzie Dapul",
+					"winners": [
+						"matt-mercer",
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 5,
+					"title": "Evading Captcha",
+					"shiny": true,
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 6,
+					"topic": "x-men",
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 7,
+					"topic": "movies",
+					"topicDetails": [
+						"Shrek (film franchise)"
+					],
+					"winners": []
+				},
+				{
+					"number": 8,
+					"topic": "star-wars",
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 9,
+					"title": "Targeting Computer",
+					"shiny": true,
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 10,
+					"topic": "movies",
+					"topicDetails": [
+						"Nosferatu (2024 film)"
+					],
+					"winners": [
+						"erika-ishii"
+					]
+				},
+				{
+					"number": 11,
+					"topic": "tabletop-games",
+					"topicDetails": [
+						"Cyberpunk 2013"
+					],
+					"winners": [
+						"amy-dallen"
+					]
+				},
+				{
+					"number": 12,
+					"topic": "movies",
+					"title": "Kitchen Cosplay: Don't Blue Your Cover",
+					"shiny": true,
+					"winners": [
+						"matt-mercer"
+					]
+				},
+				{
+					"number": 13,
+					"topic": "real-life",
+					"title": "Real Life Skills",
+					"winners": [
+						"amy-dallen"
 					]
 				}
 			]
